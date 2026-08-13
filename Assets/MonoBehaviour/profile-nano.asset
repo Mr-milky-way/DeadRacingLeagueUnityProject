@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8292aaeba38b86afdbdbb252db265d8, type: 3}
+  m_Name: profile-nano
+  m_EditorClassIdentifier:
+  cameraTilt: 30
+  pitchPID:
+    p: 8
+    i: 2
+    d: 10
+  rollPID:
+    p: 8
+    i: 3
+    d: 15
+  yawPID:
+    p: 24
+    i: 0
+    d: 0
+  levelPID:
+    p: 50
+    i: 50
+    d: 50
+  SuperRates:
+    Roll: 0
+    Pitch: 0
+    Yaw: 0
+  RcExpoRates:
+    Roll: 0
+    Pitch: 0
+    Yaw: 0
+  RcRates:
+    Roll: 0
+    Pitch: 0
+    Yaw: 0
+  pidCorrectionP:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  pidCorrectionR:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  pidCorrectionY:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  overheatFactor: 0
+  minSignal: 0.025
+  pitchFF: 40
+  rollFF: 40
+  yawFF: 30
+  betaflightVersion: 40
+  airmode: 1
+  antigravity: 1
+  dynamicFilter: 1
+  feedForwardTransition: 0
+  iTermRotation: 1
+  smartFeedForward: 0
+  iTermRelax: 0
+  iTermRelaxValue: 11
+  iTermRelaxType: 1
+  antigravityMode: 0
+  antigravityGain: 500

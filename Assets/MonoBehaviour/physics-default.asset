@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3551c3aeff10a232b9beea32e73e501, type: 3}
+  m_Name: physics-default
+  m_EditorClassIdentifier:
+  threaded: 1
+  threadTargetFrequency: 2000
+  gravity: 9.81
+  airDensity: 1.225
+  efficiency: 0
+  efficiencyMax: 0
+  efficiencyZero: 0
+  legacyDrag: 0
+  ClMin: -1
+  ClMax: -1
+  CdMin: -1
+  CdMax: -1
+  surfaceArea: -1
+  dragScale: 1
+  liftScale: 1
+  sideScale: 1.25
+  gravityFactor: 0
+  groundEffectStrength: 0.3
+  groundeffectDistance: 0.3
+  thrust: 0
+  torque: 0
+  mass: 0
+  torqueBoost: 0
+  torqueBoostWeight: 1
+  torqueBoostBalance: 0.2
+  overrideSpinup: 0
+  spinupTime: 0.1
+  spindownTime: 0.01
+  advancedPropLimits: 1
+  maxTipSpeed: 0.85
+  propDragFactor: 0
+  batterySag: 1
+  batteryDrain: 0
+  batteryCapacity: 0
+  batteryResistance: 8
+  arcadePhysics: 0
+  linearTorque: 1
+  linearThrust: 0
+  realisticTorque: 1
+  correctRates: 1
+  overrideAirmode: 0.1
+  inertia: 1
+  arcing: 0.6
+  useCOG: 1
+  isLocked: 0
+  aerodynamicsType: 2
+  aerodynamicsData:
+  gatechUseCrossflow: 1
+  gatechUseUnsteady: 1
+  gatechUseShedding: 1
+  overrideMaxSpeed: 0
+  maxSpeedOverride: 45

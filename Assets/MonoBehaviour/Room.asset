@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43435571fa87350d7f704377ba7648e0, type: 3}
+  m_Name: Room
+  m_EditorClassIdentifier:
+  m_DefaultValue:
+    inRoom: 0
+    playerCount: 0
+    maxPlayers: 0
+    state: 0
+    activeRacersCount: 0
+    allowGhosts: 0
+    autoColor: 0
+    canRace: 0
+    canSpectate: 0
+    customMapId:
+    customMapName:
+    droneClass: 100
+    drlPilotMode: 0
+    selectedDrone:
+    elapsedTime: 0
+    gameMode: 0
+    ghosts: []
+    ghostsData:
+    heatIdx: 0
+    lobbyCountdown: 0
+    mapId:
+    mapVotingCategory: 1
+    matchCount: 0
+    matchmakingType: 0
+    matchId:
+    raceId:
+    maxHeats: 0
+    maxRacers: 0
+    maxSpectators: 0
+    playersIdsData:
+    progress: 0
+    racersCount: 0
+    roomTitle:
+    serverState: 0
+    timeLimit: 0
+    tournamentId:
+    trackId:
+    local:
+      id: 0
+      userId:
+      isMaster: 0
+      isLocal: 0
+      badgeLevel: 0
+      cameraFov: 0
+      cameraTilt: 0
+      controllerType: 0
+      isGameReady: 0
+      isLevelLoaded: 0
+      isReplaySent: 0
+      isRoomReady: 0
+      isSpectator: 0
+      mainColor: {r: 0, g: 0, b: 0, a: 0}
+      order: 0
+      profileColor: {r: 0, g: 0, b: 0, a: 0}
+      profileName:
+      profilePhoto:
+      raceState: 0
+      raceTime: 0
+      platformId:
+      playerId:
+      viewId: 0
+      votedTrackGUID:
+      hasSubmittedLeaderboard: 0
+      Actor: {}
+    master:
+      id: 0
+      userId:
+      isMaster: 0
+      isLocal: 0
+      badgeLevel: 0
+      cameraFov: 0
+      cameraTilt: 0
+      controllerType: 0
+      isGameReady: 0
+      isLevelLoaded: 0
+      isReplaySent: 0
+      isRoomReady: 0
+      isSpectator: 0
+      mainColor: {r: 0, g: 0, b: 0, a: 0}
+      order: 0
+      profileColor: {r: 0, g: 0, b: 0, a: 0}
+      profileName:
+      profilePhoto:
+      raceState: 0
+      raceTime: 0
+      platformId:
+      playerId:
+      viewId: 0
+      votedTrackGUID:
+      hasSubmittedLeaderboard: 0
+      Actor: {}
+    timeoutMode: 0
+  m_Value:
+    inRoom: 0
+    playerCount: 0
+    maxPlayers: 0
+    state: 0
+    activeRacersCount: 0
+    allowGhosts: 0
+    autoColor: 0
+    canRace: 0
+    canSpectate: 0
+    customMapId:
+    customMapName:
+    droneClass: 0
+    drlPilotMode: 0
+    selectedDrone:
+    elapsedTime: 0
+    gameMode: 0
+    ghosts: []
+    ghostsData:
+    heatIdx: 0
+    lobbyCountdown: 0
+    mapId:
+    mapVotingCategory: 0
+    matchCount: 0
+    matchmakingType: 0
+    matchId:
+    raceId:
+    maxHeats: 0
+    maxRacers: 0
+    maxSpectators: 0
+    playersIdsData:
+    progress: 0
+    racersCount: 0
+    roomTitle:
+    serverState: 0
+    timeLimit: 0
+    tournamentId:
+    trackId:
+    local:
+      id: 0
+      userId:
+      isMaster: 0
+      isLocal: 0
+      badgeLevel: 0
+      cameraFov: 0
+      cameraTilt: 0
+      controllerType: 0
+      isGameReady: 0
+      isLevelLoaded: 0
+      isReplaySent: 0
+      isRoomReady: 0
+      isSpectator: 0
+      mainColor: {r: 0, g: 0, b: 0, a: 0}
+      order: 0
+      profileColor: {r: 0, g: 0, b: 0, a: 0}
+      profileName:
+      profilePhoto:
+      raceState: 0
+      raceTime: 0
+      platformId:
+      playerId:
+      viewId: 0
+      votedTrackGUID:
+      hasSubmittedLeaderboard: 0
+      Actor: {}
+    master:
+      id: 0
+      userId:
+      isMaster: 0
+      isLocal: 0
+      badgeLevel: 0
+      cameraFov: 0
+      cameraTilt: 0
+      controllerType: 0
+      isGameReady: 0
+      isLevelLoaded: 0
+      isReplaySent: 0
+      isRoomReady: 0
+      isSpectator: 0
+      mainColor: {r: 0, g: 0, b: 0, a: 0}
+      order: 0
+      profileColor: {r: 0, g: 0, b: 0, a: 0}
+      profileName:
+      profilePhoto:
+      raceState: 0
+      raceTime: 0
+      platformId:
+      playerId:
+      viewId: 0
+      votedTrackGUID:
+      hasSubmittedLeaderboard: 0
+      Actor: {}
+    timeoutMode: 0
