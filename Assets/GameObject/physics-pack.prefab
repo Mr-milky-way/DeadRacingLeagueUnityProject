@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: physics-pack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.46785, y: 6.8600287, z: -151.59247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7def53c823c0b563c14dcab46cd472, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: 2543a21e467d91087a46f8bd
+  m_assets:
+  - {fileID: 1709254077376921, guid: 6b83fb7153b2dda44b7236cd4f4e7570, type: 2}
+  - {fileID: 1709254077376921, guid: 5e77d3331a968de458cc408a04adc3a7, type: 2}
+  - {fileID: 1709254077376921, guid: 6c86845ceae420c459820c3a0611b0ea, type: 2}
+  - {fileID: 1709254077376921, guid: da0fda11732ea174eb0e1162da176c62, type: 2}
+  - {fileID: 1709254077376921, guid: f6fc446acb26ae2489a443e4bab071d4, type: 2}
+  m_externals: []

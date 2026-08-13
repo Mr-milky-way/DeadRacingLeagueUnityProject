@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-rock-03
+  m_Shader: {fileID: 4800000, guid: a6b41ed575097b14ab35088a0d14aa8a, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetAlbedoTex:
+        m_Texture: {fileID: 2800000, guid: 25b51745a8698a24ba42365f8de73ce6, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+      _DetNormalTex:
+        m_Texture: {fileID: 2800000, guid: 714cfe0be17671e49bdbc9ad31e28b08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 117bef58518a051429313b87117e73a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MskAlbedoTex:
+        m_Texture: {fileID: 2800000, guid: 26e99f48626058f4d8cab54b060657a2, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+      _MskNormalTex:
+        m_Texture: {fileID: 2800000, guid: 714cfe0be17671e49bdbc9ad31e28b08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: d81eb474152f9e74992a0afbd0bfe2d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionTex:
+        m_Texture: {fileID: 2800000, guid: 5d55f6cd9a1624a449e629a0b2a5b43e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetMetallic: 0
+      _DetNormalIntensity: 1
+      _DetSmoothness: 0
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _Fade: 0
+      _FadeDistance: 100
+      _FadeExp: 20
+      _FadeLevel: 14
+      _FadeMultiplier: 2
+      _FadePow: 4
+      _FadeRange: 10
+      _Falloff: 20
+      _FalloffIntensity: 2
+      _GlossMapScale: 1
+      _Glossiness: 0.25
+      _GlossyReflections: 1
+      _MaskFadeExp: 20
+      _MaskFadeLevel: 8.26
+      _MaskFadeRange: 10
+      _MaskFalloff: 6
+      _MaskFalloffIntensity: 1.15
+      _MaskNormalIntensity: 1
+      _Metallic: 0
+      _Mode: 0
+      _NormalIntensity: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SeaLevel: 0
+      _Smoothness: 0.2
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _WaterExp: 1.5
+      _WaterFadeExp: 1
+      _WaterFadeLevel: 0
+      _WaterFadeRange: 10
+      _WaterLevel: 9
+      _WaterMetallic: 0
+      _WaterRange: 8
+      _WaterSmoothness: 0.7
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.2794118, g: 0.2794118, b: 0.2794118, a: 1}
+      _Direction: {r: 0, g: 1, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _MaskColor: {r: 0.35422382, g: 0.73529416, b: 0.34061417, a: 1}
+      _MaskDirection: {r: 0, g: 1, b: 0, a: 1}
+  m_BuildTextureStacks: []

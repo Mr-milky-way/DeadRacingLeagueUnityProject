@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-dome-06-style-1
+  m_Shader: {fileID: 4800000, guid: 6d359b844b24548479092a3850fdbfd9, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CubeTex:
+        m_Texture: {fileID: 8900000, guid: aff91a4ee2d3bf04d808ea35ac7e595d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbedoTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNormalTex:
+        m_Texture: {fileID: 2800000, guid: b9b9ca1f35536c542b85831d09daaee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MSOETex:
+        m_Texture: {fileID: 2800000, guid: 2175eba4d4217a645b2db8e7b223758a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: c2e893563cdbfe64eba380d297acef1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 9e1e3d6258022f04fac444e9e26c5d10, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalIntensity: 0.1
+      _DetailNormalMapScale: 1
+      _DstBlend: 10
+      _GlossMapScale: 1
+      _Glossiness: 0.9
+      _GlossyReflections: 1
+      _Metallic: 0.4
+      _Mode: 3
+      _NormalIntensity: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectionIntensity: 0.8
+      _Smoothness: 0.85
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 0.29803923}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

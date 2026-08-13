@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: dmv-test-5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2676363, y: -3.9814816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: release
+  tags: 65000000c9000000
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c523673e7b155972bd9b9ed58274e6e5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: QS-e76
+  content: []
+  order: 5
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  imageXbox: {fileID: 0}
+  imagePS: {fileID: 0}
+  title: 'TEST 5: FPV FLIGHT LINES AND LANDING'
+  levelTitle: EXPERT COURSE NAVIGATION
+  description: The level 5 test is built to assess whether a user can fly a drone through a course line in tight spaces that have little room for error. This test also assess a users ability to perform special acrobatic maneuvers in order decrease course completion time.
+  testMission: {fileID: 114884547391421755, guid: 9fb9b3dddac65cb48abc59c885803a7b, type: 2}
+  missions:
+  - {fileID: 114884547391421755, guid: a165e30a26e76c84dac280db3445fe4d, type: 2}
+  - {fileID: 114884547391421755, guid: 2634251dfc235854c9f449b4d9a79211, type: 2}
+  - {fileID: 114884547391421755, guid: 251de135732ac3e448ab92b9f137e666, type: 2}
+  - {fileID: 114884547391421755, guid: f437808e469fb3649956615a504fdcd9, type: 2}

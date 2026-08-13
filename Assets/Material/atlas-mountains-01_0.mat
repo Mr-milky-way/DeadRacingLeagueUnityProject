@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-mountains-01
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8468af9c6c39bb04daf8f81cfbcce997, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 75, y: 75}
+        m_Offset: {x: 0, y: 0}
+      _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 250, y: 250}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: db8540fdb4055714596d26120c0d0c83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 504b34518e3b84a4ea30256638529389, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BackAlbIntensity: 0.5
+      _BackMetIntensity: 1
+      _BackNorIntensity: 0.5
+      _BackSmoIntensity: 1
+      _BaseIntensity: 0.5
+      _BaseMetallicIntensity: 1
+      _BaseNormalIntensity: 1
+      _BaseOcclusionIntensity: 1
+      _BaseSmoothnessIntensity: 1
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetDist: 40
+      _DetDistMul: 1
+      _DetDistPow: 1
+      _DetFadeDistance: 150
+      _DetFadeMultiplier: 1
+      _DetFadePow: 1
+      _DetailNormalMapScale: 0.296
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _GlossMapScaleL1: 0
+      _Glossiness: 1
+      _GlossyReflections: 1
+      _GrdDist: 300
+      _GrdDistMul: 1
+      _GrdDistPow: 1
+      _MaskAdd: 0.8
+      _MaskPower: 1.94
+      _Metallic: 1
+      _MetallicL0: 1
+      _MetallicL1: 0
+      _MetallicL2: 1
+      _Mode: 0
+      _NormalL0: 1
+      _NormalL1: 1
+      _NormalL2: 1
+      _OcclusionL0: 1
+      _OcclusionL1: 1
+      _OcclusionL2: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smoothness: 0
+      _SmoothnessL0: 1
+      _SmoothnessL1: 1
+      _SmoothnessL2: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 1
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL0: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL1: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL2: {r: 1, g: 1, b: 1, a: 1}
+      _Det1AlbColor: {r: 0.27058825, g: 0.34901962, b: 0.19215688, a: 1}
+      _Det2AlbColor: {r: 0.31764707, g: 0.3921569, b: 0.16078432, a: 1}
+      _DetDistColor: {r: 0.2784314, g: 0.34901962, b: 0.19215688, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FogColor: {r: 1, g: 0, b: 0, a: 1}
+      _GrdDistColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

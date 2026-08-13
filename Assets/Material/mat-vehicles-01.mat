@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat-vehicles-01
+  m_Shader: {fileID: 4800000, guid: 212f603e246933d48a6b78235a3a4968, type: 3}
+  m_ShaderKeywords: MAPS2_ENABLED _MAPS1STYLEMODE_STYLES_MASK _MAPS2STYLEMODE_MAP_STYLE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _FXMaskTex:
+        m_Texture: {fileID: 2800000, guid: 026a905abdc6f01479c7a1c54ae1102f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FxDitTex:
+        m_Texture: {fileID: 2800000, guid: 919b394f796ae674aba9c25accf5a7fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1AlbTex:
+        m_Texture: {fileID: 2800000, guid: 838ce6b2498535f4080e670ffd384cd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1MSOTex:
+        m_Texture: {fileID: 2800000, guid: 48c75f544570a4643af0e75e80fc4c39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1NorTex:
+        m_Texture: {fileID: 2800000, guid: fc210bc813d2a0b489b7b5e1d7e463bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2AlbTex:
+        m_Texture: {fileID: 2800000, guid: 9b42119209bd84d4c8882cc09d2a6b79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2MSOTex:
+        m_Texture: {fileID: 2800000, guid: abe3e47a6a42c1241bd0c36add7548c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2NorTex:
+        m_Texture: {fileID: 2800000, guid: 68296998f01947d4693b99c39aed6aae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Background: 0
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DetailNormals: 1
+      _DetailsEnabled: 0
+      _DetailsUV: 0
+      _DetailsVertexAlphaMask: 0
+      _DstBlend: 0
+      _FxDitInt: 0.001
+      _FxDitSize: 0.04
+      _FxFadeDist: 30
+      _FxFadeMul: 3
+      _FxFadePow: 3
+      _FxUV2OffsetX: 0.5
+      _FxUV2OffsetY: 0.5
+      _FxUV2Size: 256
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Maps1Metallic: 0.75
+      _Maps1Normals: 1
+      _Maps1Occlusion: 0.75
+      _Maps1Smoothness: 0.91
+      _Maps1StyleEnable: 0
+      _Maps1StyleMetallic: 1
+      _Maps1StyleMode: 0
+      _Maps1StyleSmoothness: 0
+      _Maps2Enabled: 1
+      _Maps2Metallic: 1
+      _Maps2Normals: 1
+      _Maps2Occlusion: 1
+      _Maps2Smoothness: 1
+      _Maps2StyleEnable: 0
+      _Maps2StyleMetallic: 0.75
+      _Maps2StyleMode: 1
+      _Maps2StyleSmoothness: 0.25
+      _Maps3Enabled: 0
+      _Maps3Metallic: 1
+      _Maps3Normals: 1
+      _Maps3Occlusion: 1
+      _Maps3Smoothness: 1
+      _Maps4Enabled: 0
+      _Maps4Metallic: 1
+      _Maps4Normals: 1
+      _Maps4Occlusion: 1
+      _Maps4Smoothness: 1
+      _MaskMetallic: 0.8
+      _MaskSmoothness: 0
+      _Metallic: 0.91
+      _Mode: 0
+      _Normal: 1
+      _Normals: 1
+      _Occlusion: 0.75
+      _OcclusionStrength: 1
+      _PaintingMetallic: 0.8
+      _PaintingSmoothness: 0
+      _Parallax: 0.02
+      _Smoothness: 0.75
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Style1Metallic: 0.8
+      _Style1Normal: 1
+      _Style1Occlusion: 1
+      _Style1Smoothness: 0
+      _Style2Metallic: 0.8
+      _Style2Normal: 1
+      _Style2Occlusion: 1
+      _Style2Smoothness: 0
+      _Style3Metallic: 0.85
+      _Style3Normal: 1
+      _Style3Occlusion: 1
+      _Style3Smoothness: 0
+      _Style4Metallic: 0.1
+      _Style4Normal: 1
+      _Style4Occlusion: 1
+      _Style4Smoothness: 0.1
+      _StyleMaps1Enable: 0
+      _StyleMaps1Metallic: 0
+      _StyleMaps1Smoothness: 0
+      _StyleMaps2Enable: 0
+      _StyleMaps2Metallic: 0
+      _StyleMaps2Smoothness: 0
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Maps1Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps1StyleColor: {r: 1, g: 1, b: 1, a: 1}
+      _Maps2Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps2StyleColor: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
+      _Maps3Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps4Color: {r: 1, g: 1, b: 1, a: 1}
+      _MaskColor: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+      _MaskColorA: {r: 1, g: 1, b: 1, a: 1}
+      _MaskColorB: {r: 1, g: 1, b: 1, a: 1}
+      _MaskColorG: {r: 1, g: 1, b: 1, a: 1}
+      _MaskColorR: {r: 1, g: 1, b: 1, a: 1}
+      _PaintingColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+      _Style1Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+      _Style2Color: {r: 0.3215686, g: 0.3215686, b: 0.3215686, a: 1}
+      _Style3Color: {r: 0.7921569, g: 0.26666674, b: 0.26666674, a: 1}
+      _Style4Color: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
+      _StyleMaps1Color: {r: 1, g: 1, b: 1, a: 1}
+      _StyleMaps2Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat-env-01-a
+  m_Shader: {fileID: 4800000, guid: d07498c0751486641a3bc6d4b6226a61, type: 3}
+  m_ShaderKeywords: DETAILS_USE_VERTEX_ALPHA_MASK MAPS2_ENABLED MAPS3_ENABLED MAPS4_ENABLED _DETAILSUV_UV1 _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailAlbTex:
+        m_Texture: {fileID: 2800000, guid: 01fcd5f819dac014fb639997881fdffe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1AlbTex:
+        m_Texture: {fileID: 2800000, guid: 0b31354fd92fd3147b51378f565defa1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1MSOETex:
+        m_Texture: {fileID: 2800000, guid: 2423aadb44ffd5349a88985963125514, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps1NormalTex:
+        m_Texture: {fileID: 2800000, guid: 29c0ee14bd7a6014b9dcf44d833834ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2AlbTex:
+        m_Texture: {fileID: 2800000, guid: 71482faf0d974384f99c7b461ce35d33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2MSOETex:
+        m_Texture: {fileID: 2800000, guid: 1b6566bc7a1565a42b61d2b26ca75cc4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps2NormalTex:
+        m_Texture: {fileID: 2800000, guid: 6780500fe86204248a156b5139011fe1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps3AlbTex:
+        m_Texture: {fileID: 2800000, guid: 6ebd75e33168db04dae9d3d761236469, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps3MSOETex:
+        m_Texture: {fileID: 2800000, guid: 16841c997bb88f6489ac83188870438b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps3NormalTex:
+        m_Texture: {fileID: 2800000, guid: 68147a036338c0d4a91653db41a8a809, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps4AlbTex:
+        m_Texture: {fileID: 2800000, guid: 9a7ae321ff24db646b4b67ff59e072fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps4MSOETex:
+        m_Texture: {fileID: 2800000, guid: a5ea5f3ab8fadf44cb1bfbff6eddb002, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Maps4NormalTex:
+        m_Texture: {fileID: 2800000, guid: a11622b4b3f72274eb2e6674b3d00210, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailMaskEnabled: 0
+      _DetailMaskMetallic: 1
+      _DetailMaskSmoothness: 1
+      _DetailNormalMapScale: 1
+      _DetailNormals: 1
+      _DetailsEnabled: 0
+      _DetailsUV: 1
+      _DetailsVertexAlphaMask: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Maps1Metallic: 1
+      _Maps1Normals: 1
+      _Maps1Occlusion: 1
+      _Maps1Smoothness: 1
+      _Maps2Enabled: 1
+      _Maps2Metallic: 1
+      _Maps2Normals: 1
+      _Maps2Occlusion: 1
+      _Maps2Smoothness: 1
+      _Maps3Enabled: 1
+      _Maps3Metallic: 1
+      _Maps3Normals: 1
+      _Maps3Occlusion: 1
+      _Maps3Smoothness: 1
+      _Maps4Enabled: 1
+      _Maps4Metallic: 1
+      _Maps4Normals: 1
+      _Maps4Occlusion: 1
+      _Maps4Smoothness: 1
+      _MaskMetallic: 0
+      _MaskSmoothness: 0
+      _Metallic: 1
+      _Mode: 0
+      _Normals: 1
+      _Occlusion: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smoothness: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DetailMaskColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Maps1Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps2Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps3Color: {r: 1, g: 1, b: 1, a: 1}
+      _Maps4Color: {r: 1, g: 1, b: 1, a: 1}
+      _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

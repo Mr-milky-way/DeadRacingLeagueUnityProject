@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat-ground-01
+  m_Shader: {fileID: 4800000, guid: 1d5e9f3dada2e0a4d940a45410f091e9, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailTexAlb:
+        m_Texture: {fileID: 2800000, guid: 05cc8fc2eefd05143b213c96da5354b2, type: 3}
+        m_Scale: {x: 5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+      _DetailTexNor:
+        m_Texture: {fileID: 2800000, guid: b003791d38c7d8346a30e1c74f1e9ef7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DitheringTexFX:
+        m_Texture: {fileID: 2800000, guid: 919b394f796ae674aba9c25accf5a7fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTexFX:
+        m_Texture: {fileID: 2800000, guid: d020acee8f31a90478777d2f178a249e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoadTexAlb:
+        m_Texture: {fileID: 2800000, guid: 46a28e60ebc3554428fdf7635b9bca8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoadTexNor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 1
+      _DetailNormalMapScale: 1
+      _DetailTexNorIntensity: 0.5
+      _DetailTexSmoothness: 0.045
+      _DitheringTexScale: 0.076
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MeshOffset: -2
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RoadTexNorIntensity: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

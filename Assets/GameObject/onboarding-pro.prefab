@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: onboarding-pro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf0b15f0c34b9f1b976c6d282299aa4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: GA-231
+  content: []
+  order: 0
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  mode: 2
+  steps:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114724804207875695, guid: 1c4c35fb089888e458553082ce26ff75, type: 2}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114724804207875695, guid: 1aec4a8e60185294e8a12604c123ace4, type: 2}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114724804207875695, guid: 760bb8fc6cae52549b51d9d5aeeb4b15, type: 2}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114724804207875695, guid: 9868f537772f9ca4c8d1afd5b35970c2, type: 2}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114703437598541787, guid: cfafa49ef3ebb434ebe11e47e6179c53, type: 2}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+  - completed: 1
+    type: 1
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114703437598541787, guid: cfafa49ef3ebb434ebe11e47e6179c53, type: 2}
+    mapGuid: MP-0c6
+    trackGuid: CMP-d74a7b93f15431314fcafa63
+    opponentReplayId: https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-pro-1.race
+  - completed: 1
+    type: 1
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114703437598541787, guid: cfafa49ef3ebb434ebe11e47e6179c53, type: 2}
+    mapGuid: MP-a35
+    trackGuid: MT-a72
+    opponentReplayId: https://drl-game-api.s3.amazonaws.com/replays/5e2a03d06ef085dae1a41b11/ohio-crashsite.confirm-nor-deny.1584968993018.race
+  - completed: 0
+    type: 1
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 114703437598541787, guid: cfafa49ef3ebb434ebe11e47e6179c53, type: 2}
+    mapGuid: MP-95a
+    trackGuid: MT-46e
+    opponentReplayId: https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-pro-3.race
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label:
+  tags: 17000000

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx-floor-01
+  m_Shader: {fileID: 4800000, guid: b7532d8a6989625429d4b4de1e886ef0, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EdgeTexAlb:
+        m_Texture: {fileID: 2800000, guid: 467824307cf00bd43802848343316b84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EdgeTexMet:
+        m_Texture: {fileID: 2800000, guid: 192a19a956c87444c8b9aa9caa94337c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EdgeTexNor:
+        m_Texture: {fileID: 2800000, guid: 3654d41524f655344b3361fd940d51ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTexFX:
+        m_Texture: {fileID: 2800000, guid: f10230ccdd838e24181bb5b7bcf6c639, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0.68, y: -0.29}
+      _TileTexAlb:
+        m_Texture: {fileID: 2800000, guid: ce0ae5378a154e74aa93ddc0c616be72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TileTexMet:
+        m_Texture: {fileID: 2800000, guid: 872a5704abd4890498dd8224c9a6c8db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TileTexNor:
+        m_Texture: {fileID: 2800000, guid: 0f21bf53e44cb9846a10705d64fbf92a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EdgeTexNorInt: 1
+      _GlossMapScale: 0.35
+      _Glossiness: 0
+      _GlossyReflections: 1
+      _MeshOffset: -0.5
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _TileTexNorInt: 1
+      _UVSec: 1
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

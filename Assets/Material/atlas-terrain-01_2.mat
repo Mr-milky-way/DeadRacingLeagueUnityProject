@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-terrain-01
+  m_Shader: {fileID: 4800000, guid: 1ca777e4b270e5743a100c3ea38e68a2, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BackAlbTex:
+        m_Texture: {fileID: 2800000, guid: a69d5a2161dbeaa448f5b374db4783c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BackMetTex:
+        m_Texture: {fileID: 2800000, guid: e63d3908ff7c3af4484d2bd9ac9bedd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BackNorTex:
+        m_Texture: {fileID: 2800000, guid: e490726693e92904ca239000be68994c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Det1AlbTex:
+        m_Texture: {fileID: 2800000, guid: 4fefdd04171748947bb8700b65ace0c2, type: 3}
+        m_Scale: {x: 12000, y: 12000}
+        m_Offset: {x: 0, y: 0}
+      _Det1MetTex:
+        m_Texture: {fileID: 2800000, guid: 46ea81520046cc842b6472b00360f3a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Det1NorTex:
+        m_Texture: {fileID: 2800000, guid: 12c3ffb1b12bb0a4e95a132c514b0413, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Det2AlbTex:
+        m_Texture: {fileID: 2800000, guid: 2bb164918bea69d4db133c1981befdca, type: 3}
+        m_Scale: {x: 10000, y: 12000}
+        m_Offset: {x: 0, y: 0}
+      _Det2MetTex:
+        m_Texture: {fileID: 2800000, guid: 84e650e6849e8054ca8ce1cdd90532c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Det2NorTex:
+        m_Texture: {fileID: 2800000, guid: bed736e62fe78374bba010de81298647, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetMskTex:
+        m_Texture: {fileID: 2800000, guid: a1539c3d2c7b79a42ae9814bb93533fb, type: 3}
+        m_Scale: {x: 400, y: 400}
+        m_Offset: {x: 0, y: 0}
+      _GrdAlbTex:
+        m_Texture: {fileID: 2800000, guid: 741dd5e1d5f648c4ca66f668784cffcc, type: 3}
+        m_Scale: {x: 250, y: 250}
+        m_Offset: {x: 0, y: 0}
+      _GrdMetTex:
+        m_Texture: {fileID: 2800000, guid: beb55420ff67d2440aa290eea28c7fa7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrdNorTex:
+        m_Texture: {fileID: 2800000, guid: db389f881bdb68844a6c2c3d819e1f6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BackAlbIntensity: 0.5
+      _BackMetIntensity: 1
+      _BackNorIntensity: 0.5
+      _BackSmoIntensity: 1
+      _BaseIntensity: 0.5
+      _BaseMetallicIntensity: 1
+      _BaseNormalIntensity: 1
+      _BaseOcclusionIntensity: 1
+      _BaseSmoothnessIntensity: 1
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetDist: 40
+      _DetDistMul: 1
+      _DetDistPow: 1
+      _DetFadeDistance: 150
+      _DetFadeMultiplier: 1
+      _DetFadePow: 1
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 0
+      _GlossMapScaleL1: 0
+      _Glossiness: 0
+      _GlossyReflections: 1
+      _GrdDist: 300
+      _GrdDistMul: 1
+      _GrdDistPow: 1
+      _MaskAdd: 0.8
+      _MaskPower: 1.94
+      _Metallic: 0
+      _MetallicL0: 1
+      _MetallicL1: 0
+      _MetallicL2: 1
+      _Mode: 0
+      _NormalL0: 1
+      _NormalL1: 1
+      _NormalL2: 1
+      _OcclusionL0: 1
+      _OcclusionL1: 1
+      _OcclusionL2: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smoothness: 0
+      _SmoothnessL0: 1
+      _SmoothnessL1: 1
+      _SmoothnessL2: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL0: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL1: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL2: {r: 1, g: 1, b: 1, a: 1}
+      _Det1AlbColor: {r: 0.27058825, g: 0.34901962, b: 0.19215688, a: 1}
+      _Det2AlbColor: {r: 0.31764707, g: 0.3921569, b: 0.16078432, a: 1}
+      _DetDistColor: {r: 0.2784314, g: 0.34901962, b: 0.19215688, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _GrdDistColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

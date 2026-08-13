@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: onboarding-beginner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf0b15f0c34b9f1b976c6d282299aa4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: GA-562
+  content: []
+  order: 0
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  mode: 0
+  steps:
+  - completed: 1
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: e848693080962924480a345a690a5215, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId:
+  - completed: 1
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: df852407b414a1348b725124469b1113, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 1
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: d08fe524d0dd29e4d9b0e11cff7e19ea, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 1
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: 1f68d042edb52d94eb64f153b7b9cf64, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 1
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: fcdd8a8776cc3e9468c36196932c8118, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: ea77cefe964771b459817369f72d0516, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: 0df67d3ca6d8b5d4e835839ea8cf3e43, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: 15ff39bd608995b47b275f6932d4bc42, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 114724804207875695, guid: 5dc3578f9342511499823366c68c99ad, type: 2}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: 5ee6b4237e25ff001de86102
+  - completed: 0
+    type: 1
+    quest: {fileID: 114724804207875695, guid: 4832909801c27554ea029e30bfaac727, type: 2}
+    mission: {fileID: 0}
+    mapGuid: MP-3fd
+    trackGuid: CMP-af26895e90b0f65bcbc80f14
+    opponentReplayId: https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-beginner.race
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label:
+  tags: 17000000

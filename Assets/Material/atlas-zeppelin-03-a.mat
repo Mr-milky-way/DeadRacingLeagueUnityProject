@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-zeppelin-03-a
+  m_Shader: {fileID: 4800000, guid: a5433f1d0a6561e4abb6f4edd16f6216, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMetallic:
+        m_Texture: {fileID: 2800000, guid: ae46c814ddf0d9a4b85aefeb48a20f67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BaseNormal:
+        m_Texture: {fileID: 2800000, guid: 9bfeeed57b37e6d499e826142911ce39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BaseOcclusion:
+        m_Texture: {fileID: 2800000, guid: fb03bbe6770e9a04f8adafe503274578, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ad84fed54e0aa7a429c4ad8f306ece75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMapL1:
+        m_Texture: {fileID: 2800000, guid: 51d58053efd22da4e873348bd6e0fd9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DepthMapL1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 63d42905aa2d01f449d5c6f6187cc382, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: f603e08fdee7a27489431d3de1132ecf, type: 3}
+        m_Scale: {x: 40, y: 40}
+        m_Offset: {x: 0, y: 0}
+      _MainTexL1:
+        m_Texture: {fileID: 2800000, guid: 670c48efd57f7d843baf821e1ae81ff6, type: 3}
+        m_Scale: {x: 200, y: 200}
+        m_Offset: {x: 1, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: d574aa5f77ea68146b3f29a9e1080522, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMapL1:
+        m_Texture: {fileID: 2800000, guid: 82b0b147219e91546b42d01ab1b4ef6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMapL1:
+        m_Texture: {fileID: 2800000, guid: 2fd77ae92f16c5445a1e6eb1fcf38bdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BaseIntensity: 0.18
+      _BaseMetallicIntensity: 0.334
+      _BaseNormalIntensity: 1
+      _BaseOcclusionIntensity: 0
+      _BaseSmoothnessIntensity: 0.23
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailAlbedoMap: 0.5
+      _DetailNormalMapScale: 1
+      _Displacement: 0
+      _DstBlend: 0
+      _GlossMapScale: 0.25
+      _GlossMapScaleL1: 0.571
+      _Glossiness: 0.7
+      _GlossinessL1: 1
+      _GlossinessLayer1: 1
+      _GlossyReflections: 1
+      _MaskAdd: 1.5
+      _MaskIntensity: 1
+      _MaskPower: 5
+      _Metallic: 0.986
+      _MetallicL1: 0.542
+      _MetallicLayer1: 1
+      _Mode: 0
+      _OcclusionStrength: 1
+      _OffsetZ: 0
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Tessellation: 32
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL1: {r: 0.6201773, g: 0.6397059, b: 0.6067799, a: 1}
+      _ColorLayer1: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _HeightTilling: {r: 50, g: 50, b: 0, a: 0}
+      _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

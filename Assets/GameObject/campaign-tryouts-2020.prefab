@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: campaign-tryouts-2020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.064744, y: 0.25950217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f92c4cf4d5e509c5bb64aa3187925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: CP-58f
+  content: []
+  order: 2
+  preview: {fileID: 0}
+  image: {fileID: 2800000, guid: 7b209d4a0a4edbf498633cd9cfdcce7f, type: 3}
+  title: Tryouts 2020
+  description: DRL's Tryouts Tournament for 2020
+  tournament: 1
+  drone: {fileID: 11400000, guid: f0b2c210dfc28b4488e660ed6ed8e79c, type: 2}
+  podium: PD-265
+  races:
+  - heats: 0
+    phaseNames:
+    - 
+    track: {fileID: 114724804207875695, guid: 0ea4dba38a6563044a7a57208356299e, type: 2}
+    customMapId: CMP-a45115bb2cf0ef930010f43e
+  qualifyTime: 0

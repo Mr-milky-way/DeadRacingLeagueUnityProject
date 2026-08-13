@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: onboarding-intermediate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf0b15f0c34b9f1b976c6d282299aa4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: GA-9cb
+  content: []
+  order: 0
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  mode: 1
+  steps:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 5cb3d57512ed46142a91188976bdd897, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 678b88cda4a3ade44898bcff2fad1abc, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: a4122a13ad0c5a9428a524aa08facacb, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 6b72b029f5e8fec48ac7d1fd16bcbeed, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 54d0678ae37063b4eab698eebc2ab2c3, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114884547391421755, guid: 9087ef86ab8d6fe4a954457197151999, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 98d832834d473754bacfb6b7b169293d, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: cb7e9a9a07561f546830dcb7be940f22, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: e79890fc13bbe6f498421613201013fd, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 0
+    quest: {fileID: 114724804207875695, guid: 496c75b37dfeb15429dcc229b2bc3a8e, type: 2}
+    mission: {fileID: 114703437598541787, guid: 7573533e3d79d1844ac447f9025d4ec3, type: 2}
+    mapGuid:
+    trackGuid:
+    opponentReplayId:
+  - completed: 0
+    type: 1
+    quest: {fileID: 114618682377417806, guid: 65c46311bc048e04db9113aaccc0509e, type: 2}
+    mission: {fileID: 0}
+    mapGuid: MP-df5
+    trackGuid: CMP-bc8c43f123bf70b0708cccd8
+    opponentReplayId:
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label:
+  tags: 17000000

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: campaign-tryouts-2018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.064744, y: 0.25950217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f92c4cf4d5e509c5bb64aa3187925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: CP-173
+  content: []
+  order: 2
+  preview: {fileID: 0}
+  image: {fileID: 2800000, guid: 7b209d4a0a4edbf498633cd9cfdcce7f, type: 3}
+  title: Tryouts 2018
+  description: DRL's Tryouts Tournament for 2018
+  tournament: 1
+  drone: {fileID: 11400000, guid: 755789cca1896804fa2ecc15f632b4bc, type: 2}
+  podium: PD-57f
+  races:
+  - heats: 1
+    phaseNames:
+    - Final
+    track: {fileID: 114724804207875695, guid: 5fafe6ad2900adc47979b430e26d8e3b, type: 2}
+    customMapId:
+  - heats: 1
+    phaseNames:
+    - Final
+    track: {fileID: 114724804207875695, guid: 526247c59a71cf7418cde305838371a1, type: 2}
+    customMapId:
+  - heats: 1
+    phaseNames:
+    - Final
+    track: {fileID: 114724804207875695, guid: 7ee36df7175564d45992cd13af267bd8, type: 2}
+    customMapId:
+  - heats: 1
+    phaseNames:
+    - Final
+    track: {fileID: 114724804207875695, guid: 5c341881331b9a740819f458a7335785, type: 2}
+    customMapId:
+  - heats: 1
+    phaseNames:
+    - Final
+    track: {fileID: 114724804207875695, guid: 6bbaa2c1a78165a448b05f110245acd1, type: 2}
+    customMapId:
+  qualifyTime: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589cc45443d10a448ef8d7a8146fa761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_manager: {fileID: 0}
+  keys:
+  - campaign.campaign.title.2018
+  - campaign.campaign.discription.2018
+  targets:
+  - target: {fileID: 114724804207875695}
+    property: title
+    textCase: 0
+  - target: {fileID: 114724804207875695}
+    property: description
+    textCase: 0

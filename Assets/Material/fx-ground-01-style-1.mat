@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx-ground-01-style-1
+  m_Shader: {fileID: 4800000, guid: bb78a59f42384ca48a11df9b3a0531a8, type: 3}
+  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _RENDERLINE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - ALWAYS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseAlbedoTex:
+        m_Texture: {fileID: 2800000, guid: 45f889e70bfae2e40bd022f7a603144b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BaseMetallicTex:
+        m_Texture: {fileID: 2800000, guid: 0ff2b0d4b3853d04a91be855288524ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BaseNormal:
+        m_Texture: {fileID: 2800000, guid: 8850d23829200b949804101f6643b300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMapL0:
+        m_Texture: {fileID: 2800000, guid: dfd4d3924b813ca46b82457528a9b59f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMapL1:
+        m_Texture: {fileID: 2800000, guid: a10189fcd3fc38b49ac438f21ef00a15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MODSMapL0:
+        m_Texture: {fileID: 2800000, guid: 1e14f4b07b04747419969bf823cdc09e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MODSMapL1:
+        m_Texture: {fileID: 2800000, guid: 7e7c62f29b2f23d4ebc00d0e942c0ea1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTexL0:
+        m_Texture: {fileID: 2800000, guid: 70386f0d86ac7fa4896b18ca9ee18375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTexL1:
+        m_Texture: {fileID: 2800000, guid: bcc06a32cb13e6c4ebd7fc334c3ee002, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BaseIntensity: 0.363
+      _BaseMetallicIntensity: 0
+      _BaseMetallicTexIntensity: 1
+      _BaseNormalIntensity: 0.422
+      _BaseOcclusionIntensity: 0
+      _BaseSmoothnessIntensity: 0.125
+      _BlendOp: 0
+      _BorderIntensity: 1
+      _BorderPower: 5
+      _BorderVertexColorIntensity: 1
+      _BorderVertexColorPower: 5
+      _BumpScale: 1
+      _CameraFadingEnabled: 0
+      _CameraFarFadeDistance: 2
+      _CameraNearFadeDistance: 1
+      _ColorMode: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DistL0: 100
+      _DistL1: 50
+      _DistMulL0: 2
+      _DistMulL1: 1
+      _DistPowL0: 1
+      _DistPowL1: 0.78
+      _DistortionBlend: 0.5
+      _DistortionEnabled: 0
+      _DistortionStrength: 1
+      _DistortionStrengthScaled: 0
+      _DstBlend: 0
+      _EmissionEnabled: 0
+      _FlipbookMode: 0
+      _GlossMapScale: 1
+      _GlossMapScaleL0: 0
+      _GlossMapScaleL1: 0
+      _Glossiness: 0
+      _GlossyReflections: 1
+      _LightingEnabled: 0
+      _LineIntensity: 1
+      _LineMetallic: 0
+      _LineMinIntensity: 0
+      _LineOffset: 0.75
+      _LinePower: 1.16
+      _LineSmoothness: 0.35
+      _LineThickness: 0.075
+      _MaskAdd: 0.8
+      _MaskPower: 3.6
+      _MaskUVScale: 0.01
+      _Metallic: 0
+      _MetallicL0: 1
+      _MetallicL1: 1
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RenderLine: 1
+      _ShowLine: 0
+      _SmoothnessL0: 1
+      _SmoothnessTextureChannel: 0
+      _SoftParticlesEnabled: 0
+      _SoftParticlesFarFadeDistance: 1
+      _SoftParticlesNearFadeDistance: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVScaleL0: 0.6
+      _UVScaleL1: 0.2
+      _UVSec: 0
+      _VertexColorMul: 0.667
+      _VertexColorPower: 5
+      _VertexColorPowerRed: 5
+      _ZWrite: 1
+    m_Colors:
+      _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 0.890813}
+      _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+      _ColorDistL0: {r: 0.7176471, g: 0.5045815, b: 0.18039191, a: 1}
+      _ColorDistL1: {r: 0.5566037, g: 0.4436615, b: 0.37019384, a: 1}
+      _ColorL0: {r: 1, g: 1, b: 1, a: 1}
+      _ColorL1: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+      _LineColor: {r: 1, g: 0.5952401, b: 0, a: 1}
+      _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

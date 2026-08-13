@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx-water-lake-01
+  m_Shader: {fileID: 4800000, guid: ae5fdc70555b771498e357d12c692da1, type: 3}
+  m_ShaderKeywords: _EMISSION _INVERSEDIRECTION_ON _RADIALWAVES_ON _USEMASK_ON _USEREFLECTION_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Displacement:
+        m_Texture: {fileID: 2800000, guid: e7f70e57df14b8a46ab76bebb4e70b47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: b74fcf28632bc094aa1f9d648a92b44e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskWavesDisplacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 3cff6140b57e1e347b886ffca97f1d3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WavesTexture:
+        m_Texture: {fileID: 2800000, guid: f614dc607245faa4e8e50f74df52b038, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DisplacementFoamIntensity: 0.05
+      _DisplacementIntensity: 0.15
+      _DisplacementScale: 0.15
+      _DisplacementSpeed: 0.2
+      _DstBlend: 0
+      _FadeLevel: 3
+      _FoamScale: 1
+      _FoamSpeed: 2.61
+      _Gloss: 0.45
+      _GlossMapScale: 1
+      _Glossiness: 0.856
+      _GlossyReflections: 1
+      _InverseDirection: 1
+      _Metallic: 0.567
+      _Mode: 0
+      _NormalIntensity: 0.9
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RadialWaves: 1
+      _ReflectionFresnel: 3
+      _ReflectionIntensity: 0.4
+      _RefractionIntensity: 0.45
+      _ShoreFoamDistance: 0.66
+      _ShoreFoamIntensity: 1
+      _ShoreLineOpacity: 1.75
+      _ShoreWaterOpacity: 0
+      _SmoothnessTextureChannel: 0
+      _Specular: 5
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _UseMask: -0.4142135
+      _UseReflection: 0.5
+      _WaterDensity: 2
+      _WavesAmount: 0.2
+      _WavesDisplacementFoamIntensity: 0.1
+      _WavesDisplacementSpeed: 0.6
+      _WavesIntensity: 2
+      _WavesScale: 0.115
+      _WavesSpeed: 0.5
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.23137257, g: 0.40000004, b: 0.70980394, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _ReflectionColor: {r: 0.6627451, g: 0.8117648, b: 0.93725497, a: 1}
+      _WaterColor: {r: 0.28676468, g: 0.6458419, b: 1, a: 1}
+  m_BuildTextureStacks: []

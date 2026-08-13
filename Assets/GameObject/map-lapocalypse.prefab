@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: map-lapocalypse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8282324, y: 1.8345476, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985eacb13d7cde6710c176d14de08657, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: MP-bf7
+  content: []
+  order: 16
+  preview: {fileID: 2800000, guid: f45f694d0c1fb0541a579223c4c0bd95, type: 3}
+  image: {fileID: 8400000, guid: f734ee1d2e52971458a9e53c5d55a68e, type: 2}
+  background: {fileID: 2800000, guid: bd7e70ed025944c4a9aeee264d889b7a, type: 3}
+  blur: {fileID: 0}
+  video: {fileID: 0}
+  caption: L.A.POCALYPSE
+  title: L.A.pocalypse
+  scene: lapocalypse
+  lightingPreset: -1
+  description: "DRL 2016 - LEVEL 3\r\nAn abandoned venue – a 40-acre relic of 70’s suburban excess. Twenty top drone pilots take over a post-apocalyptic abandoned mall in Los Angeles, racing at 80 mph through artifacts of a bygone era."
+  droneSizes:
+  promoDrones: []
+  promoDronesOnly: 1
+  groups: '@map.maps-screen.season-2016'
+  allowedAssetGroups:
+  - general
+  - shared
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589cc45443d10a448ef8d7a8146fa761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_manager: {fileID: 0}
+  keys:
+  - maps.lapocalypse.caption
+  - maps.lapocalypse.title
+  - maps.lapocalypse.description
+  targets:
+  - target: {fileID: 114724804207875695}
+    property: caption
+    textCase: 0
+  - target: {fileID: 114724804207875695}
+    property: title
+    textCase: 0
+  - target: {fileID: 114724804207875695}
+    property: description
+    textCase: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: tags
+  tags: 13000000

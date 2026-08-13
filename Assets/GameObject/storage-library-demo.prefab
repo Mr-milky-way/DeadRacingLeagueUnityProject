@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: storage-library-demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7def53c823c0b563c14dcab46cd472, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: 6f5a8508eaa687e547e9ad82
+  m_assets:
+  - {fileID: 1709254077376921, guid: db1afba14422bd7489702a764fe7414b, type: 2}
+  - {fileID: 1709254077376921, guid: 525d7ba23c34fd441a29e66835467040, type: 2}
+  - {fileID: 1709254077376921, guid: 93e26b3ff0a395543be50cf1ec5f058a, type: 2}
+  - {fileID: 1709254077376921, guid: fc838218eb6f0e147bab6db97f655029, type: 2}
+  - {fileID: 1709254077376921, guid: 1785c119f5b62bb4f80ab05586ce40eb, type: 2}
+  - {fileID: 1709254077376921, guid: e842e9f07d88b554b8e2607437e069ca, type: 2}
+  - {fileID: 1709254077376921, guid: d58b2f26887baf740a196986c41a0795, type: 2}
+  - {fileID: 1709254077376921, guid: 1c2c484026fa77e41a0e02688393b7b8, type: 2}
+  - {fileID: 1709254077376921, guid: 816e0480b981a9c4fa90be9f4f931fac, type: 2}
+  - {fileID: 1709254077376921, guid: 9c05adb7774d8454a8cadcf22802949a, type: 2}
+  - {fileID: 1709254077376921, guid: da3d5bd260bc99a43a51f58c1214bf46, type: 2}
+  m_externals: []

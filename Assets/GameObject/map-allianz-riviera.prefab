@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: map-allianz-riviera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8282324, y: 1.8345476, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985eacb13d7cde6710c176d14de08657, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: MP-2e1
+  content: []
+  order: 3
+  preview: {fileID: 2800000, guid: 701b5f20d6aeb48478e0fc772703fe8b, type: 3}
+  image: {fileID: 8400000, guid: e476b53cf269c1540b259d2288b588fe, type: 2}
+  background: {fileID: 2800000, guid: f4f335129f87be5479ae67d420ea7579, type: 3}
+  blur: {fileID: 0}
+  video: {fileID: 0}
+  caption: ALLIANZ RIVIERA
+  title: Allianz Riviera
+  scene: allianz-riviera
+  lightingPreset: -1
+  description: "DRL 2018 - LEVEL 5\r\nAllianz Riviera stadium features the most extreme ascents in the 2018 season, followed by gut wrenching dives, and long straights that push the Racer3 drones to their highest speeds yet.\r\n\r\n©Allianz Riviera - ®Cabinet d'architecture Wilmotte & Associés S.A."
+  droneSizes:
+  promoDrones: []
+  promoDronesOnly: 1
+  groups: '@map.maps-screen.season-2018'
+  allowedAssetGroups:
+  - general
+  - shared
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589cc45443d10a448ef8d7a8146fa761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_manager: {fileID: 0}
+  keys:
+  - maps.allianz-riviera.caption
+  - maps.allianz-riviera.title
+  - maps.allianz-riviera.description
+  targets:
+  - target: {fileID: 114724804207875695}
+    property: caption
+    textCase: 0
+  - target: {fileID: 114724804207875695}
+    property: title
+    textCase: 0
+  - target: {fileID: 114724804207875695}
+    property: description
+    textCase: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: tags
+  tags: 13000000

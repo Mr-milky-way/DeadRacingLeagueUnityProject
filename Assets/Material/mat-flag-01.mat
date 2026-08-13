@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat-flag-01
+  m_Shader: {fileID: 4800000, guid: a8e5d00b16659564abce556bd39a7569, type: 3}
+  m_ShaderKeywords: FLAG_OVERLAY_ENABLED _DISPLACEMENT_ON _METALLICGLOSSMAP _NORMALMAP _SCROLL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AlbedoTex:
+        m_Texture: {fileID: 2800000, guid: 95f0d9201b5af56408c736f57648348b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FlagAlbedoTex:
+        m_Texture: {fileID: 2800000, guid: cf6a976c169fa864d8d131f33a2ec54a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MSOTex:
+        m_Texture: {fileID: 2800000, guid: 97e7a3fc45544c44883203233f66dbd3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 7c98f8029125c1c478f93e0c177e0346, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ScrollNormalTex:
+        m_Texture: {fileID: 2800000, guid: 693e717122b9a824bbc911e7563a62ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ScrollOcclusionTex:
+        m_Texture: {fileID: 2800000, guid: fb2e639aa9c875d4490cff69a09b6d78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Bend: 0.46
+      _BendDown: 0.107
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _Displacement: 1
+      _DisplacementIntensity: 0.85
+      _DstBlend: 0
+      _FlagOffsetY: 0
+      _FlagOverlayEnabled: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 1
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Scroll: 1
+      _ScrollIntensity: 0.95
+      _Smoothness: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UV2Scale: 0.847
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _ScrollSpeed: {r: -7.5, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: quest-fpv-01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2676363, y: -3.9814816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c523673e7b155972bd9b9ed58274e6e5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: QS-746
+  content: []
+  order: 0
+  preview: {fileID: 0}
+  image: {fileID: 2800000, guid: 04c25f4870ec2c2408b2fc92a6ebf343, type: 3}
+  imageXbox: {fileID: 2800000, guid: 6ecd9054e265b2147b7d744fc6069254, type: 3}
+  imagePS: {fileID: 2800000, guid: 658b19c8c8565b047b745c987959e411, type: 3}
+  title: "BEHIND THE\nGOGGLES"
+  levelTitle:
+  description: Missions to cover the basics of FPV flight.
+  testMission: {fileID: 0}
+  missions:
+  - {fileID: 114703437598541787, guid: 8ccd797f0ef951c42a7b2a48580194f7, type: 2}
+  - {fileID: 114703437598541787, guid: 1b187d9cdba639243995fb35e1d7cdbc, type: 2}
+  - {fileID: 114703437598541787, guid: 4f576b9e24c774844b05f47642a8225b, type: 2}
+  - {fileID: 114703437598541787, guid: 702a3faab78f47e48a73a8c3f6b1093d, type: 2}
+  - {fileID: 114724804207875695, guid: db4afa1d0f022a0419a4a2fc29859832, type: 2}
+  - {fileID: 114724804207875695, guid: c4ef8f54b00d8534aa053405261d7879, type: 2}
+  - {fileID: 114703437598541787, guid: 13ed61a82ba8eef4caa762eef4e3f71f, type: 2}
+  - {fileID: 114703437598541787, guid: a822849a53cd8c34bbded53178e2a8ba, type: 2}
+  - {fileID: 114724804207875695, guid: bb1b7b051dbc5fe478097f85163115b3, type: 2}
+  - {fileID: 114703437598541787, guid: a5e4905ceb373de41b2eacbc0cdffaf5, type: 2}
+  - {fileID: 114703437598541787, guid: 6d23210ce68515a429d251bfc9a30df8, type: 2}
+  - {fileID: 114703437598541787, guid: f454cb326d77479458ce3380de0f910c, type: 2}
+  - {fileID: 114703437598541787, guid: d531816646599fe4da63de11d10f7899, type: 2}
+  - {fileID: 114703437598541787, guid: 3cff60e8e14b2ba448c016b53437d75c, type: 2}
+  - {fileID: 114703437598541787, guid: 420809d3183abe64d8abb50ebcb8f140, type: 2}
+  - {fileID: 114703437598541787, guid: 4ffa4ba6a904674458530007e58c3b28, type: 2}
+  - {fileID: 114703437598541787, guid: fab27cdc840bab34b9c893eb005d2728, type: 2}
+  - {fileID: 114703437598541787, guid: d91482d6ea49dd542af6ad781640c758, type: 2}
+  - {fileID: 114724804207875695, guid: a2e9141c93517ff4d9bbc02fb44c8017, type: 2}
+  - {fileID: 114703437598541787, guid: 8627034315a87614bb706ea8d216f154, type: 2}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: release
+  tags: 650000000b000000
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589cc45443d10a448ef8d7a8146fa761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_manager: {fileID: 0}
+  keys:
+  - quests.quest-fpv-01.title
+  - quests.quest-fpv-01.description
+  targets:
+  - target: {fileID: 114724804207875695}
+    property: title
+    textCase: 1
+  - target: {fileID: 114724804207875695}
+    property: description
+    textCase: 0

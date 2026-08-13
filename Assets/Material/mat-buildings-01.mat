@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat-buildings-01
+  m_Shader: {fileID: 4800000, guid: c006ce4f0ce19c14382cae26f85bbea5, type: 3}
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 6
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MSOTex:
+        m_Texture: {fileID: 2800000, guid: 00dd317c0e4d30e47941928c80b57f4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 507720588b44a0841994b3ccb40e9887, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 9232332702d6bba41b18e1c0462bd1d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 1.25
+      _Mode: 0
+      _Occlusion: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smoothness: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+      _ColorA: {r: 0.603, g: 0.5321778, b: 0.48159057, a: 1}
+      _ColorB: {r: 0.6886792, g: 0.6419763, b: 0.58147913, a: 1}
+      _ColorG: {r: 0.6117647, g: 0.43871355, b: 0.38039216, a: 1}
+      _ColorR: {r: 0.45259202, g: 0.4628736, b: 0.504, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

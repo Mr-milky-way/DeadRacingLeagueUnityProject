@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: quest-pro-01-dev
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2676363, y: -3.9814816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: release
+  tags: 660000000b000000
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c523673e7b155972bd9b9ed58274e6e5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: QS-c4a
+  content: []
+  order: 0
+  preview: {fileID: 0}
+  image: {fileID: 2800000, guid: 54e399c4fba9f464aa4e1992c3ef7212, type: 3}
+  imageXbox: {fileID: 2800000, guid: 28158dd64a8b3f14ab4aee79b8d06887, type: 3}
+  imagePS: {fileID: 2800000, guid: 26974d9279810bd418e242d62c2bdb30, type: 3}
+  title: "THE ROAD \nTO PRO"
+  levelTitle:
+  description: Here the real fun begins!
+  testMission: {fileID: 0}
+  missions:
+  - {fileID: 114724804207875695, guid: 7466e9ae2e0c9364a8079050f5e4a669, type: 2}
+  - {fileID: 114724804207875695, guid: 1c4c35fb089888e458553082ce26ff75, type: 2}
+  - {fileID: 114724804207875695, guid: 1aec4a8e60185294e8a12604c123ace4, type: 2}
+  - {fileID: 114724804207875695, guid: 760bb8fc6cae52549b51d9d5aeeb4b15, type: 2}
+  - {fileID: 114724804207875695, guid: 9868f537772f9ca4c8d1afd5b35970c2, type: 2}
+  - {fileID: 114703437598541787, guid: cfafa49ef3ebb434ebe11e47e6179c53, type: 2}
+  - {fileID: 114703437598541787, guid: 5cb3d57512ed46142a91188976bdd897, type: 2}
+  - {fileID: 114703437598541787, guid: 678b88cda4a3ade44898bcff2fad1abc, type: 2}
+  - {fileID: 114703437598541787, guid: a4122a13ad0c5a9428a524aa08facacb, type: 2}
+  - {fileID: 114703437598541787, guid: 6b72b029f5e8fec48ac7d1fd16bcbeed, type: 2}
+  - {fileID: 114703437598541787, guid: 65a66251f595f7948859663fe39637d6, type: 2}
+  - {fileID: 114703437598541787, guid: 54d0678ae37063b4eab698eebc2ab2c3, type: 2}
+  - {fileID: 114884547391421755, guid: 9087ef86ab8d6fe4a954457197151999, type: 2}
+  - {fileID: 114703437598541787, guid: 98d832834d473754bacfb6b7b169293d, type: 2}
+  - {fileID: 114703437598541787, guid: cb7e9a9a07561f546830dcb7be940f22, type: 2}
+  - {fileID: 114703437598541787, guid: e79890fc13bbe6f498421613201013fd, type: 2}
+  - {fileID: 114703437598541787, guid: f72d75e693830cd47af8f311ce1e2deb, type: 2}
+  - {fileID: 114703437598541787, guid: aaa4a24872343504fbc9d5a298867570, type: 2}
+  - {fileID: 114703437598541787, guid: 1efbed85fec63614e82d27f74e6c5d7d, type: 2}
+  - {fileID: 114703437598541787, guid: 7573533e3d79d1844ac447f9025d4ec3, type: 2}
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589cc45443d10a448ef8d7a8146fa761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_manager: {fileID: 0}
+  keys:
+  - quests.quest-pro-01.title
+  - quests.quest-pro-01.description
+  targets:
+  - target: {fileID: 114618682377417806}
+    property: title
+    textCase: 1
+  - target: {fileID: 114618682377417806}
+    property: description
+    textCase: 0

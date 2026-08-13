@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: levels-drl-season-2018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7def53c823c0b563c14dcab46cd472, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: e5ba07589ef6ffbad67bc294
+  m_assets:
+  - {fileID: 1709254077376921, guid: 8891242d21f03434d9fa947dca3bfdb1, type: 2}
+  - {fileID: 1709254077376921, guid: 45fc68777b81d704fb6097e1302a6823, type: 2}
+  - {fileID: 1709254077376921, guid: 3b6687336c3d01b4ca39e8aec7c00aed, type: 2}
+  - {fileID: 1709254077376921, guid: 1bfb36f5851f0dc4a8a85924bb240dff, type: 2}
+  - {fileID: 1709254077376921, guid: 4dad432d4f0198e42b2d99604744c8ce, type: 2}
+  - {fileID: 1709254077376921, guid: 5870f311c1485724d949a513cca05ce0, type: 2}
+  - {fileID: 1709254077376921, guid: b6073dd40f6a75c4b8c7d033c5cf9480, type: 2}
+  - {fileID: 1709254077376921, guid: 0bc00365c802bb741bd7327f33673782, type: 2}
+  - {fileID: 1709254077376921, guid: ec8c51a089f40294f8b717f2411dfd71, type: 2}
+  - {fileID: 1709254077376921, guid: 3b3b163d4b64f8742a3045261ebd8add, type: 2}
+  - {fileID: 1709254077376921, guid: c4348ad3f203e1e44914d79fdd4c6d95, type: 2}
+  - {fileID: 1709254077376921, guid: a06bc7a0ba80b7647835dff78db02f4c, type: 2}
+  - {fileID: 1709254077376921, guid: b95c64c308e40734a96106e3859a5c44, type: 2}
+  - {fileID: 1709254077376921, guid: a98938c18d11cca4eaa9c44a37bcd91e, type: 2}
+  m_externals:
+  - bundle: {fileID: 0}
+    resource:
+    m_list: []

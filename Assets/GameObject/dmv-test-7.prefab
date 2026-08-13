@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: dmv-test-7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2676363, y: -3.9814816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: release
+  tags: 65000000c9000000
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c523673e7b155972bd9b9ed58274e6e5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: QS-e70
+  content: []
+  order: 7
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  imageXbox: {fileID: 0}
+  imagePS: {fileID: 0}
+  title: 'TEST 7: FPV ACROBATICS'
+  levelTitle: ADVANCED RACE MANEUVERS
+  description: The level 7 test is gauges a users ability to perform the complex vertical race maneuvers at high speeds.
+  testMission: {fileID: 114884547391421755, guid: fe03d1ee8a60afb45b8f69722e5862a0, type: 2}
+  missions:
+  - {fileID: 114884547391421755, guid: 9f91c900d98bedc4b9ff006a080e46ec, type: 2}
+  - {fileID: 114884547391421755, guid: 9a746f8a522659d4fb0d54ef5543807d, type: 2}
+  - {fileID: 114884547391421755, guid: 9cc4185850cc24941b30f666cd3584aa, type: 2}
+  - {fileID: 114884547391421755, guid: 22cecf0dd476c8049988d038e2e6856e, type: 2}
+  - {fileID: 114884547391421755, guid: bdd55b9f195bdc44db978a2f95ccf1d8, type: 2}
+  - {fileID: 114884547391421755, guid: 0f92b841fc7ab93459da34539f09fd46, type: 2}
+  - {fileID: 114884547391421755, guid: 23be9a4261278004596bc1f7c3b0241b, type: 2}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: levels-drl-season-2017
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7def53c823c0b563c14dcab46cd472, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: 6592629392423af3b936fce5
+  m_assets:
+  - {fileID: 1709254077376921, guid: 3d5271ddd45683f4caccbbd94613080d, type: 2}
+  - {fileID: 1709254077376921, guid: fcfe16f3599bf314fabbeab0e6f849cf, type: 2}
+  - {fileID: 1709254077376921, guid: 4333e10465b51434e98a750eeb596945, type: 2}
+  - {fileID: 1709254077376921, guid: 9a0f7aa11c110824eaed4d7361cee827, type: 2}
+  - {fileID: 1709254077376921, guid: 3dcff9304dcfd7446ae10a57e94db9bb, type: 2}
+  - {fileID: 1709254077376921, guid: f20dafcd98005324e9ce67fc4b7ebc11, type: 2}
+  - {fileID: 1709254077376921, guid: 02eba22183af71c48858f51dfc3a0bce, type: 2}
+  - {fileID: 1709254077376921, guid: 20f9dfa61d8f3a548af5792d74af1d03, type: 2}
+  - {fileID: 1709254077376921, guid: d87a2849d683a0d4185a9e1f9e883141, type: 2}
+  - {fileID: 1709254077376921, guid: 1e6a05bf66021aa4ea680592e1515ef1, type: 2}
+  - {fileID: 1709254077376921, guid: 2dc78628a79d2d44d96324d8004355c9, type: 2}
+  - {fileID: 1709254077376921, guid: 432557934be065648aef6e6f9f7dcd47, type: 2}
+  m_externals:
+  - bundle: {fileID: 0}
+    resource:
+    m_list: []

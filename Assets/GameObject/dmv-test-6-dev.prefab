@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: dmv-test-6-dev
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2676363, y: -3.9814816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b200f7e8bbcc8e7ff7f74b01ea5b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: dev
+  tags: 66000000c9000000
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c523673e7b155972bd9b9ed58274e6e5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: QS-6ff
+  content: []
+  order: 6
+  preview: {fileID: 0}
+  image: {fileID: 0}
+  imageXbox: {fileID: 0}
+  imagePS: {fileID: 0}
+  title: 'TEST 6: FPV IMPROV FLYING'
+  levelTitle: STANDARD RACE MANEUVERS
+  description: The level 6 test is built to evaluate if the user has the ability to navigate race gate compositions and tight turning at high speeds.
+  testMission: {fileID: 114884547391421755, guid: 0b5812f624e76d34395cc0ecf54150e0, type: 2}
+  missions:
+  - {fileID: 114884547391421755, guid: a32664685966a4244a2215d42e577b5a, type: 2}
+  - {fileID: 114884547391421755, guid: 7ce6901b0de1fa744bd5c2636ca512dd, type: 2}
+  - {fileID: 114884547391421755, guid: 8a2c25f317ed73e47b28415b996abb4e, type: 2}
+  - {fileID: 114884547391421755, guid: 14a1f9408ec55fc448d8ae56dd5737bc, type: 2}
+  - {fileID: 114884547391421755, guid: 885147f2b05847c42ae4b219b723b061, type: 2}
+  - {fileID: 114884547391421755, guid: 7fd85568752a8c74aaad249f5faf999d, type: 2}
+  - {fileID: 114884547391421755, guid: 619f22fa65086ec449aa78b14613ee0f, type: 2}

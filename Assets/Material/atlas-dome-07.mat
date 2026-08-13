@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-dome-07
+  m_Shader: {fileID: 4800000, guid: a496aa82b70e98444af004172c9b04c3, type: 3}
+  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorMaskTex:
+        m_Texture: {fileID: 2800000, guid: 5563eca103c2b9744a229d8b6161e592, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbedoTex:
+        m_Texture: {fileID: 2800000, guid: ec1dbf455dbda46499868775ad9b3355, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+      _DetailMetallicTex:
+        m_Texture: {fileID: 2800000, guid: a6d991530110ba24fbec5e5eb3f8b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNormalTex:
+        m_Texture: {fileID: 2800000, guid: 1edc1e1c8a623414ab48e9a9a0a475df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailOcclusionTex:
+        m_Texture: {fileID: 2800000, guid: 05a42875992ae2643bda2360f42daeea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DisplayAlbTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DisplayLinesTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DisplayMskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MSOETex:
+        m_Texture: {fileID: 2800000, guid: 9d33046c7358209479cc94d11aa24200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6840a8c6314fddc4aaffd7151f0bb56e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 95c0706a8ba2b0a4a83519d536f57e8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalIntensity: 1
+      _DetailNormalMapScale: 1
+      _DisplayBrightness: 1
+      _DisplayPixelSize: 0.25
+      _DisplayShow: 0
+      _DstBlend: 0
+      _GlossMapScale: 0.6
+      _Glossiness: 0.126
+      _GlossyReflections: 1
+      _Metallic: 1
+      _Mode: 0
+      _NormalIntensity: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smoothness: 0.85
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 0.72638464, b: 0, a: 1}
+      _ColorA: {r: 1, g: 1, b: 1, a: 1}
+      _ColorB: {r: 1, g: 1, b: 1, a: 1}
+      _ColorEmission: {r: 0, g: 0, b: 0, a: 1}
+      _ColorG: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+      _ColorR: {r: 1, g: 0.13679248, b: 0.13679248, a: 1}
+      _DisplayColorB: {r: 1, g: 1, b: 1, a: 1}
+      _DisplayColorG: {r: 1, g: 0.13679248, b: 0.13679248, a: 1}
+      _DisplayColorR: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 2, b: 1.0617266, a: 1}
+  m_BuildTextureStacks: []
