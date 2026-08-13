@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.bytes filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+Assets/Mesh/ballpark-01.asset filter=lfs diff=lfs merge=lfs -text
+Assets/drl/levels/physics-room/scenes/physics-room/Lightmap-0_comp_dir.texture2D filter=lfs diff=lfs merge=lfs -text
+Assets/drl/levels/physics-room/scenes/physics-room/Lightmap-0_comp_light.texture2D filter=lfs diff=lfs merge=lfs -text
