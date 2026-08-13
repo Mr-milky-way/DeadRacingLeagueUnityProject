@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1760571743, guid: dd26872b5e1fa55460a56b69ac097fba, type: 3}
+  m_Name: GPUInstancerSettings
+  m_EditorClassIdentifier:
+  versionNo: 1.73
+  shaderBindings: {fileID: 11400000, guid: 9d80952c0a629f04bb21aa5b9d6c94fa, type: 2}
+  billboardAtlasBindings: {fileID: 11400000, guid: 7c04bc0874a694f4a8cee36b9c5ba86b, type: 2}
+  shaderVariantCollection: {fileID: 20000000, guid: 69d25c4f247daff45a83ed4f7f546a9e, type: 2}
+  packagesLoaded: 1
+  isHDRP: 0
+  isLWRP: 0
+  isURP: 0
+  isShaderGraphPresent: 0
+  instancingBoundsSize: 10000
+  MAX_DETAIL_DISTANCE: 2500
+  MAX_TREE_DISTANCE: 2500
+  MAX_PREFAB_DISTANCE: 10000
+  MAX_PREFAB_EXTRA_BUFFER_SIZE: 16384
+  useCustomPreviewBackgroundColor: 0
+  previewBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  disableAutoGenerateBillboards: 0
+  disableShaderVariantCollection: 0
+  disableInstanceCountWarning: 0
+  disableAutoShaderConversion: 0
+  disableAutoVariantHandling: 0
+  useOriginalMaterialWhenInstanced: 1
+  testBothEyesForVROcclusion: 1
+  extensionSettings: []
+  renderingSettingPresets:
+  - platform: 0
+    matrixHandlingType: 0
+    computeThreadCount: 3
+  - platform: 1
+    matrixHandlingType: 0
+    computeThreadCount: 2
+  - platform: 2
+    matrixHandlingType: 0
+    computeThreadCount: 2
+  - platform: 3
+    matrixHandlingType: 2
+    computeThreadCount: 1
+  - platform: 4
+    matrixHandlingType: 2
+    computeThreadCount: 1
+  - platform: 5
+    matrixHandlingType: 0
+    computeThreadCount: 3
+  - platform: 6
+    matrixHandlingType: 0
+    computeThreadCount: 3
+  hasCustomRenderingSettings: 0
+  customRenderingSettings:
+    platform: 0
+    matrixHandlingType: 0
+    computeThreadCount: 0

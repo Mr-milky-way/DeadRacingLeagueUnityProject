@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GPUIShaderVariantCollection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 853f22355c25bba49be3ac56c188e9c3, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE _NORMALMAP
+        passType: 0
+  - first: {fileID: 4800000, guid: 252609ba2fd2f3446ad59a37b6f9e12a, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: e14d8ed36dba61d45a26992728b35758, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 658cd447d71f281478300a94bf326024, type: 3}
+    second:
+      variants:
+      - keywords: EFFECT_BUMP EFFECT_EXTRA_TEX _WINDQUALITY_BETTER
+        passType: 0
+      - keywords: EFFECT_BUMP EFFECT_EXTRA_TEX EFFECT_HUE_VARIATION _WINDQUALITY_BETTER
+        passType: 0
+      - keywords: EFFECT_BILLBOARD EFFECT_BUMP EFFECT_EXTRA_TEX _WINDQUALITY_FASTEST
+        passType: 0
+      - keywords: EFFECT_BILLBOARD EFFECT_BUMP EFFECT_EXTRA_TEX EFFECT_HUE_VARIATION _WINDQUALITY_FASTEST
+        passType: 0
+      - keywords: EFFECT_BUMP EFFECT_EXTRA_TEX _WINDQUALITY_PALM
+        passType: 0
+      - keywords: EFFECT_BUMP EFFECT_EXTRA_TEX EFFECT_HUE_VARIATION _WINDQUALITY_PALM
+        passType: 0
+  - first: {fileID: 4800000, guid: f894e8bde6e0245458f2c9ce97e3d641, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 4058634691977304ca507dd7dcde15ea, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 0203b76e2399c534895fdbdd8d73b7ec, type: 3}
+    second:
+      variants: []

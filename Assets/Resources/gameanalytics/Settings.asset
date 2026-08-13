@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cced7019a5f5d9570f88fdc17461e50, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea:
+  gameKey:
+  - 
+  - 
+  secretKey:
+  - 
+  - 
+  Build:
+  - 0.1
+  - 0.1
+  SelectedPlatformStudio:
+  - 
+  - 
+  SelectedPlatformGame:
+  - 
+  - 
+  SelectedPlatformGameID: ffffff/fffffff/f
+  SelectedStudio: 0000000000000000
+  SelectedGame: 0000000000000000
+  NewVersion: 7.3.24
+  Changes: "7.3.24\n- fixed fps script for when pausing game\n\n7.3.23\n- fixed bug with custom fields (locale related bug)\n\n7.3.22\n- added external dependency manager for .unitypackage release as well to solve issues with appset id on android\n\n7.3.21\n- fixed bug in internal error reporting\n\n7.3.20\n- added event uuid to events sent\n\n7.3.19\n- updated dependencies\n\n7.3.18\n- fixed fps event script to still run coroutines when Time.timeScale = 0 by using WaitForSecondsRealtime instead of WaitForSeconds\n\n7.3.17\n- added method manually update gamekey and secretkey\n\n7.3.16\n- fixed uwp build errors\n\n7.3.15\n- changed frequency logic for fps events\n\n7.3.14\n- small fix\n\n7.3.13\n- fixed crash for android builds\n\n7.3.12\n- removed imei identifiers and other alternative identifiers from user identifier logic (android)\n\n7.3.11\n- updated dependency to external dependency resolver\n\n7.3.10\n- adding missing .meta file for upm release\n- switched to using openupm for scoped registry when using upm, please update the upm setup for the unity sdk\n\n7.3.9\n- fixed upm package.json\n\n7.3.8\n- fixed upm dependecy\n\n7.3.7\n- added depedencies.xml for upm release\n\n7.3.6\n- fixed playmaker bugs\n\n7.3.5\n- changed settings to have FPS events turned off by default\n\n7.3.4\n- added error events to be sent for invalid custom event fields used\n- added optional mergeFields argument to event methods to merge with global custom fields instead of overwrite them\n\n7.3.3\n- playmaker fixes\n\n7.3.2\n- fixed missing custom event fields for when trying to fix missing session end events\n\n7.3.1\n- fixed editor ui bug with games with the same name\n\n7.3.0\n- added global custom event fields function to allow to add custom fields to events sent automatically by the SDK\n\n7.2.1\n- added functionality to force a new user in a/b testing without having to uninstall app first, simply use custom user id function to set a new user id which hasn't been used yet\n\n7.2.0\n- added support for admob impression events\n\n7.1.1\n- fixed build errors for desktop platforms\n\n7.1.0\n- added custom event fields feature\n\n7.0.5\n- updated hyperbid ilrd integration\n\n7.0.4\n- added ios part for aequus ilrd integration\n\n7.0.3\n- renamed ATT method name to avoid dupplicate symbols\n\n7.0.2\n- fixes to ILRD integrations\n\n7.0.1\n- updated ILRD integrations\n\n7.0.0\n- Changed user identifier logic in preparation for Google changes to GAID. User id for a new install is now a randomised GUID. Existing installs that update SDK will continue using previous identifier logic. It is recommended to update as soon as possible to reduce impact on calculated metrics.\n\n6.7.1\n- fixes to max irld integration\n\n6.7.0\n- added option to enable native exceptions error reporting for android and ios\n\n6.6.4\n- prepared for google advertising identifier changes (will not use google advertising identifier when user has opted out) (android)\n- it should now be possible to not show idfa consent dialog if you don't have any third party code that needs to use idfa\n\n6.6.3\n- removed unnecessary append of stacktrace when stacktrace is missing from warning/error messages sent to GA backend\n\n6.6.2\n- fixed ios compile errors\n- fixed ILRD related compile error\n- added ios_testflight to events coming from testflight builds\n\n6.6.1\n- added ILRD support for Aequus SDK\n- fixed ILRD related bug\n\n6.6.0\n- more fixes for using ILRD when using SDK from UPM\n- OBS now you need to use GameAnalyticsILRD class to subscribe to ILRD impression events (also download latest GA ILRD .unitypackage to get it to work if using SDK from UPM, see docs for more info)\n- prepared for google advertising identifier changes (will not use google advertising identifier when user has opted out) (android)\n\n6.5.8\n- fixed compile issues when using ILRD with SDK from UPM (now you have to download a seperate .unitypackage when using ILRD with SDK from UPM)\n\n6.5.7\n- added missing architectures of ios libraries\n\n6.5.6\n- fixed crash bug for ios\n\n6.5.5\n- reverted back to v6.5.2 as crashes happen for ios which have not been narrowed down to what is causing this yet\n\n6.5.4\n- fixed typo error\n\n6.5.3\n- added support for max in impression events\n- fixed dupplicate symbol on ios\n\n6.5.2\n- fixed crashes for android devices without google play API (android)\n\n6.5.1\n- added support for OAID (android)\n- added missing export function for UWP lib (uwp)\n\n6.5.0\n- added app tracking transparency request function (ios)\n\n6.4.1\n- added idfa consent status field to events (ios)\n\n6.4.0\n- added support for unity package manager\n\n6.3.14\n- fixed playmaker scripts\n\n6.3.13\n- fixed compiler errors for 2017.1\n- updated client ts validator\n\n6.3.12\n- changed AppTrackingTransparency dependency to be optional for iOS\n\n6.3.11\n- fixed dependencies for iOS (min. XCode 12 required)\n\n6.3.10\n- fix to mopub impression events, require min. mopub v5.14.0\n- REMEMBER to update to this version of the SDK if you use MoPub impression events and you have min. v5.14.0 of MoPub SDK inatalled or else the SDK will not send MoPub impression event for you any more\n\n6.3.9\n- fixed ironsource impression event compile error\n\n6.3.8\n- removed memory info from automatic crash reports\n- updated sqlite lib\n\n6.3.7\n- corrected ad event annotation\n\n6.3.6\n- updated validator for impression events (android, ios)\n\n6.3.5\n- fixed user log in function in editor for unity 2017\n\n6.3.4\n- fixed null exception happening some times on desktop platforms (mac, linux, windows)\n\n6.3.3\n- updated impression events\n\n6.3.2\n- fixed www build errors on unity 2017\n\n6.3.1\n- improved user identifer flow for ios (ios)\n\n6.3.0\n- updated user identifier flow to prepare for iOS 14 IDFA changes (ios)\n\n6.2.4\n- fixed progression events with scores (android)\n\n6.2.3\n- editor ui error fix\n\n6.2.2\n- tvos compile fix\n\n6.2.1\n- added better error messages for API calls potentially being removed in the future\n\n6.2.0\n- exposed functions to get AB testing id and variant id\n\n6.1.5\n- fixed bug in ui for settings.asset\n\n6.1.4\n- fixed instant app bug(android)\n- remember to update your proguard file (https://gameanalytics.com/docs/item/unity-sdk#proguard-only-android)\n\n6.1.3\n- fixed sign up function\n- added organizations to games overview\n- you might need to delete the settings.asset file and set the keys again for the different platforms\n\n6.1.2\n- fixed ios compile error (ios)\n\n6.1.1\n- added missing instant app dependency (android)\n\n6.1.0\n- added new impression event, see documentation page for more info (android, ios)\n\n6.0.15\n- added support for android instant apps (android)"
+  SignUpOpen: 1
+  StudioName: Drone Racing League
+  GameName: DRL Simulator
+  EmailGA:
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 0
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  UseIMEI: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 0
+  Platforms: 0200000001000000
+  CurrentInspectorState: 1
+  ClosedHints:
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 8db9cd29bbd8fe14396f518414f34a3c, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: 56016327f30de554f876d29d543fe357, type: 3}
+  InfoIcon: {fileID: 2800000, guid: 661d38218bfe7e244ba721ecbb8bda89, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 748f214be92d65342986dac1c1a41dbd, type: 3}
+  GameIcon: {fileID: 2800000, guid: 090e03f0ebbbc3446b20344bbebbcad7, type: 3}
+  HomeIcon: {fileID: 2800000, guid: 0f91daac43331624886d587433d6b16b, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: aad375cfedf123e4995a9bd652b82503, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: b94d003ab59cadc40a8bd57b7e20fc74, type: 3}
+  UserIcon: {fileID: 2800000, guid: 03b8fbe98f537874aa6278939e7c24e0, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 0
+  MaxErrorCount: 10
+  SubmitFpsAverage: 0
+  SubmitFpsCritical: 0
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 30
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 0101
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

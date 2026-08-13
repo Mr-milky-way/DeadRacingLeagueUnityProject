@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!72 &7200000
+ComputeShader:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CSTextureUtils
+  variants:
+  - serializedVersion: 2
+    targetRenderer: 2
+    targetLevel: 0
+    kernels:
+    - serializedVersion: 2
+      name: CSCopyTexture
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 00000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures:
+          - name: source
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: 2
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: destination
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: 2
+          code: 445842436f5e2fb1b7e4923ed26750b75b6f6909010000009c010000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e080000000000000008000000534845584801000050000500520000006a08000159000004468e20000000000001000000581800040070100000000000555500009c18000400e0110000000000555500005f0000023200020068000002020000009b000004100000001000000001000000500000073200100000000000460002009685200000000000000000003c00000712001000000000001a001000000000000a001000000000001f0004030a001000000000003e000001150000011e00000712001000000000000a0002000a80200000000000000000003600000432001000010000004600020036000008c20010000100000002400000000000000000000000000000000000002d000089c200008043551500f200100001000000460e100001000000467e10000000000036000004e20010000000000056050200a4000007f2e0110000000000460e100000000000460e1000010000003e000001
+          threadGroupSize: 100000001000000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    - serializedVersion: 2
+      name: CSReduceTexture
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 01000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures:
+          - name: source
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: 0
+            texDimension: 2
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: destination
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: 2
+          code: 445842435248750332a583a6cf3efe626cac593a0100000008040000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e08000000000000000800000053484558b403000050000500ed0000006a08000159000004468e200000000000020000005a0000030060100000000000581800040070100000000000555500009c18000400e0110000000000555500005f0000023200020068000002040000009b0000041000000010000000010000001e00000712001000000000000a0002000a80200000000000000000005000000812001000010000000a001000000000003a80200000000000000000005000000722001000010000001a0002000a80200000000000010000003c00000712001000010000001a001000010000000a001000010000001f0004030a001000010000003e00000115000001560000043200100001000000460002000000000a32001000010000004600100001000000024000000000003f0000003f0000000000000000560000067200100002000000768e200000000000000000000e00000712001000030000000a001000010000000a001000020000005600000612001000010000000a80200000000000010000000e00000722001000030000001a001000010000000a001000010000000e00000a3200100001000000024000000000803f0000803f0000803f0000803f9605100002000000360000054200100001000000014000000000000000000007f200100001000000860610000100000046041000030000004800008dc20000804355150012001000010000004600100001000000467e100000000000006010000000000001400000000000000e00000a320010000200000002400000000080bf000080bf00000000000000009605100002000000360000054200100002000000014000000000000000000007f200100002000000860610000200000046041000030000004800008dc20000804355150022001000010000004600100002000000167e100000000000006010000000000001400000000000004800008dc2000080435515004200100001000000e60a100001000000967c100000000000006010000000000001400000000000004800008dc2000080435515008200100001000000e60a1000020000009673100000000000006010000000000001400000000000003300000712001000010000001a001000010000000a001000010000003300000712001000010000002a001000010000000a001000010000003300000712001000010000003a001000010000000a0010000100000036000004e2001000000000005605020036000008e20010000100000002400000000000000000803f0000803f0000803fa4000007f2e0110000000000460e100000000000460e1000010000003e000001
+          threadGroupSize: 100000001000000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    - serializedVersion: 2
+      name: CSCopyTextureArray
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 02000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures:
+          - name: textureArray
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: 0
+            texDimension: 5
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: destination
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: 2
+          code: 445842437db652c570cc24a3f449a2547bd7d63e01000000e4010000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e080000000000000008000000534845589001000050000500640000006a08000159000004468e200000000000020000005a0000030060100000000000584000040070100000000000555500009c18000400e0110000000000555500005f0000023200020068000002020000009b000004100000001000000001000000500000073200100000000000460002009685200000000000000000003c00000712001000000000001a001000000000000a001000000000001f0004030a001000000000003e000001150000011e00000712001000000000000a0002000a80200000000000000000005600000432001000010000004600020056000006c2001000010000005689200000000000000000000e00000732001000010000004600100001000000e60a1000010000005600000642001000010000002a80200000000000010000004800008d0202008043551500f2001000010000004602100001000000467e1000000000000060100000000000014000000000000036000004e20010000000000056050200a4000007f2e0110000000000460e100000000000460e1000010000003e000001
+          threadGroupSize: 100000001000000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    constantBuffers:
+    - name: $Globals
+      byteSize: 32
+      params:
+      - name: offsetX
+        type: 5
+        offset: 0
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeX
+        type: 5
+        offset: 4
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeY
+        type: 5
+        offset: 8
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    - name: $Globals
+      byteSize: 32
+      params:
+      - name: offsetX
+        type: 5
+        offset: 0
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeX
+        type: 5
+        offset: 4
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeY
+        type: 5
+        offset: 8
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: destinationSizeX
+        type: 5
+        offset: 12
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: destinationSizeY
+        type: 5
+        offset: 16
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    - name: $Globals
+      byteSize: 32
+      params:
+      - name: offsetX
+        type: 5
+        offset: 0
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeX
+        type: 5
+        offset: 4
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: sourceSizeY
+        type: 5
+        offset: 8
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: textureArrayIndex
+        type: 5
+        offset: 24
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    resourcesResolved: 1
+    compilerPlatform: 0
+    platformKeywords:
+      Array:
+    needsReflectionData: 0
+  m_CompilationContext:
+    buildTarget:
+      platform: 0
+      subTarget: 0
+      extendedPlatform: 0
+      isEditor: 0
+    sourceFileName:
+    source:
+    sourceFile:
+    kernels: []
+    kernelMacros: []
+    compilationFlags: 0
+    apiMask: 0
+    supportedAPIs: 0
+    includeHash0: 0
+    includeHash1: 0
+    includeHash2: 0
+    includeHash3: 0
+    includeFiles: []
+  errors: []
+  m_PreprocessorOverride: 0

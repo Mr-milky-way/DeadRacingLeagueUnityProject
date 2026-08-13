@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!72 &7200000
+ComputeShader:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CSInstancedComputeBufferSetDataPartialKernel
+  variants:
+  - serializedVersion: 2
+    targetRenderer: 2
+    targetLevel: 0
+    kernels:
+    - serializedVersion: 2
+      name: CSInstancedComputeBufferSetDataPartialKernel
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 00000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures: []
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: gpuiInstanceData
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiManagedData
+            generatedName:
+            bindPoint: 1
+            samplerBindPoint: -1
+            texDimension: -1
+          code: 445842436f546c207c4e01046e3c9c6439d4ff77010000002c020000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e08000000000000000800000053484558d801000050000500760000006a08000159000004468e200000000000050000009e00000400e0110000000000400000009e00000400e0110001000000400000005f0000021200020068000002050000009b0000040002000001000000010000004f00000712001000000000000a0002001a80200000000000040000001f0004030a001000000000001e00000712001000000000000a0002000a8020000000000004000000a700008a0203028083991900f2001000010000000a000200014000000000000046ee110001000000a700008a0203028083991900f2001000020000000a000200014000001000000046ee110001000000a700008a0203028083991900f2001000030000000a000200014000002000000046ee110001000000a700008a0203028083991900f2001000040000000a000200014000003000000046ee110001000000a8000009f2e01100000000000a001000000000000140000000000000460e100001000000a8000009f2e01100000000000a001000000000000140000010000000460e100002000000a8000009f2e01100000000000a001000000000000140000020000000460e100003000000a8000009f2e01100000000000a001000000000000140000030000000460e100004000000150000013e000001
+          threadGroupSize: 000200000100000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    - serializedVersion: 2
+      name: CSInstancedComputeBufferSetDataSingleKernel
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 01000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures: []
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: gpuiInstanceData
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          code: 44584243af76760d095b53f664a7aa0eb3961de30100000044010000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e08000000000000000800000053484558f0000000500005003c0000006a08000159000004468e200000000000050000009e00000400e0110000000000400000009b000004010000000100000001000000a800000bf2e01100000000000a80200000000000040000000140000000000000468e20000000000000000000a800000bf2e01100000000000a80200000000000040000000140000010000000468e20000000000001000000a800000bf2e01100000000000a80200000000000040000000140000020000000468e20000000000002000000a800000bf2e01100000000000a80200000000000040000000140000030000000468e200000000000030000003e000001
+          threadGroupSize: 010000000100000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    constantBuffers:
+    - name: $Globals
+      byteSize: 80
+      params:
+      - name: computeBufferStartIndex
+        type: 5
+        offset: 64
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: count
+        type: 5
+        offset: 68
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    - name: $Globals
+      byteSize: 80
+      params:
+      - name: dataToSet
+        type: 0
+        offset: 0
+        arraySize: 0
+        rowCount: 4
+        colCount: 4
+      - name: computeBufferStartIndex
+        type: 5
+        offset: 64
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    resourcesResolved: 1
+    compilerPlatform: 0
+    platformKeywords:
+      Array:
+    needsReflectionData: 0
+  m_CompilationContext:
+    buildTarget:
+      platform: 0
+      subTarget: 0
+      extendedPlatform: 0
+      isEditor: 0
+    sourceFileName:
+    source:
+    sourceFile:
+    kernels: []
+    kernelMacros: []
+    compilationFlags: 0
+    apiMask: 0
+    supportedAPIs: 0
+    includeHash0: 0
+    includeHash1: 0
+    includeHash2: 0
+    includeHash3: 0
+    includeFiles: []
+  errors: []
+  m_PreprocessorOverride: 0

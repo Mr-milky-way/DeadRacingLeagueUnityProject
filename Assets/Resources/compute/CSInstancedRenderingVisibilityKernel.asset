@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!72 &7200000
+ComputeShader:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CSInstancedRenderingVisibilityKernel
+  variants:
+  - serializedVersion: 2
+    targetRenderer: 2
+    targetLevel: 0
+    kernels:
+    - serializedVersion: 2
+      name: CSInstancedRenderingVisibilityKernelLOD0
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 00000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures: []
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: gpuiInstanceLODData
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD0
+            generatedName:
+            bindPoint: 1
+            samplerBindPoint: -1
+            texDimension: -1
+          code: 4458424335d1aa4aa0316cbcad65ea842e82fee00100000090010000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e080000000000000008000000534845583c010000500005004f0000006a08000159000004468e200000000000010000009e00000400e0110000000000100000009e00000400e0110001000000040000005f0000021200020068000002010000009b0000040002000001000000010000005000000712001000000000000a0002000a80200000000000000000001f0004030a001000000000003e000001150000012900000812001000000000002a80200000000000000000000140000002000000a700008a028300808399190012001000000000000a0002000a0010000000000006e01100000000002000000812001000000000000a001000000000001a80200000000000000000001f0004030a00100000000000b2000005120010000000000000e0110001000000a800000812e01100010000000a0010000000000001400000000000000a000200150000013e000001
+          threadGroupSize: 000200000100000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    - serializedVersion: 2
+      name: CSInstancedRenderingVisibilityKernelLOD1
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 00000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures: []
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: gpuiInstanceLODData
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD0
+            generatedName:
+            bindPoint: 1
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD1
+            generatedName:
+            bindPoint: 2
+            samplerBindPoint: -1
+            texDimension: -1
+          code: 4458424318855df0788a228b280a84d51dd8eeab0100000024020000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e08000000000000000800000053484558d001000050000500740000006a08000159000004468e200000000000010000009e00000400e0110000000000100000009e00000400e0110001000000040000009e00000400e0110002000000040000005f0000021200020068000002020000009b0000040002000001000000010000005000000712001000000000000a0002000a80200000000000000000001f0004030a001000000000003e000001150000012900000812001000000000002a80200000000000000000000140000002000000a700008a028300808399190012001000000000000a0002000a0010000000000006e01100000000002000000822001000000000000a001000000000001a80200000000000000000001f0004031a00100000000000b2000005120010000100000000e0110001000000a800000812e01100010000000a0010000100000001400000000000000a000200120000011e00000822001000000000001a802000000000000000000001400000010000002000000712001000000000001a001000000000000a001000000000001f0004030a00100000000000b2000005120010000000000000e0110002000000a800000812e01100020000000a0010000000000001400000000000000a00020015000001150000013e000001
+          threadGroupSize: 000200000100000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    - serializedVersion: 2
+      name: CSInstancedRenderingVisibilityKernelLOD2
+      variantMap:
+        :
+          serializedVersion: 2
+          cbVariantIndices: 00000000
+          cbs:
+          - name: $Globals
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          textures: []
+          builtinSamplers: []
+          inBuffers: []
+          outBuffers:
+          - name: gpuiInstanceLODData
+            generatedName:
+            bindPoint: 0
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD0
+            generatedName:
+            bindPoint: 1
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD1
+            generatedName:
+            bindPoint: 2
+            samplerBindPoint: -1
+            texDimension: -1
+          - name: gpuiTransformationMatrix_LOD2
+            generatedName:
+            bindPoint: 3
+            samplerBindPoint: -1
+            texDimension: -1
+          code: 445842439f861562c8e3376f250b0e83550a562001000000b8020000030000002c0000003c0000004c0000004953474e0800000000000000080000004f53474e080000000000000008000000534845586402000050000500990000006a08000159000004468e200000000000010000009e00000400e0110000000000100000009e00000400e0110001000000040000009e00000400e0110002000000040000009e00000400e0110003000000040000005f0000021200020068000002020000009b0000040002000001000000010000005000000712001000000000000a0002000a80200000000000000000001f0004030a001000000000003e000001150000012900000812001000000000002a80200000000000000000000140000002000000a700008a028300808399190012001000000000000a0002000a0010000000000006e01100000000002000000822001000000000000a001000000000001a80200000000000000000001f0004031a00100000000000b2000005120010000100000000e0110001000000a800000812e01100010000000a0010000100000001400000000000000a000200120000011e00000822001000000000001a802000000000000000000001400000010000002000000722001000000000001a001000000000000a001000000000001f0004031a00100000000000b2000005120010000100000000e0110002000000a800000812e01100020000000a0010000100000001400000000000000a000200120000011e00000822001000000000001a802000000000000000000001400000020000002000000712001000000000001a001000000000000a001000000000001f0004030a00100000000000b2000005120010000000000000e0110003000000a800000812e01100030000000a0010000000000001400000000000000a0002001500000115000001150000013e000001
+          threadGroupSize: 000200000100000001000000
+          keywords: []
+          isCompiled: 0
+      globalKeywords: []
+      localKeywords: []
+    constantBuffers:
+    - name: $Globals
+      byteSize: 16
+      params:
+      - name: bufferSize
+        type: 5
+        offset: 0
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: lodShift
+        type: 5
+        offset: 4
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+      - name: lodAppendIndex
+        type: 5
+        offset: 8
+        arraySize: 0
+        rowCount: 1
+        colCount: 1
+    resourcesResolved: 1
+    compilerPlatform: 0
+    platformKeywords:
+      Array:
+    needsReflectionData: 0
+  m_CompilationContext:
+    buildTarget:
+      platform: 0
+      subTarget: 0
+      extendedPlatform: 0
+      isEditor: 0
+    sourceFileName:
+    source:
+    sourceFile:
+    kernels: []
+    kernelMacros: []
+    compilationFlags: 0
+    apiMask: 0
+    supportedAPIs: 0
+    includeHash0: 0
+    includeHash1: 0
+    includeHash2: 0
+    includeHash3: 0
+    includeFiles: []
+  errors: []
+  m_PreprocessorOverride: 0
