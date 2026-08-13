@@ -1,0 +1,81 @@
+Shader "DRL/Levels/Bridge/Terrain" {
+	Properties {
+		[Space(0)] _MainIntensity ("Albedo Intensity", Range(0, 1)) = 0.5
+		_MainMetallicIntensity ("Metallic Intensity", Range(0, 1)) = 1
+		_MainSmoothnessIntensity ("Smoothness Intensity", Range(0, 1)) = 1
+		_MainNormalIntensity ("Normal Intensity", Range(0, 1)) = 1
+		_MaskPower ("Mask Power", Range(1, 5)) = 1
+		_MaskAdd ("Mask Add", Range(0, 100)) = 1
+		[NoScaleOffset] _MainTex ("Albedo (RGB)", 2D) = "white" {}
+		[NoScaleOffset] _MetallicTex ("Metallic (RGB)", 2D) = "white" {}
+		[NoScaleOffset] [Normal] _NormalTex ("Normal", 2D) = "bump" {}
+		_GroundMaskTex ("Ground Mask (Single Channel)", 2D) = "white" {}
+		[Space(20)] [Header(Layer 1 Properties)] _ColorL0 ("Color", Vector) = (1,1,1,1)
+		_MetallicL0 ("Metallic", Range(0, 1)) = 1
+		_SmoothnessL0 ("Smoothness", Range(0, 1)) = 1
+		_NormalIntensityL0 ("Normal Intensity", Range(0, 1)) = 1
+		_AlbedoTexL0 ("Albedo (RGB)", 2D) = "white" {}
+		[NoScaleOffset] _MetallicTexL0 ("Metallic (R) Smoothness (A)", 2D) = "black" {}
+		[NoScaleOffset] [Normal] _NormalTexL0 ("Normal", 2D) = "bump" {}
+		[Space(20)] [Header(Layer 2 Properties)] _ColorL1 ("Color", Vector) = (1,1,1,1)
+		_MetallicL1 ("Metallic", Range(0, 1)) = 1
+		_SmoothnessL1 ("Smoothness", Range(0, 1)) = 1
+		_NormalIntensityL1 ("Normal Intensity", Range(0, 1)) = 1
+		_AlbedoTexL1 ("Albedo (RGB)", 2D) = "white" {}
+		[NoScaleOffset] _MetallicTexL1 ("Metallic (R) Smoothness (A)", 2D) = "black" {}
+		[NoScaleOffset] [Normal] _NormalTexL1 ("Normal", 2D) = "bump" {}
+		[NoScaleOffset] _DepthTexL1 ("Depth", 2D) = "black" {}
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+
+		Pass
+		{
+			HLSLPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+
+			float4x4 unity_ObjectToWorld;
+			float4x4 unity_MatrixVP;
+			float4 _MainTex_ST;
+
+			struct Vertex_Stage_Input
+			{
+				float4 pos : POSITION;
+				float2 uv : TEXCOORD0;
+			};
+
+			struct Vertex_Stage_Output
+			{
+				float2 uv : TEXCOORD0;
+				float4 pos : SV_POSITION;
+			};
+
+			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			{
+				Vertex_Stage_Output output;
+				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
+				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
+				return output;
+			}
+
+			Texture2D<float4> _MainTex;
+			SamplerState sampler_MainTex;
+
+			struct Fragment_Stage_Input
+			{
+				float2 uv : TEXCOORD0;
+			};
+
+			float4 frag(Fragment_Stage_Input input) : SV_TARGET
+			{
+				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
+			}
+
+			ENDHLSL
+		}
+	}
+	Fallback "Standard"
+}
