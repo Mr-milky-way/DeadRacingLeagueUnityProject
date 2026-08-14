@@ -1,0 +1,40 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace Epic.OnlineServices.Sessions
+{
+	[StructLayout(LayoutKind.Sequential, Pack = 8)]
+	internal struct SessionModificationSetBucketIdOptionsInternal : ISettable, IDisposable
+	{
+		private int m_ApiVersion;
+
+		private IntPtr m_BucketId;
+
+		public string BucketId
+		{
+			set
+			{
+				Helper.TryMarshalSet(ref m_BucketId, value);
+			}
+		}
+
+		public void Set(SessionModificationSetBucketIdOptions other)
+		{
+			if (other != null)
+			{
+				m_ApiVersion = 1;
+				BucketId = other.BucketId;
+			}
+		}
+
+		public void Set(object other)
+		{
+			Set(other as SessionModificationSetBucketIdOptions);
+		}
+
+		public void Dispose()
+		{
+			Helper.TryMarshalDispose(ref m_BucketId);
+		}
+	}
+}

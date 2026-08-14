@@ -1,0 +1,120 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class AkTriggerHandler : MonoBehaviour
+{
+	public const int AWAKE_TRIGGER_ID = 1151176110;
+
+	public const int START_TRIGGER_ID = 1281810935;
+
+	public const int DESTROY_TRIGGER_ID = -358577003;
+
+	public const int ON_ENABLE_TRIGGER_ID = -320808462;
+
+	public const int MAX_NB_TRIGGERS = 32;
+
+	public static Dictionary<uint, string> triggerTypes = AkTriggerBase.GetAllDerivedTypes();
+
+	private bool didDestroy;
+
+	public List<int> triggerList = new List<int> { 1281810935 };
+
+	public bool useOtherObject;
+
+	public abstract void HandleEvent(GameObject in_gameObject);
+
+	protected virtual void Awake()
+	{
+		RegisterTriggers(triggerList, HandleEvent);
+	}
+
+	protected virtual void Start()
+	{
+		if (triggerList.Contains(1281810935))
+		{
+			HandleEvent(null);
+		}
+	}
+
+	protected virtual void OnDestroy()
+	{
+		if (!didDestroy)
+		{
+			DoDestroy();
+		}
+	}
+
+	public void DoDestroy()
+	{
+		UnregisterTriggers(triggerList, HandleEvent);
+		didDestroy = true;
+	}
+
+	protected void RegisterTriggers(List<int> in_triggerList, AkTriggerBase.Trigger in_delegate)
+	{
+		foreach (int in_trigger in in_triggerList)
+		{
+			switch (in_trigger)
+			{
+			case -358577003:
+			case -320808462:
+			case 1151176110:
+			case 1281810935:
+				continue;
+			}
+			string value = string.Empty;
+			if (triggerTypes.TryGetValue((uint)in_trigger, out value))
+			{
+				AkTriggerBase akTriggerBase = (AkTriggerBase)GetComponent(Type.GetType(value));
+				if (akTriggerBase == null)
+				{
+					akTriggerBase = (AkTriggerBase)base.gameObject.AddComponent(Type.GetType(value));
+				}
+				AkTriggerBase akTriggerBase2 = akTriggerBase;
+				akTriggerBase2.triggerDelegate = (AkTriggerBase.Trigger)Delegate.Combine(akTriggerBase2.triggerDelegate, in_delegate);
+			}
+		}
+		if (in_triggerList.Contains(1151176110))
+		{
+			in_delegate(null);
+		}
+		if (in_triggerList.Contains(-320808462))
+		{
+			in_delegate(null);
+		}
+	}
+
+	protected void UnregisterTriggers(List<int> in_triggerList, AkTriggerBase.Trigger in_delegate)
+	{
+		foreach (int in_trigger in in_triggerList)
+		{
+			switch (in_trigger)
+			{
+			case -358577003:
+			case -320808462:
+			case 1151176110:
+			case 1281810935:
+				continue;
+			}
+			string value = string.Empty;
+			if (!triggerTypes.TryGetValue((uint)in_trigger, out value))
+			{
+				continue;
+			}
+			AkTriggerBase akTriggerBase = (AkTriggerBase)GetComponent(Type.GetType(value));
+			if (akTriggerBase != null)
+			{
+				akTriggerBase.triggerDelegate = (AkTriggerBase.Trigger)Delegate.Remove(akTriggerBase.triggerDelegate, in_delegate);
+				if (akTriggerBase.triggerDelegate == null)
+				{
+					UnityEngine.Object.Destroy(akTriggerBase);
+				}
+			}
+		}
+		if (in_triggerList.Contains(-358577003))
+		{
+			in_delegate(null);
+		}
+	}
+}

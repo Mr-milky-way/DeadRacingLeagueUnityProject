@@ -1,0 +1,232 @@
+using System;
+
+public class AkInitSettings : IDisposable
+{
+	private IntPtr swigCPtr;
+
+	protected bool swigCMemOwn;
+
+	public uint uMaxNumPaths
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMaxNumPaths_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMaxNumPaths_set(swigCPtr, value);
+		}
+	}
+
+	public uint uCommandQueueSize
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uCommandQueueSize_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uCommandQueueSize_set(swigCPtr, value);
+		}
+	}
+
+	public bool bEnableGameSyncPreparation
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_bEnableGameSyncPreparation_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_bEnableGameSyncPreparation_set(swigCPtr, value);
+		}
+	}
+
+	public uint uContinuousPlaybackLookAhead
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uContinuousPlaybackLookAhead_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uContinuousPlaybackLookAhead_set(swigCPtr, value);
+		}
+	}
+
+	public uint uNumSamplesPerFrame
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uNumSamplesPerFrame_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uNumSamplesPerFrame_set(swigCPtr, value);
+		}
+	}
+
+	public uint uMonitorQueuePoolSize
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMonitorQueuePoolSize_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMonitorQueuePoolSize_set(swigCPtr, value);
+		}
+	}
+
+	public AkOutputSettings settingsMainOutput
+	{
+		get
+		{
+			IntPtr intPtr = AkSoundEnginePINVOKE.CSharp_AkInitSettings_settingsMainOutput_get(swigCPtr);
+			if (!(intPtr == IntPtr.Zero))
+			{
+				return new AkOutputSettings(intPtr, cMemoryOwn: false);
+			}
+			return null;
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_settingsMainOutput_set(swigCPtr, AkOutputSettings.getCPtr(value));
+		}
+	}
+
+	public uint uMaxHardwareTimeoutMs
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMaxHardwareTimeoutMs_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uMaxHardwareTimeoutMs_set(swigCPtr, value);
+		}
+	}
+
+	public bool bUseSoundBankMgrThread
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_bUseSoundBankMgrThread_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_bUseSoundBankMgrThread_set(swigCPtr, value);
+		}
+	}
+
+	public bool bUseLEngineThread
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_bUseLEngineThread_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_bUseLEngineThread_set(swigCPtr, value);
+		}
+	}
+
+	public string szPluginDLLPath
+	{
+		get
+		{
+			return AkSoundEngine.StringFromIntPtrOSString(AkSoundEnginePINVOKE.CSharp_AkInitSettings_szPluginDLLPath_get(swigCPtr));
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_szPluginDLLPath_set(swigCPtr, value);
+		}
+	}
+
+	public AkFloorPlane eFloorPlane
+	{
+		get
+		{
+			return (AkFloorPlane)AkSoundEnginePINVOKE.CSharp_AkInitSettings_eFloorPlane_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_eFloorPlane_set(swigCPtr, (int)value);
+		}
+	}
+
+	public uint uBankReadBufferSize
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_uBankReadBufferSize_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_uBankReadBufferSize_set(swigCPtr, value);
+		}
+	}
+
+	public float fDebugOutOfRangeLimit
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_fDebugOutOfRangeLimit_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_fDebugOutOfRangeLimit_set(swigCPtr, value);
+		}
+	}
+
+	public bool bDebugOutOfRangeCheckEnabled
+	{
+		get
+		{
+			return AkSoundEnginePINVOKE.CSharp_AkInitSettings_bDebugOutOfRangeCheckEnabled_get(swigCPtr);
+		}
+		set
+		{
+			AkSoundEnginePINVOKE.CSharp_AkInitSettings_bDebugOutOfRangeCheckEnabled_set(swigCPtr, value);
+		}
+	}
+
+	internal AkInitSettings(IntPtr cPtr, bool cMemoryOwn)
+	{
+		swigCMemOwn = cMemoryOwn;
+		swigCPtr = cPtr;
+	}
+
+	internal static IntPtr getCPtr(AkInitSettings obj)
+	{
+		return obj?.swigCPtr ?? IntPtr.Zero;
+	}
+
+	internal virtual void setCPtr(IntPtr cPtr)
+	{
+		Dispose();
+		swigCPtr = cPtr;
+	}
+
+	~AkInitSettings()
+	{
+		Dispose();
+	}
+
+	public virtual void Dispose()
+	{
+		lock (this)
+		{
+			if (swigCPtr != IntPtr.Zero)
+			{
+				if (swigCMemOwn)
+				{
+					swigCMemOwn = false;
+					AkSoundEnginePINVOKE.CSharp_delete_AkInitSettings(swigCPtr);
+				}
+				swigCPtr = IntPtr.Zero;
+			}
+			GC.SuppressFinalize(this);
+		}
+	}
+}

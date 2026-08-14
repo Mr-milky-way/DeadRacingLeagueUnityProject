@@ -1,0 +1,34 @@
+namespace Epic.OnlineServices.TitleStorage
+{
+	public class ReadFileCallbackInfo : ICallbackInfo, ISettable
+	{
+		public Result ResultCode { get; private set; }
+
+		public object ClientData { get; private set; }
+
+		public ProductUserId LocalUserId { get; private set; }
+
+		public string Filename { get; private set; }
+
+		public Result? GetResultCode()
+		{
+			return ResultCode;
+		}
+
+		internal void Set(ReadFileCallbackInfoInternal? other)
+		{
+			if (other.HasValue)
+			{
+				ResultCode = other.Value.ResultCode;
+				ClientData = other.Value.ClientData;
+				LocalUserId = other.Value.LocalUserId;
+				Filename = other.Value.Filename;
+			}
+		}
+
+		public void Set(object other)
+		{
+			Set(other as ReadFileCallbackInfoInternal?);
+		}
+	}
+}
