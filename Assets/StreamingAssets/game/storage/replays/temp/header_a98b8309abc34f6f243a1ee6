@@ -1,0 +1,512 @@
+{
+  "drone-rig": {
+    "drone-guid": "DRD-fc5bf84d13e5bac67957921c",
+    "drone-color-0": 4278218222,
+    "drone-color-1": 4278190080,
+    "drone-color-2": 4278218222,
+    "drone-name": "DRL Racer4",
+    "drone-diameter": 7,
+    "drone-thumb-0": "",
+    "drone-thumb-1": "https://drl-game-api.s3.amazonaws.com/storage/76561198023987100/1570546991565.png",
+    "drone-thumb-2": "https://drl-game-api.s3.amazonaws.com/storage/60f1e2a11903f7802cce5421/1626792262377.png",
+    "drone-frame": "F-631",
+    "drone-esc": "E-000",
+    "drone-motor": "M-21a",
+    "drone-prop": "P-78d",
+    "drone-camera": "C-6ba",
+    "drone-fc": "FC-04d",
+    "drone-battery": "B-f83",
+    "drone-antenna": "TX-444",
+    "drone-receiver": "RC-c21",
+    "drone-attachment-0": "AT-9db",
+    "drone-attachment-1": "",
+    "drone-trail": "TR-a83",
+    "drone-skin-frame": "SK-000",
+    "drone-physics": "PH-000",
+    "cummunity-tune": null,
+    "drone-profile": "{\"pitchPID\":{\"p\":40.0,\"i\":45.0,\"d\":30.0},\"rollPID\":{\"p\":40.0,\"i\":45.0,\"d\":30.0},\"yawPID\":{\"p\":60.0,\"i\":45.0,\"d\":0.0},\"levelPID\":{\"p\":50.0,\"i\":50.0,\"d\":50.0},\"pidCorrectionP\":[1.0],\"pidCorrectionR\":[1.0],\"pidCorrectionY\":[1.01],\"minSignal\":0.01,\"overheat\":0.0,\"pitchFF\":60.0,\"rollFF\":60.0,\"yawFF\":100.0,\"betaflightVersion\":40,\"airmode\":true,\"antigravity\":true,\"dynamicFilter\":false,\"feedForwardTransition\":0,\"iTermRotation\":false,\"smartFeedForward\":false,\"iTermRelax\":0,\"iTermRelaxValue\":11,\"iTermRelaxType\":1,\"antigravityMode\":0,\"antigravityGain\":500}",
+    "drone-locked": false,
+    "drone-top-speed": 119.0,
+    "drone-public": false,
+    "allow-dynamic-color": true
+  },
+  "physics-tune": {
+    "threaded": true,
+    "threadTargetFrequency": 2000,
+    "gravity": 9.81,
+    "airDensity": 1.225,
+    "efficiency": 0.0,
+    "efficiencyMax": 0.0,
+    "efficiencyZero": 0.0,
+    "legacyDrag": false,
+    "ClMin": -1.0,
+    "ClMax": -1.0,
+    "CdMin": -1.0,
+    "CdMax": -1.0,
+    "surfaceArea": 0.03159375,
+    "dragScale": 1.0,
+    "liftScale": 1.0,
+    "sideScale": 1.25,
+    "gravityFactor": 0.0,
+    "groundEffectStrength": 0.3,
+    "groundeffectDistance": 0.3,
+    "thrust": 0.0,
+    "torque": 0.0,
+    "mass": 0.0,
+    "torqueBoost": false,
+    "torqueBoostWeight": 1.0,
+    "torqueBoostBalance": 0.2,
+    "overrideSpinup": false,
+    "spinupTime": 0.1,
+    "spindownTime": 0.01,
+    "advancedPropLimits": true,
+    "maxTipSpeed": 0.85,
+    "propDragFactor": 0.0,
+    "batterySag": true,
+    "batteryDrain": false,
+    "batteryCapacity": 1500.0,
+    "batteryResistance": 18.0,
+    "arcadePhysics": false,
+    "linearTorque": true,
+    "linearThrust": false,
+    "realisticTorque": true,
+    "correctRates": true,
+    "overrideAirmode": 0.1,
+    "aerodynamics": 2,
+    "gatechUseCrossflow": true,
+    "gatechUseShedding": true,
+    "gatechUseUnsteady": true,
+    "inertia": 1.0,
+    "arcing": 0.6,
+    "useCOG": true,
+    "locked": false,
+    "aerodynamicsData": "",
+    "overrideMaxSpeed": false,
+    "maxSpeedOverride": 45.0
+  },
+  "fc-profile": {
+    "fcp-guid": "39d920e8568a",
+    "fcp-rc-rate-pitch-rollp": 0.65,
+    "fcp-rc-rate-pitch-rollr": 0.65,
+    "fcp-rc-rate-yaw": 0.65,
+    "fcp-super-rate-pitch-rollp": 0.68,
+    "fcp-super-rate-pitch-rollr": 0.68,
+    "fcp-super-rate-yaw": 0.68,
+    "fcp-expo-pitch-rollp": 0.0,
+    "fcp-expo-pitch-rollr": 0.0,
+    "fcp-expo-yaw": 0.0,
+    "fcp-expo-throttle": 0.0,
+    "fcp-super-rate-throttle": 0.5,
+    "fcp-pid-yaw-p": 55.0,
+    "fcp-pid-yaw-i": 0.0,
+    "fcp-pid-yaw-d": 0.0,
+    "fcp-pid-pitch-p": 40.0,
+    "fcp-pid-pitch-i": 0.0,
+    "fcp-pid-pitch-d": 50.0,
+    "fcp-pid-roll-p": 40.0,
+    "fcp-pid-roll-i": 0.0,
+    "fcp-pid-roll-d": 50.0,
+    "fcp-rc-rate-throttle": 2.5142,
+    "fcp-drone-tilt": 32.0,
+    "fcp-drone-fov": 100.683121
+  },
+  "custom-physics": false,
+  "events": [
+    {
+      "event-time": 5.673847,
+      "event-sample": 243,
+      "event-type": 1,
+      "event-position": [
+        -241.03331,
+        3.52250814,
+        46.96876
+      ],
+      "event-data": [
+        0
+      ]
+    },
+    {
+      "event-time": 9.703924,
+      "event-sample": 413,
+      "event-type": 1,
+      "event-position": [
+        -197.9298,
+        2.18794227,
+        -8.435493
+      ],
+      "event-data": [
+        1
+      ]
+    },
+    {
+      "event-time": 15.3687239,
+      "event-sample": 656,
+      "event-type": 1,
+      "event-position": [
+        -187.358719,
+        7.336183,
+        -104.166817
+      ],
+      "event-data": [
+        2
+      ]
+    },
+    {
+      "event-time": 21.05462,
+      "event-sample": 914,
+      "event-type": 1,
+      "event-position": [
+        -204.058517,
+        2.92274666,
+        -206.570923
+      ],
+      "event-data": [
+        3
+      ]
+    },
+    {
+      "event-time": 25.8857536,
+      "event-sample": 1135,
+      "event-type": 1,
+      "event-position": [
+        -235.889984,
+        2.57649422,
+        -283.834778
+      ],
+      "event-data": [
+        4
+      ]
+    },
+    {
+      "event-time": 29.1345768,
+      "event-sample": 1282,
+      "event-type": 1,
+      "event-position": [
+        -275.028564,
+        3.61349058,
+        -320.925385
+      ],
+      "event-data": [
+        5
+      ]
+    },
+    {
+      "event-time": 33.211956,
+      "event-sample": 1464,
+      "event-type": 1,
+      "event-position": [
+        -341.202454,
+        3.65736127,
+        -332.643066
+      ],
+      "event-data": [
+        6
+      ]
+    },
+    {
+      "event-time": 37.2487144,
+      "event-sample": 1641,
+      "event-type": 1,
+      "event-position": [
+        -406.064728,
+        3.49096632,
+        -317.177338
+      ],
+      "event-data": [
+        7
+      ]
+    },
+    {
+      "event-time": 41.66499,
+      "event-sample": 1831,
+      "event-type": 1,
+      "event-position": [
+        -450.2175,
+        2.50902,
+        -262.512543
+      ],
+      "event-data": [
+        8
+      ]
+    },
+    {
+      "event-time": 45.02471,
+      "event-sample": 1981,
+      "event-type": 1,
+      "event-position": [
+        -455.174042,
+        17.23092,
+        -219.306046
+      ],
+      "event-data": [
+        9
+      ]
+    },
+    {
+      "event-time": 55.538044,
+      "event-sample": 2466,
+      "event-type": 1,
+      "event-position": [
+        -441.233643,
+        56.13234,
+        -72.609
+      ],
+      "event-data": [
+        10
+      ]
+    },
+    {
+      "event-time": 63.60613,
+      "event-sample": 2831,
+      "event-type": 1,
+      "event-position": [
+        -427.1151,
+        18.700079,
+        66.40206
+      ],
+      "event-data": [
+        11
+      ]
+    },
+    {
+      "event-time": 70.73809,
+      "event-sample": 3165,
+      "event-type": 1,
+      "event-position": [
+        -532.101746,
+        3.64195275,
+        129.980759
+      ],
+      "event-data": [
+        12
+      ]
+    },
+    {
+      "event-time": 74.74293,
+      "event-sample": 3348,
+      "event-type": 1,
+      "event-position": [
+        -591.2673,
+        4.05637455,
+        156.200043
+      ],
+      "event-data": [
+        13
+      ]
+    },
+    {
+      "event-time": 77.66541,
+      "event-sample": 3483,
+      "event-type": 1,
+      "event-position": [
+        -616.531433,
+        3.27204084,
+        189.1539
+      ],
+      "event-data": [
+        14
+      ]
+    },
+    {
+      "event-time": 81.88957,
+      "event-sample": 3679,
+      "event-type": 1,
+      "event-position": [
+        -580.0159,
+        4.305749,
+        237.2108
+      ],
+      "event-data": [
+        15
+      ]
+    },
+    {
+      "event-time": 86.88245,
+      "event-sample": 3902,
+      "event-type": 1,
+      "event-position": [
+        -502.231476,
+        3.79356885,
+        236.740463
+      ],
+      "event-data": [
+        16
+      ]
+    },
+    {
+      "event-time": 98.06037,
+      "event-sample": 4412,
+      "event-type": 1,
+      "event-position": [
+        -344.9186,
+        35.4035759,
+        264.438477
+      ],
+      "event-data": [
+        17
+      ]
+    },
+    {
+      "event-time": 99.1094742,
+      "event-sample": 4459,
+      "event-type": 1,
+      "event-position": [
+        -344.2943,
+        35.0725021,
+        278.371735
+      ],
+      "event-data": [
+        18
+      ]
+    },
+    {
+      "event-time": 105.012825,
+      "event-sample": 4728,
+      "event-type": 1,
+      "event-position": [
+        -296.1638,
+        55.37831,
+        270.1185
+      ],
+      "event-data": [
+        19
+      ]
+    },
+    {
+      "event-time": 109.947372,
+      "event-sample": 4947,
+      "event-type": 1,
+      "event-position": [
+        -241.578156,
+        43.13676,
+        264.153076
+      ],
+      "event-data": [
+        20
+      ]
+    },
+    {
+      "event-time": 111.06385,
+      "event-sample": 4998,
+      "event-type": 1,
+      "event-position": [
+        -241.6751,
+        42.7313042,
+        278.9486
+      ],
+      "event-data": [
+        21
+      ]
+    },
+    {
+      "event-time": 116.136406,
+      "event-sample": 5235,
+      "event-type": 1,
+      "event-position": [
+        -167.977463,
+        45.7839851,
+        284.172882
+      ],
+      "event-data": [
+        22
+      ]
+    },
+    {
+      "event-time": 126.661995,
+      "event-sample": 5690,
+      "event-type": 1,
+      "event-position": [
+        -56.7825356,
+        129.8001,
+        271.3322
+      ],
+      "event-data": [
+        23
+      ]
+    },
+    {
+      "event-time": 132.597778,
+      "event-sample": 5947,
+      "event-type": 1,
+      "event-position": [
+        -56.1684,
+        28.86,
+        245.622314
+      ],
+      "event-data": [
+        24
+      ]
+    },
+    {
+      "event-time": 135.679886,
+      "event-sample": 6078,
+      "event-type": 1,
+      "event-position": [
+        -98.1258545,
+        5.124368,
+        208.213058
+      ],
+      "event-data": [
+        25
+      ]
+    },
+    {
+      "event-time": 139.324509,
+      "event-sample": 6246,
+      "event-type": 1,
+      "event-position": [
+        -170.1837,
+        8.446193,
+        187.907028
+      ],
+      "event-data": [
+        26
+      ]
+    },
+    {
+      "event-time": 144.302216,
+      "event-sample": 6454,
+      "event-type": 1,
+      "event-position": [
+        -200.962738,
+        2.31146336,
+        94.7625961
+      ],
+      "event-data": [
+        27
+      ]
+    },
+    {
+      "event-time": 150.509689,
+      "event-sample": 6737,
+      "event-type": 1,
+      "event-position": [
+        -282.1416,
+        4.13706,
+        3.31064057
+      ],
+      "event-data": [
+        28
+      ]
+    }
+  ],
+  "title": "Clip",
+  "multiplayer": false,
+  "player": true,
+  "map": "MP-95a",
+  "track": "MT-46e",
+  "is-custom-map": false,
+  "custom-map": "",
+  "steam-id": "76561198046438903",
+  "player-id": "5b9184c660a9ba18c52840a3",
+  "profile-name": "KaNoodle",
+  "profile-color": "006dee",
+  "profile-photo": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ed/ede7bc0058854b173900562efea352c60084e24b_full.jpg",
+  "race-time": 150.5147,
+  "game-type": 14,
+  "controller-type": 2,
+  "camera-tilt": 32.0,
+  "camera-fov": 100.683121,
+  "podium-id": "PD-a6d",
+  "order": 0
+}

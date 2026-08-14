@@ -1,0 +1,720 @@
+{
+  "drone-rig": {
+    "drone-guid": "DRD-fc5bf84d13e5bac67957921c",
+    "drone-color-0": 4278218222,
+    "drone-color-1": 4278190080,
+    "drone-color-2": 4278218222,
+    "drone-name": "DRL Racer4",
+    "drone-diameter": 7,
+    "drone-thumb-0": "",
+    "drone-thumb-1": "https://drl-game-api.s3.amazonaws.com/storage/76561198023987100/1570546991565.png",
+    "drone-thumb-2": "https://drl-game-api.s3.amazonaws.com/storage/60f1e2a11903f7802cce5421/1626792262377.png",
+    "drone-frame": "F-631",
+    "drone-esc": "E-000",
+    "drone-motor": "M-21a",
+    "drone-prop": "P-78d",
+    "drone-camera": "C-6ba",
+    "drone-fc": "FC-04d",
+    "drone-battery": "B-f83",
+    "drone-antenna": "TX-444",
+    "drone-receiver": "RC-c21",
+    "drone-attachment-0": "AT-9db",
+    "drone-attachment-1": "",
+    "drone-trail": "TR-a83",
+    "drone-skin-frame": "SK-000",
+    "drone-physics": "PH-000",
+    "cummunity-tune": null,
+    "drone-profile": "{\"pitchPID\":{\"p\":40.0,\"i\":45.0,\"d\":30.0},\"rollPID\":{\"p\":40.0,\"i\":45.0,\"d\":30.0},\"yawPID\":{\"p\":60.0,\"i\":45.0,\"d\":0.0},\"levelPID\":{\"p\":50.0,\"i\":50.0,\"d\":50.0},\"pidCorrectionP\":[1.0],\"pidCorrectionR\":[1.0],\"pidCorrectionY\":[1.01],\"minSignal\":0.01,\"overheat\":0.0,\"pitchFF\":60.0,\"rollFF\":60.0,\"yawFF\":100.0,\"betaflightVersion\":40,\"airmode\":true,\"antigravity\":true,\"dynamicFilter\":false,\"feedForwardTransition\":0,\"iTermRotation\":false,\"smartFeedForward\":false,\"iTermRelax\":0,\"iTermRelaxValue\":11,\"iTermRelaxType\":1,\"antigravityMode\":0,\"antigravityGain\":500}",
+    "drone-locked": false,
+    "drone-top-speed": 119.0,
+    "drone-public": false,
+    "allow-dynamic-color": true
+  },
+  "physics-tune": {
+    "threaded": true,
+    "threadTargetFrequency": 2000,
+    "gravity": 9.81,
+    "airDensity": 1.225,
+    "efficiency": 0.0,
+    "efficiencyMax": 0.0,
+    "efficiencyZero": 0.0,
+    "legacyDrag": false,
+    "ClMin": -1.0,
+    "ClMax": -1.0,
+    "CdMin": -1.0,
+    "CdMax": -1.0,
+    "surfaceArea": 0.03159375,
+    "dragScale": 1.0,
+    "liftScale": 1.0,
+    "sideScale": 1.25,
+    "gravityFactor": 0.0,
+    "groundEffectStrength": 0.3,
+    "groundeffectDistance": 0.3,
+    "thrust": 0.0,
+    "torque": 0.0,
+    "mass": 0.0,
+    "torqueBoost": false,
+    "torqueBoostWeight": 1.0,
+    "torqueBoostBalance": 0.2,
+    "overrideSpinup": false,
+    "spinupTime": 0.1,
+    "spindownTime": 0.01,
+    "advancedPropLimits": true,
+    "maxTipSpeed": 0.85,
+    "propDragFactor": 0.0,
+    "batterySag": true,
+    "batteryDrain": false,
+    "batteryCapacity": 1500.0,
+    "batteryResistance": 18.0,
+    "arcadePhysics": false,
+    "linearTorque": true,
+    "linearThrust": false,
+    "realisticTorque": true,
+    "correctRates": true,
+    "overrideAirmode": 0.1,
+    "aerodynamics": 2,
+    "gatechUseCrossflow": true,
+    "gatechUseShedding": true,
+    "gatechUseUnsteady": true,
+    "inertia": 1.0,
+    "arcing": 0.6,
+    "useCOG": true,
+    "locked": false,
+    "aerodynamicsData": "",
+    "overrideMaxSpeed": false,
+    "maxSpeedOverride": 45.0
+  },
+  "fc-profile": {
+    "fcp-guid": "39d920e8568a",
+    "fcp-rc-rate-pitch-rollp": 0.65,
+    "fcp-rc-rate-pitch-rollr": 0.65,
+    "fcp-rc-rate-yaw": 0.65,
+    "fcp-super-rate-pitch-rollp": 0.68,
+    "fcp-super-rate-pitch-rollr": 0.68,
+    "fcp-super-rate-yaw": 0.68,
+    "fcp-expo-pitch-rollp": 0.0,
+    "fcp-expo-pitch-rollr": 0.0,
+    "fcp-expo-yaw": 0.0,
+    "fcp-expo-throttle": 0.0,
+    "fcp-super-rate-throttle": 0.5,
+    "fcp-pid-yaw-p": 55.0,
+    "fcp-pid-yaw-i": 0.0,
+    "fcp-pid-yaw-d": 0.0,
+    "fcp-pid-pitch-p": 40.0,
+    "fcp-pid-pitch-i": 0.0,
+    "fcp-pid-pitch-d": 50.0,
+    "fcp-pid-roll-p": 40.0,
+    "fcp-pid-roll-i": 0.0,
+    "fcp-pid-roll-d": 50.0,
+    "fcp-rc-rate-throttle": 2.5142,
+    "fcp-drone-tilt": 45.0,
+    "fcp-drone-fov": 100.683121
+  },
+  "custom-physics": false,
+  "events": [
+    {
+      "event-time": 5.540502,
+      "event-sample": 241,
+      "event-type": 1,
+      "event-position": [
+        25.0460854,
+        2.8115685,
+        41.16576
+      ],
+      "event-data": [
+        0
+      ]
+    },
+    {
+      "event-time": 5.98724365,
+      "event-sample": 261,
+      "event-type": 1,
+      "event-position": [
+        20.5376873,
+        3.23627567,
+        46.84496
+      ],
+      "event-data": [
+        1
+      ]
+    },
+    {
+      "event-time": 8.759223,
+      "event-sample": 382,
+      "event-type": 1,
+      "event-position": [
+        -20.43874,
+        4.388491,
+        47.2851448
+      ],
+      "event-data": [
+        2
+      ]
+    },
+    {
+      "event-time": 9.293887,
+      "event-sample": 406,
+      "event-type": 1,
+      "event-position": [
+        -26.0484142,
+        4.732252,
+        40.9548225
+      ],
+      "event-data": [
+        3
+      ]
+    },
+    {
+      "event-time": 14.0711546,
+      "event-sample": 615,
+      "event-type": 1,
+      "event-position": [
+        -27.3144913,
+        3.95167947,
+        -40.7667274
+      ],
+      "event-data": [
+        4
+      ]
+    },
+    {
+      "event-time": 14.6874685,
+      "event-sample": 642,
+      "event-type": 1,
+      "event-position": [
+        -20.3575764,
+        3.68459845,
+        -48.15322
+      ],
+      "event-data": [
+        5
+      ]
+    },
+    {
+      "event-time": 17.28688,
+      "event-sample": 756,
+      "event-type": 1,
+      "event-position": [
+        20.40399,
+        2.60690451,
+        -44.1981125
+      ],
+      "event-data": [
+        6
+      ]
+    },
+    {
+      "event-time": 17.57578,
+      "event-sample": 768,
+      "event-type": 1,
+      "event-position": [
+        23.7216454,
+        2.62072468,
+        -40.8519974
+      ],
+      "event-data": [
+        7
+      ]
+    },
+    {
+      "event-time": 17.59384,
+      "event-sample": 769,
+      "event-type": 7,
+      "event-position": [
+        23.9020348,
+        2.62547636,
+        -40.62646
+      ],
+      "event-data": [
+        1
+      ]
+    },
+    {
+      "event-time": 22.8621254,
+      "event-sample": 1000,
+      "event-type": 1,
+      "event-position": [
+        23.509222,
+        3.356126,
+        41.1500435
+      ],
+      "event-data": [
+        8
+      ]
+    },
+    {
+      "event-time": 23.1713276,
+      "event-sample": 1013,
+      "event-type": 1,
+      "event-position": [
+        20.5599289,
+        3.2275815,
+        44.8324432
+      ],
+      "event-data": [
+        9
+      ]
+    },
+    {
+      "event-time": 26.132658,
+      "event-sample": 1143,
+      "event-type": 1,
+      "event-position": [
+        -20.4805241,
+        1.743504,
+        46.42147
+      ],
+      "event-data": [
+        10
+      ]
+    },
+    {
+      "event-time": 26.6175213,
+      "event-sample": 1164,
+      "event-type": 1,
+      "event-position": [
+        -25.0954342,
+        2.2445972,
+        40.9458961
+      ],
+      "event-data": [
+        11
+      ]
+    },
+    {
+      "event-time": 31.9238338,
+      "event-sample": 1396,
+      "event-type": 1,
+      "event-position": [
+        -27.6281452,
+        4.935617,
+        -40.753334
+      ],
+      "event-data": [
+        12
+      ]
+    },
+    {
+      "event-time": 32.88476,
+      "event-sample": 1438,
+      "event-type": 1,
+      "event-position": [
+        -20.389864,
+        6.195358,
+        -51.9026756
+      ],
+      "event-data": [
+        13
+      ]
+    },
+    {
+      "event-time": 35.4943161,
+      "event-sample": 1552,
+      "event-type": 1,
+      "event-position": [
+        20.4010429,
+        4.58299971,
+        -44.99985
+      ],
+      "event-data": [
+        14
+      ]
+    },
+    {
+      "event-time": 35.84161,
+      "event-sample": 1568,
+      "event-type": 1,
+      "event-position": [
+        24.58914,
+        3.99088073,
+        -40.85439
+      ],
+      "event-data": [
+        15
+      ]
+    },
+    {
+      "event-time": 35.8604546,
+      "event-sample": 1568,
+      "event-type": 7,
+      "event-position": [
+        24.7804947,
+        3.96590948,
+        -40.61225
+      ],
+      "event-data": [
+        2
+      ]
+    },
+    {
+      "event-time": 40.7561,
+      "event-sample": 1783,
+      "event-type": 1,
+      "event-position": [
+        23.68813,
+        2.910669,
+        41.1439362
+      ],
+      "event-data": [
+        16
+      ]
+    },
+    {
+      "event-time": 41.06232,
+      "event-sample": 1796,
+      "event-type": 1,
+      "event-position": [
+        20.5256882,
+        2.9885056,
+        44.46943
+      ],
+      "event-data": [
+        17
+      ]
+    },
+    {
+      "event-time": 43.9606361,
+      "event-sample": 1923,
+      "event-type": 1,
+      "event-position": [
+        -20.4476433,
+        2.530491,
+        45.85231
+      ],
+      "event-data": [
+        18
+      ]
+    },
+    {
+      "event-time": 44.4525757,
+      "event-sample": 1945,
+      "event-type": 1,
+      "event-position": [
+        -25.8875618,
+        2.71333122,
+        40.9332771
+      ],
+      "event-data": [
+        19
+      ]
+    },
+    {
+      "event-time": 49.7635422,
+      "event-sample": 2177,
+      "event-type": 1,
+      "event-position": [
+        -26.237278,
+        3.01661468,
+        -40.7071953
+      ],
+      "event-data": [
+        20
+      ]
+    },
+    {
+      "event-time": 50.2898521,
+      "event-sample": 2200,
+      "event-type": 1,
+      "event-position": [
+        -20.4134,
+        2.90337944,
+        -45.9160652
+      ],
+      "event-data": [
+        21
+      ]
+    },
+    {
+      "event-time": 53.1612473,
+      "event-sample": 2326,
+      "event-type": 1,
+      "event-position": [
+        20.4096069,
+        2.01836658,
+        -44.3180542
+      ],
+      "event-data": [
+        22
+      ]
+    },
+    {
+      "event-time": 53.48497,
+      "event-sample": 2340,
+      "event-type": 1,
+      "event-position": [
+        23.72368,
+        2.16398144,
+        -40.8522377
+      ],
+      "event-data": [
+        23
+      ]
+    },
+    {
+      "event-time": 53.50319,
+      "event-sample": 2341,
+      "event-type": 7,
+      "event-position": [
+        23.8869228,
+        2.17010927,
+        -40.6473427
+      ],
+      "event-data": [
+        3
+      ]
+    },
+    {
+      "event-time": 59.1111679,
+      "event-sample": 2586,
+      "event-type": 1,
+      "event-position": [
+        24.24321,
+        4.64120626,
+        41.1673431
+      ],
+      "event-data": [
+        24
+      ]
+    },
+    {
+      "event-time": 59.4872322,
+      "event-sample": 2602,
+      "event-type": 1,
+      "event-position": [
+        20.53071,
+        4.900329,
+        44.79315
+      ],
+      "event-data": [
+        25
+      ]
+    },
+    {
+      "event-time": 62.45729,
+      "event-sample": 2733,
+      "event-type": 1,
+      "event-position": [
+        -20.4910889,
+        2.1686008,
+        44.333
+      ],
+      "event-data": [
+        26
+      ]
+    },
+    {
+      "event-time": 62.77299,
+      "event-sample": 2746,
+      "event-type": 1,
+      "event-position": [
+        -23.9638233,
+        1.90269458,
+        40.94482
+      ],
+      "event-data": [
+        27
+      ]
+    },
+    {
+      "event-time": 68.59974,
+      "event-sample": 3001,
+      "event-type": 1,
+      "event-position": [
+        -25.3949986,
+        3.74199271,
+        -40.73961
+      ],
+      "event-data": [
+        28
+      ]
+    },
+    {
+      "event-time": 69.09303,
+      "event-sample": 3023,
+      "event-type": 1,
+      "event-position": [
+        -20.4125118,
+        4.320223,
+        -44.6175537
+      ],
+      "event-data": [
+        29
+      ]
+    },
+    {
+      "event-time": 72.08081,
+      "event-sample": 3154,
+      "event-type": 1,
+      "event-position": [
+        20.40421,
+        3.01810455,
+        -45.14045
+      ],
+      "event-data": [
+        30
+      ]
+    },
+    {
+      "event-time": 72.56096,
+      "event-sample": 3175,
+      "event-type": 1,
+      "event-position": [
+        25.66264,
+        3.44710159,
+        -40.8804474
+      ],
+      "event-data": [
+        31
+      ]
+    },
+    {
+      "event-time": 72.5782,
+      "event-sample": 3176,
+      "event-type": 7,
+      "event-position": [
+        25.8343811,
+        3.4673667,
+        -40.6808548
+      ],
+      "event-data": [
+        4
+      ]
+    },
+    {
+      "event-time": 78.08039,
+      "event-sample": 3416,
+      "event-type": 1,
+      "event-position": [
+        27.771347,
+        3.88882685,
+        41.1783447
+      ],
+      "event-data": [
+        32
+      ]
+    },
+    {
+      "event-time": 78.7511749,
+      "event-sample": 3446,
+      "event-type": 1,
+      "event-position": [
+        20.54015,
+        4.397986,
+        48.0625763
+      ],
+      "event-data": [
+        33
+      ]
+    },
+    {
+      "event-time": 81.48818,
+      "event-sample": 3566,
+      "event-type": 1,
+      "event-position": [
+        -20.46209,
+        2.80304074,
+        44.32568
+      ],
+      "event-data": [
+        34
+      ]
+    },
+    {
+      "event-time": 81.78582,
+      "event-sample": 3579,
+      "event-type": 1,
+      "event-position": [
+        -23.7217445,
+        2.67171383,
+        40.9392548
+      ],
+      "event-data": [
+        35
+      ]
+    },
+    {
+      "event-time": 86.869,
+      "event-sample": 3801,
+      "event-type": 1,
+      "event-position": [
+        -23.8453827,
+        6.77345276,
+        -40.7487831
+      ],
+      "event-data": [
+        36
+      ]
+    },
+    {
+      "event-time": 87.12406,
+      "event-sample": 3812,
+      "event-type": 1,
+      "event-position": [
+        -20.3945332,
+        6.85922146,
+        -44.08661
+      ],
+      "event-data": [
+        37
+      ]
+    },
+    {
+      "event-time": 89.32393,
+      "event-sample": 3909,
+      "event-type": 1,
+      "event-position": [
+        20.38156,
+        4.320256,
+        -42.3103867
+      ],
+      "event-data": [
+        38
+      ]
+    },
+    {
+      "event-time": 89.42867,
+      "event-sample": 3913,
+      "event-type": 1,
+      "event-position": [
+        21.9775829,
+        4.264294,
+        -40.8287048
+      ],
+      "event-data": [
+        39
+      ]
+    },
+    {
+      "event-time": 90.78377,
+      "event-sample": 3973,
+      "event-type": 1,
+      "event-position": [
+        30.2299519,
+        6.167038,
+        -11.24085
+      ],
+      "event-data": [
+        40
+      ]
+    }
+  ],
+  "title": "Clip",
+  "multiplayer": false,
+  "player": true,
+  "map": "MP-3fd",
+  "track": "MT-8ab",
+  "is-custom-map": true,
+  "custom-map": "CMP-af26895e90b0f65bcbc80f14",
+  "steam-id": "76561198046438903",
+  "player-id": "5b9184c660a9ba18c52840a3",
+  "profile-name": "KaNoodle",
+  "profile-color": "006dee",
+  "profile-photo": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ed/ede7bc0058854b173900562efea352c60084e24b_full.jpg",
+  "race-time": 90.7887344,
+  "game-type": 14,
+  "controller-type": 2,
+  "camera-tilt": 45.0,
+  "camera-fov": 100.683121,
+  "podium-id": "PD-a6d",
+  "order": 0
+}
