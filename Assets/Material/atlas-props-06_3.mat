@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-props-06
+  m_Name: atlas-props-06_3
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 1
@@ -19,60 +19,60 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: eb22b5ed272a84c4a880d9e8f3a38887, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailAlbedoMap:
+    - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailMask:
+    - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailNormalMap:
+    - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _EmissionMap:
+    - _EmissionMap:
         m_Texture: {fileID: 2800000, guid: 3a13c5b58cfcb254288d91c14aa6a3be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 526c8863a2410744283218113a292c47, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicGlossMap:
+    - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: 94c3ab0ded78fdf4fa235beb312d0184, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _OcclusionMap:
+    - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 68a9fdcb4c7fe0a488dc51fb25d6d482, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ParallaxMap:
+    - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _Metallic: 0.25
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0.25
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 1.5, g: 1.5, b: 1.5, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1.5, g: 1.5, b: 1.5, a: 1}
   m_BuildTextureStacks: []

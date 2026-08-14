@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/postVHSPro_Tape
+  m_Name: Hidden_postVHSPro_Tape
   m_Shader: {fileID: 4800000, guid: ac7538dd1aaf95c4a827532e0de6e241, type: 3}
   m_ShaderKeywords: VHS_FILMGRAIN_ON VHS_LINENOISE_ON VHS_TAPENOISE_ON
   m_LightmapFlags: 4
@@ -19,10 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: {}
-    m_Colors: {}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []

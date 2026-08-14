@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-road-01
+  m_Name: atlas-road-01_0
   m_Shader: {fileID: 4800000, guid: 19a5ab4d3097e3f4192712fbdf31fa34, type: 3}
-  m_ShaderKeywords:
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -19,70 +19,70 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _AsphaltTexAlb:
+    - _AsphaltTexAlb:
         m_Texture: {fileID: 2800000, guid: feb88b27cf33db248926e290433fd04a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexAlb2:
+    - _AsphaltTexAlb2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexMet:
+    - _AsphaltTexMet:
         m_Texture: {fileID: 2800000, guid: 78214f25213830d4789442d0feb8bc0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexNor:
+    - _AsphaltTexNor:
         m_Texture: {fileID: 2800000, guid: 5f2bbb1c3a408ad4bad0efd68e79e4fe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailTexAlb:
+    - _DetailTexAlb:
         m_Texture: {fileID: 2800000, guid: 00d25a4ac064adc489f794de6923e989, type: 3}
         m_Scale: {x: 20, y: 4}
         m_Offset: {x: 0, y: 0}
-      _DetailTexNor:
+    - _DetailTexNor:
         m_Texture: {fileID: 2800000, guid: fbbf2d637bba9154fa7c5b1009fcf307, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _FXTileTex:
+    - _FXTileTex:
         m_Texture: {fileID: 2800000, guid: af67040b5fe84a84d8dd37dd640bb19c, type: 3}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0.5, y: 0.5}
-      _MarksTexAlb:
+    - _MarksTexAlb:
         m_Texture: {fileID: 2800000, guid: 578add21cb3950f40a92c7a19a670f57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MarksTexNor:
+    - _MarksTexNor:
         m_Texture: {fileID: 2800000, guid: cec11a7b0dd90754f9305953928c7690, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _AsphaltMetallic: 0
-      _AsphaltNorIntensity: 0.35
-      _AsphaltSmoothness: 1
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _Darkness: 0.2
-      _DetailNormalMapScale: 1
-      _DetailTexNorIntensity: 1.5
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _MarksTexAlbIntensity: 0.08
-      _MarksTexNorIntensity: 1
-      _MeshOffset: -2
-      _Metallic: 0
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _WetDarkness: 0.3
-      _Wetness: 0
-      _ZWrite: 1
+    - _AsphaltMetallic: 0
+    - _AsphaltNorIntensity: 0.35
+    - _AsphaltSmoothness: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Darkness: 0.2
+    - _DetailNormalMapScale: 1
+    - _DetailTexNorIntensity: 1.5
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MarksTexAlbIntensity: 0.08
+    - _MarksTexNorIntensity: 1
+    - _MeshOffset: -2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WetDarkness: 0.3
+    - _Wetness: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

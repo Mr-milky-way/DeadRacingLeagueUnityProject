@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: air-flag-01-white
+  m_Name: air-flag-01-white_0
   m_Shader: {fileID: 4800000, guid: 3812f2687fb313142b360ccb100e6c24, type: 3}
   m_ShaderKeywords: _DISPLACEMENT_ON _METALLICGLOSSMAP _NORMALMAP _SCROLL_ON
   m_LightmapFlags: 4
@@ -19,78 +19,78 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _EmissionTex:
+    - _EmissionTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 4cbc4dab9235f2e4681f8fa2053ed829, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex2:
+    - _MainTex2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MaskTex:
+    - _MaskTex:
         m_Texture: {fileID: 2800000, guid: 4d0d9cf849fe3784c8bd7abee6e58149, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTex:
+    - _MetallicTex:
         m_Texture: {fileID: 2800000, guid: 1963e4e5a31f9e242bacea43868c34dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTex:
+    - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 876fa1cc9ac294543adc63b963845bae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _OcclusionTex:
+    - _OcclusionTex:
         m_Texture: {fileID: 2800000, guid: 3101307872f30724591598489b351b6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ScrollNormalTex:
+    - _ScrollNormalTex:
         m_Texture: {fileID: 2800000, guid: cba8cf7c2d7006848815e1efdab3e631, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ScrollOcclusionTex:
+    - _ScrollOcclusionTex:
         m_Texture: {fileID: 2800000, guid: 080a80ff0f19d544e8ab373a31e58d0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0
-      _DetailNormalMapScale: 1
-      _Displacement: 1
-      _DisplacementIntensity: 0.11
-      _DstBlend: 0
-      _EmissionBlink: 0
-      _EmissionMax: 0.75
-      _EmissionMin: 0.25
-      _EmissionSpeed: 1
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _Metallic: 1
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Oscilation: 0
-      _OscilationSpeed: 1
-      _Parallax: 0.02
-      _Scroll: 1
-      _ScrollIntensity: 1
-      _ScrollSpeed: 1
-      _Smoothness: 1
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _Displacement: 1
+    - _DisplacementIntensity: 0.11
+    - _DstBlend: 0
+    - _EmissionBlink: 0
+    - _EmissionMax: 0.75
+    - _EmissionMin: 0.25
+    - _EmissionSpeed: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Oscilation: 0
+    - _OscilationSpeed: 1
+    - _Parallax: 0.02
+    - _Scroll: 1
+    - _ScrollIntensity: 1
+    - _ScrollSpeed: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _ColorB: {r: 1, g: 0, b: 0, a: 1}
-      _ColorEmission: {r: 2, g: 0, b: 0, a: 1}
-      _ColorG: {r: 0, g: 0, b: 0, a: 1}
-      _ColorR: {r: 1, g: 1, b: 1, a: 1}
-      _DisplacementIntensity: {r: -3, g: 0, b: 0, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _ScrollSpeed: {r: -3.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorB: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorEmission: {r: 2, g: 0, b: 0, a: 1}
+    - _ColorG: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorR: {r: 1, g: 1, b: 1, a: 1}
+    - _DisplacementIntensity: {r: -3, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScrollSpeed: {r: -3.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

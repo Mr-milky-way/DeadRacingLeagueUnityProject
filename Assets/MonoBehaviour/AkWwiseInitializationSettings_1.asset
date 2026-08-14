@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67d4a1a36554c03ec184340038791d4b, type: 3}
-  m_Name: AkWwiseInitializationSettings
-  m_EditorClassIdentifier:
+  m_Name: AkWwiseInitializationSettings_1
+  m_EditorClassIdentifier: 
   PlatformSettingsNameList:
   - Linux
   - Mac
@@ -34,7 +34,7 @@ MonoBehaviour:
     m_CommandQueueSize: 262144
     m_SamplesPerFrame: 1024
     m_MainOutputSettings:
-      m_AudioDeviceShareset:
+      m_AudioDeviceShareset: 
       m_DeviceID: 0
       m_PanningRule: 0
       m_ChannelConfig:
@@ -69,7 +69,7 @@ MonoBehaviour:
       m_DiffractionShadowAttenuationFactor: 2
       m_DiffractionShadowDegrees: 30
     m_RenderDuringFocusLoss: 0
-    m_SoundBankPersistentDataPath:
+    m_SoundBankPersistentDataPath: 
     m_UseAsyncOpen: 0
   CommsSettings:
     m_PoolSize: 262144
@@ -77,4 +77,4 @@ MonoBehaviour:
     m_CommandPort: 0
     m_NotificationPort: 0
     m_InitializeSystemComms: 1
-    m_NetworkName:
+    m_NetworkName: 

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tile-road-02
+  m_Name: tile-road-02_0
   m_Shader: {fileID: 4800000, guid: 2d32ca5d48ed7064181be8dd067c2374, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
@@ -19,70 +19,70 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _AsphaltTexAlb:
+    - _AsphaltTexAlb:
         m_Texture: {fileID: 2800000, guid: b617132c9b1281144894e9e9a15d8af5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexAlb2:
+    - _AsphaltTexAlb2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexMet:
+    - _AsphaltTexMet:
         m_Texture: {fileID: 2800000, guid: dd093d3f391afcc4b82dbc4c340d7a6b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _AsphaltTexNor:
+    - _AsphaltTexNor:
         m_Texture: {fileID: 2800000, guid: 901e6a4d9a36222478d458bca3dcaf08, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailTexAlb:
+    - _DetailTexAlb:
         m_Texture: {fileID: 2800000, guid: 2fb6cdff5df21044d99c0b46b55280dc, type: 3}
         m_Scale: {x: 7.5, y: 7.5}
         m_Offset: {x: 0, y: 0}
-      _DetailTexNor:
+    - _DetailTexNor:
         m_Texture: {fileID: 2800000, guid: f4653c64e5731d145979885e4842def5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MarksTexAlb:
+    - _MarksTexAlb:
         m_Texture: {fileID: 2800000, guid: a7954c153597a834b946a42ef7fece2b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MarksTexNor:
+    - _MarksTexNor:
         m_Texture: {fileID: 2800000, guid: 71057a766da87404e9591b081b87464d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MaskTexFX:
+    - _MaskTexFX:
         m_Texture: {fileID: 2800000, guid: 9436d32958f7fb341acc17e81a3bdd39, type: 3}
         m_Scale: {x: 1.5, y: 1.5}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _AsphaltMetallic: 0
-      _AsphaltNorIntensity: 1
-      _AsphaltSmoothness: 0.65
-      _AsphaltTexNorIntensity: 1
-      _BumpScale: 1
-      _Cutoff: 0.7
-      _DetailNormalMapScale: 1
-      _DetailTexNorIntensity: 2
-      _DitheringTexScale: 0.045
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0
-      _GlossyReflections: 1
-      _MarksTexAlbIntensity: 0.15
-      _MarksTexNorIntensity: 0.47
-      _MeshOffset: -2
-      _Metallic: 0
-      _Mode: 1
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _RoadTexNorIntensity: 0.2
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _AsphaltMetallic: 0
+    - _AsphaltNorIntensity: 1
+    - _AsphaltSmoothness: 0.65
+    - _AsphaltTexNorIntensity: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.7
+    - _DetailNormalMapScale: 1
+    - _DetailTexNorIntensity: 2
+    - _DitheringTexScale: 0.045
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MarksTexAlbIntensity: 0.15
+    - _MarksTexNorIntensity: 0.47
+    - _MeshOffset: -2
+    - _Metallic: 0
+    - _Mode: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RoadTexNorIntensity: 0.2
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

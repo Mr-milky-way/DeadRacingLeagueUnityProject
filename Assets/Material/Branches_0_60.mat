@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Branches_0
+  m_Name: Branches_0_60
   m_Shader: {fileID: 14000, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_DETAIL
   m_LightmapFlags: 5
@@ -19,23 +19,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: d49790d2d9b770746b5fb7dd40b53f8f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailTex:
+    - _DetailTex:
         m_Texture: {fileID: 2800000, guid: abe385b4430f193499bfde1030962cfa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: cfac2754d5f80014e819c39281d3166f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _Cull: 2
-      _Cutoff: 0.33
-      _WindQuality: 3
+    - _Cull: 2
+    - _Cutoff: 0.33
+    - _WindQuality: 3
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
   m_BuildTextureStacks: []

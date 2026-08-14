@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tile-gravel-01
+  m_Name: tile-gravel-01_0
   m_Shader: {fileID: 4800000, guid: f95cddf4aa216904890471539aabcc02, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
@@ -19,52 +19,52 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _DetailTexAlb:
+    - _DetailTexAlb:
         m_Texture: {fileID: 2800000, guid: deb2e77f5401e914daa031a6df00b5d8, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
-      _DetailTexNor:
+    - _DetailTexNor:
         m_Texture: {fileID: 2800000, guid: 357dbe61b2f8bc2479d61e76aa090283, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DitheringTexFX:
+    - _DitheringTexFX:
         m_Texture: {fileID: 2800000, guid: 98913d2a75ecd7c4ca7c5af2fbb87c66, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MaskTexFX:
+    - _MaskTexFX:
         m_Texture: {fileID: 2800000, guid: 8b2d7ab6737e1c04691407bb393364f7, type: 3}
         m_Scale: {x: 1, y: 2}
         m_Offset: {x: 0, y: 0}
-      _RoadTexAlb:
+    - _RoadTexAlb:
         m_Texture: {fileID: 2800000, guid: 9abe30b6678ca5c4d99fe7f7339df733, type: 3}
         m_Scale: {x: 0.8, y: 1}
         m_Offset: {x: 0.1, y: 0}
-      _RoadTexNor:
+    - _RoadTexNor:
         m_Texture: {fileID: 2800000, guid: c58352e6019562b47bf894a1cb04da8c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.7
-      _DetailNormalMapScale: 1
-      _DetailTexNorIntensity: 1
-      _DitheringTexScale: 0.09
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0
-      _GlossyReflections: 1
-      _MeshOffset: -1.25
-      _Metallic: 0
-      _Mode: 1
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _RoadTexNorIntensity: 1
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.7
+    - _DetailNormalMapScale: 1
+    - _DetailTexNorIntensity: 1
+    - _DitheringTexScale: 0.09
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MeshOffset: -1.25
+    - _Metallic: 0
+    - _Mode: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RoadTexNorIntensity: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

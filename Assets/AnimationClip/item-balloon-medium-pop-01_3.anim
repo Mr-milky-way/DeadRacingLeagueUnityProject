@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: item-balloon-medium-pop-01
+  m_Name: item-balloon-medium-pop-01_3
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -278,7 +278,7 @@ AnimationClip:
   m_Events:
   - time: 1.5
     functionName: Disable
-    data:
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

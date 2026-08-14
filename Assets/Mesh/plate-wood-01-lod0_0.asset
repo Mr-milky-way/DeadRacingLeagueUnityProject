@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: plate-wood-01-lod0
+  m_Name: plate-wood-01-lod0_0
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17,7 +17,7 @@ Mesh:
     firstVertex: 0
     vertexCount: 130
     localAABB:
-      m_Center: {x: 2.9802322E-06, y: 0, z: 1.439997}
+      m_Center: {x: 0.0000029802322, y: 0, z: 1.439997}
       m_Extent: {x: 1.6799996, y: 0.059999824, z: 1.44}
   m_Shapes:
     vertices: []
@@ -25,11 +25,11 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 2.9802322E-06, y: 0, z: 1.439997}
+    m_Center: {x: 0.0000029802322, y: 0, z: 1.439997}
     m_Extent: {x: 1.6799996, y: 0.059999824, z: 1.44}
   m_MeshUsageFlags: 8
-  m_BakedConvexCollisionMesh: 4e5853014356584d0d0000000000000049434501434c484c09000000080000000c0000000600000018000000220ad7bf60c275bddf513840220ad7bf60c275bd3e8c4cb6530ad73f60c275bd3e8c4cb6530ad73f60c275bddf513840220ad7bf60c2753ddf513840220ad7bf60c2753d3e8c4cb6530ad73f60c2753d3e8c4cb6530ad73f60c2753ddf51384000000000000080bf0000000060c275bd00000404000080bf0000000000000000220ad7bf040004020000000000000000000080bf3e8c4cb60800040000000000000000000000803fdf5138c00c0004010000803f0000000000000000530ad7bf10000400000000000000803f0000000060c275bd1400040000010203000405010602010507040003070302060706050400010002000400030103010501020204020503050304040500010300010200020400030401030501020502040503040500000000220ad7bf60c275bd000050b6520ad73f60c2753ddf5138409ba2943fd38f4d4000000000b5dea3b600000000ffb1894000000080b5dea3b600000080a7038c3f0000443600000000d251b83f000080bf60c2753d3a0ad73f60c2753d60c2753d
-  m_BakedTriangleCollisionMesh:
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 190.35768
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

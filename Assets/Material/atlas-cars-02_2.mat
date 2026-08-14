@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-cars-02
+  m_Name: atlas-cars-02_2
   m_Shader: {fileID: 4800000, guid: a251b16f940b63747b7c4623161535af, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
@@ -19,57 +19,57 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _LightsTex:
+    - _LightsTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 8ff46300e17b47b4aa0d735263c9c70f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex2:
+    - _MainTex2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTex:
+    - _MetallicTex:
         m_Texture: {fileID: 2800000, guid: 384805c82d2924b4cab809d4c1a10c10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTex:
+    - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 759c0b50f28a5e34d91a585e06ff89b6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _OcclusionTex:
+    - _OcclusionTex:
         m_Texture: {fileID: 2800000, guid: 8096a2d317b29a244954d8a08a0530e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _FillWithRed: 0
-      _GlossMapScale: 1
-      _Glossiness: 2
-      _GlossyReflections: 1
-      _Lights: 0
-      _LightsIntensity: 5
-      _LightsSpeed: 25
-      _Metallic: 2
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Overlay: 0
-      _PaintingMetallic: 0.65
-      _PaintingSmoothness: 0
-      _Parallax: 0.02
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FillWithRed: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 2
+    - _GlossyReflections: 1
+    - _Lights: 0
+    - _LightsIntensity: 5
+    - _LightsSpeed: 25
+    - _Metallic: 2
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Overlay: 0
+    - _PaintingMetallic: 0.65
+    - _PaintingSmoothness: 0
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _ColorPainting: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _PaintingColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorPainting: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PaintingColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

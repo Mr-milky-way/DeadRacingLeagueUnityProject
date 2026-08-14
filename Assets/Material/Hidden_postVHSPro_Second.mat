@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/postVHSPro_Second
+  m_Name: Hidden_postVHSPro_Second
   m_Shader: {fileID: 4800000, guid: c717939f451274a4e88af025ead9e876, type: 3}
   m_ShaderKeywords: VHS_BLEED_ON VHS_SIGNAL_TWEAK_ON VHS_THREE_PHASE
   m_LightmapFlags: 4
@@ -19,14 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _CurvesTex:
+    - _CurvesTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: {}
-    m_Colors: {}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []

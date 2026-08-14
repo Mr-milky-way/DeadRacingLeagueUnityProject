@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Billboard
+  m_Name: Billboard_16
   m_Shader: {fileID: 14001, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: EFFECT_BUMP EFFECT_HUE_VARIATION
   m_LightmapFlags: 5
@@ -19,19 +19,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: ec4342e2e77f1d24db0546d4f426e5fa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 062a1c6a65bb55745ab898f67dfd8116, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _Cutoff: 0.33
-      _WindQuality: 1
+    - _Cutoff: 0.33
+    - _WindQuality: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _HueVariation: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 0.1}
-      _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 0.1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   m_BuildTextureStacks: []

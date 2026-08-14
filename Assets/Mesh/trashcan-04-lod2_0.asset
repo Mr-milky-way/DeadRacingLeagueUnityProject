@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: trashcan-04-lod2
+  m_Name: trashcan-04-lod2_0
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17,7 +17,7 @@ Mesh:
     firstVertex: 0
     vertexCount: 74
     localAABB:
-      m_Center: {x: -0.0009765439, y: -6.7055225E-08, z: 0.2541195}
+      m_Center: {x: -0.0009765439, y: -0.000000067055225, z: 0.2541195}
       m_Extent: {x: 0.121640444, y: 0.12164046, z: 0.24936943}
   m_Shapes:
     vertices: []
@@ -25,11 +25,11 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: -0.0009765439, y: -6.7055225E-08, z: 0.2541195}
+    m_Center: {x: -0.0009765439, y: -0.000000067055225, z: 0.2541195}
     m_Extent: {x: 0.121640444, y: 0.12164046, z: 0.24936943}
   m_MeshUsageFlags: 16
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh: 4e5853014d4553480f000000010000000600000034000000400000008288bcbd9a88babda6e4003f9e1efbbd063287b3a6e4003f9c1efbbde1697db3335df53e8088bcbd9988babd345df53e9bfb7fbaab1ef9bda6e4003f9bfb7fbaaa1ef9bd325df53e8d88b83d8f88babda6e4003f8d88b83d8e88babd335df53ea11ef73de1697db3335df53ea31ef73d063287b3a6e4003f8d88b83d7d88ba3d345df53e8d88b83d7c88ba3da6e4003faefb7fba991ef93d345df53eaefb7fba981ef93da6e4003f8088bcbd8a88ba3d345df53e8288bcbd8788ba3da6e4003f9052e3bd6b357db3d036f53eac08dcbd5fb688326ea69b3bd841a5bde641a3bd54a69b3bf7b6aabd0fb7a8bdcf36f53e33fc7fba9e52e1bdcf36f53e33fc7fbab008dabd4ba69b3bcbb7833dd7b7c9bd61aeb63ef3a3a53d75f0a7bd3c35af3ecbb7833dd8b7c9bd8acad03ee241a13ddb41a3bd54a69b3b02b7a63d05b7a8bdce36f53ef4a3a53d77f0a7bdb443d83ed831de3d27701db37e23af3eb308d83d55df84326fa69b3be241a13ddf41a33d87a69b3bf3a3a53d6bf0a73d3c35af3e9752df3d6b357db3d036f53ed831de3d11bd55b37255d83ef4a3a53d67f0a73db543d83e02b7a63df3b6a83dcf36f53ecbb7833dcab7c93d8ccad03e33fc7fbab708da3d90a69b3bfbfb7fba8d52e13dd036f53ecbb7833dcbb7c93d63aeb63ed841a5bde841a33d87a69b3bf7b6aabd00b7a83dcf36f53e3072cebd1c146e32345d8e3c0d3bc9bd67437eb35cfcf53e8b2d97bda32d95bd59fcf53e41159bbd4f1599bd2c5d8e3cbdd57fba0b72ccbd2a5d8e3cb8fc7fba1a3bc7bd5bfcf53e8b2d97bd912d953d5bfcf53e41159bbd5215993d3b5d8e3cb0d57fba0f72cc3d3d5d8e3ca6fc7fba093bc73d5dfcf53e0b0a0c0c0d0b232224242623090b0d09080a0a0b092021222223202624270e0f0d0d0c0e0f0e0202010f0d0f01090d01201a1b1b2120060708060809060405050706040609181b1a1a1418161814000102020300040003010409010004030504302b2a2a31303031323233302a2b2c2c2d2a2e2d2c2c2f2e2725262625282829262810291028111c1d1e1e1f1c25271f1d251e1f1e25251d111128251d1915191d1c1c171915111d1716151519171516141512111215141413121213101011123f0000000a0b282a10080926272c0d0c0e0f1211242506070405151f1e1c0001021314033c3d3e3f323334352d2e2f303122232b3a29393b362120371b1d1a38191817164256342003000000c0fe7fba000090b3f31b823e171c9b3e0400000071897b3679897936e84475376e89773667897936c4f2803701000000240000000180ff7f0180ff7fbc962eff1d8c1c73caffff7f01803600eb961569358ccb73485fff7f485fff7f9704247a3701c27954250000644600007860000004800000da9f2eff0180ff7fc6fe5344c6feff7f785fff7fcaffff7f4267cb73caffff7ffe7fff7ffe7fff7f485fc279e86cff7f45010000890100002301000002a000000180b99e0180ff7fc6fe5344c6feff7f1ba0360001803600358cbe9801803600fe7fff7ffe7fff7f485fc279e86cff7f45030000890300002303000002c00000bc962effbc962eff0000000000000000caff1569eb96360000000000000000009704247a9704247a00000000000000000904000089040000ffffffffffffffffc6fe53441d8c2effd28f1c731d8c1c734267cb73caffcb73caff0d70358c36003701c2793701c2793701b95a3701c279030500002905000062e6000004000100c6fea35fc6feff7f1454b17300000000ef55ff7fcaffff7fcaffc15600000000e86cff7ffe7fff7fcf70c279000000000900000087000000e5000000ffffffff1454ff7fc6feff7fc6fe6c56000000001ba0360001803600358c11aa00000000cf70ff7ffe7fff7fe86cc279000000000902000087020000e5020000ffffffffd28fec6fd9511c73c6feec6f00000000caff0d70caff5b56caff0d700000000037014301370103573701b95a0000000045060000a5050000e7050000ffffffffd28f1c73c6fede55d28f2eff1d8cc3aaf38f3600358c78ac358c36003fa93600370103573701c2793701c2793701c279890600000707000067070000c5070000a6e400349e1efbbdab1ef9bd4ba69b3ba31ef73d991ef93da6e4003f4000000018183838181818181818181818181800181818301818183838181818180018180808101810100818181818303018181830180018181818001818281818181818
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 26.097792
   m_MeshMetrics[1]: 1.2710259
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

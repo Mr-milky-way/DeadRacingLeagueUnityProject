@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: gate-09-neon-lod2
+  m_Name: gate-09-neon-lod2_1
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17,7 +17,7 @@ Mesh:
     firstVertex: 0
     vertexCount: 84
     localAABB:
-      m_Center: {x: 3.6222, y: -6.586313E-05, z: 1.4129502}
+      m_Center: {x: 3.6222, y: -0.00006586313, z: 1.4129502}
       m_Extent: {x: 1.6940001, y: 1.789566, z: 1.3922502}
   m_Shapes:
     vertices: []
@@ -25,11 +25,11 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 3.6222, y: -6.586313E-05, z: 1.4129502}
+    m_Center: {x: 3.6222, y: -0.00006586313, z: 1.4129502}
     m_Extent: {x: 1.6940001, y: 1.789566, z: 1.3922502}
   m_MeshUsageFlags: 16
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh: 4e5853014d4553480f000000010000000600000024000000300000004f1eaa4067d5473f0c93a93c4f1eaa40d712523f0c93a93c4f1eaa401ff44c3f0bb5263dd7c5fd3fd712523f0c93a93cd7c5fd3f67d5473f0c93a93cd7c5fd3f1ff44c3f0bb5263d986efa3f43fa6d3d9743334042cff63f8204453dbf9f3240986efa3fbf0e1c3de7fb31404a9df83f570ee53f984c753f4a9df83f006fe13fb7847c3fa52cfb3f4f40e33fa7e8783f986efa3f4fafe43f8f75893f986efa3ff31fe23f32e6863f42cff63fa067e33fe02d883f4a9df83f221f543faaf1523d4a9df83fcd5d5b3fed0dbe3ca52cfb3f30bb573fe3c7183d501eaa40688f47bf0c93a93c501eaa4020ae4cbf0bb5263d501eaa40d8cc51bf0c93a93cd8c5fd3f688f47bf0c93a93cd8c5fd3fd8cc51bf0c93a93cd8c5fd3f20ae4cbf0bb5263d489df83f80e306bdbbb83140489df83f40ce7abd67883340a32cfb3f80a440bdbf9f3240489df83f58ebe4bf984c753fa32cfb3f501de3bfa7e8783f489df83f004ce1bfb7847c3f489df83f5373e1bf925c863fa32cfb3fa244e3bfe02d883f489df83fa812e5bfe7fb893f489df83fcd175bbff00dbe3c489df83f20d953bfa8f1523da32cfb3f307557bfe0c7183d000102050103050201040205040002030004030100060d0c07060c070c0e06080d06070808070e080e0d090a0b0c0d0e091110090b110a09100a100f0b0f110b0a0f0f101103040512131413151713121514171614131712161512141618191a1e181a1f19202019181f1a1920181e1e1a1f1b1c1d1e1f20212223151617211d22221c23221d1c231c1b211b1d231b212f000000000c0d0e0f1011191a1b18021c1d030416171514121305010620211e1f2223082e2b2c2a2d2f090a0b07262425292728425634200300000020d2674000208ab88ddbb43f7a23354004000000011e2a39001b65386228083848212a39af166538158db3380100000020000000bb2fff7f6b2ebd2fbb2fff7fc22ebd2fcf37b43ab502ff7f60c544c80180a9fd7702de017702ce7f7702de017702ff7f62260000844700008267000004800000fe7fff7fbb2fff7fbb2fff7f00000000cf37b43a3d39b43acf37b43a000000007702de017702de017702de0100000000030000002500000069000000ffffffff6b2e1c2f6b2e1c2f6b2e402fc22ebd2f6c03ca7fb502137fef7dff7fcf37ff7fca7ece7fca7ece7f467302317702042de700000049010000c501000002a00000fe7fff7fbb2fff7fbb2fff7f0000000060c544c8cfc644c860c544c8000000007702de017702de017702de0100000000030300002503000069030000ffffffffc22e402fc22e402fc22e402fc22ebd2f0782a9fd0180a9fd01802382168044c8497eff7f497eff7f467332317702042de503000060c60000c504000002e00000c22ebd2fc22e402fc22e402f00000000cf374d3d3f3cff7f3d3bfd7e0000000077025c02c402042dc402042d00000000c50200000702000067020000ffffffffc22e402fc22e402f00000000000000000180a9fd0180a9fd0000000000000000ff7fff7f497e5a7f00000000000000002704000085040000ffffffffffffffffc22ebd2fc22e402fc22e402f00000000c8c244c81981d5c41680d3c30000000077025c02c402042dc402042d000000000505000047050000a7050000ffffffff501eaa3542cff63fa812e5bf0c93a93c501eaa40570ee53f6788334030000000383018301830183018301838183038383018183030183838383018301830183818301818303038383838303018181830
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

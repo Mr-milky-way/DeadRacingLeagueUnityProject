@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ffa9ccfeb9b95f52dc8995b563d3510, type: 3}
-  m_Name: Mac
-  m_EditorClassIdentifier:
+  m_Name: Mac_0
+  m_EditorClassIdentifier: 
   IgnorePropertyNameList: []
   GlobalPropertyNameList:
   - UserSettings.m_BasePath
@@ -68,7 +68,7 @@ MonoBehaviour:
     m_CommandQueueSize: 262144
     m_SamplesPerFrame: 1024
     m_MainOutputSettings:
-      m_AudioDeviceShareset:
+      m_AudioDeviceShareset: 
       m_DeviceID: 0
       m_PanningRule: 0
       m_ChannelConfig:
@@ -103,7 +103,7 @@ MonoBehaviour:
       m_DiffractionShadowAttenuationFactor: 2
       m_DiffractionShadowDegrees: 30
     m_RenderDuringFocusLoss: 0
-    m_SoundBankPersistentDataPath:
+    m_SoundBankPersistentDataPath: 
     m_UseAsyncOpen: 0
   CommsSettings:
     m_PoolSize: 262144
@@ -111,4 +111,4 @@ MonoBehaviour:
     m_CommandPort: 0
     m_NotificationPort: 0
     m_InitializeSystemComms: 1
-    m_NetworkName:
+    m_NetworkName: 

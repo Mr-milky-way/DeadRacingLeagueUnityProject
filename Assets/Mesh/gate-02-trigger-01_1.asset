@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: gate-02-trigger-01
+  m_Name: gate-02-trigger-01_1
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17,7 +17,7 @@ Mesh:
     firstVertex: 0
     vertexCount: 34
     localAABB:
-      m_Center: {x: 0, y: -1.1175871E-07, z: 5.9604645E-08}
+      m_Center: {x: 0, y: -0.00000011175871, z: 0.000000059604645}
       m_Extent: {x: 1.4460517, y: 0.17615017, z: 1.4460516}
   m_Shapes:
     vertices: []
@@ -25,11 +25,11 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0, y: -1.1175871E-07, z: 5.9604645E-08}
+    m_Center: {x: 0, y: -0.00000011175871, z: 0.000000059604645}
     m_Extent: {x: 1.4460517, y: 0.17615017, z: 1.4460516}
   m_MeshUsageFlags: 8
-  m_BakedConvexCollisionMesh: 4e5853014356584d0d0000000000000049434501434c484c0900000010000000180000000a00000030000000b0e1823fbd6034beb7e182bf3918b93fb06034be3be4dcb4b7e1823f956034beb4e1823fe6f5c4346f6034be3918b93fb0e182bf606034bebae1823f3918b9bf6d6034be1e354235b8e182bf866034beb1e182bfb61430b5ad6034be3818b9bfb0e182bfae60343eb9e1823f89ce0b359c60343e3918b93f3918b9bfa460343e54fb2f35b7e1823f7960343eb3e1823f3918b93f5e60343ee6ab00b5b1e1823f5260343eb7e182bf20c106b56260343e3818b9bfb7e182bf8760343eb2e182bf2368bbb4000080bf3456b3348f6034be0000080f06efc3bee1e7793462836c3f5001abbf080004075d836cbf0897173424efc33e5101abbf0c00040c17efc33eabb794335d836c3f5001abbf1000040761836c3fff9617340aefc33e5101abbf1400040509efc33ef2a869b461836cbf5001abbf180004045a836c3f4bbc4bb424efc3be4e01abbf1c000404b729c7340000803f606590b47f6034be200008071cefc3bed850c6325d836cbf5001abbf2800040261836cbf921f653306efc3be5001abbf2c000401000102030405060708040309080a05040b0903020b02010c0d00070e0d0c01000f0a08090b0c0d0e0f0e07060f06050a000600040003000100020009000800050102010301070207020903070304040604070506050805070607070907080809000506000406000304000103000102000209000809000508010207010307020709030407040607050607050708070809000000003918b9bfbe6034be3818b9bf3918b93fae60343e3818b93f765a05405392803facbec334bbba3cb3acbec3344aa0fb3f32f699b4bbba3cb332f699b45392803f4a851bb3f8eedcb3f0ad3633000080bf8660343ed8b3b33f3d48d03d3d48d03d
-  m_BakedTriangleCollisionMesh:
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 8.364265
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

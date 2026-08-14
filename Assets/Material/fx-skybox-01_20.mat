@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fx-skybox-01
+  m_Name: fx-skybox-01_20
   m_Shader: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT
   m_LightmapFlags: 1
@@ -19,55 +19,55 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BackTex:
+    - _BackTex:
         m_Texture: {fileID: 2800000, guid: e44dac7b8aa63e44e91414fdaca4acc5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DownTex:
+    - _DownTex:
         m_Texture: {fileID: 2800000, guid: 41330fc09e7b9754d93daeb13881f07f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _FrontTex:
+    - _FrontTex:
         m_Texture: {fileID: 2800000, guid: 9082b773daed5b449977a53b04d1379d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _LeftTex:
+    - _LeftTex:
         m_Texture: {fileID: 2800000, guid: 4753edc20a07f1c4b9400da9666ab171, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _RightTex:
+    - _RightTex:
         m_Texture: {fileID: 2800000, guid: 29c09e9a189bea24c8d3a6cfe436f303, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _UpTex:
+    - _UpTex:
         m_Texture: {fileID: 2800000, guid: 103a13f980b9e5b4d8565829a5a18809, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _Exposure: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _ImageType: 0
-      _Layout: 0
-      _Mapping: 1
-      _Metallic: 0
-      _MirrorOnBack: 0
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _Rotation: 330
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Exposure: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _ImageType: 0
+    - _Layout: 0
+    - _Mapping: 1
+    - _Metallic: 0
+    - _MirrorOnBack: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Rotation: 330
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _Tint: {r: 0.4745098, g: 0.48235294, b: 0.5294118, a: 0.5019608}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 0.4745098, g: 0.48235294, b: 0.5294118, a: 0.5019608}
   m_BuildTextureStacks: []

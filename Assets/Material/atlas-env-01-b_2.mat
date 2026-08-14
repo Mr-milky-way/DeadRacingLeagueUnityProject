@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-env-01-b
+  m_Name: atlas-env-01-b_2
   m_Shader: {fileID: 4800000, guid: d50eafe1043ca954fa3e03e3c64b3f81, type: 3}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 0
@@ -19,46 +19,46 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: b71aba782acf4f1489dd7f5b0a3b2c7a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTex:
+    - _MetallicTex:
         m_Texture: {fileID: 2800000, guid: 3be2e909f6fbf374c99c25832f027524, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTex:
+    - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 786326dc944129847a6eb827c4367fb9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _OcclusionTex:
+    - _OcclusionTex:
         m_Texture: {fileID: 2800000, guid: e5f98f419a25d50419e09627d5cfc768, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ScreenTex:
+    - _ScreenTex:
         m_Texture: {fileID: 8400000, guid: 8a19f222acb374d4299a969f9dc2c4f7, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _Metallic: 0
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _PixelSize: 0.05
-      _ScreenBrightness: 1
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PixelSize: 0.05
+    - _ScreenBrightness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 0.1882353, g: 0.22745098, b: 0.3372549, a: 1}
-      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.1882353, g: 0.22745098, b: 0.3372549, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

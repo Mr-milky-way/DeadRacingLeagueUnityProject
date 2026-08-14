@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-terrain-01
+  m_Name: atlas-terrain-01_5
   m_Shader: {fileID: 4800000, guid: 3e94aa961d128164ab1e03d6c3e8de63, type: 3}
   m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
@@ -19,96 +19,96 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _AlbedoTexL0:
+    - _AlbedoTexL0:
         m_Texture: {fileID: 2800000, guid: cfe8939af24aae540894459fa1753eee, type: 3}
         m_Scale: {x: 1000, y: 1000}
         m_Offset: {x: 0, y: 0}
-      _AlbedoTexL1:
+    - _AlbedoTexL1:
         m_Texture: {fileID: 2800000, guid: cfe8939af24aae540894459fa1753eee, type: 3}
         m_Scale: {x: 1000, y: 1000}
         m_Offset: {x: 0, y: 0}
-      _DepthTexL1:
+    - _DepthTexL1:
         m_Texture: {fileID: 2800000, guid: d23f48af234197243815401b0385db62, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _GroundMaskTex:
+    - _GroundMaskTex:
         m_Texture: {fileID: 2800000, guid: b736eb72fe43e0b43b05004a1acf1b09, type: 3}
         m_Scale: {x: 300, y: 300}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 53d5bd0a911ec564abecc45f32dfa742, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTex:
+    - _MetallicTex:
         m_Texture: {fileID: 2800000, guid: 437c9303441150f4fad3d115475b2852, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTexL0:
+    - _MetallicTexL0:
         m_Texture: {fileID: 2800000, guid: bd10233dfe4804e41a9c734cb6f99c6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MetallicTexL1:
+    - _MetallicTexL1:
         m_Texture: {fileID: 2800000, guid: bd10233dfe4804e41a9c734cb6f99c6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTex:
+    - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 96dcb1aed9a14d9488330463c30dcf2d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTexL0:
+    - _NormalTexL0:
         m_Texture: {fileID: 2800000, guid: fc25167bb8ea43a409663c9b1eee511b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTexL1:
+    - _NormalTexL1:
         m_Texture: {fileID: 2800000, guid: fc25167bb8ea43a409663c9b1eee511b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BaseIntensity: 1
-      _BaseMetallicIntensity: 1
-      _BaseNormalIntensity: 1
-      _BaseOcclusionIntensity: 1
-      _BaseSmoothnessIntensity: 1
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0
-      _GlossyReflections: 1
-      _MainIntensity: 0.5
-      _MainMetallicIntensity: 0
-      _MainNormalIntensity: 1
-      _MainSmoothnessIntensity: 0
-      _MaskAdd: 100
-      _MaskPower: 1.61
-      _Metallic: 0
-      _MetallicL0: 1
-      _MetallicL1: 1
-      _MetallicL2: 0
-      _Mode: 0
-      _NormalIntensityL0: 1
-      _NormalIntensityL1: 1
-      _NormalL0: 1
-      _NormalL1: 1
-      _NormalL2: 1
-      _OcclusionL0: 1
-      _OcclusionL1: 1
-      _OcclusionL2: 1
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _SmoothnessL0: 0.331
-      _SmoothnessL1: 0.44
-      _SmoothnessL2: 0
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BaseIntensity: 1
+    - _BaseMetallicIntensity: 1
+    - _BaseNormalIntensity: 1
+    - _BaseOcclusionIntensity: 1
+    - _BaseSmoothnessIntensity: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MainIntensity: 0.5
+    - _MainMetallicIntensity: 0
+    - _MainNormalIntensity: 1
+    - _MainSmoothnessIntensity: 0
+    - _MaskAdd: 100
+    - _MaskPower: 1.61
+    - _Metallic: 0
+    - _MetallicL0: 1
+    - _MetallicL1: 1
+    - _MetallicL2: 0
+    - _Mode: 0
+    - _NormalIntensityL0: 1
+    - _NormalIntensityL1: 1
+    - _NormalL0: 1
+    - _NormalL1: 1
+    - _NormalL2: 1
+    - _OcclusionL0: 1
+    - _OcclusionL1: 1
+    - _OcclusionL2: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessL0: 0.331
+    - _SmoothnessL1: 0.44
+    - _SmoothnessL2: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _ColorL0: {r: 0.3818085, g: 0.4601059, b: 0.5660378, a: 1}
-      _ColorL1: {r: 0.16971238, g: 0.2313283, b: 0.31617647, a: 1}
-      _ColorL2: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorL0: {r: 0.3818085, g: 0.4601059, b: 0.5660378, a: 1}
+    - _ColorL1: {r: 0.16971238, g: 0.2313283, b: 0.31617647, a: 1}
+    - _ColorL2: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

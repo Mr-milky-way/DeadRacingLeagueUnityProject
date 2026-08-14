@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-water-puddles-01
+  m_Name: atlas-water-puddles-01_1
   m_Shader: {fileID: 4800000, guid: 0d18ab7557315b94ca973df42a63001f, type: 3}
   m_ShaderKeywords: _ALPHABLEND_ON _DETAIL_MULX2 _NORMALMAP
   m_LightmapFlags: 4
@@ -19,34 +19,34 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 0950cd484b3d49e4b89e76a70543deb6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalTex:
+    - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 256040b064cc9044ca5a0df0d95c7d10, type: 3}
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 0.04
-      _DstBlend: 10
-      _GlossMapScale: 1
-      _Glossiness: 1
-      _GlossyReflections: 1
-      _Metallic: 1
-      _Mode: 2
-      _NormalIntensity: 0.04
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _Smoothness: 1
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 5
-      _UVSec: 0
-      _ZWrite: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 0.04
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 2
+    - _NormalIntensity: 0.04
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _ZWrite: 0
     m_Colors:
-      _Color: {r: 0.44117644, g: 0.44117644, b: 0.44117644, a: 0.435}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.44117644, g: 0.44117644, b: 0.44117644, a: 0.435}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

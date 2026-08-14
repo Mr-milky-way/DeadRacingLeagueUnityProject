@@ -6,7 +6,7 @@ ComputeShader:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name:
+  m_Name: platformdefines
   variants:
   - serializedVersion: 2
     targetRenderer: 2
@@ -15,8 +15,7 @@ ComputeShader:
     constantBuffers: []
     resourcesResolved: 0
     compilerPlatform: 0
-    platformKeywords:
-      Array:
+    platformKeywords: 0000000000000000
     needsReflectionData: 0
   m_CompilationContext:
     buildTarget:
@@ -24,9 +23,9 @@ ComputeShader:
       subTarget: 0
       extendedPlatform: 0
       isEditor: 0
-    sourceFileName:
-    source:
-    sourceFile:
+    sourceFileName: 
+    source: 
+    sourceFile: 
     kernels: []
     kernelMacros: []
     compilationFlags: 0

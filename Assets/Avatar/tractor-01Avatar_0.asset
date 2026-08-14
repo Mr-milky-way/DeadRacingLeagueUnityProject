@@ -6,7 +6,7 @@ Avatar:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tractor-01Avatar
+  m_Name: tractor-01Avatar_0
   m_AvatarSize: 948
   m_Avatar:
     serializedVersion: 3
@@ -23,7 +23,7 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 0
           m_AxesId: -1
-        m_ID: 000000006ec10a,1fd544d45d13543*b6b644a32
+        m_ID: 000000006ec10ac1fd544d45d13543ab6b644a32
         m_AxesArray: []
     m_AvatarSkeletonPose:
       data:
@@ -61,7 +61,7 @@ Avatar:
         - t: {x: -0, y: 0, z: 0}
           q: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
           s: {x: 1, y: 1, z: 1}
-    m_SkeletonNameIDArray: 000000006ec10a,1fd544d45d13543*b6b644a32
+    m_SkeletonNameIDArray: 000000006ec10ac1fd544d45d13543ab6b644a32
     m_Human:
       data:
         serializedVersion: 2
@@ -72,18 +72,18 @@ Avatar:
         m_Skeleton:
           data:
             m_Node: []
-            m_ID:
+            m_ID: 
             m_AxesArray: []
         m_SkeletonPose:
           data:
             m_X: []
         m_LeftHand:
           data:
-            m_HandBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         m_RightHand:
           data:
-            m_HandBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
-        m_HumanBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_HumanBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         m_HumanBoneMass:
         - 0.14545456
         - 0.12121213
@@ -121,8 +121,8 @@ Avatar:
         m_HasLeftHand: 0
         m_HasRightHand: 0
         m_HasTDoF: 0
-    m_HumanSkeletonIndexArray:
-    m_HumanSkeletonReverseIndexArray:
+    m_HumanSkeletonIndexArray: 
+    m_HumanSkeletonReverseIndexArray: 
     m_RootMotionBoneIndex: -1
     m_RootMotionBoneX:
       t: {x: 0, y: 0, z: 0}
@@ -131,17 +131,17 @@ Avatar:
     m_RootMotionSkeleton:
       data:
         m_Node: []
-        m_ID:
+        m_ID: 
         m_AxesArray: []
     m_RootMotionSkeletonPose:
       data:
         m_X: []
-    m_RootMotionSkeletonIndexArray:
+    m_RootMotionSkeletonIndexArray: 
   m_TOS:
     843736171: tractor-01-lod1
     3238707566: shadow-01
     1162695933: tractor-01-lod0
-    0:
+    0: 
     2873308625: tractor-01-lod2
   m_HumanDescription:
     serializedVersion: 3
@@ -155,7 +155,7 @@ Avatar:
     m_LegStretch: 0.05
     m_FeetSpacing: 0
     m_GlobalScale: 1
-    m_RootMotionBoneName:
+    m_RootMotionBoneName: 
     m_HasTranslationDoF: 0
     m_HasExtraRoot: 0
     m_SkeletonHasParents: 1

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat-grass-01
+  m_Name: mat-grass-01_0
   m_Shader: {fileID: 4800000, guid: 3d84a9864e3305e44bbacfe0bb4c4b0b, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
@@ -19,73 +19,73 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _FxCMETex:
+    - _FxCMETex:
         m_Texture: {fileID: 2800000, guid: f3ccb754cef70ff42abe0fbf1cffadf8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _GrassAlbTex:
+    - _GrassAlbTex:
         m_Texture: {fileID: 2800000, guid: 3c695dc0b83946345b6415fc88643095, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _GrassMetTex:
+    - _GrassMetTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _GrassNorTex:
+    - _GrassNorTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _Bend: 1.25
-      _BendDist: 2.5
-      _BendMul: 1
-      _BendPow: 1
-      _Bending: 1
-      _BumpScale: 1
-      _Cutoff: 0.85
-      _DepthIntensity: 0.4
-      _DepthLength: 20
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _Elevation: 1.06
-      _FadeDist: 14
-      _FadeMul: 1
-      _FadePow: 1
-      _FxColor: 0.5
-      _FxElevation: 1.085
-      _FxUVHeight: 240
-      _FxUVWidth: 200
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _GridSize: 5
-      _Height: 1
-      _HeightDist: 1
-      _HeightMax: 1
-      _HeightMin: 0.5
-      _HeightMul: 1
-      _HeightPow: 1
-      _Metallic: 0
-      _Mode: 1
-      _NormalUp: 1
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _Random: 2.9
-      _Smoothness: 0
-      _SmoothnessTextureChannel: 0
-      _Softness: 0.95
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _TestParam: -0.3
-      _UVHeight: 240
-      _UVScale: 9
-      _UVSec: 0
-      _UVWidth: 200
-      _WindDisplacement: 0.05
-      _WindSpeed: 1.5
-      _ZWrite: 1
+    - _Bend: 1.25
+    - _BendDist: 2.5
+    - _BendMul: 1
+    - _BendPow: 1
+    - _Bending: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.85
+    - _DepthIntensity: 0.4
+    - _DepthLength: 20
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Elevation: 1.06
+    - _FadeDist: 14
+    - _FadeMul: 1
+    - _FadePow: 1
+    - _FxColor: 0.5
+    - _FxElevation: 1.085
+    - _FxUVHeight: 240
+    - _FxUVWidth: 200
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GridSize: 5
+    - _Height: 1
+    - _HeightDist: 1
+    - _HeightMax: 1
+    - _HeightMin: 0.5
+    - _HeightMul: 1
+    - _HeightPow: 1
+    - _Metallic: 0
+    - _Mode: 1
+    - _NormalUp: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Random: 2.9
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _Softness: 0.95
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TestParam: -0.3
+    - _UVHeight: 240
+    - _UVScale: 9
+    - _UVSec: 0
+    - _UVWidth: 200
+    - _WindDisplacement: 0.05
+    - _WindSpeed: 1.5
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 0.59599996, g: 0.49885198, b: 0.5747045, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _Offset: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.59599996, g: 0.49885198, b: 0.5747045, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

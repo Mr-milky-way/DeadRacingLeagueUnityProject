@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: camera-takes-freefly-01
+  m_Name: camera-takes-freefly-01_8
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -29,7 +29,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 15
         value: {x: 0, y: 0, z: 0}
-        inSlope: {x: -7.4040145E-07, y: 0, z: 0}
+        inSlope: {x: -0.00000074040145, y: 0, z: 0}
         outSlope: {x: Infinity, y: Infinity, z: 0}
         tangentMode: 1
         weightedMode: 0
@@ -56,7 +56,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 27.55
         value: {x: 345, y: 345.002, z: 0}
-        inSlope: {x: 0, y: 4.5314096E-08, z: 0}
+        inSlope: {x: 0, y: 0.000000045314096, z: 0}
         outSlope: {x: Infinity, y: Infinity, z: 0}
         tangentMode: 1
         weightedMode: 0
@@ -92,7 +92,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 59.133335
         value: {x: 0, y: 405.001, z: 0}
-        inSlope: {x: 0, y: 2.899421E-06, z: 0}
+        inSlope: {x: 0, y: 0.000002899421, z: 0}
         outSlope: {x: Infinity, y: Infinity, z: Infinity}
         tangentMode: 1
         weightedMode: 0
@@ -110,7 +110,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 66.5
         value: {x: 63.701786, y: 85.21302, z: 0.00040853795}
-        inSlope: {x: 4.5971583E-06, y: -2.0566941E-09, z: 6.0796854E-13}
+        inSlope: {x: 0.0000045971583, y: -0.0000000020566941, z: 6.0796854e-13}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 1
         weightedMode: 0
@@ -181,7 +181,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 44.25
         value: {x: 46.95, y: 1.47, z: 71.54462}
-        inSlope: {x: -7.1593576E-07, y: 0, z: 0}
+        inSlope: {x: -0.00000071593576, y: 0, z: 0}
         outSlope: {x: Infinity, y: Infinity, z: Infinity}
         tangentMode: 1
         weightedMode: 0
@@ -191,7 +191,7 @@ AnimationClip:
         time: 44.266666
         value: {x: -51.671818, y: 11.289787, z: 70.80917}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: -2.742606E-06, y: 0, z: -0.27450442}
+        outSlope: {x: -0.000002742606, y: 0, z: -0.27450442}
         tangentMode: 1
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -199,7 +199,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 59.133335
         value: {x: -51.67183, y: 11.289787, z: -64.2714}
-        inSlope: {x: -2.593563E-06, y: 0, z: 2.5212635E-06}
+        inSlope: {x: -0.000002593563, y: 0, z: 0.0000025212635}
         outSlope: {x: Infinity, y: Infinity, z: Infinity}
         tangentMode: 1
         weightedMode: 0
@@ -217,7 +217,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 66.5
         value: {x: -115.67, y: 35.07, z: 90.01}
-        inSlope: {x: -2.8274806E-08, y: 3.698633E-07, z: 3.4044054E-09}
+        inSlope: {x: -0.000000028274806, y: 0.0000003698633, z: 0.0000000034044054}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 1
         weightedMode: 0

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 804933c77022a42616bd564ceefac396, type: 3}
-  m_Name: PS4
-  m_EditorClassIdentifier:
+  m_Name: PS4_2
+  m_EditorClassIdentifier: 
   IgnorePropertyNameList:
   - UserSettings.m_SampleRate
   GlobalPropertyNameList:
@@ -77,7 +77,7 @@ MonoBehaviour:
     m_CommandQueueSize: 262144
     m_SamplesPerFrame: 512
     m_MainOutputSettings:
-      m_AudioDeviceShareset:
+      m_AudioDeviceShareset: 
       m_DeviceID: 0
       m_PanningRule: 0
       m_ChannelConfig:
@@ -112,7 +112,7 @@ MonoBehaviour:
       m_DiffractionShadowAttenuationFactor: 1
       m_DiffractionShadowDegrees: 30
     m_RenderDuringFocusLoss: 1
-    m_SoundBankPersistentDataPath:
+    m_SoundBankPersistentDataPath: 
     m_UseAsyncOpen: 0
     ACPBatchBufferSize: 92160
     UseHardwareCodecLowLatencyMode: 0
@@ -122,4 +122,4 @@ MonoBehaviour:
     m_CommandPort: 0
     m_NotificationPort: 0
     m_InitializeSystemComms: 1
-    m_NetworkName:
+    m_NetworkName: 

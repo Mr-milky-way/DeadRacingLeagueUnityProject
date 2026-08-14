@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: barrier-02-lod2
+  m_Name: barrier-02-lod2_1
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -25,11 +25,11 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
     m_Center: {x: 0.025306612, y: -0.002607286, z: 0.3840328}
     m_Extent: {x: 0.96814203, y: 0.27112752, z: 0.3793015}
   m_MeshUsageFlags: 16
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh: 4e5853014d4553480f00000001000000060000001c00000034000000d65471bff6268cbe410c9b3b3e517e3ff8268cbe01099b3b3e517e3fe5bc8abe70376c3dd65471bfe3bc8abed8376c3d3e517e3f8a080cbe13e76c3ed65471bf85080cbe2de76c3e3e517e3f6afbd2bdef1c383fd65471bf5dfbd2bdf51c383f3e517e3f168166bdd969433fd65471bffb8066bde069433fd65471bf5b24513de069433f3e517e3fe324513dd969433fd65471bf0f4dc83df51c383f3e517e3f534dc83def1c383fd65471bf63b1063e2fe76c3e3e517e3f85b1063e15e76c3ed65471bf5311883ee8376c3d3e517e3f6311883e80376c3dd65471bf6b7b893ec10c9b3b3e517e3f7c7b893e81099b3bd65471bfe14939bd410c9b3baa5d71bf397939bdca04353faa5d71bf7838273dca04353fd65471bf803b273d810c9b3b3e517e3fcb4939bd41099b3ba7527e3f207939bdca04353fa7527e3f9038273dca04353f3e517e3f983b273d41099b3b0806190b0819191a0b1a0d0b0419060d1a0f1904181b0f1a1a1918181b1a1b110f1b13110201180218040c0a0b0c0b0d0a09080a080b0706080809070504060607050e0c0d0d0f0e100e0f0f11101b171212131b121011111312181417171b180302040405030001020203000100141418010709150a15090a1615160a0c160c0e05071510170e1012171400031403051415160e1716161714151405330000002223242521262027303128291e1f0a0b0809060704050c0d0e0f2e2f10112c2d020300012a2b161718191a151c1d1213331b32144256342003000000d04fcf3c00df2abbf29fc43e2d8b893f040000002046fe3748420c374411b837bf61fe37c69609378378c33701000000200000007886988678869886fe7fff7f7d86ff7f02c0c03e0180ff7f0180ff7f0180ff7f2629ff7fce009276ce00ff7fce00ff7f7820000050450000846700000480000078869886788698860000000000000000c5cfaf2e02c0c03e0000000000000000d87dff7f262999780000000000000000c904000045050000ffffffffffffffff7d8698867886988600000000000000000180ff7f02c0c03e0000000000000000ce00d126ce00927600000000000000008905000009060000fffffffffffffffffe7fff7ffe7fff7ffe7fff7fff7fff7fc5cfaf2e02c0c03e02c0c03e0180ff7fd87dff7f26299978ce009276ce00d1260900000085000000c9000000490100007d86ff7f7d86ff7f7d86ff7f7d86ff7f02c0c03ec5cfaf2e01808deac5eaff7f26299978ff7fff7fce00d126ce00d12689020000a8a2000098c1000002e000007d86ff7f7d86ff7f0000000000000000c317af2ec5cf6b180000000000000000ff7fff7fff7fff7f0000000000000000c501000009020000ffffffffffffffff7d86ff7f7d86ff7f00000000000000004b81f6be01808dea00000000000000003b0ad126ce00b40900000000000000000504000049040000ffffffffffffffff7d86ff7f7d86ff7f7d86ff7f00000000c5ea8b135d3daf7efb12ff7f00000000ce00d4003b0ad126ce00b40900000000c50300000503000049030000ffffffffa7527e34aa5d71bff8268cbe01099b3ba7527e3f7c7b893ee069433f3400000008080010202000000008101818201830183018181018180808181018181810101810181818100820001010082018181000001000
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 129.66273
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

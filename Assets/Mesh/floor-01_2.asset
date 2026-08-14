@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: floor-01
+  m_Name: floor-01_2
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -25,15 +25,15 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose: []
-  m_BoneNameHashes:
+  m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB: []
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 0
-  m_KeepVertices: 0
-  m_KeepIndices: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
   m_IndexFormat: 0
   m_IndexBuffer: 00000100020002000300000003000400000003000200050005000600030005000700060005000800070007000800090009000a0007000b000c000d000b000d000e000f000e000d000d0010000f0011001200130011001400120015001400110015001600140017001800190017001a0018001b001a0017001b001c001a001d001e001f001f0020001d001d00200021001d002100220022002100230022002300240025002600270027002800250029002a002b0029002c002a00
   m_VertexData:
@@ -103,59 +103,59 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
     m_Center: {x: -0.06357193, y: 0.8923683, z: 0.4636109}
     m_Extent: {x: 37.935455, y: 58.691917, z: 0.029100046}
   m_MeshUsageFlags: 8
-  m_BakedConvexCollisionMesh: 4e5853014356584d0d0000000000000049434501434c484c090000000500000008000000050000001000000004c00dc2bd3267c29744fc3ecf7c1742f6b55cc24178de3ec77c1742c33267424178de3e000000004f566e429c44fc3e02ff17c2b13267424178de3e3939893a67789b2ff7ff7f3f24c5f2be000004047aa3cbba9fe8f539e9ff7f3fcc4905bf040003016f3b4bba847b08baf8ff7fbf39cbde3e070003030000000000000000000080bf4278de3e0a000303895ffdb25f7f053d2fdd7fbf458ab9bf0d00030000010203040003040100020104020403000200030004000101020104020303040001020002030003040001040102030000000002ff17c2bd3267c24078de3ece7c17424f566e429c44fc3e5e8829432f7c28480bc91246ffdaad430bc9124617be3547ea6a92c4ffdaad43ea6a92c406da55488eed87c0f066744120b7e93e000080bfe0edb33cadc34f3c465ccc41adc34f3c
-  m_BakedTriangleCollisionMesh:
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 25.814558
   m_MeshMetrics[1]: 11589211
   m_MeshOptimizationFlags: -1
@@ -163,4 +163,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

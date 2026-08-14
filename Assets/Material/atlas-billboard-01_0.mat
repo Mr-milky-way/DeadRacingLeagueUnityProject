@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-billboard-01
+  m_Name: atlas-billboard-01_0
   m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: EFFECT_BILLBOARD EFFECT_BUMP EFFECT_EXTRA_TEX _WINDQUALITY_FASTEST
   m_LightmapFlags: 4
@@ -19,35 +19,35 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 65be033a0aa3cfa4da143ebaa6d9394e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ExtraTex:
+    - _ExtraTex:
         m_Texture: {fileID: 2800000, guid: 4f78509b28d1d39498f71eb95a96d880, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: b1932f346fa833f47bdf51d2e6505591, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _SubsurfaceTex:
+    - _SubsurfaceTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BillboardKwToggle: 1
-      _BillboardShadowFade: 0.5
-      _Glossiness: 1
-      _HueVariationKwToggle: 0
-      _Metallic: 1
-      _NormalMapKwToggle: 1
-      _SubsurfaceIndirect: 0.25
-      _SubsurfaceKwToggle: 0
-      _TwoSided: 2
-      _WindQuality: 1
+    - _BillboardKwToggle: 1
+    - _BillboardShadowFade: 0.5
+    - _Glossiness: 1
+    - _HueVariationKwToggle: 0
+    - _Metallic: 1
+    - _NormalMapKwToggle: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _TwoSided: 2
+    - _WindQuality: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _HueVariationColor: {r: 1, g: 1, b: 1, a: 0.1}
-      _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariationColor: {r: 1, g: 1, b: 1, a: 0.1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

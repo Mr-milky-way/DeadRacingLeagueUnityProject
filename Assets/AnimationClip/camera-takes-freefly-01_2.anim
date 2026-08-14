@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: camera-takes-freefly-01
+  m_Name: camera-takes-freefly-01_2
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -74,7 +74,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 39.983334
         value: {x: 0, y: 27.999, z: 0}
-        inSlope: {x: 0, y: -2.6759865E-06, z: 0}
+        inSlope: {x: 0, y: -0.0000026759865, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 1
         weightedMode: 0
@@ -118,7 +118,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 12
         value: {x: 57.117, y: 4.41, z: -16.01}
-        inSlope: {x: 0, y: 9.3800935E-08, z: -1.8266328E-06}
+        inSlope: {x: 0, y: 0.000000093800935, z: -0.0000018266328}
         outSlope: {x: Infinity, y: Infinity, z: Infinity}
         tangentMode: 1
         weightedMode: 0
@@ -136,7 +136,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 23.983334
         value: {x: 17.49, y: 3.0893595, z: 14.7}
-        inSlope: {x: 0, y: 0, z: 5.6283557E-07}
+        inSlope: {x: 0, y: 0, z: 0.00000056283557}
         outSlope: {x: Infinity, y: Infinity, z: Infinity}
         tangentMode: 1
         weightedMode: 0
@@ -154,7 +154,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 39.983334
         value: {x: 35.87, y: 1.78, z: 3.09}
-        inSlope: {x: 2.371346E-07, y: 0, z: 3.862216E-09}
+        inSlope: {x: 0.0000002371346, y: 0, z: 0.000000003862216}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 1
         weightedMode: 0

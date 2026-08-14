@@ -7,9 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat-env-01-a
+  m_Name: mat-env-01-a_1
   m_Shader: {fileID: 4800000, guid: e37dd3f8e5f3a344a80b9a5678e9246a, type: 3}
-  m_ShaderKeywords: DETAILS_USE_VERTEX_ALPHA_MASK MAPS2_ENABLED MAPS3_ENABLED MAPS4_ENABLED _DETAILSUV_UV1 _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: DETAILS_USE_VERTEX_ALPHA_MASK MAPS2_ENABLED MAPS3_ENABLED MAPS4_ENABLED
+    _DETAILSUV_UV1 _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -19,117 +20,117 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _DetailAlbTex:
+    - _DetailAlbTex:
         m_Texture: {fileID: 2800000, guid: 963dd5e283904634488b4db8a2f910a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _DetailAlbTex2:
+    - _DetailAlbTex2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps1AlbTex:
+    - _Maps1AlbTex:
         m_Texture: {fileID: 2800000, guid: 2362c332b7455d74aa57a8c9d4d5a387, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps1MSOETex:
+    - _Maps1MSOETex:
         m_Texture: {fileID: 2800000, guid: 2af83aff9825e25478ca0b22bfd1cb1f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps1NormalTex:
+    - _Maps1NormalTex:
         m_Texture: {fileID: 2800000, guid: e895cac9547cca64aad4d16c7a146067, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps2AlbTex:
+    - _Maps2AlbTex:
         m_Texture: {fileID: 2800000, guid: ce33dd3b50ee5434eb03741d47947b78, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps2MSOETex:
+    - _Maps2MSOETex:
         m_Texture: {fileID: 2800000, guid: d6583e3f6d293cb44a1ad7c73f982e86, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps2NormalTex:
+    - _Maps2NormalTex:
         m_Texture: {fileID: 2800000, guid: 4c9c0d50ecc6d1e47bf77ff8bafe8f8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps3AlbTex:
+    - _Maps3AlbTex:
         m_Texture: {fileID: 2800000, guid: d86040b135ef7f6429ca58e5a1e739d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps3MSOETex:
+    - _Maps3MSOETex:
         m_Texture: {fileID: 2800000, guid: 547376ef9c0e65841a8065f8c3b72239, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps3NormalTex:
+    - _Maps3NormalTex:
         m_Texture: {fileID: 2800000, guid: 817c20723e39c504c9050ce7fe8556b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps4AlbTex:
+    - _Maps4AlbTex:
         m_Texture: {fileID: 2800000, guid: 0a844cdf0629f1d48993b98ba1fdcb48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps4MSOETex:
+    - _Maps4MSOETex:
         m_Texture: {fileID: 2800000, guid: 553291b57a507fb4c824ec7344732a3b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _Maps4NormalTex:
+    - _Maps4NormalTex:
         m_Texture: {fileID: 2800000, guid: 0517254bb1a402047b7be5c1eaec5b7a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailMaskEnabled: 0
-      _DetailMaskMetallic: 1
-      _DetailMaskSmoothness: 1
-      _DetailNormalMapScale: 1
-      _DetailNormals: 1
-      _DetailsEnabled: 0
-      _DetailsUV: 1
-      _DetailsVertexAlphaMask: 1
-      _DstBlend: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _Maps1Metallic: 1
-      _Maps1Normals: 1
-      _Maps1Occlusion: 1
-      _Maps1Smoothness: 1
-      _Maps2Enabled: 1
-      _Maps2Metallic: 1
-      _Maps2Normals: 1
-      _Maps2Occlusion: 1
-      _Maps2Smoothness: 1
-      _Maps3Enabled: 1
-      _Maps3Metallic: 1
-      _Maps3Normals: 1
-      _Maps3Occlusion: 1
-      _Maps3Smoothness: 1
-      _Maps4Enabled: 1
-      _Maps4Metallic: 1
-      _Maps4Normals: 1
-      _Maps4Occlusion: 1
-      _Maps4Smoothness: 1
-      _MaskMetallic: 0
-      _MaskSmoothness: 0
-      _Metallic: 1
-      _Mode: 0
-      _Normals: 1
-      _Occlusion: 1
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _Smoothness: 1
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _UVSec: 0
-      _ZWrite: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailMaskEnabled: 0
+    - _DetailMaskMetallic: 1
+    - _DetailMaskSmoothness: 1
+    - _DetailNormalMapScale: 1
+    - _DetailNormals: 1
+    - _DetailsEnabled: 0
+    - _DetailsUV: 1
+    - _DetailsVertexAlphaMask: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Maps1Metallic: 1
+    - _Maps1Normals: 1
+    - _Maps1Occlusion: 1
+    - _Maps1Smoothness: 1
+    - _Maps2Enabled: 1
+    - _Maps2Metallic: 1
+    - _Maps2Normals: 1
+    - _Maps2Occlusion: 1
+    - _Maps2Smoothness: 1
+    - _Maps3Enabled: 1
+    - _Maps3Metallic: 1
+    - _Maps3Normals: 1
+    - _Maps3Occlusion: 1
+    - _Maps3Smoothness: 1
+    - _Maps4Enabled: 1
+    - _Maps4Metallic: 1
+    - _Maps4Normals: 1
+    - _Maps4Occlusion: 1
+    - _Maps4Smoothness: 1
+    - _MaskMetallic: 0
+    - _MaskSmoothness: 0
+    - _Metallic: 1
+    - _Mode: 0
+    - _Normals: 1
+    - _Occlusion: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _DetailMaskColor: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _Maps1Color: {r: 1, g: 1, b: 1, a: 1}
-      _Maps2Color: {r: 1, g: 1, b: 1, a: 1}
-      _Maps3Color: {r: 1, g: 1, b: 1, a: 1}
-      _Maps4Color: {r: 1, g: 1, b: 1, a: 1}
-      _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailMaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Maps1Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Maps2Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Maps3Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Maps4Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

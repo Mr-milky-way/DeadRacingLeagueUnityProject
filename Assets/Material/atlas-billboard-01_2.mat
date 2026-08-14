@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: atlas-billboard-01
+  m_Name: atlas-billboard-01_2
   m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: EFFECT_BILLBOARD EFFECT_BUMP EFFECT_EXTRA_TEX _WINDQUALITY_FASTEST
   m_LightmapFlags: 4
@@ -19,35 +19,35 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 12c719b46f9d812438cf76bada162d1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _ExtraTex:
+    - _ExtraTex:
         m_Texture: {fileID: 2800000, guid: 1e369ce65160aaa469d1cb34bfd840b6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: d225303a8fd49854f90554fe5a0d9847, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _SubsurfaceTex:
+    - _SubsurfaceTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-      _BillboardKwToggle: 1
-      _BillboardShadowFade: 0.5
-      _Glossiness: 1
-      _HueVariationKwToggle: 0
-      _Metallic: 1
-      _NormalMapKwToggle: 1
-      _SubsurfaceIndirect: 0.25
-      _SubsurfaceKwToggle: 0
-      _TwoSided: 2
-      _WindQuality: 1
+    - _BillboardKwToggle: 1
+    - _BillboardShadowFade: 0.5
+    - _Glossiness: 1
+    - _HueVariationKwToggle: 0
+    - _Metallic: 1
+    - _NormalMapKwToggle: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _TwoSided: 2
+    - _WindQuality: 1
     m_Colors:
-      _Color: {r: 1, g: 0.93092, b: 0.8066038, a: 1}
-      _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.043137256}
-      _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.93092, b: 0.8066038, a: 1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.043137256}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
