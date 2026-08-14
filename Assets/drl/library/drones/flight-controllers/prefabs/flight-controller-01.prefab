@@ -1,0 +1,2799 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4642988549198181}
+  - component: {fileID: 114946936116752871}
+  - component: {fileID: 114711914853252429}
+  - component: {fileID: 114918264173551851}
+  m_Layer: 23
+  m_Name: flight-controller-01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4587397909062814}
+  m_Layer: 23
+  m_Name: sensors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4875609422105747}
+  - component: {fileID: 114371939378208658}
+  m_Layer: 23
+  m_Name: accelerometer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4694121525821480}
+  - component: {fileID: 114320256170494724}
+  m_Layer: 23
+  m_Name: barometer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1703437598541787
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4017697238300914}
+  - component: {fileID: 114733206282342372}
+  m_Layer: 23
+  m_Name: gyro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1884547391421755
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4217368724061974}
+  - component: {fileID: 114089843903986396}
+  m_Layer: 23
+  m_Name: inertial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1099118695303065
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4672306508523268}
+  - component: {fileID: 114808113985169905}
+  m_Layer: 23
+  m_Name: gps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1243736805655561
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4060945828524476}
+  - component: {fileID: 114900271049623953}
+  m_Layer: 23
+  m_Name: collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1061268324235159
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4472185465350827}
+  - component: {fileID: 114518489005915545}
+  m_Layer: 23
+  m_Name: electrical
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1587765826080250
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4220653531496868}
+  m_Layer: 23
+  m_Name: modes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1709867586078768
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4841364053301648}
+  - component: {fileID: 114967328832014496}
+  m_Layer: 23
+  m_Name: target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1044625135789424
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4291844617409189}
+  - component: {fileID: 114344419225485095}
+  m_Layer: 23
+  m_Name: direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1589667821646929
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4919942235722503}
+  - component: {fileID: 114107629493147155}
+  m_Layer: 23
+  m_Name: dji
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1372920208702427
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4833703512093738}
+  - component: {fileID: 114632746491512912}
+  m_Layer: 23
+  m_Name: arcade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1025901758691103
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4719342369648492}
+  - component: {fileID: 114726790013014859}
+  m_Layer: 23
+  m_Name: acro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1985305603660343
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4436073260064126}
+  m_Layer: 23
+  m_Name: processes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1705390221481576
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4693329660128220}
+  - component: {fileID: 114801075752484240}
+  m_Layer: 23
+  m_Name: training
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1977153420339851
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4000955326284023}
+  - component: {fileID: 114397768327470545}
+  m_Layer: 23
+  m_Name: thrust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1336590748365959
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4571718729274231}
+  - component: {fileID: 114581786255902400}
+  m_Layer: 23
+  m_Name: yaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1256069497284392
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4477046003934300}
+  - component: {fileID: 114045458335737618}
+  m_Layer: 0
+  m_Name: pitch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1161607090078389
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4722951815217645}
+  - component: {fileID: 114924050743934937}
+  m_Layer: 0
+  m_Name: roll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1002669891404536
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4215879266689626}
+  - component: {fileID: 114689364072382846}
+  m_Layer: 23
+  m_Name: altitude
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1470112387431263
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4043919389829319}
+  - component: {fileID: 114743393880019028}
+  m_Layer: 23
+  m_Name: level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1313026266067498
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4094320201520353}
+  - component: {fileID: 114026196548002408}
+  m_Layer: 23
+  m_Name: limiter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1621510681728303
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4572839542275309}
+  - component: {fileID: 114279359913592680}
+  m_Layer: 23
+  m_Name: softlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1632457200066912
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4384403120170545}
+  - component: {fileID: 114149520701623706}
+  m_Layer: 23
+  m_Name: dji
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1634108722742392
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4292246286975720}
+  - component: {fileID: 114693062532245359}
+  m_Layer: 23
+  m_Name: altitude
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1302127217294661
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4630643969539439}
+  - component: {fileID: 114370222726513266}
+  m_Layer: 0
+  m_Name: stability
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1969106005120503
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4574304967836189}
+  - component: {fileID: 114009931292380359}
+  m_Layer: 0
+  m_Name: balance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4642988549198181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4587397909062814}
+  - {fileID: 4220653531496868}
+  - {fileID: 4436073260064126}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114946936116752871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aaf1507f2b5a86e9a4c741ff07bbd85, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: FC-04d
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 2800000, guid: 2d60d762d9994de41b6efec41900705f, type: 3}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 5
+  wattDrop:
+  - 0
+  - 0
+  - 0
+  - 0
+  mbd:
+  - name:
+    propGuid:
+    dataUrl:
+    videoUrl:
+    verificationFilename:
+    verificationLine: 0
+    cells: 4
+    prop: 0
+    diameter: 4
+    pitch: 4
+    blades: 3
+    temperature: 0
+    overload: 0
+    interpolated: 0
+    thrust:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustScale: 0
+    torque:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpm:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    watts:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    amperes:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    mechanicalEfficiency: 0
+    mechanicalEfficiencyAtRpm: 0
+    thrustToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpmDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    spinupDelay: 0
+    spindownDelay: 0
+  - name:
+    propGuid:
+    dataUrl:
+    videoUrl:
+    verificationFilename:
+    verificationLine: 0
+    cells: 4
+    prop: 0
+    diameter: 4
+    pitch: 4
+    blades: 3
+    temperature: 0
+    overload: 0
+    interpolated: 0
+    thrust:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustScale: 0
+    torque:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpm:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    watts:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    amperes:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    mechanicalEfficiency: 0
+    mechanicalEfficiencyAtRpm: 0
+    thrustToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpmDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    spinupDelay: 0
+    spindownDelay: 0
+  - name:
+    propGuid:
+    dataUrl:
+    videoUrl:
+    verificationFilename:
+    verificationLine: 0
+    cells: 4
+    prop: 0
+    diameter: 4
+    pitch: 4
+    blades: 3
+    temperature: 0
+    overload: 0
+    interpolated: 0
+    thrust:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustScale: 0
+    torque:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpm:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    watts:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    amperes:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    mechanicalEfficiency: 0
+    mechanicalEfficiencyAtRpm: 0
+    thrustToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpmDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    spinupDelay: 0
+    spindownDelay: 0
+  - name:
+    propGuid:
+    dataUrl:
+    videoUrl:
+    verificationFilename:
+    verificationLine: 0
+    cells: 4
+    prop: 0
+    diameter: 4
+    pitch: 4
+    blades: 3
+    temperature: 0
+    overload: 0
+    interpolated: 0
+    thrust:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustScale: 0
+    torque:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpm:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    watts:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    amperes:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    mechanicalEfficiency: 0
+    mechanicalEfficiencyAtRpm: 0
+    thrustToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueToSignal:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rpmDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    thrustDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    torqueDelay:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    spinupDelay: 0
+    spindownDelay: 0
+  mode: 1
+  m_armed: 0
+  external: 0
+  m_threaded: 0
+  m_layouts:
+  - type: 0
+    indexes: 01000000000000000200000003000000
+    spins: 00010100
+  minSignal: 0.025
+  m_rawSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  m_signal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  m_normalizedSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  allowThrottle: 1
+  allowPitch: 1
+  allowYaw: 1
+  allowRoll: 1
+  inputs: []
+  debugThrottle: 0
+  debugPitch: 0
+  debugYaw: 0
+  debugRoll: 0
+  landed: 1
+--- !u!114 &114711914853252429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec28774e58c36f3d851983f2a6aa467a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  label: tags
+  tags: 06000000b90b0000
+--- !u!114 &114918264173551851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbfbe1d4fa587d50432997bcaf5a2f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  removeItem: 0
+  available: 0
+  inDevelopment: 0
+  inventoryOnly: 0
+  filters: []
+--- !u!4 &4587397909062814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4875609422105747}
+  - {fileID: 4694121525821480}
+  - {fileID: 4017697238300914}
+  - {fileID: 4217368724061974}
+  - {fileID: 4672306508523268}
+  - {fileID: 4060945828524476}
+  - {fileID: 4472185465350827}
+  m_Father: {fileID: 4642988549198181}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4875609422105747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114371939378208658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa93cec50cd78e58f275cf52fbc6a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-f5a
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  m_local: {x: 0, y: 0, z: 0}
+  m_world: {x: 0, y: 0, z: 0}
+--- !u!4 &4694121525821480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114320256170494724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e65677d886ddc41721363251624975, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-13c
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  m_height: 0
+  m_heightAboveSurface: 0
+--- !u!4 &4017697238300914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114733206282342372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd68edf645851bb8bea9e85fa881b200, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-7d5
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  m_local: {x: 0, y: 0, z: 0}
+  m_delta: {x: 0, y: 0, z: 0}
+  m_velocity: {x: 0, y: 0, z: 0}
+  m_averageVelocity: {x: 0, y: 0, z: 0}
+  flipThreshold: 50
+  flipped: 0
+  spin: {x: 0, y: 0, z: 0}
+--- !u!4 &4217368724061974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114089843903986396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb481e2af810bf41b4a17b1c5d9bf8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-b5d
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  m_velocity: {x: 0, y: 0, z: 0}
+  m_actualVelocity: {x: 0, y: 0, z: 0}
+  m_speed: 0
+  m_actualSpeed: 0
+  m_averageSpeed: 0
+--- !u!4 &4672306508523268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114808113985169905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f571cdb7374a6cc5492d210be97b9549, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-63d
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  m_position: {x: 0, y: 0, z: 0}
+  m_groundPosition: {x: 0, y: 0, z: 0}
+  m_longitude: 0
+  m_latitude: 0
+--- !u!4 &4060945828524476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114900271049623953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01696b17e5647292a7977d8982e1bf4e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-f57
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 1
+  restingOnSurfaceDistance: 0.05
+  restingOnSurfaceGroundSpeedThreshold: 0.01
+  restingOnSurfaceFallSpeedThreshold: 0.001
+  crashThreshold: 90
+  active: 0
+--- !u!4 &4472185465350827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061268324235159}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587397909062814}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114518489005915545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061268324235159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb902bc63092c193332735a43d52aa80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_guid: S-6d7
+  info:
+    name: Stock
+    caption:
+    thumb: {fileID: 0}
+    brand: DRL
+    logo: {fileID: 0}
+  order: 0
+  nodes: []
+  weight: 0
+  usePhysics: 0
+  m_currentDraw: 0
+  m_currentMax: 0
+  m_voltage: 0
+  m_voltageAvailable: 0
+  m_voltageMax: 0
+  m_voltageMin: 0
+  m_totalCapacity: 0
+  m_remainingCharge: 0
+--- !u!4 &4220653531496868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4841364053301648}
+  - {fileID: 4291844617409189}
+  - {fileID: 4919942235722503}
+  - {fileID: 4833703512093738}
+  - {fileID: 4719342369648492}
+  m_Father: {fileID: 4642988549198181}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4841364053301648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4220653531496868}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114967328832014496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff89b3e3651e5d0dd32dacc107a436dd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: altitude
+    constants:
+      p: 0.35
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: forward
+    constants:
+      p: 0.2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: sideways
+    constants:
+      p: 0.2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  targetHeading: 0
+  targetPosition: {x: 0, y: 0, z: 0}
+  allowedError: 0.05
+  speedLimit: 0
+  directionScale: 2
+  outputScale: 1.6
+  overrideSignalWeight: 1
+  target: {fileID: 0}
+  outputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+--- !u!4 &4291844617409189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044625135789424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4220653531496868}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114344419225485095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044625135789424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110b2adb591485f4169cfb257a0d2978, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: forward
+    constants:
+      p: 0.05
+      i: 0
+      d: 0.8
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: sideways
+    constants:
+      p: 0.05
+      i: 0
+      d: 0.8
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: upwards
+    constants:
+      p: 0.5
+      i: 0
+      d: 0.01
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0.5
+      i: 0
+      d: 0.01
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  targetVelocity: {x: 0, y: 0, z: 0}
+  controlScale: 0.1
+  yawThreshold: 10
+  outputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  inputs: []
+--- !u!4 &4919942235722503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589667821646929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4220653531496868}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114107629493147155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589667821646929}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da79408f8dde7bbf5f9ecc4327561c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: altitude
+    constants:
+      p: 0.5
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: sideways
+    constants:
+      p: 0.14
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: forward
+    constants:
+      p: 0.14
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: roll
+    constants:
+      p: 1.8
+      i: 0
+      d: 0.06
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: pitch
+    constants:
+      p: 1.7
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0.4
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  angleMode: 0
+  m_outputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  dampenYaw: 1
+  overrideInput: 0
+  inputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  angleRateMultiplier: 1
+  param_maxRate: 600
+  param_maxAngle: 53
+  param_minAngle: 5
+  param_minTrainingScale: 0.1
+  param_maxTrainingScale: 1.1
+  param_maxSpeed: 45
+  param_minSpeed: 4
+  rateWeight: 0
+  altitudeChangeScale: 3
+  correctionScale: 1.2
+  targetVerticalSpeed: 0
+  targetSidewaysSpeed: 0
+  targetForwardSpeed: 0
+  deltaVerticalSpeed: 0
+  deltaSidewaysSpeed: 0
+  deltaForwardSpeed: 0
+--- !u!4 &4833703512093738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372920208702427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4220653531496868}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114632746491512912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372920208702427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18cd4c97bab5df34ce5f97692deb0d70, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: pitch
+    constants:
+      p: 0.4
+      i: 0
+      d: 0.0006
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0.4
+      i: 0
+      d: 0.0006
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: roll
+    constants:
+      p: 0.4
+      i: 0
+      d: 0.0006
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  thrustTrainingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 32.64339
+      outSlope: 32.64339
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.015295201
+      value: 0.49928722
+      inSlope: 0.20425427
+      outSlope: 0.20425427
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9504976
+      value: 0.6012505
+      inSlope: 0.20009816
+      outSlope: 0.20009816
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99996763
+      value: 0.80002993
+      inSlope: 4.0181804
+      outSlope: 4.0181804
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &4719342369648492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025901758691103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4220653531496868}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114726790013014859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025901758691103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5c0000caa4020e75c04dd659fedf56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids: []
+  deltaTime: 0
+  m_signals: []
+--- !u!4 &4436073260064126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985305603660343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4693329660128220}
+  - {fileID: 4000955326284023}
+  - {fileID: 4571718729274231}
+  - {fileID: 4477046003934300}
+  - {fileID: 4722951815217645}
+  - {fileID: 4215879266689626}
+  - {fileID: 4043919389829319}
+  - {fileID: 4094320201520353}
+  - {fileID: 4572839542275309}
+  - {fileID: 4630643969539439}
+  - {fileID: 4574304967836189}
+  m_Father: {fileID: 4642988549198181}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4693329660128220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705390221481576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114801075752484240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705390221481576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1767875d55fdb0d40e53b75f7c3961, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids: []
+  deltaTime: 0
+  m_signals: []
+  thrustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 32.64339
+      outSlope: 32.64339
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.015295201
+      value: 0.49928722
+      inSlope: 0.20425427
+      outSlope: 0.20425427
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9504976
+      value: 0.6012505
+      inSlope: 0.20009816
+      outSlope: 0.20009816
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99996763
+      value: 0.80002993
+      inSlope: 4.0181804
+      outSlope: 4.0181804
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &4000955326284023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977153420339851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114397768327470545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977153420339851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3384c578460d351deac9c3b64c52b1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids: []
+  deltaTime: 0
+  m_signals: []
+  layout:
+  - 1
+  - 1
+  - 1
+  - 1
+  throttle: 0
+--- !u!4 &4571718729274231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336590748365959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114581786255902400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336590748365959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb06f956f6aa1782bc52d34ede091f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: yaw
+    constants:
+      p: 0.2
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 10
+  deltaTime: 0
+  m_signals: []
+  layout:
+  - 1
+  - -1
+  - 1
+  - -1
+--- !u!4 &4477046003934300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256069497284392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114045458335737618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256069497284392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8cce18088a1259510c1640e2f62ec9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: pitch
+    constants:
+      p: 0.2
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 10
+  deltaTime: 0
+  m_signals: []
+  layout:
+  - -1
+  - 1
+  - 1
+  - -1
+--- !u!4 &4722951815217645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161607090078389}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114924050743934937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161607090078389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdbcb4141654971585de90bf6425817, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: roll
+    constants:
+      p: 0.2
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 10
+  deltaTime: 0
+  m_signals: []
+  layout:
+  - 1
+  - 1
+  - -1
+  - -1
+--- !u!4 &4215879266689626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002669891404536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114689364072382846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002669891404536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffce817d7a32989d9b133a9bb7d0e37, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: upwards
+    constants:
+      p: 0.25
+      i: 0
+      d: 0.01
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: break
+    constants:
+      p: 0.25
+      i: 0
+      d: 0.01
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: overshoot
+    constants:
+      p: 0.003
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  targetAltitude: 0
+  m_target: {fileID: 0}
+  targetOverHardSurface: 0
+  thrustLerp: 50000
+  speedLimit: 0
+  lockOvershoot: 0.25
+  lockUndershoot: 0.2
+  gravityCompensation: 1
+  m_hover_throttle: 0
+  angleLimit: 22
+  overshoot: 0
+  overshootRange: 1
+--- !u!4 &4043919389829319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470112387431263}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114743393880019028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470112387431263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d447d075e092ea80c22fc1f7f4770237, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: pitch
+    constants:
+      p: 2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: roll
+    constants:
+      p: 2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 2
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  pitchOffset: 0
+  rollOffset: 0
+  heading: 0
+  delay: 0.2
+  rate: 5
+  limit: 0.05
+  inputTime: 0
+  affectYaw: 1
+--- !u!4 &4094320201520353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313026266067498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114026196548002408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313026266067498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a667e8d332b05accaef36412b343e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: pitch
+    constants:
+      p: 0.6
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: roll
+    constants:
+      p: 0.6
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  rate: 5000
+  limit: 45
+  lookahead: 10
+  m_rollSignal: 0
+  m_pitchSignal: 0
+  dampenRoll: 0
+  dampenPitch: 0
+--- !u!4 &4572839542275309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621510681728303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4384403120170545}
+  - {fileID: 4292246286975720}
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114279359913592680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621510681728303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184a55fddd47d12c91a8f9983337f813, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: altitude
+    constants:
+      p: 0.35
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: forward
+    constants:
+      p: 0.2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: sideways
+    constants:
+      p: 0.2
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  dji: {fileID: 0}
+  altitude: {fileID: 0}
+  targetHeading: 0
+  targetPosition: {x: 0, y: 0, z: 0}
+  allowedError: 0.05
+  speedLimit: 0
+  directionScale: 2
+  outputScale: 1.6
+  overrideSignalWeight: 1
+  target: {fileID: 0}
+  lockHeading: 0
+  lockAltitude: 0
+  lockGlobalX: 0
+  lockGlobalZ: 0
+  lockLocalX: 0
+  lockLocalZ: 0
+  outputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+--- !u!4 &4384403120170545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632457200066912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4572839542275309}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114149520701623706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632457200066912}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da79408f8dde7bbf5f9ecc4327561c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: altitude
+    constants:
+      p: 0.5
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: sideways
+    constants:
+      p: 0.14
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: forward
+    constants:
+      p: 0.14
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: roll
+    constants:
+      p: 1.8
+      i: 0
+      d: 0.06
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: pitch
+    constants:
+      p: 1.7
+      i: 0
+      d: 0.05
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: yaw
+    constants:
+      p: 0.4
+      i: 0
+      d: 0.001
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  angleMode: 0
+  m_outputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  dampenYaw: 1
+  overrideInput: 0
+  inputSignal:
+    throttle: 0
+    altitude: 0
+    yaw: 0
+    pitch: 0
+    roll: 0
+  angleRateMultiplier: 1
+  param_maxRate: 600
+  param_maxAngle: 53
+  param_minAngle: 5
+  param_minTrainingScale: 0.1
+  param_maxTrainingScale: 1.1
+  param_maxSpeed: 45
+  param_minSpeed: 4
+  rateWeight: 0
+  altitudeChangeScale: 3
+  correctionScale: 1.2
+  targetVerticalSpeed: 0
+  targetSidewaysSpeed: 0
+  targetForwardSpeed: 0
+  deltaVerticalSpeed: 0
+  deltaSidewaysSpeed: 0
+  deltaForwardSpeed: 0
+--- !u!4 &4292246286975720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634108722742392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4572839542275309}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114693062532245359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634108722742392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffce817d7a32989d9b133a9bb7d0e37, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: upwards
+    constants:
+      p: 0.15
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: break
+    constants:
+      p: 0.25
+      i: 0
+      d: 0.01
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: overshoot
+    constants:
+      p: 0.003
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  targetAltitude: 0
+  m_target: {fileID: 0}
+  targetOverHardSurface: 0
+  thrustLerp: 50000
+  speedLimit: 0
+  lockOvershoot: 0.25
+  lockUndershoot: 0.2
+  gravityCompensation: 1
+  m_hover_throttle: 0
+  angleLimit: 22
+  overshoot: 0
+  overshootRange: 1
+--- !u!4 &4630643969539439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302127217294661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114370222726513266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302127217294661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4804a5ee5c43ff8565f85bd5c692c28, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids:
+  - name: roll-correction
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: pitch-correction
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: hover
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: x-speed
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: z-speed
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  - name: altitude
+    constants:
+      p: 0
+      i: 0
+      d: 0
+    error:
+      p: 0
+      i: 0
+      d: 0
+    gain:
+      p: 0
+      i: 0
+      d: 0
+    guard: 0
+  deltaTime: 0
+  m_signals: []
+  stabilityTime: 2
+  stabilityAuthority:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  hover: 1
+  hoverOnly: 0
+  maintainAltitude: 0
+  altitudeToMaintain: 0
+  speed: 1
+  stabilized: 0
+  m_stabilization_angle: 0
+  stabilizationAngleRange: 80
+  altitudeRange: 5
+--- !u!4 &4574304967836189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969106005120503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4436073260064126}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114009931292380359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969106005120503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a03a6fa84635d8301fb27e349480ce, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_fc: {fileID: 0}
+  pids: []
+  deltaTime: 0
+  m_signals: []
+  yawAuthority:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.6554728
+      outSlope: 7.6554728
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  yawInputAuthority: 1
+  balanced: 0
+  torqueSum: 0
