@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	361405066	play_sx_ui_loading_error			\Default Work Unit\SX\play_sx_ui_loading_error	
+	2264698282	play_mx_intro			\Default Work Unit\MX\play_mx_intro	
+	2642886680	stop_mx_intro			\Default Work Unit\MX\stop_mx_intro	
+	3005029442	play_sx_ui_loading_loop			\Default Work Unit\SX\play_sx_ui_loading_loop	
+	3295319945	play_sx_ui_loading_success			\Default Work Unit\SX\play_sx_ui_loading_success	
+	3543477156	stop_sx_ui_loading_loop			\Default Work Unit\SX\stop_sx_ui_loading_loop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4070528516	timescale			\Default Work Unit\timescale	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2700745216	SFX_Time_Stretch	Wwise Time Stretch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39095937	intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\intro_A1A141F5.wem		\Interactive Music Hierarchy\Default Work Unit\Splash\intro\intro		1491242
+	89367444	ui_loading_success	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\ui_loading_success_D05369E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\ui sfxs\ui_loading_success		67851
+	265963102	ui_loading_loop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\ui_loading_loop_8154F49A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\ui sfxs\ui_loading_loop		186746
+	638482242	ui_loading_error	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\ui_loading_error_D05369E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\ui sfxs\ui_loading_error		60589
+

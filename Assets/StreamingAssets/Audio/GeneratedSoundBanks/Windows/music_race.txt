@@ -1,0 +1,115 @@
+Event	ID	Name			Wwise Object Path	Notes
+	761739809	stop_mx_race			\Default Work Unit\MX\stop_mx_race	
+	2272270883	play_mx_race			\Default Work Unit\MX\play_mx_race	
+	2414542046	pause_game_music			\Default Work Unit\pause_game_music	
+	3253464573	resume_game_music			\Default Work Unit\resume_game_music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	959619413	RaceMusic2Sections_36perc			\Default Work Unit\RaceMusic2Sections_36perc	
+	1931351663	RaceMusicPartSelector2			\Default Work Unit\RaceMusicPartSelector2	
+	2261689580	RaceMusic2Sections_42perc			\Default Work Unit\RaceMusic2Sections_42perc	
+	2463383119	RaceMusicPartSelector			\Default Work Unit\RaceMusicPartSelector	
+
+Switch	ID	Name	Switch Group			Notes
+	1125500713	Intro	RaceMusic2Sections_36perc			
+	3524678536	Section2	RaceMusic2Sections_36perc			
+	3524678539	Section1	RaceMusic2Sections_36perc			
+	444437171	RandomPick	RaceMusicPartSelector2			
+	3177314144	Part2	RaceMusicPartSelector2			
+	3177314147	Part1	RaceMusicPartSelector2			
+	1125500713	Intro	RaceMusic2Sections_42perc			
+	3524678536	Section2	RaceMusic2Sections_42perc			
+	3524678539	Section1	RaceMusic2Sections_42perc			
+	444437171	RandomPick	RaceMusicPartSelector			
+	3177314144	Part2	RaceMusicPartSelector			
+	3177314147	Part1	RaceMusicPartSelector			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1845460495	GameType			\Default Work Unit\GameType	
+	2442081200	RaceLevel			\Default Work Unit\RaceLevel	
+
+State	ID	Name	State Group			Notes
+	30729851	campaign	GameType			
+	748895195	None	GameType			
+	1242303306	freestyle	GameType			
+	1875627670	race	GameType			
+	2206546786	mission_los	GameType			
+	3137067327	mission_generic	GameType			
+	514358619	field	RaceLevel			
+	674960167	atlanta_aftermath	RaceLevel			
+	748895195	None	RaceLevel			
+	908806678	miami_lights	RaceLevel			
+	1234597685	drl_sandbox	RaceLevel			
+	1370675812	usaf	RaceLevel			
+	1486201574	ohio_crash_site	RaceLevel			
+	2118182778	detroit	RaceLevel			
+	2202639834	lapocalypse	RaceLevel			
+	2242113225	airplane_graveyard	RaceLevel			
+	2324910105	bell_labs	RaceLevel			
+	2503490217	gates_of_hell	RaceLevel			
+	3570271506	mardi_gras	RaceLevel			
+	3720479411	house	RaceLevel			
+	3855206896	miami_nights	RaceLevel			
+	3870214768	boston_foundry	RaceLevel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3469933102	gates_percentage			\Default Work Unit\gates_percentage	
+	4070528516	timescale			\Default Work Unit\timescale	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5209188	mx_race_bostonfoundry_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Section2\mx_race_lapocalypse_section2intro\mx_race_bostonfoundry_section2perc		693355
+	21006355	mx_race_fieldsoftomorrow_section2toms	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_fieldsoftomorrow_section2toms_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MapEditorField\Section2\mx_race_fieldsoftomorrow_section2intro\mx_race_fieldsoftomorrow_section2toms		542041
+	21541084	mx_race_bostonfoundry_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_bostonfoundry_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-BostonFoundry\Intro\mx_race_bostonfoundry_introloop\mx_race_bostonfoundry_intro		488596
+	34520121	mx_race_gates_of_hell2_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell2_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell2\Section2\mx_race_gates_of_hell2_section2\mx_race_gates_of_hell2_section2perc		608255
+	69911178	mx_race_laserneighbourhood_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_laserneighbourhood_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-LaserNeighbourhood(COX)\Section2\mx_race_laserneighbourhood_section2intro\mx_race_laserneighbourhood_section2		2431485
+	81754813	mx_race_lapocalypse_section1loop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_section1loop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Section1\mx_race_apocalypse_section1loop\mx_race_lapocalypse_section1loop		1069264
+	118974217	mx_race_laserneighbourhood_section2solo	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_laserneighbourhood_section2solo_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-LaserNeighbourhood(COX)\Section2\mx_race_laserneighbourhood_section2intro\mx_race_laserneighbourhood_section2solo		1285432
+	142756769	mx_race_mardigras_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_mardigras_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MardiGras\Section1\mx_race_mardigras_section1intro\mx_race_mardigras_section1		2728563
+	177778680	mx_race_atlanta_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_atlanta_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-AtlantaAftermath\Section1\mx_race_atlanta_section1intro\mx_race_atlanta_section1		2014544
+	195770546	mx_race_usaf_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_usaf_section2intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-USAF\Section2\mx_race_usaf_section2\mx_race_usaf_section2		3116199
+	206973177	mx_race_atlanta_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_atlanta_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-AtlantaAftermath\Intro\mx_race_atlanta_introintro\mx_race_atlanta_intro		345123
+	249845888	mx_race_bostonfoundry_section2solo	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_bostonfoundry_section2solo_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-BostonFoundry\Section2\mx_race_bostonfoundry_section2intro\mx_race_bostonfoundry_section2solo		941311
+	270589506	mx_race_projectmanhattan_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_projectmanhattan_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-ProjectManhattan\Section2\mx_race_projectmanhattan_section2intro\mx_race_projectmanhattan_section2		3258516
+	291510609	mx_race_projectmanhattan_section2intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_projectmanhattan_section2intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-ProjectManhattan\Section2\mx_race_projectmanhattan_section2introintro\mx_race_projectmanhattan_section2intro		431526
+	303327325	mx_race_projectmanhattan_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_projectmanhattan_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-ProjectManhattan\Intro\mx_race_projectmanhattan_intro\mx_race_projectmanhattan_intro		291248
+	309246763	mx_race_fieldsoftomorrow_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_fieldsoftomorrow_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MapEditorField\Section2\mx_race_fieldsoftomorrow_section2intro\mx_race_fieldsoftomorrow_section2		4978751
+	320671992	mx_race_ohio_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Section1\mx_race_ohio_section1intro\mx_race_ohio_section1		2072244
+	352178066	mx_race_ohio_section2solo	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_section2solo_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Section2\mx_race_ohio_section2intro\mx_race_ohio_section2solo		1624392
+	355623433	mx_race_miaminights_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_miaminights_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-MiamiNights\Section1\mx_race_miaminights_section1intro\mx_race_miaminights_section1		1700531
+	370169602	mx_race_bostonfoundry_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_bostonfoundry_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-BostonFoundry\Section2\mx_race_bostonfoundry_section2intro\mx_race_bostonfoundry_section2perc		1285638
+	397380353	mx_race_bostonfoundry_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_bostonfoundry_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-BostonFoundry\Section1\mx_race_bostonfoundry_section1intro\mx_race_bostonfoundry_section1		2107565
+	399838919	mx_race_ohio_section2pre	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_section2pre_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Section2\mx_race_ohio_section2intro\mx_race_ohio_section2pre		263862
+	440415418	mx_race_miaminights_section2lead	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_miaminights_section2lead_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-MiamiNights\Section2\mx_race_miaminights_section2intro\mx_race_miaminights_section2lead		678318
+	445518668	mx_race_miaminights_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_miaminights_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-MiamiNights\Intro\mx_race_miaminights_introintro\mx_race_miaminights_intro		412452
+	487698976	mx_race_ohio_introloop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_introloop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Intro\mx_race_ohio_introloop\mx_race_ohio_introloop		258089
+	488688540	mx_race_gates_of_hell1_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell1\Intro\mx_race_gates_of_hell1_intro\mx_race_gates_of_hell1_intro		411203
+	541771405	mx_race_fieldsoftomorrow_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_fieldsoftomorrow_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MapEditorField\Intro\mx_race_fieldsoftomorrow_intro\mx_race_fieldsoftomorrow_intro		696274
+	542475553	mx_race_lapocalypse_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Intro\mx_race_lapocalypse_introintro\mx_race_lapocalypse_intro		423098
+	545353282	mx_race_lapocalypse_section2loop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_section2loop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Section2\mx_race_lapocalypse_section2loop\mx_race_lapocalypse_section2loop		1400775
+	567338747	mx_race_atlanta_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_atlanta_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-AtlantaAftermath\Section2\mx_race_atlanta_section2intro\mx_race_atlanta_section2perc		387384
+	575398944	mx_race_ohio_introintro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_introintro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Intro\mx_race_ohio_introintro\mx_race_ohio_introintro		513682
+	606010480	mx_race_usaf_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\USAF-Section-1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-USAF\Section1\mx_race_usaf_section1\mx_race_usaf_section1		2387243
+	606819355	mx_race_bostonfoundry_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_bostonfoundry_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-BostonFoundry\Section2\mx_race_bostonfoundry_section2intro\mx_race_bostonfoundry_section2		2576814
+	616032380	mx_race_atlanta_introloop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_atlanta_introloop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-AtlantaAftermath\Intro\mx_race_atlanta_introloop\mx_race_atlanta_introloop		328781
+	634425155	mx_race_fieldsoftomorrow_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_fieldsoftomorrow_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MapEditorField\Section1\mx_race_fieldsoftomorrow_section1intro\mx_race_fieldsoftomorrow_section1		3130392
+	638548426	mx_race_lapocalypse_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Section2\mx_race_lapocalypse_section2intro\mx_race_lapocalypse_section2		4393821
+	673117028	mx_race_mardigras_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_mardigras_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MardiGras\Section2\mx_race_mardigras_section2intro\mx_race_mardigras_section2perc		454427
+	674012377	mx_race_laserneibourhood_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_laserneibourhood_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-LaserNeighbourhood(COX)\Section1\mx_race_laserneibourhood_section1intro\mx_race_laserneibourhood_section1		1419812
+	678704172	mx_race_gates_of_hell2_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell2_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell2\Section1\mx_race_gates_of_hell2_section1intro\mx_race_gates_of_hell2_section1		2166496
+	721286191	mx_race_ohio_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_ohio_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-OhioCrashSite\Section2\mx_race_ohio_section2intro\mx_race_ohio_section2		2559178
+	726542451	mx_race_gates_of_hell1_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell1_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell1\Section1\mx_race_gates_of_hell1_section1intro\mx_race_gates_of_hell1_section1		1288642
+	773916058	mx_race_mardigras_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_mardigras_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MardiGras\Section2\mx_race_mardigras_section2intro\mx_race_mardigras_section2		3160954
+	809534781	mx_race_gates_of_hell1_section2perc	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell1_section2perc_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell1\Section2\mx_race_gates_of_hell1_section2\mx_race_gates_of_hell1_section2perc		296837
+	835216339	mx_race_gates_of_hell1_section2intro+toms	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell1_section2intro+toms_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell1\Section2\mx_race_gates_of_hell1_section2intro\mx_race_gates_of_hell1_section2intro+toms		1374245
+	840076130	mx_race_mardigras_section2loop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_mardigras_section2loop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MardiGras\Section2\mx_race_mardigras_section2loop\mx_race_mardigras_section2loop		1815227
+	842180650	mx_race_projectmanhattan_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_projectmanhattan_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-ProjectManhattan\Section1\mx_race_projectmanhattan_section1intro\mx_race_projectmanhattan_section1		2409708
+	860988233	mx_race_gates_of_hell1_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell1_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell1\Section2\mx_race_gates_of_hell1_section2\mx_race_gates_of_hell1_section2		1740460
+	874972729	mx_race_lapocalypse_introloop	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_introloop_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Intro\mx_race_lapocalypse_introloop\mx_race_lapocalypse_introloop		261308
+	955514298	mx_race_laserneibourhood_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_laserneibourhood_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-LaserNeighbourhood(COX)\Intro\mx_race_laserneibourhood_intro\mx_race_laserneibourhood_intro		408604
+	975180954	mx_race_atlanta_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_atlanta_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-AtlantaAftermath\Section2\mx_race_atlanta_section2intro\mx_race_atlanta_section2		2548854
+	988028545	mx_race_usaf_introintro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\USAF-Intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-USAF\Intro\mx_race_usaf_introintro\mx_race_usaf_introintro		646948
+	989313235	mx_race_lapocalypse_section1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_lapocalypse_section1_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-LApocalypse\Section1\mx_race_lapocalypse_section1intro\mx_race_lapocalypse_section1		2539106
+	1000297525	mx_race_mardigras_intro	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_mardigras_intro_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-MardiGras\Intro\mx_race_mardigras_intro\mx_race_mardigras_intro		334734
+	1029367093	mx_race_gates_of_hell2_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_gates_of_hell2_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-Championship2016-Detroit\Race-GatesOfHell\Race-GatesOfHell2\Section2\mx_race_gates_of_hell2_section2\mx_race_gates_of_hell2_section2		2015510
+	1049352485	mx_race_miaminights_section2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_race_miaminights_section2_544B0F21.wem		\Interactive Music Hierarchy\Default Work Unit\Race\Race-MiamiNights\Section2\mx_race_miaminights_section2intro\mx_race_miaminights_section2		2702531
+

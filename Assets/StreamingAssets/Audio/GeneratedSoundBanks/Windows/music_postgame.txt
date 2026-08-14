@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	253301956	play_mx_postgame			\Default Work Unit\MX\play_mx_postgame	
+	1772319926	stop_mx_postgame			\Default Work Unit\MX\stop_mx_postgame	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1845460495	GameType			\Default Work Unit\GameType	
+	1980469977	RaceResult			\Default Work Unit\RaceResult	
+
+State	ID	Name	State Group			Notes
+	30729851	campaign	GameType			
+	748895195	None	GameType			
+	1242303306	freestyle	GameType			
+	1875627670	race	GameType			
+	2206546786	mission_los	GameType			
+	3137067327	mission_generic	GameType			
+	748895195	None	RaceResult			
+	1861161479	new_record	RaceResult			
+	3683254051	finished	RaceResult			
+	4043259814	timeout	RaceResult			
+	4265657233	crashed	RaceResult			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	389387119	mx_main_mission_complete	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_main_mission_complete_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\Post-Game\MissionAccomplished\MissionAccomplished\mx_main_mission_complete		6225230
+	512868539	TheEndOfTheRace_Defeat	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_endrace_defeat_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\Post-Game\Race-Crashed\TheEndOfTheRace_Defeat\TheEndOfTheRace_Defeat		5801389
+	558547485	TheEndOfTheRace_NewRecord	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_endrace_newrecord_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\Post-Game\Race-NewRecord\TheEndOfTheRace New Record\TheEndOfTheRace_NewRecord		1648289
+	673025873	TheEndOfTheRace_Finished	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_endrace_finished_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\Post-Game\Race-Finished\TheEndOfTheRace_Finished Intro\TheEndOfTheRace_Finished		7360992
+

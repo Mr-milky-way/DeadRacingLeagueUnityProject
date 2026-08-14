@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/jamesthorley/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Untitled/drl-game/unity/WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/jamesthorley/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Untitled/drl-game/unity/WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/jamesthorley/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Untitled/drl-game/unity/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/jamesthorley/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Untitled/drl-game/unity/WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="160038168" Language="SFX" Hash="3230263724">
+			<ObjectPath>\SoundBanks\Default Work Unit\splash</ObjectPath>
+			<ShortName>splash</ShortName>
+			<Path>splash.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2264698282" Name="play_mx_intro" ObjectPath="\Events\Default Work Unit\MX\play_mx_intro" DurationType="OneShot" DurationMin="63.962448" DurationMax="63.962448">
+					<IncludedMemoryFiles>
+						<File Id="39095937" Language="SFX">
+							<ShortName>intro.wav</ShortName>
+							<Path>SFX/intro_A1A141F5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="361405066" Name="play_sx_ui_loading_error" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_error" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
+					<IncludedMemoryFiles>
+						<File Id="638482242" Language="SFX">
+							<ShortName>ui_loading_error.wav</ShortName>
+							<Path>SFX/ui_loading_error_D05369E0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3005029442" Name="play_sx_ui_loading_loop" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_loop" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="265963102" Language="SFX">
+							<ShortName>ui_loading_loop.wav</ShortName>
+							<Path>SFX/ui_loading_loop_8154F49A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3295319945" Name="play_sx_ui_loading_success" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_success" DurationType="OneShot" DurationMin="1.337506" DurationMax="1.337506">
+					<IncludedMemoryFiles>
+						<File Id="89367444" Language="SFX">
+							<ShortName>ui_loading_success.wav</ShortName>
+							<Path>SFX/ui_loading_success_D05369E0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2642886680" Name="stop_mx_intro" ObjectPath="\Events\Default Work Unit\MX\stop_mx_intro" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3543477156" Name="stop_sx_ui_loading_loop" ObjectPath="\Events\Default Work Unit\SX\stop_sx_ui_loading_loop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4070528516" Name="timescale" ObjectPath="\Game Parameters\Default Work Unit\timescale"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="282176238" Language="SFX" Hash="769479426">
+			<ObjectPath>\SoundBanks\Default Work Unit\music_race</ObjectPath>
+			<ShortName>music_race</ShortName>
+			<Path>music_race.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2414542046" Name="pause_game_music" ObjectPath="\Events\Default Work Unit\pause_game_music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2272270883" Name="play_mx_race" ObjectPath="\Events\Default Work Unit\MX\play_mx_race" DurationType="Infinite"/>
+				<Event Id="3253464573" Name="resume_game_music" ObjectPath="\Events\Default Work Unit\resume_game_music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="761739809" Name="stop_mx_race" ObjectPath="\Events\Default Work Unit\MX\stop_mx_race" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5209188" Language="SFX">
+					<ShortName>mx_race_lapocalypse_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="21006355" Language="SFX">
+					<ShortName>mx_race_fieldsoftomorrow_section2toms.wav</ShortName>
+					<Path>SFX/mx_race_fieldsoftomorrow_section2toms_544B0F21.wem</Path>
+				</File>
+				<File Id="21541084" Language="SFX">
+					<ShortName>mx_race_bostonfoundry_intro.wav</ShortName>
+					<Path>SFX/mx_race_bostonfoundry_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="34520121" Language="SFX">
+					<ShortName>mx_race_gates_of_hell2_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell2_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="69911178" Language="SFX">
+					<ShortName>mx_race_laserneighbourhood_section2.wav</ShortName>
+					<Path>SFX/mx_race_laserneighbourhood_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="81754813" Language="SFX">
+					<ShortName>mx_race_lapocalypse_section1loop.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_section1loop_544B0F21.wem</Path>
+				</File>
+				<File Id="118974217" Language="SFX">
+					<ShortName>mx_race_laserneighbourhood_section2solo.wav</ShortName>
+					<Path>SFX/mx_race_laserneighbourhood_section2solo_544B0F21.wem</Path>
+				</File>
+				<File Id="142756769" Language="SFX">
+					<ShortName>mx_race_mardigras_section1.wav</ShortName>
+					<Path>SFX/mx_race_mardigras_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="177778680" Language="SFX">
+					<ShortName>mx_race_atlanta_section1.wav</ShortName>
+					<Path>SFX/mx_race_atlanta_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="195770546" Language="SFX">
+					<ShortName>mx_race_usaf_section2intro.wav</ShortName>
+					<Path>SFX/mx_race_usaf_section2intro_544B0F21.wem</Path>
+				</File>
+				<File Id="206973177" Language="SFX">
+					<ShortName>mx_race_atlanta_intro.wav</ShortName>
+					<Path>SFX/mx_race_atlanta_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="249845888" Language="SFX">
+					<ShortName>mx_race_bostonfoundry_section2solo.wav</ShortName>
+					<Path>SFX/mx_race_bostonfoundry_section2solo_544B0F21.wem</Path>
+				</File>
+				<File Id="270589506" Language="SFX">
+					<ShortName>mx_race_projectmanhattan_section2.wav</ShortName>
+					<Path>SFX/mx_race_projectmanhattan_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="291510609" Language="SFX">
+					<ShortName>mx_race_projectmanhattan_section2intro.wav</ShortName>
+					<Path>SFX/mx_race_projectmanhattan_section2intro_544B0F21.wem</Path>
+				</File>
+				<File Id="303327325" Language="SFX">
+					<ShortName>mx_race_projectmanhattan_intro.wav</ShortName>
+					<Path>SFX/mx_race_projectmanhattan_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="309246763" Language="SFX">
+					<ShortName>mx_race_fieldsoftomorrow_section2.wav</ShortName>
+					<Path>SFX/mx_race_fieldsoftomorrow_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="320671992" Language="SFX">
+					<ShortName>mx_race_ohio_section1.wav</ShortName>
+					<Path>SFX/mx_race_ohio_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="352178066" Language="SFX">
+					<ShortName>mx_race_ohio_section2solo.wav</ShortName>
+					<Path>SFX/mx_race_ohio_section2solo_544B0F21.wem</Path>
+				</File>
+				<File Id="355623433" Language="SFX">
+					<ShortName>mx_race_miaminights_section1.wav</ShortName>
+					<Path>SFX/mx_race_miaminights_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="370169602" Language="SFX">
+					<ShortName>mx_race_bostonfoundry_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_bostonfoundry_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="397380353" Language="SFX">
+					<ShortName>mx_race_bostonfoundry_section1.wav</ShortName>
+					<Path>SFX/mx_race_bostonfoundry_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="399838919" Language="SFX">
+					<ShortName>mx_race_ohio_section2pre.wav</ShortName>
+					<Path>SFX/mx_race_ohio_section2pre_544B0F21.wem</Path>
+				</File>
+				<File Id="440415418" Language="SFX">
+					<ShortName>mx_race_miaminights_section2lead.wav</ShortName>
+					<Path>SFX/mx_race_miaminights_section2lead_544B0F21.wem</Path>
+				</File>
+				<File Id="445518668" Language="SFX">
+					<ShortName>mx_race_miaminights_intro.wav</ShortName>
+					<Path>SFX/mx_race_miaminights_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="487698976" Language="SFX">
+					<ShortName>mx_race_ohio_introloop.wav</ShortName>
+					<Path>SFX/mx_race_ohio_introloop_544B0F21.wem</Path>
+				</File>
+				<File Id="488688540" Language="SFX">
+					<ShortName>mx_race_gates_of_hell_intro.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="541771405" Language="SFX">
+					<ShortName>mx_race_fieldsoftomorrow_intro.wav</ShortName>
+					<Path>SFX/mx_race_fieldsoftomorrow_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="542475553" Language="SFX">
+					<ShortName>mx_race_lapocalypse_intro.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="545353282" Language="SFX">
+					<ShortName>mx_race_lapocalypse_section2loop.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_section2loop_544B0F21.wem</Path>
+				</File>
+				<File Id="567338747" Language="SFX">
+					<ShortName>mx_race_atlanta_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_atlanta_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="575398944" Language="SFX">
+					<ShortName>mx_race_ohio_introintro.wav</ShortName>
+					<Path>SFX/mx_race_ohio_introintro_544B0F21.wem</Path>
+				</File>
+				<File Id="606010480" Language="SFX">
+					<ShortName>USAF-Section-1.wav</ShortName>
+					<Path>SFX/USAF-Section-1_544B0F21.wem</Path>
+				</File>
+				<File Id="606819355" Language="SFX">
+					<ShortName>mx_race_bostonfoundry_section2.wav</ShortName>
+					<Path>SFX/mx_race_bostonfoundry_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="616032380" Language="SFX">
+					<ShortName>mx_race_atlanta_introloop.wav</ShortName>
+					<Path>SFX/mx_race_atlanta_introloop_544B0F21.wem</Path>
+				</File>
+				<File Id="634425155" Language="SFX">
+					<ShortName>mx_race_fieldsoftomorrow_section1.wav</ShortName>
+					<Path>SFX/mx_race_fieldsoftomorrow_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="638548426" Language="SFX">
+					<ShortName>mx_race_lapocalypse_section2.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="673117028" Language="SFX">
+					<ShortName>mx_race_mardigras_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_mardigras_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="674012377" Language="SFX">
+					<ShortName>mx_race_laserneibourhood_section1.wav</ShortName>
+					<Path>SFX/mx_race_laserneibourhood_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="678704172" Language="SFX">
+					<ShortName>mx_race_gates_of_hell2_section1.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell2_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="721286191" Language="SFX">
+					<ShortName>mx_race_ohio_section2.wav</ShortName>
+					<Path>SFX/mx_race_ohio_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="726542451" Language="SFX">
+					<ShortName>mx_race_gates_of_hell1_section1.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell1_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="773916058" Language="SFX">
+					<ShortName>mx_race_mardigras_section2.wav</ShortName>
+					<Path>SFX/mx_race_mardigras_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="809534781" Language="SFX">
+					<ShortName>mx_race_gates_of_hell1_section2perc.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell1_section2perc_544B0F21.wem</Path>
+				</File>
+				<File Id="835216339" Language="SFX">
+					<ShortName>mx_race_gates_of_hell1_section2intro+toms.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell1_section2intro+toms_544B0F21.wem</Path>
+				</File>
+				<File Id="840076130" Language="SFX">
+					<ShortName>mx_race_mardigras_section2loop.wav</ShortName>
+					<Path>SFX/mx_race_mardigras_section2loop_544B0F21.wem</Path>
+				</File>
+				<File Id="842180650" Language="SFX">
+					<ShortName>mx_race_projectmanhattan_section1.wav</ShortName>
+					<Path>SFX/mx_race_projectmanhattan_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="860988233" Language="SFX">
+					<ShortName>mx_race_gates_of_hell1_section2.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell1_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="874972729" Language="SFX">
+					<ShortName>mx_race_lapocalypse_introloop.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_introloop_544B0F21.wem</Path>
+				</File>
+				<File Id="955514298" Language="SFX">
+					<ShortName>mx_race_laserneibourhood_intro.wav</ShortName>
+					<Path>SFX/mx_race_laserneibourhood_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="975180954" Language="SFX">
+					<ShortName>mx_race_atlanta_section2.wav</ShortName>
+					<Path>SFX/mx_race_atlanta_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="988028545" Language="SFX">
+					<ShortName>USAF-Intro.wav</ShortName>
+					<Path>SFX/USAF-Intro_544B0F21.wem</Path>
+				</File>
+				<File Id="989313235" Language="SFX">
+					<ShortName>mx_race_lapocalypse_section1.wav</ShortName>
+					<Path>SFX/mx_race_lapocalypse_section1_544B0F21.wem</Path>
+				</File>
+				<File Id="1000297525" Language="SFX">
+					<ShortName>mx_race_mardigras_intro.wav</ShortName>
+					<Path>SFX/mx_race_mardigras_intro_544B0F21.wem</Path>
+				</File>
+				<File Id="1029367093" Language="SFX">
+					<ShortName>mx_race_gates_of_hell2_section2.wav</ShortName>
+					<Path>SFX/mx_race_gates_of_hell2_section2_544B0F21.wem</Path>
+				</File>
+				<File Id="1049352485" Language="SFX">
+					<ShortName>mx_race_miaminights_section2.wav</ShortName>
+					<Path>SFX/mx_race_miaminights_section2_544B0F21.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3469933102" Name="gates_percentage" ObjectPath="\Game Parameters\Default Work Unit\gates_percentage"/>
+				<GameParameter Id="4070528516" Name="timescale" ObjectPath="\Game Parameters\Default Work Unit\timescale"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1845460495" Name="GameType" ObjectPath="\States\Default Work Unit\GameType" GUID="{60D37257-630F-485E-A378-879691E7BC93}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameType\None" GUID="{2C21D664-702A-4060-84A2-5090E7AE2FAB}"/>
+						<State Id="1242303306" Name="freestyle" ObjectPath="\States\Default Work Unit\GameType\freestyle" GUID="{549B03CB-1CD8-44CA-9B4D-F021B9A35335}"/>
+						<State Id="2206546786" Name="mission_los" ObjectPath="\States\Default Work Unit\GameType\mission_los" GUID="{3112EE70-2198-49DC-97CC-EE8519116F60}"/>
+						<State Id="3137067327" Name="mission_generic" ObjectPath="\States\Default Work Unit\GameType\mission_generic" GUID="{57E55501-EA8B-44A0-9366-F167787C3228}"/>
+						<State Id="1875627670" Name="race" ObjectPath="\States\Default Work Unit\GameType\race" GUID="{7BB58053-06DD-4CDA-878B-3F8D61B795E0}"/>
+						<State Id="30729851" Name="campaign" ObjectPath="\States\Default Work Unit\GameType\campaign" GUID="{DC3936F0-4488-4690-A415-5BBDF3FFB989}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2442081200" Name="RaceLevel" ObjectPath="\States\Default Work Unit\RaceLevel" GUID="{107937EF-7337-4ADE-8AA5-B8652B45DD74}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\RaceLevel\None" GUID="{4F347162-D292-4EB3-B66F-5F2CCEADA602}"/>
+						<State Id="2503490217" Name="gates_of_hell" ObjectPath="\States\Default Work Unit\RaceLevel\gates_of_hell" GUID="{A34352CA-82A8-4CEC-B3E0-ED9CDA618193}"/>
+						<State Id="2242113225" Name="airplane_graveyard" ObjectPath="\States\Default Work Unit\RaceLevel\airplane_graveyard" GUID="{313559C3-796E-4D84-8776-CB6C7687B50F}"/>
+						<State Id="1234597685" Name="drl_sandbox" ObjectPath="\States\Default Work Unit\RaceLevel\drl_sandbox" GUID="{14380EBC-D297-40AF-A677-7969AC069E8A}"/>
+						<State Id="2324910105" Name="bell_labs" ObjectPath="\States\Default Work Unit\RaceLevel\bell_labs" GUID="{4CB672E4-EBB6-487F-87F4-4398820A5F60}"/>
+						<State Id="2118182778" Name="detroit" ObjectPath="\States\Default Work Unit\RaceLevel\detroit" GUID="{D6458C94-756E-41F2-8B00-97FA373A84A1}"/>
+						<State Id="2202639834" Name="lapocalypse" ObjectPath="\States\Default Work Unit\RaceLevel\lapocalypse" GUID="{FD9A48E7-92E2-4939-8652-385C8E6BE07A}"/>
+						<State Id="908806678" Name="miami_lights" ObjectPath="\States\Default Work Unit\RaceLevel\miami_lights" GUID="{6E20CB2D-B125-48E2-B19F-A71A07BAE64D}"/>
+						<State Id="1486201574" Name="ohio_crash_site" ObjectPath="\States\Default Work Unit\RaceLevel\ohio_crash_site" GUID="{1A96B6E3-3636-40E1-A7DF-5305D64FDF61}"/>
+						<State Id="674960167" Name="atlanta_aftermath" ObjectPath="\States\Default Work Unit\RaceLevel\atlanta_aftermath" GUID="{39787E12-305D-439A-AD7B-955E49751C85}"/>
+						<State Id="3855206896" Name="miami_nights" ObjectPath="\States\Default Work Unit\RaceLevel\miami_nights" GUID="{D6EED801-AC5D-406F-B628-20AD69E96311}"/>
+						<State Id="3570271506" Name="mardi_gras" ObjectPath="\States\Default Work Unit\RaceLevel\mardi_gras" GUID="{7826F03F-5E7C-4911-994A-8F5BBEA79DCA}"/>
+						<State Id="3870214768" Name="boston_foundry" ObjectPath="\States\Default Work Unit\RaceLevel\boston_foundry" GUID="{FC479F68-E0A3-4A53-81D2-3776D531ABC0}"/>
+						<State Id="3720479411" Name="house" ObjectPath="\States\Default Work Unit\RaceLevel\house" GUID="{FA703B90-DBCB-4E10-A6F2-9A40CEA739C9}"/>
+						<State Id="514358619" Name="field" ObjectPath="\States\Default Work Unit\RaceLevel\field" GUID="{A4BEE8FC-6BDD-4796-822F-6FF30A32EB43}"/>
+						<State Id="1370675812" Name="usaf" ObjectPath="\States\Default Work Unit\RaceLevel\usaf" GUID="{F779E800-6EFA-479E-97F1-2A3235CB74AD}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="959619413" Name="RaceMusic2Sections_36perc" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_36perc" GUID="{0479DCCC-7851-4372-90FD-1F2B860A8753}">
+					<Switches>
+						<Switch Id="1125500713" Name="Intro" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_36perc\Intro" GUID="{9225BC15-B6EF-47BD-921D-3CE94451FBCC}"/>
+						<Switch Id="3524678539" Name="Section1" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_36perc\Section1" GUID="{5C1E4A8F-B65A-4F4E-B3D8-91A85C95823D}"/>
+						<Switch Id="3524678536" Name="Section2" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_36perc\Section2" GUID="{3BEC3BBB-EF52-4301-9652-9CFA1BD1B0A9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1931351663" Name="RaceMusicPartSelector2" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector2" GUID="{915DF15D-0720-4000-869F-E8273423B84E}">
+					<Switches>
+						<Switch Id="3177314147" Name="Part1" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector2\Part1" GUID="{D521C2EB-8FEE-435B-8E08-90BF8370F0D3}"/>
+						<Switch Id="3177314144" Name="Part2" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector2\Part2" GUID="{B245B5FD-0A06-449E-8F91-5E0D6B292724}"/>
+						<Switch Id="444437171" Name="RandomPick" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector2\RandomPick" GUID="{C0B4F91F-F056-48BC-86A5-5B4C72AC6020}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2261689580" Name="RaceMusic2Sections_42perc" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_42perc" GUID="{4D89F90D-D166-4F9B-BBB7-D0F1B92607F1}">
+					<Switches>
+						<Switch Id="1125500713" Name="Intro" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_42perc\Intro" GUID="{68A4B26D-F2F0-45E1-9653-18A77BE060A3}"/>
+						<Switch Id="3524678539" Name="Section1" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_42perc\Section1" GUID="{32AAD6A1-313B-44C3-82C9-3302F6831CA2}"/>
+						<Switch Id="3524678536" Name="Section2" ObjectPath="\Switches\Default Work Unit\RaceMusic2Sections_42perc\Section2" GUID="{CFC8D78B-D9B8-49A6-A3D7-5BC9327FCD92}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2463383119" Name="RaceMusicPartSelector" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector" GUID="{20D92DB0-1D8B-4887-A9BB-908F2231B625}">
+					<Switches>
+						<Switch Id="3177314147" Name="Part1" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector\Part1" GUID="{DAD5AB30-C1A0-4715-B11A-9A9E2F668557}"/>
+						<Switch Id="3177314144" Name="Part2" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector\Part2" GUID="{19555F4F-47D0-47F7-B1B8-B5AD59AEE308}"/>
+						<Switch Id="444437171" Name="RandomPick" ObjectPath="\Switches\Default Work Unit\RaceMusicPartSelector\RandomPick" GUID="{D3FC8319-1227-4EB0-82F5-BC2FD229E4FC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="326064081" Language="SFX" Hash="2729106800">
+			<ObjectPath>\SoundBanks\Default Work Unit\music_postgame</ObjectPath>
+			<ShortName>music_postgame</ShortName>
+			<Path>music_postgame.bnk</Path>
+			<IncludedEvents>
+				<Event Id="253301956" Name="play_mx_postgame" ObjectPath="\Events\Default Work Unit\MX\play_mx_postgame" DurationType="Infinite"/>
+				<Event Id="1772319926" Name="stop_mx_postgame" ObjectPath="\Events\Default Work Unit\MX\stop_mx_postgame" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="389387119" Language="SFX">
+					<ShortName>mx_main_mission_complete.wav</ShortName>
+					<Path>SFX/mx_main_mission_complete_8154F49A.wem</Path>
+				</File>
+				<File Id="512868539" Language="SFX">
+					<ShortName>mx_endrace_defeat.wav</ShortName>
+					<Path>SFX/mx_endrace_defeat_8154F49A.wem</Path>
+				</File>
+				<File Id="558547485" Language="SFX">
+					<ShortName>mx_endrace_newrecord.wav</ShortName>
+					<Path>SFX/mx_endrace_newrecord_8154F49A.wem</Path>
+				</File>
+				<File Id="673025873" Language="SFX">
+					<ShortName>mx_endrace_finished.wav</ShortName>
+					<Path>SFX/mx_endrace_finished_8154F49A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="1845460495" Name="GameType" ObjectPath="\States\Default Work Unit\GameType" GUID="{60D37257-630F-485E-A378-879691E7BC93}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameType\None" GUID="{2C21D664-702A-4060-84A2-5090E7AE2FAB}"/>
+						<State Id="1242303306" Name="freestyle" ObjectPath="\States\Default Work Unit\GameType\freestyle" GUID="{549B03CB-1CD8-44CA-9B4D-F021B9A35335}"/>
+						<State Id="2206546786" Name="mission_los" ObjectPath="\States\Default Work Unit\GameType\mission_los" GUID="{3112EE70-2198-49DC-97CC-EE8519116F60}"/>
+						<State Id="3137067327" Name="mission_generic" ObjectPath="\States\Default Work Unit\GameType\mission_generic" GUID="{57E55501-EA8B-44A0-9366-F167787C3228}"/>
+						<State Id="1875627670" Name="race" ObjectPath="\States\Default Work Unit\GameType\race" GUID="{7BB58053-06DD-4CDA-878B-3F8D61B795E0}"/>
+						<State Id="30729851" Name="campaign" ObjectPath="\States\Default Work Unit\GameType\campaign" GUID="{DC3936F0-4488-4690-A415-5BBDF3FFB989}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1980469977" Name="RaceResult" ObjectPath="\States\Default Work Unit\RaceResult" GUID="{11416697-00CA-494A-BFA0-FAC30B90D9E7}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\RaceResult\None" GUID="{1EC90B34-E130-46CF-BA50-CE71098B0D34}"/>
+						<State Id="1861161479" Name="new_record" ObjectPath="\States\Default Work Unit\RaceResult\new_record" GUID="{9F1F58A1-434F-42E0-920E-2C40E5630FCB}"/>
+						<State Id="4265657233" Name="crashed" ObjectPath="\States\Default Work Unit\RaceResult\crashed" GUID="{A36D6BA5-E7EC-4861-A30A-A37D7EAD8021}"/>
+						<State Id="3683254051" Name="finished" ObjectPath="\States\Default Work Unit\RaceResult\finished" GUID="{4411A40B-5E7B-4BC5-AE6D-3989C01F24B7}"/>
+						<State Id="4043259814" Name="timeout" ObjectPath="\States\Default Work Unit\RaceResult\timeout" GUID="{7895DF31-C295-4C56-9E39-584A92A74DE8}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="602065129" Language="SFX" Hash="168127066">
+			<ObjectPath>\SoundBanks\Default Work Unit\sfxs</ObjectPath>
+			<ShortName>sfxs</ShortName>
+			<Path>sfxs.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1314565936" Name="play_drone_crash" ObjectPath="\Events\Default Work Unit\SX\play_drone_crash" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.278163" DurationMax="1.681081"/>
+				<Event Id="3318944185" Name="play_drone_flipped" ObjectPath="\Events\Default Work Unit\SX\play_drone_flipped" DurationType="OneShot" DurationMin="2.545329" DurationMax="2.545329"/>
+				<Event Id="2271304565" Name="play_drone_impact" ObjectPath="\Events\Default Work Unit\SX\play_drone_impact" DurationType="OneShot" DurationMin="0.285333" DurationMax="0.456">
+					<IncludedMemoryFiles>
+						<File Id="125727200" Language="SFX">
+							<ShortName>DRL_Impact_Edit_2.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_2_4B7433D0.wem</Path>
+						</File>
+						<File Id="224835657" Language="SFX">
+							<ShortName>DRL_Impact_Edit_1.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_1_4B7433D0.wem</Path>
+						</File>
+						<File Id="453045904" Language="SFX">
+							<ShortName>DRL_Impact_Edit_4.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_4_4B7433D0.wem</Path>
+						</File>
+						<File Id="498151077" Language="SFX">
+							<ShortName>DRL_Impact_Edit_5.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_5_4B7433D0.wem</Path>
+						</File>
+						<File Id="542795469" Language="SFX">
+							<ShortName>DRL_Impact_Edit_3.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_3_4B7433D0.wem</Path>
+						</File>
+						<File Id="606122989" Language="SFX">
+							<ShortName>DRL_Impact_Edit_7.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_7_4B7433D0.wem</Path>
+						</File>
+						<File Id="744549261" Language="SFX">
+							<ShortName>DRL_Impact_Edit_6.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_6_4B7433D0.wem</Path>
+						</File>
+						<File Id="841254521" Language="SFX">
+							<ShortName>DRL_Impact_Edit_8.wav</ShortName>
+							<Path>SFX/DRL_Impact_Edit_8_4B7433D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2842915193" Name="play_drone_motors" ObjectPath="\Events\Default Work Unit\SX\play_drone_motors" DurationType="Infinite"/>
+				<Event Id="3988346066" Name="play_drone_motors_idle" ObjectPath="\Events\Default Work Unit\SX\play_drone_motors_idle" MaxAttenuation="100." DurationType="Infinite"/>
+				<Event Id="3276540896" Name="play_drone_motors_start" ObjectPath="\Events\Default Work Unit\SX\play_drone_motors_start" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.129045" DurationMax="1.16886"/>
+				<Event Id="4027370605" Name="play_drone_respawn" ObjectPath="\Events\Default Work Unit\SX\play_drone_respawn" DurationType="OneShot" DurationMin="2.022131" DurationMax="2.022131"/>
+				<Event Id="1629787408" Name="play_drone_spawn" ObjectPath="\Events\Default Work Unit\SX\play_drone_spawn" DurationType="OneShot" DurationMin="2.965102" DurationMax="2.965102"/>
+				<Event Id="2424027906" Name="play_glass_breaking" ObjectPath="\Events\Default Work Unit\SX\play_glass_breaking" DurationType="OneShot" DurationMin="1.392018" DurationMax="1.984014">
+					<IncludedMemoryFiles>
+						<File Id="399255564" Language="SFX">
+							<ShortName>sx_glass_breaking\SFX_Glass_Break_1.wav</ShortName>
+							<Path>SFX/sx_glass_breaking/SFX_Glass_Break_1_4B7433D0.wem</Path>
+						</File>
+						<File Id="493194585" Language="SFX">
+							<ShortName>sx_glass_breaking\SFX_Glass_Break_2.wav</ShortName>
+							<Path>SFX/sx_glass_breaking/SFX_Glass_Break_2_4B7433D0.wem</Path>
+						</File>
+						<File Id="857556091" Language="SFX">
+							<ShortName>sx_glass_breaking\SFX_Glass_Break_3.wav</ShortName>
+							<Path>SFX/sx_glass_breaking/SFX_Glass_Break_3_4B7433D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="846528937" Name="play_onboarding_end_console" ObjectPath="\Events\Default Work Unit\SX\play_onboarding_end_console" DurationType="OneShot" DurationMin="92.373337" DurationMax="92.373337">
+					<IncludedMemoryFiles>
+						<File Id="621892969" Language="SFX">
+							<ShortName>VO_Onboarding_End_Console_New.wav</ShortName>
+							<Path>SFX/VO_Onboarding_End_Console_New_B1B2EA1A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="902940485" Name="play_onboarding_end_pc" ObjectPath="\Events\Default Work Unit\SX\play_onboarding_end_pc" DurationType="OneShot" DurationMin="100.053337" DurationMax="100.053337">
+					<IncludedMemoryFiles>
+						<File Id="357960667" Language="SFX">
+							<ShortName>VO_Onboarding_End_PC_New.wav</ShortName>
+							<Path>SFX/VO_Onboarding_End_PC_New_B1B2EA1A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1099474226" Name="play_onboarding_intro" ObjectPath="\Events\Default Work Unit\SX\play_onboarding_intro" DurationType="OneShot" DurationMin="30.037348" DurationMax="30.037348">
+					<IncludedMemoryFiles>
+						<File Id="191528570" Language="SFX">
+							<ShortName>VO_Onboarding_Intro_New.wav</ShortName>
+							<Path>SFX/VO_Onboarding_Intro_New_B1B2EA1A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4140191953" Name="play_sx_amb__lv_bell_Labs" ObjectPath="\Events\Default Work Unit\SX\play_sx_amb__lv_bell_Labs" DurationType="Infinite"/>
+				<Event Id="2248490305" Name="play_sx_amb__lv_gates_of_hell" ObjectPath="\Events\Default Work Unit\SX\play_sx_amb__lv_gates_of_hell" DurationType="Infinite"/>
+				<Event Id="688166750" Name="play_sx_amb__lv_miami_lights" ObjectPath="\Events\Default Work Unit\SX\play_sx_amb__lv_miami_lights" DurationType="Infinite"/>
+				<Event Id="3367909399" Name="play_sx_env_water" ObjectPath="\Events\Default Work Unit\SX\play_sx_env_water" MaxAttenuation="50." DurationType="Infinite"/>
+				<Event Id="1858511864" Name="play_sx_env_wind" ObjectPath="\Events\Default Work Unit\SX\play_sx_env_wind" DurationType="Infinite"/>
+				<Event Id="3932501856" Name="play_sx_game_balloon_pop" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_balloon_pop" MaxAttenuation="50." DurationType="OneShot" DurationMin="0.916609" DurationMax="1.090038"/>
+				<Event Id="10969138" Name="play_sx_game_balloon_pop2d" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_balloon_pop2d" DurationType="OneShot" DurationMin="0.916609" DurationMax="1.090038"/>
+				<Event Id="976875145" Name="play_sx_game_balloon_radar" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_balloon_radar" MaxAttenuation="100." DurationType="Infinite"/>
+				<Event Id="145625842" Name="play_sx_game_big_step_complete" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_big_step_complete" DurationType="OneShot" DurationMin="3.421882" DurationMax="3.421882"/>
+				<Event Id="2712861725" Name="play_sx_game_countdown_go" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_countdown_go" DurationType="OneShot" DurationMin="2.625011" DurationMax="2.625011"/>
+				<Event Id="2096664328" Name="play_sx_game_countdown_tick" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_countdown_tick" DurationType="OneShot" DurationMin="2.354014" DurationMax="2.354014"/>
+				<Event Id="3434682103" Name="play_sx_game_failure" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_failure" DurationType="OneShot" DurationMin="10.312812" DurationMax="10.312812"/>
+				<Event Id="2950130732" Name="play_sx_game_gate_clear" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_gate_clear" DurationType="OneShot" DurationMin="2.970136" DurationMax="2.970136"/>
+				<Event Id="2547790753" Name="play_sx_game_gate_clear_final" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_gate_clear_final" DurationType="OneShot" DurationMin="3.12483" DurationMax="3.12483"/>
+				<Event Id="3023850269" Name="play_sx_game_radar" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_radar" DurationType="Infinite"/>
+				<Event Id="434814927" Name="play_sx_game_signal" ObjectPath="\Events\Default Work Unit\SX\play_sx_game_signal" DurationType="Infinite"/>
+				<Event Id="2729363856" Name="play_sx_ui_balloons_eerie_glow" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_balloons_eerie_glow" DurationType="OneShot" DurationMin="15.607256" DurationMax="15.607256"/>
+				<Event Id="1057859326" Name="play_sx_ui_bigbutton_focus" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_bigbutton_focus" DurationType="OneShot" DurationMin="0.573583" DurationMax="0.573583">
+					<IncludedMemoryFiles>
+						<File Id="196578373" Language="SFX">
+							<ShortName>ui_bigbutton_focus.wav</ShortName>
+							<Path>SFX/ui_bigbutton_focus_4B7433D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="723963320" Name="play_sx_ui_camera_forward" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_camera_forward" DurationType="OneShot" DurationMin="0.921088" DurationMax="0.921088"/>
+				<Event Id="1623971641" Name="play_sx_ui_chat_message" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_chat_message" DurationType="OneShot" DurationMin="0.652177" DurationMax="0.652177"/>
+				<Event Id="2194639285" Name="play_sx_ui_click" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_click" DurationType="OneShot" DurationMin="0.935419" DurationMax="0.935419"/>
+				<Event Id="4285156110" Name="play_sx_ui_counter_loop" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_counter_loop" DurationType="Infinite"/>
+				<Event Id="1794135553" Name="play_sx_ui_focus" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_focus" DurationType="OneShot" DurationMin="0.366939" DurationMax="0.366939">
+					<IncludedMemoryFiles>
+						<File Id="80306657" Language="SFX">
+							<ShortName>ui_focus.wav</ShortName>
+							<Path>SFX/ui_focus_4B7433D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3008742226" Name="play_sx_ui_formtick" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_formtick" DurationType="OneShot" DurationMin="0.251565" DurationMax="0.251565"/>
+				<Event Id="3731954984" Name="play_sx_ui_garage_partchange" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_garage_partchange" DurationType="OneShot" DurationMin="0.265011" DurationMax="0.265011"/>
+				<Event Id="3582660578" Name="play_sx_ui_garage_spray" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_garage_spray" DurationType="OneShot" DurationMin="0.931927" DurationMax="0.931927"/>
+				<Event Id="1368729129" Name="play_sx_ui_garage_trailchange" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_garage_trailchange" DurationType="OneShot" DurationMin="2.132653" DurationMax="2.132653"/>
+				<Event Id="2461986549" Name="play_sx_ui_generic_error" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_generic_error" DurationType="OneShot" DurationMin="0.458345" DurationMax="0.458345"/>
+				<Event Id="3494303062" Name="play_sx_ui_generic_success" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_generic_success" DurationType="OneShot" DurationMin="1.312517" DurationMax="1.312517"/>
+				<Event Id="3677193059" Name="play_sx_ui_level_restart" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_level_restart" DurationType="OneShot" DurationMin="1.073356" DurationMax="1.073356"/>
+				<Event Id="361405066" Name="play_sx_ui_loading_error" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_error" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25"/>
+				<Event Id="3005029442" Name="play_sx_ui_loading_loop" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_loop" DurationType="Infinite"/>
+				<Event Id="3295319945" Name="play_sx_ui_loading_success" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_loading_success" DurationType="OneShot" DurationMin="1.337506" DurationMax="1.337506"/>
+				<Event Id="4238979024" Name="play_sx_ui_mapeditor_place" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_mapeditor_place" DurationType="OneShot" DurationMin="1.082358" DurationMax="1.082358"/>
+				<Event Id="1375397515" Name="play_sx_ui_mapeditor_remove" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_mapeditor_remove" DurationType="OneShot" DurationMin="0.912653" DurationMax="0.912653"/>
+				<Event Id="3052435939" Name="play_sx_ui_mapeditor_select" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_mapeditor_select" DurationType="OneShot" DurationMin="0.208322" DurationMax="0.208322"/>
+				<Event Id="1270200997" Name="play_sx_ui_new_record" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_new_record" DurationType="OneShot" DurationMin="3.803923" DurationMax="3.803923"/>
+				<Event Id="3923590546" Name="play_sx_ui_new_result_line" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_new_result_line" DurationType="OneShot" DurationMin="1.345329" DurationMax="1.345329"/>
+				<Event Id="3259473119" Name="play_sx_ui_pause" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_pause" DurationType="OneShot" DurationMin="3.162494" DurationMax="3.162494"/>
+				<Event Id="206943615" Name="play_sx_ui_room_game_countdown" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_room_game_countdown" DurationType="OneShot" DurationMin="0.947664" DurationMax="0.947664"/>
+				<Event Id="2946747258" Name="play_sx_ui_room_game_start" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_room_game_start" DurationType="OneShot" DurationMin="4.062517" DurationMax="4.062517"/>
+				<Event Id="3478252381" Name="play_sx_ui_screen_backward" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_screen_backward" DurationType="OneShot" DurationMin="0.80771" DurationMax="0.80771"/>
+				<Event Id="3611658845" Name="play_sx_ui_screen_forward" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_screen_forward" DurationType="OneShot" DurationMin="0.80771" DurationMax="0.80771"/>
+				<Event Id="445950501" Name="play_sx_ui_smallbutton_click" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_smallbutton_click" DurationType="OneShot" DurationMin="0.375011" DurationMax="0.375011"/>
+				<Event Id="1688329695" Name="play_sx_ui_snapshot" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_snapshot" DurationType="OneShot" DurationMin="0.632041" DurationMax="0.632041"/>
+				<Event Id="1295512557" Name="play_sx_ui_star_half" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_star_half" DurationType="OneShot" DurationMin="1.255306" DurationMax="1.255306"/>
+				<Event Id="1213118384" Name="play_sx_ui_star_none" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_star_none" DurationType="OneShot" DurationMin="1.43966" DurationMax="1.43966"/>
+				<Event Id="2788500966" Name="play_sx_ui_star_single" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_star_single" DurationType="OneShot" DurationMin="0.994286" DurationMax="0.994286"/>
+				<Event Id="1071890018" Name="play_sx_ui_stars_full" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_stars_full" DurationType="OneShot" DurationMin="1.547188" DurationMax="1.547188"/>
+				<Event Id="632614039" Name="play_sx_ui_startgame" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_startgame" DurationType="OneShot" DurationMin="1.712517" DurationMax="1.712517"/>
+				<Event Id="122898795" Name="play_sx_ui_textfield_focus" ObjectPath="\Events\Default Work Unit\SX\play_sx_ui_textfield_focus" DurationType="OneShot" DurationMin="0.597415" DurationMax="0.597415"/>
+				<Event Id="426288351" Name="stop_drone_motors" ObjectPath="\Events\Default Work Unit\SX\stop_drone_motors" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1930185201" Name="stop_drone_sounds_all" ObjectPath="\Events\Default Work Unit\SX\stop_drone_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1559808739" Name="stop_onboarding_end_console" ObjectPath="\Events\Default Work Unit\SX\stop_onboarding_end_console" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1016352435" Name="stop_onboarding_end_pc" ObjectPath="\Events\Default Work Unit\SX\stop_onboarding_end_pc" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3631399828" Name="stop_onboarding_intro" ObjectPath="\Events\Default Work Unit\SX\stop_onboarding_intro" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="674920339" Name="stop_sx_amb__lv_bell_labs" ObjectPath="\Events\Default Work Unit\SX\stop_sx_amb__lv_bell_labs" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="408627291" Name="stop_sx_amb__lv_gates_of_hell" ObjectPath="\Events\Default Work Unit\SX\stop_sx_amb__lv_gates_of_hell" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1732058328" Name="stop_sx_amb__lv_miami_lights" ObjectPath="\Events\Default Work Unit\SX\stop_sx_amb__lv_miami_lights" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1875828441" Name="stop_sx_env_water" ObjectPath="\Events\Default Work Unit\SX\stop_sx_env_water" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3064839254" Name="stop_sx_env_wind" ObjectPath="\Events\Default Work Unit\SX\stop_sx_env_wind" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1031595655" Name="stop_sx_game_balloon_radar" ObjectPath="\Events\Default Work Unit\SX\stop_sx_game_balloon_radar" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="690784207" Name="stop_sx_game_radar" ObjectPath="\Events\Default Work Unit\SX\stop_sx_game_radar" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2835567529" Name="stop_sx_game_signal" ObjectPath="\Events\Default Work Unit\SX\stop_sx_game_signal" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2232356868" Name="stop_sx_ui_counter_loop" ObjectPath="\Events\Default Work Unit\SX\stop_sx_ui_counter_loop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3543477156" Name="stop_sx_ui_loading_loop" ObjectPath="\Events\Default Work Unit\SX\stop_sx_ui_loading_loop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="18528423" Language="SFX">
+					<ShortName>ui_smallbutton_click.wav</ShortName>
+					<Path>SFX/ui_smallbutton_click_D05369E0.wem</Path>
+				</File>
+				<File Id="31536353" Language="SFX">
+					<ShortName>motor_PN_3B_50_IDLE(loop).wav</ShortName>
+					<Path>SFX/motor_PN_3B_50_IDLE(loop)_8154F49A.wem</Path>
+				</File>
+				<File Id="33273351" Language="SFX">
+					<ShortName>ui_startgame.wav</ShortName>
+					<Path>SFX/ui_startgame_D05369E0.wem</Path>
+				</File>
+				<File Id="40819595" Language="SFX">
+					<ShortName>sx_amb_water.wav</ShortName>
+					<Path>SFX/sx_amb_water_D05369E0.wem</Path>
+				</File>
+				<File Id="56147589" Language="SFX">
+					<ShortName>ui_balloons_eerie_glow.wav</ShortName>
+					<Path>SFX/ui_balloons_eerie_glow_D05369E0.wem</Path>
+				</File>
+				<File Id="57300450" Language="SFX">
+					<ShortName>ui_screen_backward.wav</ShortName>
+					<Path>SFX/ui_screen_backward_D05369E0.wem</Path>
+				</File>
+				<File Id="71993712" Language="SFX">
+					<ShortName>ui_new_record.wav</ShortName>
+					<Path>SFX/ui_new_record_D05369E0.wem</Path>
+				</File>
+				<File Id="80306657" Language="SFX">
+					<ShortName>ui_focus.wav</ShortName>
+					<Path>SFX/ui_focus_4B7433D0.wem</Path>
+				</File>
+				<File Id="84099146" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTOut_3.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTOut_3_D05369E0.wem</Path>
+				</File>
+				<File Id="84308066" Language="SFX">
+					<ShortName>ui_garage_trailchange.wav</ShortName>
+					<Path>SFX/ui_garage_trailchange_D05369E0.wem</Path>
+				</File>
+				<File Id="89367444" Language="SFX">
+					<ShortName>ui_loading_success.wav</ShortName>
+					<Path>SFX/ui_loading_success_D05369E0.wem</Path>
+				</File>
+				<File Id="119748278" Language="SFX">
+					<ShortName>sx_amb_gatesofhell.wav</ShortName>
+					<Path>SFX/sx_amb_gatesofhell_D05369E0.wem</Path>
+				</File>
+				<File Id="125727200" Language="SFX">
+					<ShortName>DRL_Impact_Edit_2.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_2_4B7433D0.wem</Path>
+				</File>
+				<File Id="126624385" Language="SFX">
+					<ShortName>ui_generic_success.wav</ShortName>
+					<Path>SFX/ui_generic_success_D05369E0.wem</Path>
+				</File>
+				<File Id="141822314" Language="SFX">
+					<ShortName>ui_camera_forward.wav</ShortName>
+					<Path>SFX/ui_camera_forward_D05369E0.wem</Path>
+				</File>
+				<File Id="142316680" Language="SFX">
+					<ShortName>motor_PN_3B_50_REAL(loop).wav</ShortName>
+					<Path>SFX/motor_PN_3B_50_REAL(loop)_8154F49A.wem</Path>
+				</File>
+				<File Id="145842684" Language="SFX">
+					<ShortName>motor_PN_3B_50_IDLESTART.wav</ShortName>
+					<Path>SFX/motor_PN_3B_50_IDLESTART_D05369E0.wem</Path>
+				</File>
+				<File Id="161290329" Language="SFX">
+					<ShortName>Racer3_100TLOOP.wav</ShortName>
+					<Path>SFX/Racer3_100TLOOP_8154F49A.wem</Path>
+				</File>
+				<File Id="168495342" Language="SFX">
+					<ShortName>sx_env_wind2.wav</ShortName>
+					<Path>SFX/sx_env_wind2_D05369E0.wem</Path>
+				</File>
+				<File Id="179845456" Language="SFX">
+					<ShortName>ui_formtick.wav</ShortName>
+					<Path>SFX/ui_formtick_D05369E0.wem</Path>
+				</File>
+				<File Id="181708641" Language="SFX">
+					<ShortName>ui_level_restart.wav</ShortName>
+					<Path>SFX/ui_level_restart_D05369E0.wem</Path>
+				</File>
+				<File Id="196578373" Language="SFX">
+					<ShortName>ui_bigbutton_focus.wav</ShortName>
+					<Path>SFX/ui_bigbutton_focus_4B7433D0.wem</Path>
+				</File>
+				<File Id="224835657" Language="SFX">
+					<ShortName>DRL_Impact_Edit_1.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_1_4B7433D0.wem</Path>
+				</File>
+				<File Id="239838329" Language="SFX">
+					<ShortName>ui_garage_partchange.wav</ShortName>
+					<Path>SFX/ui_garage_partchange_D05369E0.wem</Path>
+				</File>
+				<File Id="255225236" Language="SFX">
+					<ShortName>dx_drone_mic_airhit.wav</ShortName>
+					<Path>SFX/dx_drone_mic_airhit_D05369E0.wem</Path>
+				</File>
+				<File Id="265963102" Language="SFX">
+					<ShortName>ui_loading_loop.wav</ShortName>
+					<Path>SFX/ui_loading_loop_8154F49A.wem</Path>
+				</File>
+				<File Id="281337389" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTIn_2.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTIn_2_D05369E0.wem</Path>
+				</File>
+				<File Id="282783922" Language="SFX">
+					<ShortName>ui_screen_forward.wav</ShortName>
+					<Path>SFX/ui_screen_forward_D05369E0.wem</Path>
+				</File>
+				<File Id="299650167" Language="SFX">
+					<ShortName>sx_game_radarsonar.wav</ShortName>
+					<Path>SFX/sx_game_radarsonar_D05369E0.wem</Path>
+				</File>
+				<File Id="304013689" Language="SFX">
+					<ShortName>sx_game_countdown_tick.wav</ShortName>
+					<Path>SFX/sx_game_countdown_tick_D05369E0.wem</Path>
+				</File>
+				<File Id="320878530" Language="SFX">
+					<ShortName>dx_drone_motorstart.wav</ShortName>
+					<Path>SFX/dx_drone_motorstart_3CC583E6.wem</Path>
+				</File>
+				<File Id="343319054" Language="SFX">
+					<ShortName>motor_PN_3B_50_FULL(loop)[Quad].wav</ShortName>
+					<Path>SFX/motor_PN_3B_50_FULL(loop)[Quad]_8154F49A.wem</Path>
+				</File>
+				<File Id="345778420" Language="SFX">
+					<ShortName>sx_game_static_noise(basic).wav</ShortName>
+					<Path>SFX/sx_game_static_noise(basic)_8154F49A.wem</Path>
+				</File>
+				<File Id="361045865" Language="SFX">
+					<ShortName>sx_game_balloon_pop2.wav</ShortName>
+					<Path>SFX/sx_game_balloon_pop2_D05369E0.wem</Path>
+				</File>
+				<File Id="382222467" Language="SFX">
+					<ShortName>ui_stars_full.wav</ShortName>
+					<Path>SFX/ui_stars_full_D05369E0.wem</Path>
+				</File>
+				<File Id="399255564" Language="SFX">
+					<ShortName>sx_glass_breaking\SFX_Glass_Break_1.wav</ShortName>
+					<Path>SFX/sx_glass_breaking/SFX_Glass_Break_1_4B7433D0.wem</Path>
+				</File>
+				<File Id="425938774" Language="SFX">
+					<ShortName>ui_star_none.wav</ShortName>
+					<Path>SFX/ui_star_none_D05369E0.wem</Path>
+				</File>
+				<File Id="437511385" Language="SFX">
+					<ShortName>ui_room_game_countdown.wav</ShortName>
+					<Path>SFX/ui_room_game_countdown_D05369E0.wem</Path>
+				</File>
+				<File Id="453045904" Language="SFX">
+					<ShortName>DRL_Impact_Edit_4.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_4_4B7433D0.wem</Path>
+				</File>
+				<File Id="470440214" Language="SFX">
+					<ShortName>balloon_radar.wav</ShortName>
+					<Path>SFX/balloon_radar_8154F49A.wem</Path>
+				</File>
+				<File Id="480729580" Language="SFX">
+					<ShortName>dx_drone_crash2.wav</ShortName>
+					<Path>SFX/dx_drone_crash2_D05369E0.wem</Path>
+				</File>
+				<File Id="483808129" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTOut_1.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTOut_1_D05369E0.wem</Path>
+				</File>
+				<File Id="485927083" Language="SFX">
+					<ShortName>motor_noises_swoosh1.wav</ShortName>
+					<Path>SFX/motor_noises_swoosh1_D05369E0.wem</Path>
+				</File>
+				<File Id="491535747" Language="SFX">
+					<ShortName>motor_noises_swoosh3.wav</ShortName>
+					<Path>SFX/motor_noises_swoosh3_D05369E0.wem</Path>
+				</File>
+				<File Id="493194585" Language="SFX">
+					<ShortName>sx_glass_breaking\SFX_Glass_Break_2.wav</ShortName>
+					<Path>SFX/sx_glass_breaking/SFX_Glass_Break_2_4B7433D0.wem</Path>
+				</File>
+				<File Id="498151077" Language="SFX">
+					<ShortName>DRL_Impact_Edit_5.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_5_4B7433D0.wem</Path>
+				</File>
+				<File Id="500332806" Language="SFX">
+					<ShortName>sx_game_static_noise(hi-pitch).wav</ShortName>
+					<Path>SFX/sx_game_static_noise(hi-pitch)_8154F49A.wem</Path>
+				</File>
+				<File Id="530533563" Language="SFX">
+					<ShortName>sx_amb_miamilights.wav</ShortName>
+					<Path>SFX/sx_amb_miamilights_D05369E0.wem</Path>
+				</File>
+				<File Id="539047165" Language="SFX">
+					<ShortName>sx_game_failure.wav</ShortName>
+					<Path>SFX/sx_game_failure_D05369E0.wem</Path>
+				</File>
+				<File Id="542795469" Language="SFX">
+					<ShortName>DRL_Impact_Edit_3.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_3_4B7433D0.wem</Path>
+				</File>
+				<File Id="566522689" Language="SFX">
+					<ShortName>sx_game_gate_clear_final.wav</ShortName>
+					<Path>SFX/sx_game_gate_clear_final_D05369E0.wem</Path>
+				</File>
+				<File Id="605686290" Language="SFX">
+					<ShortName>Racer3_IdleLOOP.wav</ShortName>
+					<Path>SFX/Racer3_IdleLOOP_8154F49A.wem</Path>
+				</File>
+				<File Id="606122989" Language="SFX">
+					<ShortName>DRL_Impact_Edit_7.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_7_4B7433D0.wem</Path>
+				</File>
+				<File Id="614111279" Language="SFX">
+					<ShortName>ui_textfield_focus.wav</ShortName>
+					<Path>SFX/ui_textfield_focus_D05369E0.wem</Path>
+				</File>
+				<File Id="638482242" Language="SFX">
+					<ShortName>ui_loading_error.wav</ShortName>
+					<Path>SFX/ui_loading_error_D05369E0.wem</Path>
+				</File>
+				<File Id="640585979" Language="SFX">
+					<ShortName>sx_game_countdown_go.wav</ShortName>
+					<Path>SFX/sx_game_countdown_go_D05369E0.wem</Path>
+				</File>
+				<File Id="643353285" Language="SFX">
+					<ShortName>motor_PN_3B_50_HALF(loop)[Quad].wav</ShortName>
+					<Path>SFX/motor_PN_3B_50_HALF(loop)[Quad]_8154F49A.wem</Path>
+				</File>
+				<File Id="660367376" Language="SFX">
+					<ShortName>ui_garage_spray.wav</ShortName>
+					<Path>SFX/ui_garage_spray_D05369E0.wem</Path>
+				</File>
+				<File Id="680805300" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTOut_2.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTOut_2_D05369E0.wem</Path>
+				</File>
+				<File Id="695575756" Language="SFX">
+					<ShortName>sx_game_bigstep_complete.wav</ShortName>
+					<Path>SFX/sx_game_bigstep_complete_D05369E0.wem</Path>
+				</File>
+				<File Id="705298332" Language="SFX">
+					<ShortName>ui_mapeditor_remove.wav</ShortName>
+					<Path>SFX/ui_mapeditor_remove_D05369E0.wem</Path>
+				</File>
+				<File Id="717242651" Language="SFX">
+					<ShortName>ui_click.wav</ShortName>
+					<Path>SFX/ui_click_D05369E0.wem</Path>
+				</File>
+				<File Id="731561456" Language="SFX">
+					<ShortName>sx_game_gate_clear.wav</ShortName>
+					<Path>SFX/sx_game_gate_clear_D05369E0.wem</Path>
+				</File>
+				<File Id="737826589" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTIn_1.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTIn_1_D05369E0.wem</Path>
+				</File>
+				<File Id="738401039" Language="SFX">
+					<ShortName>motor_noises_swoosh2.wav</ShortName>
+					<Path>SFX/motor_noises_swoosh2_D05369E0.wem</Path>
+				</File>
+				<File Id="744549261" Language="SFX">
+					<ShortName>DRL_Impact_Edit_6.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_6_4B7433D0.wem</Path>
+				</File>
+				<File Id="756776087" Language="SFX">
+					<ShortName>ui_new_result_line.wav</ShortName>
+					<Path>SFX/ui_new_result_line_D05369E0.wem</Path>
+				</File>
+				<File Id="803724572" Language="SFX">
+					<ShortName>sx_game_static_noise(strange).wav</ShortName>
+					<Path>SFX/sx_game_static_noise(strange)_8154F49A.wem</Path>
+				</File>
+				<File Id="815553223" Language="SFX">
+					<ShortName>sx_amb_belllabs.wav</ShortName>
+					<Path>SFX/sx_amb_belllabs_D05369E0.wem</Path>
+				</File>
+				<File Id="829355743" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTIn_3.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTIn_3_D05369E0.wem</Path>
+				</File>
+				<File Id="835262259" Language="SFX">
+					<ShortName>dx_drone_drone_spawn.wav</ShortName>
+					<Path>SFX/dx_drone_drone_spawn_D05369E0.wem</Path>
+				</File>
+				<File Id="839183847" Language="SFX">
+					<ShortName>dx_drone_drone_re-spawn.wav</ShortName>
+					<Path>SFX/dx_drone_drone_re-spawn_D05369E0.wem</Path>
+				</File>
+				<File Id="841254521" Language="SFX">
+					<ShortName>DRL_Impact_Edit_8.wav</ShortName>
+					<Path>SFX/DRL_Impact_Edit_8_4B7433D0.wem</Path>
+				</File>
+				<File Id="851114087" Language="SFX">
+					<ShortName>dx_drone_crash3.wav</ShortName>
+					<Path>SFX/dx_drone_crash3_D05369E0.wem</Path>
+				</File>
+				<File Id="851460196" Language="SFX">
+					<ShortName>dx_drone_crash1.wav</ShortName>
+					<Path>SFX/dx_drone_crash1_D05369E0.wem</Path>
+				</File>
+				<File Id="857556091" Language="SFX">
+					<ShortName>sx_glass_breaking\SFX_Glass_Break_3.wav</ShortName>
+					<Path>SFX/sx_glass_breaking/SFX_Glass_Break_3_4B7433D0.wem</Path>
+				</File>
+				<File Id="880217562" Language="SFX">
+					<ShortName>Racer3_50TLOOP.wav</ShortName>
+					<Path>SFX/Racer3_50TLOOP_8154F49A.wem</Path>
+				</File>
+				<File Id="892314102" Language="SFX">
+					<ShortName>ui_mapeditor_place.wav</ShortName>
+					<Path>SFX/ui_mapeditor_place_D05369E0.wem</Path>
+				</File>
+				<File Id="902954462" Language="SFX">
+					<ShortName>sx_game_balloon_pop1.wav</ShortName>
+					<Path>SFX/sx_game_balloon_pop1_D05369E0.wem</Path>
+				</File>
+				<File Id="906430172" Language="SFX">
+					<ShortName>ui_pause.wav</ShortName>
+					<Path>SFX/ui_pause_D05369E0.wem</Path>
+				</File>
+				<File Id="909022208" Language="SFX">
+					<ShortName>ui_room_game_start.wav</ShortName>
+					<Path>SFX/ui_room_game_start_D05369E0.wem</Path>
+				</File>
+				<File Id="916932967" Language="SFX">
+					<ShortName>ui_generic_error.wav</ShortName>
+					<Path>SFX/ui_generic_error_D05369E0.wem</Path>
+				</File>
+				<File Id="925391341" Language="SFX">
+					<ShortName>ui_snapshot.wav</ShortName>
+					<Path>SFX/ui_snapshot_D05369E0.wem</Path>
+				</File>
+				<File Id="932053263" Language="SFX">
+					<ShortName>dx_drone_drone_flipped.wav</ShortName>
+					<Path>SFX/dx_drone_drone_flipped_D05369E0.wem</Path>
+				</File>
+				<File Id="960772836" Language="SFX">
+					<ShortName>ui_star_half.wav</ShortName>
+					<Path>SFX/ui_star_half_D05369E0.wem</Path>
+				</File>
+				<File Id="1001241991" Language="SFX">
+					<ShortName>ui_mapeditor_select.wav</ShortName>
+					<Path>SFX/ui_mapeditor_select_D05369E0.wem</Path>
+				</File>
+				<File Id="1011628750" Language="SFX">
+					<ShortName>ui_counter_loop.wav</ShortName>
+					<Path>SFX/ui_counter_loop_8154F49A.wem</Path>
+				</File>
+				<File Id="1016571003" Language="SFX">
+					<ShortName>Racer3_3B_60_ROTOut_4.wav</ShortName>
+					<Path>SFX/Racer3_3B_60_ROTOut_4_D05369E0.wem</Path>
+				</File>
+				<File Id="1019215544" Language="SFX">
+					<ShortName>ui_chat_message.wav</ShortName>
+					<Path>SFX/ui_chat_message_D05369E0.wem</Path>
+				</File>
+				<File Id="1042045607" Language="SFX">
+					<ShortName>ui_star_single.wav</ShortName>
+					<Path>SFX/ui_star_single_D05369E0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="389286125" Name="radar_proximity" ObjectPath="\Game Parameters\Default Work Unit\radar_proximity"/>
+				<GameParameter Id="700964219" Name="drone_extra_sfx_volume" ObjectPath="\Game Parameters\Default Work Unit\drone_extra_sfx_volume"/>
+				<GameParameter Id="963763164" Name="drone_rotspeed" ObjectPath="\Game Parameters\Default Work Unit\drone_rotspeed"/>
+				<GameParameter Id="1382379429" Name="drone_speed" ObjectPath="\Game Parameters\Default Work Unit\drone_speed"/>
+				<GameParameter Id="1567729242" Name="drone_impact_hard" ObjectPath="\Game Parameters\Default Work Unit\drone_impact_hard"/>
+				<GameParameter Id="2419729085" Name="radio_signal" ObjectPath="\Game Parameters\Default Work Unit\radio_signal"/>
+				<GameParameter Id="2759359202" Name="motors_max_rpm" ObjectPath="\Game Parameters\Default Work Unit\motors_max_rpm"/>
+				<GameParameter Id="3035247709" Name="drone_impact_soft" ObjectPath="\Game Parameters\Default Work Unit\drone_impact_soft"/>
+				<GameParameter Id="3549367207" Name="drone_rotspeed_delta" ObjectPath="\Game Parameters\Default Work Unit\drone_rotspeed_delta"/>
+				<GameParameter Id="3731592192" Name="drone_rotspeed_dir" ObjectPath="\Game Parameters\Default Work Unit\drone_rotspeed_dir"/>
+				<GameParameter Id="4070528516" Name="timescale" ObjectPath="\Game Parameters\Default Work Unit\timescale"/>
+				<GameParameter Id="4115984233" Name="motors_average_rpm" ObjectPath="\Game Parameters\Default Work Unit\motors_average_rpm"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1057259052" Name="RotSpeedIn" ObjectPath="\Switches\Default Work Unit\RotSpeedIn" GUID="{ED60D717-4D07-48DD-8B2B-F1368F68504B}">
+					<Switches>
+						<Switch Id="418248564" Name="Engage" ObjectPath="\Switches\Default Work Unit\RotSpeedIn\Engage" GUID="{34428602-0D79-47A6-BC65-7F15C4002FF3}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1572718981" Name="PropType_Type" ObjectPath="\Switches\Default Work Unit\PropType_Type" GUID="{2FF9D95A-B8E7-41CA-8BB4-56181FD1F1A4}">
+					<Switches>
+						<Switch Id="2177566237" Name="type_BC" ObjectPath="\Switches\Default Work Unit\PropType_Type\type_BC" GUID="{B373C96C-89FB-4EE1-A523-3C1A78FA18D6}"/>
+						<Switch Id="2177566224" Name="type_BN" ObjectPath="\Switches\Default Work Unit\PropType_Type\type_BN" GUID="{0E6D0E00-A46A-4F75-B252-33CE27D0C263}"/>
+						<Switch Id="2009790126" Name="type_HN" ObjectPath="\Switches\Default Work Unit\PropType_Type\type_HN" GUID="{27CF6EF6-A107-49F8-B6B7-70C9D65CA763}"/>
+						<Switch Id="2412453094" Name="type_PN" ObjectPath="\Switches\Default Work Unit\PropType_Type\type_PN" GUID="{5B53DA3F-AED5-410D-9A9A-D08B0EA855F4}"/>
+						<Switch Id="2462785905" Name="type_S0" ObjectPath="\Switches\Default Work Unit\PropType_Type\type_S0" GUID="{B2B88862-543C-4A12-AD87-282C474403D9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1728290763" Name="RotSpeedOut" ObjectPath="\Switches\Default Work Unit\RotSpeedOut" GUID="{0B80CE09-0F98-41F7-A6A0-E1F726355BF5}">
+					<Switches>
+						<Switch Id="418248564" Name="Engage" ObjectPath="\Switches\Default Work Unit\RotSpeedOut\Engage" GUID="{EB54AE52-A639-4BAC-AE7C-9DFAE2B4B452}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3003011824" Name="PropType_Blades" ObjectPath="\Switches\Default Work Unit\PropType_Blades" GUID="{56197593-AE71-42C6-A188-A015B91D587D}">
+					<Switches>
+						<Switch Id="3961445304" Name="blade_2B" ObjectPath="\Switches\Default Work Unit\PropType_Blades\blade_2B" GUID="{506772CE-F259-4EAF-B871-926786F7FE5A}"/>
+						<Switch Id="3978222863" Name="blade_3B" ObjectPath="\Switches\Default Work Unit\PropType_Blades\blade_3B" GUID="{B96724C0-DA8A-41D3-A333-B87389EAA752}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3399078365" Name="RotSpeedType" ObjectPath="\Switches\Default Work Unit\RotSpeedType" GUID="{9B551AC9-8293-4B4C-92B3-A86D4E6029C2}">
+					<Switches>
+						<Switch Id="1752637612" Name="In" ObjectPath="\Switches\Default Work Unit\RotSpeedType\In" GUID="{2748BA85-39DE-4AEF-BE80-24569FE1ABB1}"/>
+						<Switch Id="645492555" Name="Out" ObjectPath="\Switches\Default Work Unit\RotSpeedType\Out" GUID="{57AA09B7-EB35-4438-BC42-48BF7AF1EE64}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3733082794" Name="PropType_Size" ObjectPath="\Switches\Default Work Unit\PropType_Size" GUID="{1CEFA3BD-F1A3-41A9-8C22-B8D4CE33A760}">
+					<Switches>
+						<Switch Id="801300888" Name="size_30" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_30" GUID="{26E4A47D-9DA2-43F5-8569-0EB746F5AEB9}"/>
+						<Switch Id="801300893" Name="size_35" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_35" GUID="{563EF3E6-A603-425F-8615-3BB51D2C2699}"/>
+						<Switch Id="918744221" Name="size_40" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_40" GUID="{9F9FC85D-85B1-4361-9DE9-EF838EBF0DD3}"/>
+						<Switch Id="918744216" Name="size_45" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_45" GUID="{9BA4F61E-C578-4D6B-BFAA-3E3C797DC28D}"/>
+						<Switch Id="901966634" Name="size_50" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_50" GUID="{C83F046D-B116-4397-93B1-3F8DD635979C}"/>
+						<Switch Id="901966639" Name="size_55" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_55" GUID="{D586B106-C49A-41BB-8066-E0DDC10FF2A9}"/>
+						<Switch Id="885189047" Name="size_60" ObjectPath="\Switches\Default Work Unit\PropType_Size\size_60" GUID="{6E320850-8A8B-49EA-9A46-21EA42FFC15D}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="972507266" Language="SFX" Hash="2025741278">
+			<ObjectPath>\SoundBanks\Default Work Unit\splash_music_console</ObjectPath>
+			<ShortName>splash_music_console</ShortName>
+			<Path>splash_music_console.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2264698282" Name="play_mx_intro" ObjectPath="\Events\Default Work Unit\MX\play_mx_intro" DurationType="OneShot" DurationMin="63.962448" DurationMax="63.962448">
+					<IncludedMemoryFiles>
+						<File Id="39095937" Language="SFX">
+							<ShortName>intro.wav</ShortName>
+							<Path>SFX/intro_A1A141F5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2642886680" Name="stop_mx_intro" ObjectPath="\Events\Default Work Unit\MX\stop_mx_intro" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3446894556">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1690089400" Name="Ambience_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience_Reverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="168737530" Name="volume_dx" ObjectPath="\Game Parameters\Default Work Unit\volume_dx"/>
+				<GameParameter Id="319736021" Name="volume_mx" ObjectPath="\Game Parameters\Default Work Unit\volume_mx"/>
+				<GameParameter Id="2419729085" Name="radio_signal" ObjectPath="\Game Parameters\Default Work Unit\radio_signal"/>
+				<GameParameter Id="4111374603" Name="volume_sx" ObjectPath="\Game Parameters\Default Work Unit\volume_sx"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1045871717" Name="GameStatus" ObjectPath="\States\Default Work Unit\GameStatus" GUID="{07D573C1-4DF9-444B-9517-4A0F3D3D42B2}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameStatus\None" GUID="{526314E6-D6CC-4521-9FA8-17439319357C}"/>
+						<State Id="1852808225" Name="playing" ObjectPath="\States\Default Work Unit\GameStatus\playing" GUID="{46E29749-5A1C-4487-A6BC-068D75E4F9F6}"/>
+						<State Id="319258907" Name="paused" ObjectPath="\States\Default Work Unit\GameStatus\paused" GUID="{D1D6A39A-6357-4823-887C-8B24FC95F8CC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1615767906" Language="SFX" Hash="1707572814">
+			<ObjectPath>\SoundBanks\Default Work Unit\music_main</ObjectPath>
+			<ShortName>music_main</ShortName>
+			<Path>music_main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1063484697" Name="pause_game_sounds_all" ObjectPath="\Events\Default Work Unit\pause_game_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="898303491" Name="play_mx_garage" ObjectPath="\Events\Default Work Unit\MX\play_mx_garage" DurationType="Infinite"/>
+				<Event Id="1924038202" Name="play_mx_mainmenu" ObjectPath="\Events\Default Work Unit\MX\play_mx_mainmenu" DurationType="Infinite"/>
+				<Event Id="2799829073" Name="play_mx_mapeditor" ObjectPath="\Events\Default Work Unit\MX\play_mx_mapeditor" DurationType="Infinite"/>
+				<Event Id="297367300" Name="resume_game_sounds_all" ObjectPath="\Events\Default Work Unit\resume_game_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2907820913" Name="stop_game_sounds_all" ObjectPath="\Events\Default Work Unit\stop_game_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2202668015" Name="stop_mx_all" ObjectPath="\Events\Default Work Unit\MX\stop_mx_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="932551597" Name="stop_mx_garage" ObjectPath="\Events\Default Work Unit\MX\stop_mx_garage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4272494312" Name="stop_mx_mainmenu" ObjectPath="\Events\Default Work Unit\MX\stop_mx_mainmenu" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3830401755" Name="stop_mx_mapeditor" ObjectPath="\Events\Default Work Unit\MX\stop_mx_mapeditor" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="139634107" Language="SFX">
+					<ShortName>mx_mapeditor_baw3.wav</ShortName>
+					<Path>SFX/mx_mapeditor_baw3_8154F49A.wem</Path>
+				</File>
+				<File Id="204766534" Language="SFX">
+					<ShortName>mx_main_set_your_drones.wav</ShortName>
+					<Path>SFX/mx_main_set_your_drones_8154F49A.wem</Path>
+				</File>
+				<File Id="508368216" Language="SFX">
+					<ShortName>mx_garage_garage_days.wav</ShortName>
+					<Path>SFX/mx_garage_garage_days_8154F49A.wem</Path>
+				</File>
+				<File Id="911985352" Language="SFX">
+					<ShortName>mx_mapeditor_baw1.wav</ShortName>
+					<Path>SFX/mx_mapeditor_baw1_8154F49A.wem</Path>
+				</File>
+				<File Id="1024713038" Language="SFX">
+					<ShortName>mx_mapeditor_baw2.wav</ShortName>
+					<Path>SFX/mx_mapeditor_baw2_8154F49A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2186578306" Language="SFX" Hash="1399371936">
+			<ObjectPath>\SoundBanks\Default Work Unit\music_ingame</ObjectPath>
+			<ShortName>music_ingame</ShortName>
+			<Path>music_ingame.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2414542046" Name="pause_game_music" ObjectPath="\Events\Default Work Unit\pause_game_music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1063484697" Name="pause_game_sounds_all" ObjectPath="\Events\Default Work Unit\pause_game_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="905593515" Name="play_mx_ingame" ObjectPath="\Events\Default Work Unit\MX\play_mx_ingame" DurationType="Infinite"/>
+				<Event Id="2262774601" Name="play_mx_replay" ObjectPath="\Events\Default Work Unit\MX\play_mx_replay" DurationType="Infinite"/>
+				<Event Id="3253464573" Name="resume_game_music" ObjectPath="\Events\Default Work Unit\resume_game_music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="297367300" Name="resume_game_sounds_all" ObjectPath="\Events\Default Work Unit\resume_game_sounds_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1309319929" Name="stop_mx_ingame" ObjectPath="\Events\Default Work Unit\MX\stop_mx_ingame" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2202970819" Name="stop_mx_replay" ObjectPath="\Events\Default Work Unit\MX\stop_mx_replay" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="299332" Language="SFX">
+					<ShortName>mx_missions_lead1.wav</ShortName>
+					<Path>SFX/mx_missions_lead1_8154F49A.wem</Path>
+				</File>
+				<File Id="6257276" Language="SFX">
+					<ShortName>mx_missions_pad2.wav</ShortName>
+					<Path>SFX/mx_missions_pad2_8154F49A.wem</Path>
+				</File>
+				<File Id="40709857" Language="SFX">
+					<ShortName>mx_missions_pad1.wav</ShortName>
+					<Path>SFX/mx_missions_pad1_8154F49A.wem</Path>
+				</File>
+				<File Id="85238870" Language="SFX">
+					<ShortName>mx_missions_pad5.wav</ShortName>
+					<Path>SFX/mx_missions_pad5_8154F49A.wem</Path>
+				</File>
+				<File Id="131084170" Language="SFX">
+					<ShortName>mx_missions_lead4b.wav</ShortName>
+					<Path>SFX/mx_missions_lead4b_8154F49A.wem</Path>
+				</File>
+				<File Id="187831122" Language="SFX">
+					<ShortName>mx_missions_bass1.wav</ShortName>
+					<Path>SFX/mx_missions_bass1_8154F49A.wem</Path>
+				</File>
+				<File Id="220504879" Language="SFX">
+					<ShortName>mx_missions_drums4.wav</ShortName>
+					<Path>SFX/mx_missions_drums4_8154F49A.wem</Path>
+				</File>
+				<File Id="269172890" Language="SFX">
+					<ShortName>mx_missions_rhythmicpad2.wav</ShortName>
+					<Path>SFX/mx_missions_rhythmicpad2_8154F49A.wem</Path>
+				</File>
+				<File Id="279277402" Language="SFX">
+					<ShortName>mx_missions_bass2.wav</ShortName>
+					<Path>SFX/mx_missions_bass2_8154F49A.wem</Path>
+				</File>
+				<File Id="290115192" Language="SFX">
+					<ShortName>mx_missions_bass4.wav</ShortName>
+					<Path>SFX/mx_missions_bass4_8154F49A.wem</Path>
+				</File>
+				<File Id="305967220" Language="SFX">
+					<ShortName>mx_missions_perc2.wav</ShortName>
+					<Path>SFX/mx_missions_perc2_8154F49A.wem</Path>
+				</File>
+				<File Id="307265893" Language="SFX">
+					<ShortName>mx_freestyle_mine_is_the_sky.wav</ShortName>
+					<Path>SFX/mx_freestyle_mine_is_the_sky_8154F49A.wem</Path>
+				</File>
+				<File Id="332844292" Language="SFX">
+					<ShortName>mx_missions_lead4.wav</ShortName>
+					<Path>SFX/mx_missions_lead4_8154F49A.wem</Path>
+				</File>
+				<File Id="378573565" Language="SFX">
+					<ShortName>mx_missions_lead3.wav</ShortName>
+					<Path>SFX/mx_missions_lead3_8154F49A.wem</Path>
+				</File>
+				<File Id="415115425" Language="SFX">
+					<ShortName>mx_replay_if_i_might_live_twice.wav</ShortName>
+					<Path>SFX/mx_replay_if_i_might_live_twice_8154F49A.wem</Path>
+				</File>
+				<File Id="564596998" Language="SFX">
+					<ShortName>mx_missions_bass3.wav</ShortName>
+					<Path>SFX/mx_missions_bass3_8154F49A.wem</Path>
+				</File>
+				<File Id="567407102" Language="SFX">
+					<ShortName>mx_missions_drums3.wav</ShortName>
+					<Path>SFX/mx_missions_drums3_8154F49A.wem</Path>
+				</File>
+				<File Id="568070150" Language="SFX">
+					<ShortName>mx_freestyle_before_the_apocalypse.wav</ShortName>
+					<Path>SFX/mx_freestyle_before_the_apocalypse_8154F49A.wem</Path>
+				</File>
+				<File Id="570686604" Language="SFX">
+					<ShortName>mx_missions_lead5.wav</ShortName>
+					<Path>SFX/mx_missions_lead5_8154F49A.wem</Path>
+				</File>
+				<File Id="582894095" Language="SFX">
+					<ShortName>mx_missions_drums1.wav</ShortName>
+					<Path>SFX/mx_missions_drums1_8154F49A.wem</Path>
+				</File>
+				<File Id="598672187" Language="SFX">
+					<ShortName>mx_missions_perc1.wav</ShortName>
+					<Path>SFX/mx_missions_perc1_8154F49A.wem</Path>
+				</File>
+				<File Id="608884527" Language="SFX">
+					<ShortName>mx_missions_pad4(strings).wav</ShortName>
+					<Path>SFX/mx_missions_pad4(strings)_8154F49A.wem</Path>
+				</File>
+				<File Id="655438535" Language="SFX">
+					<ShortName>mx_missions_drums2.wav</ShortName>
+					<Path>SFX/mx_missions_drums2_8154F49A.wem</Path>
+				</File>
+				<File Id="697385412" Language="SFX">
+					<ShortName>mx_missions_rhythmicpad1.wav</ShortName>
+					<Path>SFX/mx_missions_rhythmicpad1_8154F49A.wem</Path>
+				</File>
+				<File Id="705301740" Language="SFX">
+					<ShortName>mx_missions_pad3(+strings).wav</ShortName>
+					<Path>SFX/mx_missions_pad3(+strings)_8154F49A.wem</Path>
+				</File>
+				<File Id="730818328" Language="SFX">
+					<ShortName>mx_missions_lead6.wav</ShortName>
+					<Path>SFX/mx_missions_lead6_8154F49A.wem</Path>
+				</File>
+				<File Id="748830957" Language="SFX">
+					<ShortName>mx_missions_lead2.wav</ShortName>
+					<Path>SFX/mx_missions_lead2_8154F49A.wem</Path>
+				</File>
+				<File Id="897979867" Language="SFX">
+					<ShortName>mx_missions_bass5.wav</ShortName>
+					<Path>SFX/mx_missions_bass5_8154F49A.wem</Path>
+				</File>
+				<File Id="992660802" Language="SFX">
+					<ShortName>mx_freestyle_miami_sunset.wav</ShortName>
+					<Path>SFX/mx_freestyle_miami_sunset_8154F49A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="1845460495" Name="GameType" ObjectPath="\States\Default Work Unit\GameType" GUID="{60D37257-630F-485E-A378-879691E7BC93}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameType\None" GUID="{2C21D664-702A-4060-84A2-5090E7AE2FAB}"/>
+						<State Id="1242303306" Name="freestyle" ObjectPath="\States\Default Work Unit\GameType\freestyle" GUID="{549B03CB-1CD8-44CA-9B4D-F021B9A35335}"/>
+						<State Id="2206546786" Name="mission_los" ObjectPath="\States\Default Work Unit\GameType\mission_los" GUID="{3112EE70-2198-49DC-97CC-EE8519116F60}"/>
+						<State Id="3137067327" Name="mission_generic" ObjectPath="\States\Default Work Unit\GameType\mission_generic" GUID="{57E55501-EA8B-44A0-9366-F167787C3228}"/>
+						<State Id="1875627670" Name="race" ObjectPath="\States\Default Work Unit\GameType\race" GUID="{7BB58053-06DD-4CDA-878B-3F8D61B795E0}"/>
+						<State Id="30729851" Name="campaign" ObjectPath="\States\Default Work Unit\GameType\campaign" GUID="{DC3936F0-4488-4690-A415-5BBDF3FFB989}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

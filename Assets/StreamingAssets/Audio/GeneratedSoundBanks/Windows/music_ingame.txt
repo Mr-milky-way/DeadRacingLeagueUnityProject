@@ -1,0 +1,52 @@
+Event	ID	Name			Wwise Object Path	Notes
+	297367300	resume_game_sounds_all			\Default Work Unit\resume_game_sounds_all	
+	905593515	play_mx_ingame			\Default Work Unit\MX\play_mx_ingame	
+	1063484697	pause_game_sounds_all			\Default Work Unit\pause_game_sounds_all	
+	1309319929	stop_mx_ingame			\Default Work Unit\MX\stop_mx_ingame	
+	2202970819	stop_mx_replay			\Default Work Unit\MX\stop_mx_replay	
+	2262774601	play_mx_replay			\Default Work Unit\MX\play_mx_replay	
+	2414542046	pause_game_music			\Default Work Unit\pause_game_music	
+	3253464573	resume_game_music			\Default Work Unit\resume_game_music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1845460495	GameType			\Default Work Unit\GameType	
+
+State	ID	Name	State Group			Notes
+	30729851	campaign	GameType			
+	748895195	None	GameType			
+	1242303306	freestyle	GameType			
+	1875627670	race	GameType			
+	2206546786	mission_los	GameType			
+	3137067327	mission_generic	GameType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	299332	mx_missions_lead1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C1\mx_missions_lead1		1401543
+	6257276	mx_missions_pad2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_pad2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C3\mx_missions_pad2		1336541
+	40709857	mx_missions_pad1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_pad1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\B4\mx_missions_pad1		1353885
+	85238870	mx_missions_pad5	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_pad5_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C8\mx_missions_pad5		1755226
+	131084170	mx_missions_lead4b	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead4b_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\B10\mx_missions_lead4b		1645307
+	187831122	mx_mission_bass1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_bass1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\A0\mx_mission_bass1		1013988
+	220504879	mx_missions_drums4	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_drums4_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C7\mx_missions_drums4		1484800
+	269172890	mx_missions_rhythmicpad2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_rhythmicpad2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C7\mx_missions_rhythmicpad2		3166242
+	279277402	mx_missions_bass2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_bass2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\Break2\mx_missions_bass2		1059178
+	290115192	mx_missions_bass4	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_bass4_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\A7\mx_missions_bass4		819042
+	305967220	mx_missions_perc2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_perc2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C7\mx_missions_perc2		685380
+	307265893	mx_freestyle_mine_is_the_sky	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_freestyle_mine_is_the_sky_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\Freestyle\Mine Is The Sky\mx_freestyle_mine_is_the_sky		12416069
+	332844292	mx_missions_lead4	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead4_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C7\mx_missions_lead4		1638781
+	378573565	mx_missions_lead3	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead3_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C3\mx_missions_lead3		1414724
+	415115425	mx_replay_if_i_might_live_twiice	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_replay_if_i_might_live_twice_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\Replay\Replay\mx_replay_if_i_might_live_twiice		16236172
+	564596998	mx_missions_bass3	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_bass3_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C5\mx_missions_bass3		1058427
+	567407102	mx_missions_drums3	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_drums3_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\A7\mx_missions_drums3		125479
+	568070150	mx_freestyle_before_the_apocalypse	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_freestyle_before_the_apocalypse_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\Freestyle\Before The Apocalypse\mx_freestyle_before_the_apocalypse		10344249
+	570686604	mx_missions_lead5	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead5_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\Break10\mx_missions_lead5		625999
+	582894095	mx_mission_drums1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_drums1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\A0\mx_mission_drums1		1243873
+	598672187	mx_missions_perc1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_perc1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C5\mx_missions_perc1		1420914
+	608884527	mx_missions_pad4(strings)	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_pad4(strings)_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C9\mx_missions_pad4(strings)		688988
+	655438535	mx_missions_drums2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_drums2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\B4\mx_missions_drums2		1262177
+	697385412	mx_missions_rhythmicpad1	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_rhythmicpad1_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\B8\mx_missions_rhythmicpad1		1539098
+	705301740	mx_missions_pad3(+strings)	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_pad3(+strings)_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C5\mx_missions_pad3(+strings)		1401511
+	730818328	mx_missions_lead6	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead6_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C10b\mx_missions_lead6		1301649
+	748830957	mx_missions_lead2	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_lead2_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionLOS\C2\mx_missions_lead2		1517561
+	897979867	mx_missions_bass5	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_missions_bass5_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\MissionGeneric\C8\mx_missions_bass5		1294210
+	992660802	mx_freestyle_miami_sunset	C:\DRLGame\drl-game\unity\WwiseProject\.cache\Windows\SFX\mx_freestyle_miami_sunset_8154F49A.wem		\Interactive Music Hierarchy\Default Work Unit\In-Game\Freestyle\Miami Sunset\mx_freestyle_miami_sunset		11647317
+
