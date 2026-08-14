@@ -1,0 +1,2935 @@
+template.example-text,Example Text,text
+template.example-text@property-float,"2, 5",text
+template.example-text@property-int,2.0,text
+template.example-text@property-bool,true,text
+template.example-image,path/to/image-file,image
+template.example-audio,path/to/audio-file,audio
+ui.label.loading,加载中,text
+ui.label.loading@upper,加载中,text
+ui.label.coming-soon,即将来临,text
+ui.label.coming-soon@upper,即将来临,text
+ui.label.get-ready-coming-soon,"准备好, 即将来临",text
+ui.label.click-to-unlock,点击解锁,text
+ui.label.click-to-unlock@upper,点击解锁,text
+ui.label.elapsed,运行时间,text
+ui.label.time,时间,text
+ui.label.position,排名位置,text
+ui.label.back,后退,text
+ui.label.next,下一步,text
+ui.label.exit,退出,text
+ui.label.leaders,领先者,text
+ui.common.back,返回,text
+ui.common.next,下一步,text
+ui.common.watch,观看,text
+ui.common.connecting,连线中...,text
+ui.common.no-hardware,未连接控制器,text
+ui.common.loading-w-dots,加载中...,text
+ui.common.please-select,请选择,text
+ui.common.yes,是,text
+ui.common.no,否,text
+ui.common.ok,确认,text
+ui.common.dismiss,撤销,text
+ui.common.start,开始,text
+ui.common.operation-failure,操作失败,text
+ui.offline.status,不可用(离线模式),text
+ui.connection.online,联机模式,text
+ui.connection.offline,离线模式,text
+ui.dialog.controller-disconnected.title,控制器无法连接,text
+ui.dialog.controller-disconnected.desc,警告，未检测到有控制器连接到您的系统。请重新连接您的控制器。,text
+ui.dialog.connection.network-disconnected.title,网络连接失败,text
+ui.dialog.connection.network-disconnected.desc,警告，请检查您的网络连接。,text
+ui.dialog.offline.network-disconnected.title,网络连接失败,text
+ui.dialog.offline.network-disconnected.desc,此功能在离线模式下不可用。,text
+ui.dialog.signed-in.title,登录,text
+ui.dialog.signed-in.desc,新用户登录，游戏将重新开始。,text
+ui.dialog.signed-out.title,退出,text
+ui.dialog.signed-out.desc,用户已退出，游戏将重新开始。,text
+ui.dialog.go-online.title,切换至联机模式,text
+ui.dialog.go-online.desc,您想要在联机模式下启动游戏吗？,text
+ui.dialog.go-offline.title,切换至离线模式,text
+ui.dialog.go-offline.desc,"当前网络连接可用，您依然决定进入离线模式。当您准备好重新回到联机模式时，请点击界面下方的离线模式按钮。
+ 
+ <b>请注意，离线模式下的比赛成绩将不会被上传至联机模式排行榜。</b>",text
+ui.dialog.server-disconnected.title,服务器连接失败,text
+ui.dialog.server-disconnected.desc,服务器连接失败，请稍后重新尝试。,text
+ui.dialog.load-offline.desc,进入离线模式...,text
+ui.dialog.load-online.desc,进入联机模式...,text
+ui.dialog.connection-lost.title,网络连接中断,text
+ui.dialog.connection-lost.desc,网络连接中断。在离线模式下开始游戏。,text
+ui.footer.level,等级,text
+ui.footer.xp,经验,text
+ui.footer.streak,连击,text
+ui.footer.race,比赛,text
+ui.common.invite,邀请,text
+splash.connecting,连线中…,text
+splash.connection-failed,"连接失败, 请稍后重试",text
+splash.missing-dll,缺少配置文件 / VC REDIST 2015,text
+splash.connecting-server,服务器连接中...,text
+splash.initializing,正在初始化,text
+splash.connection-fail,连接失败,text
+splash.platform-steam-fail,连接Steam平台失败,text
+splash.platform-xbox-fail,连接Xbox平台失败,text
+splash.connection-timeout,连接超时,text
+splash.connection-retry,重新尝试连接,text
+splash.license-check,检查许可证,text
+splash.state-load,加载状态,text
+splash.button.connection-check.label,检查链接,text
+splash.button.quit.label,退出,text
+splash.state-download-maps,正在下载供离线模式使用的地图…,text
+splash.loading,加载中…,text
+splash.state-store-maps,地图保存中…,text
+splash.start-offline,启动离线模式,text
+splash.state-load,正在加载游戏状态…,text
+splash.license-check,正在检查许可证…,text
+splash.state-download-maps-fail,無法下載地圖！,text
+social.label.connecting,连线中…,text
+social.label.disconnected,连接失败,text
+social.label.not-in-a-room,未加入房间,text
+social.label.no-threads-found,找不到主题,text
+social.footer.tabs.chat,聊天室,text
+social.footer.tabs.friends,好友,text
+social.friends.item.sub.private-message,私信,text
+social.friends.item.sub.remove-friend,移除好友,text
+social.friends.search.placeholder,搜索...,text
+social.friends.search.sortby,排列方式,text
+social.friends.search.sort-type,"在线, 名字",text
+social.chat.tabs.global,全球,text
+social.chat.tabs.private,私人,text
+social.chat.tabs.game,游戏,text
+social.chat.channels,按ALT键切换频道,text
+social.chat.message.sub.private-message,私信,text
+social.chat.message.sub.add-friend,添加好友,text
+social.social-main,聊天,text
+social.chat.message.time-ago.justnow,在线,text
+social.chat.message.time-ago.months-ago,月前,text
+social.chat.message.time-ago.days-ago,天前,text
+social.chat.message.time-ago.hours-ago,小时前,text
+social.chat.message.time-ago.mins-ago,分钟前,text
+social.chat.message.time-ago.one-min-ago,1分钟前,text
+social.chat.message.time-ago.moment-ago,刚刚,text
+social.chat.tabs.tournament,vDRL,text
+social.chat.channel.global,[全球],text
+social.chat.channel.vdrl,[赛事],text
+social.chat.channel.game,[游戏],text
+social.friends.online,在线,text
+social.friends.offline,离线,text
+social.friends.join-my-race,加入我的比赛,text
+social.friends.snooze,忽略,text
+social.friends.accept,接受,text
+social.friends.decline,拒绝,text
+social.friends.no-notifications,无可用通知,text
+social.chat.need-help,需要帮助？,text
+social.chat.pilot,飞手您好！,text
+social.chat.channel.private,[私聊 @,text
+social.chat.type-here,在这里输入...,text
+notifications.label.connecting,连接中...,text
+notifications.ui.join.race,加入我的比赛,text
+notifications.ui.join.freestyle,加入我的花式飞行,text
+home.disclaimer,"基于物理学的竞速3号:总重1018克, 每台电机提供1650克的拉力。敬请期待机库模式。",text
+home.card@font-size,60.0,text
+home.card.train,训练,text
+home.card.train.desc,学习飞行,text
+home.card.fly,飞行,text
+home.card.tryouts,选拔赛,text
+home.card.tryouts.desc,成为DRL职业飞手,text
+home.card.purchase,购买,text
+home.card.purchase.desc,体验完整的游戏,text
+home.card.garage,工作台,text
+home.card.garage.desc,组装自己的无人机,text
+home.card.shop,商店,text
+home.card.leaders,排行榜,text
+home.card.settings,设置,text
+home.card.quit,退出,text
+home.card.freestyle,花式飞行,text
+home.card.freestyle.desc,体验自由飞行的乐趣,text
+home.card.make-maps,地图编辑器,text
+home.card.make-maps.desc,随心所欲,text
+home.card.multiplayer,多人连线,text
+home.card.multiplayer.desc,与全世界的玩家对战,text
+home.card.profile,玩家资料,text
+home.card.race,单人竞赛,text
+home.card.race.desc,冲刺到底,text
+home.card.physics,物理学,text
+home.card.physics.desc,基于真实物理的无人机,text
+home.card.physics.beta,BETA,text
+home.screen.title,主页,text
+home.warning.below-specs,未达到硬件最低需求,text
+home.card.leaders.drl,DRL排行榜,text
+home.card.leaders.open,"公开组
+排行榜",text
+home.card.community.drones,无人机社区,text
+home.card.community.drones.field-desc,各种配置，应有尽有,text
+home.card.community.maps,地图社区,text
+home.card.community.maps.field-desc,各类地图，奇思妙想,text
+home.click-drag,点击 & 拖动,text
+home.card.vdrl,赛事,text
+home.card.vdrl.desc,新的挑战！,text
+home.card.store,商店,text
+home.card.store.desc,无人机零件与皮肤,text
+home.card.usaf-card,美国空军,text
+home.card.usaf-card.desc,竞速赛道,text
+home.usaf-night-mode,夜间模式,text
+home.quest,"",text
+fly.screen.title,飞行,text
+fly.screen.race,竞赛,text
+fly.screen.freefly,自由飞翔 ,text
+fly.screen.lobby,大厅,text
+fly.screen.freecamera,自由摄像机,text
+fly.card@font-size,60.0,text
+fly.card.fly-campaign-card,战役,text
+fly.card.fly-freecamera-card,自由摄像机,text
+fly.card.fly-sandbox-card,物理沙盒 1.0,text
+fly.multiplayer.lan,局域网,text
+fly.choose-map,选择地图,text
+fly.card.fly-freestyle-card,花式飞行,text
+fly.card.fly-race-card,竞赛,text
+race-hud.label.position,排名,text
+race-hud.label.time,时间,text
+race-hud.label.laps,圈数,text
+race-hud.warnings.low-fps,"帧数过低, 请降低画面质量.",text
+race-hud.warnings.low-signal,"无线电信号过弱, 请返回.",text
+race-hud.title.get,预备!,text
+race-hud.title.ready,"",text
+race-hud.training.timer-countdown,倒数,text
+race-hud.training.timer-elapsed,用时,text
+race-hud.training.next-button,下一个,text
+race-hud.warnings.training.skip,长按任意键可以跳过,text
+race-hud.training.gauge.perfect,完美,text
+race-hud.training.gauge.distance,距离,text
+race-hud.training.gauge.toofar,距离过远,text
+race-hud.label.gates,障碍门,text
+race-hud.label.round-ends,距结束还有,text
+vdrl.screen.title,锦标赛,text
+vdrl.button.enter,进入,text
+vdrl.button.standings,积分榜,text
+vdrl.button.remind-me,提醒我,text
+vdrl.button.register,注册,text
+vdrl.button.unregister,注销,text
+vdrl.button.nextmatch,下一场比赛,text
+vdrl.button.lobby,大厅,text
+vdrl.feedback.processing,正在处理…,text
+vdrl.feedback.no.tournaments,未找到锦标赛,text
+vdrl.feedback.operation.failure,操作失败,text
+vdrl.label.group,组,text
+vdrl.label.semi.finals,半决赛,text
+vdrl.label.finals,决赛,text
+vdrl.label.complete,完成,text
+vdrl.label.waiting,请等待…,text
+vdrl.label.next.map,下一地图,text
+vdrl.feedback.registering,注册中…,text
+vdrl.feedback.unregistering,注销中…,text
+vdrl.label.starts,开始日期:,text
+vdrl.label.starts-in,距开始还有:,text
+vdrl.label.started,正在进行,text
+vdrl.label.day,天,text
+vdrl.label.days,天,text
+vdrl.label.hour,小时,text
+vdrl.label.hours,小时,text
+vdrl.label.winners-prize,获胜者奖金:,text
+vdrl.label.winner,获胜者,text
+vdrl.skill.title,技能,text
+vdrl.tournaments-list.bc-title,没有可加入的赛事,text
+vdrl.tournaments-list.bc-desc,订阅以收到 关于未来赛事的最新消息,text
+vdrl.tournaments-list.newsletter.title,最新消息,text
+vdrl.tournaments-list.newsletter.desc,了解未来赛事的 最新消息,text
+vdrl.tournaments-list.past.title,过往成绩,text
+vdrl.tournaments-list.past.desc,以往赛事的 积分榜,text
+vdrl.tournament-overview.description,赛事简介,text
+vdrl.tournament-overview.prizes,奖金,text
+vdrl.label.age-restriction,我已经超过规定的年龄,text
+vdrl.label.inches,螺旋桨尺寸,text
+vdrl.label.all-drones,全部无人机,text
+vdrl.label.from,从,text
+vdrl.label.to,到,text
+vdrl.label.minute,分钟,text
+vdrl.label.minutes,分钟,text
+vdrl.button.subscribe-me,订阅,text
+vdrl.button.unsubscribe-me,取消订阅,text
+vdrl.label.winners,获胜者,text
+vdrl.button.exit,下一步,text
+vdrl.list.title,赛事,text
+vdrl.leaderboard.title,赛事积分榜,text
+vdrl.label.solo-race,开始,text
+vdrl.label.mp-race,加入,text
+vdrl.label.mp-spectate,观看,text
+vdrl.label.heat,局,text
+vdrl.label.active,可用的,text
+vdrl.label.waiting-players,等待玩家加入,text
+vdrl.brackets.selected-drone,已选无人机,text
+vdrl.label.waiting,等待中,text
+vdrl.label.failed,失败,text
+vdrl.match-item.results,成绩,text
+vdrl.label.in-game,游戏中,text
+vdrl.label.total,总计,text
+vdrl.label.ends-in,距结束还有,text
+vdrl.label.event-canceled,创建者取消了比赛,text
+vdrl.label.ended,赛事已结束,text
+vdrl.label.out-of,超出,text
+vdrl.label.time-expired,有效期限已过,text
+vdrl.label.round-complete,完成,text
+vdrl.label.registration-opens,进行注册,text
+vdrl.label.begins,开始时间,text
+vdrl.label.registered,已报名,text
+campaign.screen.title,战役,text
+campaign.screen.title.overview,选拔赛,text
+campaign.campaign.title.2016,2016赛季,text
+campaign.campaign.discription.2016,无人机竞速联盟2016赛季竞赛,text
+campaign.campaign.title.2018,2018选拔赛,text
+campaign.campaign.discription.2018,无人机竞速联盟2018选拔锦标赛,text
+campaign.overview.races,竞赛,text
+campaign.overview.totaltime,总时间,text
+campaign.overview.attemps,尝试次数,text
+campaign.overview.onleaderboard,<size=21>在排行榜上</size>,text
+campaign.overview.reset,重置,text
+campaign.overview.finalheat,决赛,text
+campaign.overview.locked,锁定,text
+campaign.overview.results,结果,text
+campaign.overview.confirmation,再次点击确认,text
+campaign.overview.resetright,右边,text
+campaign.results.nav-left.back,返回,text
+campaign.results.total-time,总时间,text
+campaign.overview.crash-rebuild,重组坠机,text
+campaign.tryouts-2020.onboarding.t0,欢迎来到 <color=red>2020 DRL SIM Tryouts模拟器选拔赛</color>，这是一项全球性的赛事，向所有渴望成为下一位DRL职业飞手的16岁及以上玩家开放。本次选拔赛的冠军将获得一份参加<color=red>2020 DRL赛季</color>比赛的职业飞手合同。同时也是有史以来第一次，DRL将为这次为期两个月的宏大赛事提供<color=red>75000美元</color>的总奖金。向排行榜的榜首位置发起冲击吧。参加每周的比赛，收看精彩的节目。每个人都有机会成为冠军！,text
+campaign.tryouts-2020.onboarding.t1,想要参与比赛非常的简单。玩家只需在选拔赛地图完成3局比赛，就可以自动获得参加每周线上赛事的资格。没有任何成绩的门槛，只要你能够完成该地图3次，就可以获得参赛资格。,text
+campaign.tryouts-2020.onboarding.t2,一旦你通过选拔赛地图获得参赛资格，你就可以参加在<color=red>2月18日至3月26日之间的每周二和周四</color>举行的12场周赛。每周的比赛采用不同的赛道。比赛期间，你有30分钟的时间在单人竞赛模式下创造你的最快用时。排名前24位的选手将通过晋级赛的方式争夺最终的冠军。每场比赛的冠军将直接晋级总决赛。,text
+leaderboard.back,返回,text
+leaderboard.exit,退出,text
+leaderboard.my-position,我的排名,text
+leaderboard.right,右边,text
+leaderboard.game-type.labels,"竞赛, 战役, 任务",text
+leaderboard.mode,模式,text
+leaderboard.map,地图,text
+leaderboard.track,赛道,text
+leaderboard.campaign,战役,text
+leaderboard.drl-2016,无人机竞速联盟2016,text
+leaderboard.region,区域,text
+leaderboard.quest,任务,text
+leaderboard.los-i,洛杉矶  I,text
+leaderboard.mission,任务,text
+leaderboard.the-diamond-path,钻石之路,text
+leaderboard.replay,重播,text
+leaderboard.no-results-found,未找到任何结果,text
+leaderboard.loading,加载中...,text
+leaderboard.start,开始,text
+leaderboard.drone-class,规格,text
+leaderboard.drone-class.labels,"全部, 3寸, 4寸, 5寸, 6寸",text
+leaderboard.title,排行榜,text
+leaderboard.race-item.replay,重播,text
+leaderboard.progress-loading,加载中 <color=red>/</color>,text
+leaderboard.drone-physics.labels,"个性化物理,默认物理",text
+leaderboard.race-item.save-drone,无人机,text
+leaderboard.result.new-record,新的纪录,text
+leaderboard.result.personal-best,新的个人最好成绩,text
+leaderboard.result.on,在,text
+leaderboard.result.drl-leaderboard,DRL 排行榜,text
+leaderboard.result.leaderboard,排行榜,text
+leaderboard.result.custom-physics,个性化物理,text
+leaderboard.result.race-time,竞赛时间,text
+leaderboard.choose-map,选择地图,text
+leaderboard.menu.replay.search,输入回放的URL...,text
+garage.bars.thrust.label,拉力,text
+garage.bars.weight.label,重量,text
+garage.bars.topspeed.label,最高速,text
+garage.bars.torque.label,扭矩,text
+garage.bars.drag.label,阻力,text
+garage.bars.rpm.label,转速,text
+garage.bars.efficiency.label,效率,text
+garage.bars.temperature.label,最高温度,text
+garage.bars.description.label,此参数修改过,text
+garage.dev.button,开发,text
+garage.forbidden.button,禁止使用,text
+garage.cog.button,重心,text
+garage.video.button,视频,text
+garage.spin.button,旋转,text
+garage.data.button,数据,text
+garage.see.button,观看,text
+garage.fly.button,飞行,text
+garage.saving.button,保存中…,text
+garage.save.button,保存无人机,text
+garage.previous.button,上一页,text
+garage.next.button,下一页,text
+garage.color.trail-color.label,飞行员/灯光颜色,text
+garage.color.prop-color.label,螺旋桨,text
+garage.color.texture-color.label,细节1,text
+garage.color.edge-color.label,细节2,text
+garage.name.input,自定义名称,text
+garage.header.frames.button,机架,text
+garage.header.motors.button,电机,text
+garage.header.props.button,螺旋桨,text
+garage.header.lipos.button,电池,text
+garage.header.extras.button,附件,text
+garage.header.style.button,个性化,text
+garage.header.color.button,颜色,text
+garage.messages.unabletofly,"此组合无效, 测试数据尚未建立, 敬请期待。",text
+garage.selection.new3inch.button,新3寸无人机,text
+garage.selection.new4inch.button,新4寸无人机,text
+garage.selection.new5inch.button,新5寸无人机,text
+garage.selection.new6inch.button,新6寸无人机,text
+garage.selection.new7inch.button,新7寸无人机,text
+garage.charts.datasheet.button,数据清单,text
+garage.charts.review.button,复查,text
+garage.selection-screen.title,无人机,text
+garage.information.stator.label,定子:,text
+garage.information.size.label,尺寸:,text
+garage.information.gear.label,kv值:,text
+garage.information.blades.label,叶片数:,text
+garage.information.capacity.label,容量:,text
+garage.information.cells.label,电芯数:,text
+garage.information.type.label,类型:,text
+garage.information.weight.label,重量:,text
+garage.public.labels,"仅自己可见,公开",text
+garage.clear.button,清除自定义物理,text
+garage.messages.exit-preview,按任意键离开,text
+garage.selection.nano.label,超小型无人机,text
+garage.selection.3inch.label,3寸无人机,text
+garage.selection.4inch.label,4寸无人机,text
+garage.selection.5inch.label,5寸无人机,text
+garage.selection.6inch.label,6寸无人机,text
+garage.selection.7inch.label,7寸无人机,text
+garage.selection.promo.label,推荐,text
+garage.selection.developer.label,开发团队,text
+garage.messages.drone-name,请为你的无人机命名,text
+garage.selection-screen.minutes,分钟,text
+garage.card.store,商店,text
+garage.card.store.desc,为您的无人机购买新的皮肤,text
+garage.unsteady,动态拉力模型,text
+garage.menu.frames.labels,"机架尺寸,3 英寸,4 英寸,5 英寸,6 英寸,7 英寸",text
+garage.menu.motors.size.labels,"尺寸,22xx",text
+garage.menu.motors.gearing.labels,"kv值,1500kv - 2000kv,2000kv - 2500kv,2500kv-3000kv",text
+garage.menu.props.diameter.labels,"直径,3 英寸,4 英寸",text
+garage.menu.props.blades.labels,"桨叶,2 叶,3 叶,4 叶",text
+garage.menu.lipos.cells.labels,"电芯数量,3S (12.6V),4S (16.8V),5S (21.0V)",text
+garage.menu.lipos.capacity.labels,"容量,0 - 450 mAh,451 - 850 mAh,851 - 1300 mAh,1301 - 1800 mAh",text
+garage.menu.style.labels,"类别,动物,特效,旗帜,其他,图案",text
+garage.map-selection.labels,"美国空军,沙盒",text
+garage.remove-attachment,移除附件,text
+garage.advanced-unsteady-drag,高级动态拉力,text
+dashboard.graphs.title,图表,text
+dashboard.graphs.units.miliamperhours,mAh,text
+dashboard.graphs.units.volts,V,text
+dashboard.graphs.units.meterspersecond,m/s,text
+dashboard.graphs.units.degreespersecond,deg/s,text
+dashboard.graphs.units.kilometersperhour,km/h,text
+dashboard.graphs.units.kilograms,kg,text
+dashboard.graphs.units.grams,g,text
+dashboard.graphs.units.newtonmeters,Nm,text
+dashboard.graphs.units.newtons,N,text
+dashboard.graphs.units.rotationsperminute,rpm,text
+dashboard.graphs.units.rotationspersecond,rps,text
+dashboard.graphs.electric.title,电池：,text
+dashboard.graphs.electric.battery.charge.label,电量：,text
+dashboard.graphs.electric.battery.voltage.label,电压：,text
+dashboard.graphs.speed.title,速度 XYZ：,text
+dashboard.graphs.speed.global.label,全局：,text
+dashboard.graphs.speed.local.label,局部：,text
+dashboard.graphs.speed.rotation.label,旋转:,text
+dashboard.graphs.speed.airspeed.label,气流:,text
+dashboard.graphs.speed.flight.label,飞行：,text
+dashboard.graphs.force.title,力学 XYZ：,text
+dashboard.graphs.force.global.label,全局：,text
+dashboard.graphs.force.local.label,局部：,text
+dashboard.graphs.force.drag.label,阻力：,text
+dashboard.graphs.force.drag-lift.label,阻力/升力:,text
+dashboard.graphs.force.aeroload.label,负载,text
+dashboard.graphs.throttle.title,油门曲线,text
+dashboard.graphs.pitchroll.title,<color=#73D003FF>俯仰</color> <color=#00ffffff>横滚</color> 曲线,text
+dashboard.graphs.yaw.title,<color=#F1E500FF>偏航</color>曲线,text
+dashboard.graphs.efficiency.title,螺旋桨效率,text
+dashboard.graphs.motors.title,<color=#F1E500FF>电机</color>输出,text
+dashboard.graphs.motors.thrust.label,拉力,text
+dashboard.graphs.motors.torque.label,扭矩,text
+dashboard.graphs.motors.voltage.label,电压,text
+dashboard.graphs.motors.rotationsperminute.label,转速,text
+dashboard.general.title,一般配置,text
+dashboard.general.tooltip,其他设置和仪表面板控制,text
+dashboard.general.tune.tooltip,保存所有物理设置并与其他玩家分享,text
+dashboard.general.tune.button.new,新建,text
+dashboard.general.tune.button.save,保存,text
+dashboard.general.tune.name.default,我的设置,text
+dashboard.general.tune.rating.label,评价这个设置,text
+dashboard.general.tune.button.communitytunes,社区设置,text
+dashboard.general.dronesettings.label,无人机设置,text
+dashboard.general.dronesettings.tooltip,保存/加载当前设置至无人机,text
+dashboard.general.dronesettings.button.load,加载,text
+dashboard.general.dronesettings.button.save,保存,text
+dashboard.general.dronesettings.button.clear,清除,text
+dashboard.general.miscellaneous.label,其他,text
+dashboard.general.miscellaneous.button.flipdrone,翻转,text
+dashboard.general.miscellaneous.button.flipdrone.tooltip,将无人机翻正,text
+dashboard.general.miscellaneous.button.controlleroverlay,控制器,text
+dashboard.general.miscellaneous.button.controlleroverlay.tooltip,显示/影藏控制器图案,text
+dashboard.general.miscellaneous.button.replay,重播,text
+dashboard.general.miscellaneous.button.replay.tooltip,切换重播控制,text
+dashboard.general.miscellaneous.button.audio,音频,text
+dashboard.general.miscellaneous.button.audio.tooltip,切换声音控制,text
+dashboard.general.flightcontrollermode.label,飞行控制器,text
+dashboard.general.flightcontroller.button.professional,专业模式,text
+dashboard.general.flightcontroller.button.professional.tooltip,切换至专业模式,text
+dashboard.general.flightcontroller.button.intermediate,选手模式,text
+dashboard.general.flightcontroller.button.intermediate.tooltip,切换至选手模式,text
+dashboard.general.flightcontroller.button.beginner,新手,text
+dashboard.general.flightcontroller.button.beginner.tooltip,切换至新手模式,text
+dashboard.general.graphs.label,图表,text
+dashboard.general.graphs.button.motor,电机,text
+dashboard.general.graphs.button.motor.tooltip,"切换在仪表面板显示电机图示, 包括每个电机的即时转速、拉力和扭矩。",text
+dashboard.general.graphs.button.throttle,油门,text
+dashboard.general.graphs.button.throttle.tooltip,切换在仪表面板显示油门图表。,text
+dashboard.general.graphs.button.pitch-roll-rc-curve,俯仰+横滚,text
+dashboard.general.graphs.button.pitch-roll-rc-curve.tooltip,切换在仪表面板显示俯仰横滚曲线，显示俯仰和横滚轴的输入输出信号。,text
+dashboard.general.graphs.button.yaw-rc-curve,偏航,text
+dashboard.general.graphs.button.yaw-rc-curve.tooltip,切换在仪表面板显示偏航曲线，显示偏航轴的输入输出信号。,text
+dashboard.general.graphs.button.propeller-efficiency,螺旋桨效率,text
+dashboard.general.graphs.button.propeller-efficiency.tooltip,切换在仪表面板显示螺旋桨效率，显示即时前进比和空气动力学效率。,text
+dashboard.general.graphs.button.force,力学,text
+dashboard.general.graphs.button.force.tooltip,切换在仪表面板显示力学数据，显示无人机当前的受力情况。,text
+dashboard.general.graphs.button.speed,速度,text
+dashboard.general.graphs.button.speed.tooltip,切换在仪表面板显示速度数据，显示无人机当前在不同参考系下的速度。,text
+dashboard.general.graphs.button.electric,电池,text
+dashboard.general.graphs.button.electric.tooltip,切换在仪表面板显示电池数据，显示电池的即时参数。,text
+dashboard.general.links.label,链接,text
+dashboard.general.links.button.help,帮助,text
+dashboard.physics.title,物理,text
+dashboard.physics.tooltip,影响空气动力学模拟的物理参数。,text
+dashboard.physics.subtab.options,选项,text
+dashboard.physics.options.tooltip,一般物理参数设置,text
+dashboard.physics.subtab.propeller-efficiency,螺旋桨效率,text
+dashboard.physics.propeller-efficiency.tooltip,螺旋桨的效率,text
+dashboard.physics.subtab.drag,阻力,text
+dashboard.physics.drag.tooltip,阻力模型,text
+dashboard.physics.subtab.groundeffect,地面影响,text
+dashboard.physics.groundeffect.tooltip,地面的影响,text
+dashboard.physics.subtab.aeroload,负载,text
+dashboard.physics.subtab.propeller-limits,螺旋桨,text
+dashboard.physics.prop-limits.tooltip,螺旋桨转速限制,text
+dashboard.physics.gravity.label,重力,text
+dashboard.physics.gravity.tooltip,"",text
+dashboard.physics.aeroload.label,负载,text
+dashboard.physics.aeroload.tooltip,"",text
+dashboard.physics.real-parameters.label,真实参数,text
+dashboard.physics.real-parameters.tooltip,"",text
+dashboard.physics.torque-improves-thrust.label,扭矩会增强拉力,text
+dashboard.physics.torque-improves-thrust.tooltip,"",text
+dashboard.physics.efficiency.curve.label,螺旋桨效率曲线,text
+dashboard.physics.efficiency.curve.tooltip,应用螺旋桨效率曲线，使桨效随当前螺旋桨前进比变化，或保持常量。,text
+dashboard.physics.efficiency.override.label,螺旋桨效率,text
+dashboard.physics.efficiency.override.tooltip,"效率恒定, 所有拉力将根据此数据模拟。",text
+dashboard.physics.efficiency.curve.parameters.label,螺旋桨效率曲线参数,text
+dashboard.physics.efficiency.curve.maximum.label,最大值,text
+dashboard.physics.efficiency.curve.maximum.tooltip,曲线的最大效率值。,text
+dashboard.physics.efficiency.curve.endpoint.label,结束,text
+dashboard.physics.efficiency.curve.endpoint.tooltip,"超过最大值后, 前进比达到此数值时，曲线将再次归零。",text
+dashboard.physics.drag.coefficient.label,阻力系数,text
+dashboard.physics.drag.coefficient.tooltip,"标准的阻力系数, 用来根据无人机的表面积计算阻力。",text
+dashboard.physics.drag.top-side.label,上下面/侧面阻力,text
+dashboard.physics.drag.static-top.tooltip,无人机在静态时上下面的阻力因数。,text
+dashboard.physics.drag.static-side.tooltip,无人机在静态时侧面的阻力因数。,text
+dashboard.physics.drag.dynamic-top-side.label,动态上下面/侧面阻力,text
+dashboard.physics.drag.dynamic-top.tooltip,无人机在动态时上下面的阻力因数。,text
+dashboard.physics.drag.dynamic-side.tooltip,无人机在动态时侧面的阻力因数。,text
+dashboard.physics.drag.type.label,阻力模式,text
+dashboard.physics.drag.type.tooltip,CL/CD模式下阻力和升力独立，根据无人机的飞行角度来计算各系数的最小与最大值。 XYZ模式下根据包含无人机表面积和空气密度的预计算参数进行计算。,text
+dashboard.physics.drag.surfacearea.label,表面积,text
+dashboard.physics.drag.surfacearea.tooltip,无人机的上表面积（平方米）,text
+dashboard.physics.drag.liftcoefficient.label,升力系数 最小-最大,text
+dashboard.physics.drag.liftcoefficient.tooltip,升力系数 (Cl) 最小与最大值,text
+dashboard.physics.drag.dragcoefficient.label,阻力系数 最小-最大,text
+dashboard.physics.drag.dragcoefficient.tooltip,阻力系数 (Cd) 最小与最大值,text
+dashboard.physics.groundeffect.label,地面影响,text
+dashboard.physics.groundeffect.strength.label,强度,text
+dashboard.physics.groundeffect.strength.tooltip,"",text
+dashboard.physics.groundeffect.maximumdistance.label,距离,text
+dashboard.physics.groundeffect.maximumdistance.tooltip,"",text
+dashboard.physics.propeller-limits.label,螺旋桨限制,text
+dashboard.physics.propeller-limits.tooltip,"关闭时, 螺旋桨最高转速仅受电机静态参数和电池损耗影响。 启动时, 最高转速还会受螺旋桨即时尖端速度和阻力的影响。",text
+dashboard.physics.propeller-limits.maximum-tip-speed.label,螺旋桨尖端最高速度,text
+dashboard.physics.propeller-limits.maximum-tip-speed.tooltip,"允许的螺旋桨尖端最高速度, 用马赫显示。",text
+dashboard.physics.propeller-limits.blade-drag-coefficient.label,螺旋浆桨叶阻力,text
+dashboard.physics.propeller-limits.blade-drag-coefficient.tooltip,螺旋桨桨叶阻力系数。,text
+dashboard.drone.title,无人机规格,text
+dashboard.drone.tooltip,无人机机身设置,text
+dashboard.drone.subtab.drones,无人机,text
+dashboard.drone.subtab.drones.tooltip,无人机基本信息,text
+dashboard.drone.subtab.rig-specifications,设备,text
+dashboard.drone.subtab.rig-specifications.tooltip,设备基本参数,text
+dashboard.drone.subtab.propeller-spin-delay,延迟,text
+dashboard.drone.subtab.propeller-spin-delay.tooltip,螺旋桨加速与减速的延迟,text
+dashboard.drone.size-class.label,无人机规格：,text
+dashboard.drone.drone-rig-name.label,设备：,text
+dashboard.drone.button.select,选择：,text
+dashboard.drone.button.select.tooltip,选择无人机,text
+dashboard.drone.button.edit,编辑,text
+dashboard.drone.button.edit.tooltip,编辑当前无人机的部件,text
+dashboard.general.camera.label,相机,text
+dashboard.general.camera.tooltip,选择相机模式,text
+dashboard.drone.camera-tilt-angle.label,相机倾斜,text
+dashboard.drone.camera-tilt-angle.tooltip,选择相机倾斜角度,text
+dashboard.drone.total-weight.label,总重量（克）,text
+dashboard.drone.total-weight.tooltip,"更改无人机的重量, 输入0或清除数据将会使用实际重量。",text
+dashboard.drone.thrust-per-motor.label,每个电机的拉力（克）,text
+dashboard.drone.thrust-per-motor.tooltip,"更改电机的拉力, 输入0或清除数据将会使用实际拉力。",text
+dashboard.drone.torque-per-motor.label,每个电机的扭矩（牛顿米）,text
+dashboard.drone.torque-per-motor.tooltip,"更改电机的扭矩, 输入0或清除数据将会使用实际扭矩。",text
+dashboard.drone.button.reset-parameters,重置,text
+dashboard.drone.button.reset-parameters.tooltip,将所有参数重置为默认值,text
+dashboard.drone.propeller-spin-delay.label,螺旋桨旋转延迟（秒）,text
+dashboard.drone.propeller-spinup.label,起转,text
+dashboard.drone.propeller-spinup.tooltip,最大信号输入时，螺旋桨从0加速至最大转速所需要的时间（秒）。,text
+dashboard.drone.propeller-spindown.label,终转,text
+dashboard.drone.propeller-spindown.tooltip,无信号输入时，螺旋桨从最大转速减速至0所需要的时间（秒）。,text
+dashboard.fc.title,飞行控制器,text
+dashboard.fc.tooltip,飞行控制器设置,text
+dashboard.fc.subtab.pid,PID,text
+dashboard.fc.subtab.pid.tooltip,PID控制器参数,text
+dashboard.fc.subtab.rates,速率,text
+dashboard.fc.subtab.rates.tooltip,启动控制器设置Betaflight速率曲线。,text
+dashboard.drone.subtab.battery,电池,text
+dashboard.drone.subtab.battery.tooltip,电池参数,text
+dashboard.fc.button.pid-automatic-tuning,PID 自动设置,text
+dashboard.fc.button.pid-automatic-tuning.tooltip,"启动 PID 自动设置循环, 无人机将自动计算最佳的PID值。",text
+dashboard.fc.pid.pitch.label,俯仰 P/I/D,text
+dashboard.fc.pid.pitch.tooltip,"设置俯仰轴的P,I,D值",text
+dashboard.fc.pid.roll.label,横滚 P/I/D,text
+dashboard.fc.pid.roll.tooltip,"设置横滚轴的P,I,D值",text
+dashboard.fc.pid.yaw.label,偏航 P/I/D,text
+dashboard.fc.pid.yaw.tooltip,"设置偏航轴的P,I,D值",text
+dashboard.drone.rates.pitch-rc-super-expo.label,俯仰 RC/SUPER/EXPO,text
+dashboard.drone.rates.roll-rc-super-expo.label,横滚 RC/SUPER/EXPO,text
+dashboard.drone.rates.yaw-rc-super-expo.label,偏移 RC/SUPER/EXPO,text
+dashboard.drone.rates.throttle-mid-expo.label,油门 MID/EXPO,text
+dashboard.drone.rates.tooltip,"控制器输入的RC rate, Super rate和Expo",text
+dashboard.drone.battery.label,电池,text
+dashboard.drone.battery.button.sag,暂降,text
+dashboard.drone.battery.button.sag.tooltip,"切换电池暂降, 关闭时电池电压将不随负载而改变。",text
+dashboard.drone.battery.button.discharge,消耗,text
+dashboard.drone.battery.button.discharge.tooltip,"关闭时将忽略电力消耗, 启动时电力将以真实速度消耗。 当电力降低至零时, 无人机将会关机。",text
+dashboard.drone.battery.button.recharge,充电,text
+dashboard.drone.battery.button.recharge.tooltip,将电池容量重新充满,text
+dashboard.drone.battery.sag-strength.label,暂降强度,text
+dashboard.drone.battery.sag-strength.tooltip,"",text
+dashboard.drone.battery.recovery-strength.label,恢复强度,text
+dashboard.drone.battery.recovery-strength.tooltip,"",text
+dashboard.drone.battery.recovery-speed.label,恢复速度,text
+dashboard.drone.battery.recovery-speed.tooltip,"",text
+dashboard.drone.battery.capacity.label,容量,text
+dashboard.drone.battery.capacity.tooltip,电池总容量,text
+dashboard.drone.battery.internal-resistance.label,电阻,text
+dashboard.drone.battery.internal-resistance.tooltip,每个电芯的内部电阻值,text
+dashboard.footer.message-edit-drone,按“E”可修改无人机,text
+dashboard.footer.message-toggle-dashboard,"按""P""可启动仪表面板",text
+dashboard.general.replay.label,重播,text
+dashboard.general.replay.button.record,记录,text
+dashboard.general.replay.button.play,播放,text
+dashboard.general.replay.button.run,开始,text
+dashboard.general.replay.button.record.tooltip,开始/停止记录此重播文件,text
+dashboard.general.replay.button.play.tooltip,开始/停止回放此重播文件,text
+dashboard.general.replay.button.run.tooltip,执行输入的命令序列,text
+dashboard.general.replay.filename.label,文件名/命令,text
+dashboard.general.replay.filename.tooltip,"记录/重播文件的文件名, 或无人机执行的命令序列",text
+dashboard.inputfield.placeholder,输入数值,text
+dashboard.inputfield.placeholder.replay,输入文件名,text
+dashboard.physics.gravityfactor.label,重力因数,text
+dashboard.physics.gravityfactor.tooltip,这实际上是增加了更多向下的力来补偿我们目前正在开发的动态阻力。使用它将会导致一些轻微的不现实的飞行轨迹，但它将提高整体的飞行感觉。,text
+dashboard.disclaimer,物理仪表面板 BETA,text
+dashboard.race-warning.message,"此操作将会使你在排行榜中被标记为使用自定义物理,
+你确定启动仪表面板吗?",text
+dashboard.race-warning.toggle.label,不再显示此信息,text
+dashboard.graphs.speed.ground.label,地面,text
+dashboard.graphs.speed.topspeed.label,最高速,text
+dashboard.fc.minimum-signal.label,怠速设置,text
+dashboard.fc.minimum-signal.tooltip,当无信号输入时，油门信号的最小值 (范围 1000-2000).,text
+dashboard.fc.pid.disabled.warning,*手动PID设置在下一版本前禁用,text
+dashboard.physics.threading.label,线程,text
+dashboard.physics.threading.tooltip,允许物理系统与渲染独立运行，以获得更流畅的体验。,text
+dashboard.physics.airdensity.label,空气密度,text
+dashboard.physics.airdensity.tooltip,空气密度(kg/m³),text
+dashboard.physics.drag.inertia.label,惯性,text
+dashboard.physics.drag.inertia.tooltip,动态地调整阻力系数，在不影响空气动力学的前提下使无人机获得更大(>1.0)或更小(<1.0)的惯性。,text
+dashboard.physics.drag.arcing.label,地面吸引,text
+dashboard.physics.drag.arcing.tooltip,动态地调整升力系数，以改变地面对无人机的吸引强度 (0-无吸引，1-轻微吸引，10-无人机被磁力吸引至地面),text
+dashboard.physics.drag.scaling.label,拉力/升力/侧向压力调整,text
+dashboard.physics.drag.scaling.drag.tooltip,在不影响拉力的前提下，调整升力,text
+dashboard.physics.drag.scaling.lift.tooltip,在不影响升力的前提下，调整拉力,text
+dashboard.physics.drag.scaling.side.tooltip,在不影响拉力/升力动力学的前提下，调整侧向压力,text
+dashboard.physics.drag.data.label,数据,text
+dashboard.physics.drag.data.tooltip,使用其他无人机机架的拉力模型 (默认值为当前机架),text
+dashboard.drone.battery.overheat.label,烧毁,text
+dashboard.drone.battery.overheat.tooltip,设置无人机电子系统的系数，当电子系统过载时，其可能会过热或烧毁。当该值为0时，不会出现烧毁的情况，当值为1时，在6寸桨5S电池动力配置下，保持满油门状态10秒无人机将会烧毁。,text
+dashboard.fc.subtab.extra,其他,text
+dashboard.fc.subtab.extra.tooltip,额外Betaflight参数,text
+dashboard.fc.betaflight-version.label,BETAFLIGHT版本,text
+dashboard.fc.betaflight-version.tooltip,选择所模拟的Betaflight软件版本,text
+dashboard.fc.pid.ff.label,ROLL/PITCH/YAW前馈,text
+dashboard.fc.pid.ff.tooltip,横滚/俯仰/偏航PID回路的前馈常量,text
+dashboard.fc.cog.label,使用重心,text
+dashboard.fc.cog.tooltip,使用无人机的真实重心，否则无人机的重心将自动完美居中。当使用重心时，若你的自定义值过低，无人机会自动俯仰向前。,text
+dashboard.fc.antigravity.gain.label,反重力增益,text
+dashboard.fc.antigravity.gain.tooltip,反重力增益,text
+dashboard.fc.itermrelaxvalue.label,自定义参数松弛值,text
+dashboard.fc.itermrelaxvalue.tooltip,自定义参数松弛值,text
+dashboard.fc.fftransition.label,前馈过渡,text
+dashboard.fc.fftransition.tooltip,前馈过渡,text
+dashboard.fc.antigravity.mode.label,反重力模式,text
+dashboard.fc.antigravity.mode.tooltip,反重力模式,text
+dashboard.fc.itermrelaxtype.label,自定义参数松弛类型,text
+dashboard.fc.itermrelaxtype.tooltip,自定义参数松弛类型,text
+dashboard.fc.itermrelax.label,自定义参数松弛,text
+dashboard.fc.itermrelax.tooltip,自定义参数松弛开启/关闭,text
+dashboard.fc.smartff.label,智能前馈,text
+dashboard.fc.smartff.tooltip,智能前馈,text
+dashboard.fc.itermrotation.label,自定义参数循环,text
+dashboard.fc.itermrotation.tooltip,自定义参数循环,text
+dashboard.fc.antigravity.label,反重力模式,text
+dashboard.fc.antigravity.tooltip,反重力开启/关闭,text
+dashboard.fc.airmode.label,AIRMODE,text
+dashboard.fc.airmode.tooltip,Airmode 开启/关闭,text
+dashboard.general.wind.label,风速 X/Y/Z,text
+dashboard.general.wind.tooltip,x/y/z方向的风速(m/s) (仅在物理沙盒模式下可用，竞速或花式飞行模式下不可用),text
+dashboard_old_kept_for_referenc.physics.title,螺旋桨效率及阻力,text
+dashboard_old_kept_for_referenc.physics.dynamic-drag-xyz.section-title,动态阻力XYZ,text
+dashboard_old_kept_for_referenc.physics.drag-xyz.section-title,阻力XYZ,text
+dashboard_old_kept_for_referenc.physics.prop-eff-curve-parameters.section-title,螺旋桨效率·曲线参数,text
+dashboard_old_kept_for_referenc.physics.torque-improves-thrust.button,转矩提高推力,text
+dashboard_old_kept_for_referenc.physics.real-parameters.prop-efficiency-curve.button,螺旋桨效率,text
+dashboard_old_kept_for_referenc.physics.prop-efficiency-curve.button,螺旋桨效率曲线,text
+dashboard_old_kept_for_referenc.physics.real-parameters.button,实际参数,text
+dashboard_old_kept_for_referenc.drone.title,无人机规格,text
+dashboard_old_kept_for_referenc.drone.thrust-per-motor.title,电机推力（克）,text
+dashboard_old_kept_for_referenc.drone.total-weight.title,总重量（克）,text
+dashboard_old_kept_for_referenc.drone.roll-rc-super-expo.title-section,横滚 遥控/超高速/博览会,text
+dashboard_old_kept_for_referenc.drone.pitch-rc-super-expo.title-section,俯仰 遥控/超高速/博览会,text
+dashboard_old_kept_for_referenc.drone.throttle-mid-expo.title-section,油门 中等/博览会,text
+dashboard_old_kept_for_referenc.drone.torque-per-motor.title,电机扭矩（牛顿米）,text
+dashboard_old_kept_for_referenc.drone.yaw-rc-super-expo.title-section,偏航 遥控/超高速/博览会,text
+dashboard_old_kept_for_referenc.general.graphs.button.speed,速度,text
+dashboard_old_kept_for_referenc.general.graphs.button.force,推力,text
+dashboard_old_kept_for_referenc.general.graphs.button.prop-ef,推进效率,text
+dashboard_old_kept_for_referenc.fc.title,飞行控制器,text
+dashboard_old_kept_for_referenc.my-tune.community-tunes.button,社区调试值,text
+dashboard_old_kept_for_referenc.my-tune.button.save,保存,text
+dashboard_old_kept_for_referenc.my-tune.new.button,新建,text
+dashboard_old_kept_for_referenc.general.title,一般配置,text
+dashboard_old_kept_for_referenc.general.miscellaneous.section-title,杂项,text
+dashboard_old_kept_for_referenc.general.drone-settings.button.clear,清除,text
+dashboard_old_kept_for_referenc.general.miscellaneous.button.flip,翻转,text
+dashboard_old_kept_for_referenc.general.flight-controller.section-title,飞行控制器,text
+dashboard_old_kept_for_referenc.general.miscellaneous.button.controller,控制,text
+dashboard_old_kept_for_referenc.general.miscellaneous.button.battery,电池,text
+dashboard_old_kept_for_referenc.general.miscellaneous.button.recharge,充电,text
+dashboard_old_kept_for_referenc.general.drone-settings.section-title,无人机设置,text
+dashboard_old_kept_for_referenc.general.drone-settings.button.save,保存,text
+dashboard_old_kept_for_referenc.general.drone-settings.button.load,加载,text
+dashboard_old_kept_for_referenc.general.graphs.motor,电机,text
+dashboard_old_kept_for_referenc.general.flight-controller.button.inter,内部,text
+dashboard_old_kept_for_referenc.general.flight-controller.button.noob,新手,text
+dashboard_old_kept_for_referenc.general.graphs.section-title,图表,text
+dashboard_old_kept_for_referenc.general.flight-controller.button.pro,职业选手,text
+dashboard_old_kept_for_referenc.general.graphs.buttons.RC-pitch-roll,无线电操纵 P+R,text
+dashboard_old_kept_for_referenc.general.graphs.buttons.RC-yaw,无线电操纵 偏航,text
+dashboard_old_kept_for_referenc.general.graphs.buttons.thrott,油门,text
+dashboard_old_kept_for_referenc.general.graphs.button.battery,电池,text
+dashboard_old_kept_for_referenc.general.camera.types,"第一人称视角, 外部, 环绕",text
+dashboard_old_kept_for_referenc.general.camera.label,摄像机,text
+dashboard_old_kept_for_referenc.general.camera-tilt.label,摄像机俯仰,text
+dashboard_old_kept_for_referenc.physics.prop-eff-curve-parameters.mid-from.button,中间起,text
+dashboard_old_kept_for_referenc.physics.prop-eff-curve-parameters.labels.mid-to,中间至,text
+dashboard_old_kept_for_referenc.physics.prop-eff-curve-parameters.labels.END,结束,text
+dashboard_old_kept_for_referenc.drone.rig-config.types,Flaco Fast,text
+dashboard_old_kept_for_referenc.physics.prop-eff-curve-parameters.labels.MAX,最大值,text
+dashboard_old_kept_for_referenc.footer.message,按“P”切换仪表板,text
+dashboard_old_kept_for_referenc.my-tune.hint,我的调试,text
+dashboard_old_kept_for_referenc.graphs.title,图表,text
+dashboard_old_kept_for_referenc.graphs.motors.detail.throttle,图表,text
+dashboard_old_kept_for_referenc.graphs.efficiency.header,螺旋桨效率,text
+dashboard_old_kept_for_referenc.graphs.motors.header,<color=#F1E500FF>电机</color> 输出,text
+dashboard_old_kept_for_referenc.graphs.throttle.header,油门曲线,text
+dashboard_old_kept_for_referenc.graphs.pitchroll.header,"<color=#73D003FF>俯仰</color> 
+<color=#00ffffff>横滚</color>曲线",text
+dashboard_old_kept_for_referenc.graphs.yaw.header,<color=#F1E500FF>偏航</color> 曲线,text
+dashboard_old_kept_for_referenc.graphs.motors.detail.torque,扭矩,text
+dashboard_old_kept_for_referenc.my-tune.rating,评估此调试,text
+dashboard_old_kept_for_referenc.drone.drone-class.label,无人机等级,text
+dashboard_old_kept_for_referenc.drone.rig-config.label,配置机体,text
+dashboard_old_kept_for_referenc.graphs.motors.detail.voltage,电压,text
+dashboard_old_kept_for_referenc.physics.subtab.groundeffect,地面效果,text
+dashboard_old_kept_for_referenc.physics.subtab.options,选项,text
+dashboard_old_kept_for_referenc.physics.subtab.efficiency,螺旋桨效率,text
+dashboard_old_kept_for_referenc.physics.subtab.drag,阻力,text
+dashboard_old_kept_for_referenc.physics.subtab.windload,风速,text
+dashboard_old_kept_for_referenc.drone.subtab.battery,电池,text
+dashboard_old_kept_for_referenc.fc.subtab.rates,频率,text
+dashboard_old_kept_for_referenc.drone.subtab.specs,规格,text
+dashboard_old_kept_for_referenc.drone.subtab.drones,无人机,text
+dashboard_old_kept_for_referenc.fc.subtab.pid,PID,text
+dashboard_old_kept_for_referenc.fc.pid.pitch.label,俯仰PID,text
+dashboard_old_kept_for_referenc.fc.pid.roll.label,横滚PID,text
+dashboard_old_kept_for_referenc.fc.pid.yaw.label,偏航PID,text
+dashboard_old_kept_for_referenc.physics.groundeffect.title,地面效果,text
+dashboard_old_kept_for_referenc.physics.groundeffect.strength,电力,text
+dashboard_old_kept_for_referenc.physics.groundeffect.distance,高度,text
+dashboard_old_kept_for_referenc.drone.battery.title,电池,text
+dashboard_old_kept_for_referenc.drone.battery.discharge,消耗,text
+dashboard_old_kept_for_referenc.drone.battery.sag,下垂,text
+dashboard_old_kept_for_referenc.fc.pid.autotune,自动调整PID,text
+drones.menu.show,显示,text
+drones.menu.show.labels,"社区,我的无人机",text
+drones.menu.sort,排序方式,text
+drones.menu.sort.labels,"最受欢迎,评分最高,动力最强,最轻,最重",text
+drones.menu.search,搜索,text
+drones.feedback.loading,加载中...,text
+drones.feedback.notfound,未找到无人机,text
+drones.feedback.failed,操作失败,text
+drones.list.item.fly,飞行,text
+drones.list.item.save,保存,text
+drones.list.item.delete,删除,text
+drones.title,无人机社区,text
+drones.menu.size.labels,"全部规格,3"" 无人机,4"" 无人机,5"" 无人机,6"" 无人机,7"" 无人机",text
+drones.menu.physics.labels,"全部物理,默认物理,自定义物理",text
+drones.list.item.clone,复制,text
+drones.list.item.add,添加,text
+drones.list.item.edit,编辑,text
+drones.list.item.specs.thrust,拉力,text
+drones.list.item.specs.weight,重量,text
+drones.list.item.specs.flown,飞行,text
+drones.new-drone,新建无人机,text
+store.menu.sort.labels,"最受欢迎,评分最高,日期从新到旧,日期从旧到新,价格从高到低,价格从低到高",text
+store.menu.items.labels,全部商店物品,text
+store.menu.categories.labels,"全部分类,机架,电机,螺旋桨,附件,皮肤,领奖台",text
+store.menu.search,搜索,text
+store.title,商店,text
+store.menu.physics.labels,"全部物理,默认物理,自定义物理",text
+store.item.buy,购买,text
+store.item.buy.price,$,text
+store-preview.menu.show,显示,text
+store-preview.menu.buy,购买,text
+store-preview.title,(商店预览),text
+store-preview.color.prop-color.label,螺旋桨,text
+store-preview.color.texture-color.label,皮肤颜色 1,text
+store-preview.color.edge-color.label,皮肤颜色 2,text
+store-preview.menu.buy.price,$,text
+pause.cards.camera-tilt.label,摄像机倾角,text
+pause.cards.camera-mode.label,摄像机模式,text
+pause.cards.camera-mode.types,第一人称视角,text
+pause.cards.camera-fov.label,摄像机视角,text
+pause.screen.back.button,返回,text
+pause.cards.intermediate.details,"稳定器 关闭
+高度保持器 关闭
+角度限制器 开启",text
+pause.cards.pro.details,手动模式,text
+pause.cards.beginner.details,"稳定器 开启
+高度保持器 开启
+角度限制器 开启",text
+pause.cards.exit-game.label,返回主菜单,text
+pause.cards.restart-game.label,重新开始,text
+pause.cards.pro.label,专业模式,text
+pause.cards.intermediate.label,进阶模式,text
+pause.cards.beginner.label,新手模式,text
+pause.cards.controller-setup.title,添加/删除控制器,text
+pause.cards.settings,设置,text
+pause.cards.change-map.label,更换任务,text
+pause.cards.controller-sensitivity.title,控制器灵敏度,text
+pause.cards.system.title,系统,text
+pause.cards.launch-dashboard.title,物理仪表盘,text
+pause.cards.physics-dashboard.details,快捷键：P键,text
+pause.cards.room.title,房间,text
+pause.cards.player.title,观看,text
+pause.cards.campaign-lost-advice.label,"战役进程
+即将失败",text
+pause.cards.fc-profiles.label,简介,text
+pause.cards.camera-mode-stepper,"第一人称视角, 外部, 环绕",text
+pause.cards.change-game.change-map,更换地图,text
+pause.cards.garage.edit-drone,编辑无人机,text
+pause.cards.change-drone,更换无人机,text
+pause.cards.rate-drone.title,评价当前无人机,text
+pause.cards.rate-map.title,评价当前地图,text
+pause.cards.back-editor.label,返回编辑器,text
+onboarding.start.beginner,初学者,text
+onboarding.start.intermediate,进阶玩家,text
+onboarding.start.pro,专业玩家,text
+onboarding.start.skip,主菜單 (跳过) ,text
+onboarding.welcome.beginner.title,新手玩家引导,text
+onboarding.welcome.beginner.description,亲爱的飞手，欢迎你！感谢你进入我为了测试你的技术而精心打造的引导系统。你和我最终将会在比赛中决一胜负，但首先我要教给你一些基本的飞行技巧。一定要集中注意力，因为一旦比赛开始，我所知道的就只有如何满油门前进。,text
+onboarding.welcome.intermediate.title,进阶玩家引导,text
+onboarding.welcome.intermediate.description,亲爱的飞手，欢迎你！感谢你进入我为了测试你的技术而精心打造的引导系统。你和我最终将会在比赛中决一胜负，但首先我要教给你一些基本的飞行技巧。一定要集中注意力，因为一旦比赛开始，我所知道的就只有如何满油门前进。,text
+onboarding.welcome.pro.title,专业玩家引导,text
+onboarding.welcome.pro.description,亲爱的飞手，欢迎你！感谢你进入我为了测试你的技术而精心打造的引导系统。你和我最终将会在比赛中决一胜负，但首先我要教给你一些基本的飞行技巧。一定要集中注意力，因为一旦比赛开始，我所知道的就只有如何满油门前进。,text
+onboarding.progress.label,进程,text
+onboarding.complete.finish,完成,text
+onboarding.complete.intermediate,进阶玩家,text
+onboarding.complete.pro,专业玩家,text
+onboarding.exit.label,退出,text
+onboarding.beginner.mission.arguments,"",text
+onboarding.intermediate.mode,"",text
+onboarding.intermediate.mission.arguments,"",text
+onboarding.pro.mode,"",text
+onboarding.pro.mission.arguments,"",text
+onboarding.reset,"",text
+onboarding.skip,"",text
+onboarding.race.failed,"",text
+onboarding.retry,"",text
+onboarding.beginner.campaign.complete,"",text
+onboarding.intermediate.campaign.complete,"",text
+onboarding.pro.campaign.complete,"",text
+onboarding.beginner.missions.complete,"",text
+onboarding.intermediate.missions.complete,"",text
+onboarding.drl.sim.overview.title,"",text
+onboarding.drl.sim.overview.subtitle,"",text
+onboarding.mission.title,"",text
+onboarding.missions.title,"",text
+onboarding.races.title,"",text
+settings-system.screen.title,画面,text
+settings-system.form.quality,质量,text
+settings-system.form.quality.labels,"自定义, 最低, 低, 中, 高, 最高",text
+settings-system.nav-left,返回,text
+settings-system.form.detect,重置设置,text
+settings-system.form.resolution,分辨率,text
+settings-system.form.mode.labels,"窗口模式, 全屏模式",text
+settings-system.form.mode,模式,text
+settings-system.form.advanced,进阶渲染,text
+settings-system.form.shader.labels,"低, 中, 高",text
+settings-system.form.shader,着色质量,text
+settings-system.form.texture.labels,"最低, 低, 中, 高",text
+settings-system.form.texture,贴图质量,text
+settings-system.form.shadow.labels,"关闭, 最低, 低, 中, 高",text
+settings-system.form.shadows,阴影,text
+settings-system.form.antialias.labels,"关闭, TAA, FXAA",text
+settings-system.form.antialias,抗锯齿,text
+settings-system.form.dof,视觉深度,text
+settings-system.form.ao,环境光散射,text
+settings-system.form.color,颜色分级,text
+settings-system.form.motion,动态模糊,text
+settings-system.form.bloom,全屏泛光,text
+settings-system.form.adaptation,人眼适应质量,text
+settings-system.form.aberration,颜色偏移,text
+settings-system.form.grain,杂点特效,text
+settings-system.form.radio,表单元素,text
+settings-system.form.vsync,"开, 关",text
+settings-system.form.post-processing,后处理,text
+settings-system.form.effects-quality,影响质量,text
+settings-system.form.details,细节,text
+settings-system.form.water-reflections,水面反射,text
+settings-system.form.antialias.labels2,"关闭,FXAA,TAA",text
+settings-system.form.stepper.labels-low-med-hi,"低,中,高",text
+settings-system.form.stepper.labels-lwst-low-med-hi,"最低,低,中,高",text
+settings-system.form.stepper.labels-off-low-med-hi,"关闭,低,中,高",text
+settings-system.form.brightness,亮度,text
+settings-system.form.render-scale,渲染程度,text
+settings-system.form.fps-limit,FPS限制,text
+settings-game.screen.title,游戏选项,text
+settings-game.nav-left,返回,text
+settings-game.form.volume.main,主音量,text
+settings-game.form.volume.music,音乐音量,text
+settings-game.form.volume.sfx,特效音量,text
+settings-game.form.language,语言,text
+settings-game.form.language.labels,"自动,英语,简体中文",text
+settings-game.form.camera.tilt,摄像头俯仰,text
+settings-game.form.camera.fov,摄像头视角,text
+settings-game.form.guide,飞行线路,text
+settings-game.form.stats,竞赛数据统计,text
+settings-game.form.markers,障碍门标记,text
+settings-game.form.standings,自动启动竞赛排名,text
+settings-game.form.fps,帧数警告,text
+settings-game.form.controller,控制器图样,text
+settings-game.form.lens,镜头畸变,text
+settings-game.form.props,螺旋桨可见,text
+settings-game.form.propwash,干扰乱流,text
+settings-game.form.propwash.labels,"开,低,中,高",text
+settings-game.form.crosshair,十字线,text
+settings-game.form.fast-reset,快速重新开始比赛,text
+settings-game.form.camera-noise,摄像头干扰,text
+settings-game.form.notifications-game,局内通知,text
+settings-game.form.notifications-game.labels,"全部,好友,关闭",text
+settings-game.form.notifications-menu,局外通知,text
+settings-game.form.notification-menu.labels,"全部,好友,关闭",text
+settings-game.form.notifications-in-game-chat,局内聊天,text
+settings-tuning.back,返回,text
+settings-tuning.help,帮助,text
+settings-tuning.betaflight,BetaFlight,text
+settings-tuning.controller-presets.label,控制器预设置,text
+settings-tuning.preset.low,低,text
+settings-tuning.preset.medium,中,text
+settings-tuning.preset.high,高,text
+settings-tuning.preset.custom,自定义,text
+settings-tuning.sliders.pitch-rc-rate,控制器俯仰速度,text
+settings-tuning.sliders.yaw-rc-rate,控制器偏航速度,text
+settings-tuning.sliders.pitch-super-rate,俯仰超级速度,text
+settings-tuning.sliders.yaw-super-rate,偏航超级速度,text
+settings-tuning.sliders.pitch-expo,俯仰指数,text
+settings-tuning.sliders.yaw-expo,偏航指数,text
+settings-tuning.sliders.roll-rc-rate,横滚速度,text
+settings-tuning.sliders.throttle-mid,油门中位,text
+settings-tuning.sliders.roll-super-rate,横滚超级速度,text
+settings-tuning.sliders.throttle-expo,油门指数,text
+settings-tuning.sliders.roll-expo,横滚指数,text
+settings-tuning.options.link-pitch-roll-state,链接俯仰与横滚速度,text
+settings-tuning.footer.yaw,偏航,text
+settings-tuning.footer.pitch-roll,俯仰/横滚,text
+settings-tuning.footer.pitch,俯仰,text
+settings-tuning.footer.roll,横滚,text
+settings-tuning.drone-preview.loading-msg,组装无人机中…,text
+settings-tuning.drone-preview.rotation-speed,旋转速度,text
+settings-tuning.drone-preview.movement-speed,移动速度,text
+settings-tuning.drone-preview.top-speed,最好成绩,text
+settings-tuning.help,帮助,text
+settings-tuning.controller-presets.rc-rates,控制器频率,text
+settings-tuning.screen-title,控制器灵敏度,text
+settings.profile-screen-dev.back.button,返回,text
+settings.profile-screen-dev.profile-name.label,全名,text
+settings.profile-screen-dev.type-full-name.label,请输入您的全名,text
+settings.profile-screen-dev.pilot-handle.label,名称,text
+settings.profile-screen-dev.email.label,邮箱,text
+settings.profile-screen-dev.type-your-email.label,请输入您的邮箱,text
+settings.profile-screen-dev.age.label,年龄,text
+settings.profile-screen-dev.type-your-age.label,请输入您的年龄,text
+settings.profile-screen-dev.gender.label,性别,text
+settings.profile-screen-dev.gender.types,"男, 女, 保密",text
+settings.profile-screen-dev.country.label,国家,text
+settings.profile-screen-dev.type-your-country.label,请输入您的国家,text
+settings.profile-screen-dev.non-fpv-drone-skill.label,"您在非FPV无人机领域的熟练程度如何？（DJI, YUNEEC, 3DR, PARROT等）",text
+settings.profile-screen-dev.non-fpv-drone-skill.types,"从未飞行, 尝试过但技能有限, 基本技能, 进阶技能, <请选择>",text
+settings.profile-screen-dev.non-fpv-drone-years.label,非FPV无人机飞行经验,text
+settings.profile-screen-dev.non-fpv-drone-years.types,"1,2,3,4,5+, <请选择>",text
+settings.profile-screen-dev.fpv-drone-skill.label,"您在FPV无人机领域的熟练程度如何？
+（SHEN DRONES, ROTORX, LUMENIER, TBS等）",text
+settings.profile-screen-dev.fpv-drone-skill.types,"从未飞行, 尝试过但技能有限, 基本技能, 进阶技能, <请选择>",text
+settings.profile-screen-dev.fpv-drone-years.label,FPV无人机飞行经验,text
+settings.profile-screen-dev.fpv-drone-years.types,"1,2,3,4,5+, <请选择>",text
+settings.profile-screen-dev.fpv-drone-preference.label,您喜欢什么类型的飞行？,text
+settings.profile-screen-dev.fpv-drone-preference.types,"花式飞行, 竞赛, 两者都可, <请选择>",text
+settings.profile-screen-dev.how-drl-watch.label,您如何观看无人机竞速联盟？,text
+settings.profile-screen-dev.how-drl-watch.types,"有线/卫星电视, 社交媒体, 其他数字平台, 我不看无人机竞速联盟, <请选择>",text
+settings.profile-screen-dev.have-you-ever-droned.label,您在现实生活中参加过无人机竞赛吗？,text
+settings.profile-screen-dev.have-you-ever-droned.types,"否, 是, <请选择>",text
+settings.profile-screen-dev.have-you-ever-built-drone.label,您组装过自己的竞速无人机吗？,text
+settings.profile-screen-dev.have-you-ever-built-drone.types,"否, 是, <请选择>",text
+settings.profile-screen-dev.are-you-member.label,您是MULTIGP成员吗？,text
+settings.profile-screen-dev.are-you-member.types,"否, 是, <请选择>",text
+settings.profile-screen-dev.are-you-american.label,您是美国公民吗？,text
+settings.profile-screen-dev.are-you-american.types,"否, 是, <请选择>",text
+settings.profile-screen-dev.are-you-in-military.label,您目前是美国军队任何分支的现役军人或预备役军人吗？,text
+settings.profile-screen-dev.are-you-in-military.types,"否, 空军, 陆军, 海岸警卫队, 海军陆战队, 国民警卫队, 海军, <请选择>",text
+settings.profile-screen-dev.are-you-ama.label,您是美国航空模型协会会员吗？,text
+settings.profile-screen-dev.are-you-ama.label,"否, 是, <请选择>",text
+settings.profile-screen-dev.are-you-ama.types,"否, 是, <请选择>",text
+settings.profile-screen.field,栏位,text
+settings.controller-map-screen.back.button,返回,text
+settings.controller-map-screen.left-stick-map.label,菜单导航/无人机操纵,text
+settings.controller-map-screen.right-stick-map.label,菜单选择/无人机返回操纵,text
+settings.controller-map-screen.button-a-map.label,选择,text
+settings.controller-map-screen.button-b-map.label,返回,text
+settings.controller-map-screen.button-shoulder-1-map.label,重置游戏/重置无人机,text
+settings.controller-map-screen.button-shoulder-2-map.label,翻正无人机,text
+settings.controller-map-screen.button-center-map.label,暂停,text
+settings.controller-map-screen.ps.left-stick-map.label,菜单导航/无人机操纵,text
+settings.controller-map-screen.ps.right-stick-map.label,菜单选择/无人机返回操纵,text
+settings.controller-map-screen.ps.button-a-map.label,选择,text
+settings.controller-map-screen.ps.button-b-map.label,返回,text
+settings.controller-map-screen.ps.button-shoulder-1-map.label,重置游戏/重置无人机,text
+settings.controller-map-screen.ps.button-shoulder-2-map.label,翻正无人机,text
+settings.controller-map-screen.ps.button-center-map.label,暂停,text
+settings.controller-map-screen.rc.left-stick-map.label,无人机操纵,text
+settings.controller-map-screen.rc.right-stick-map.label,无人机操纵,text
+settings.controller-map-screen.rc.button-a-map.label,选择,text
+settings.controller-map-screen.rc.button-b-map.label,返回,text
+settings.controller-map-screen.rc.button-shoulder-1-map.label,重置游戏/重置无人机,text
+settings.controller-map-screen.rc.button-shoulder-2-map.label,翻正无人机,text
+settings.controller-map-screen.rc.button-center-map.label,暂停,text
+settings.controller-map-screen.nk.left-stick-map.label,菜单导航 / 无人机操纵,text
+settings.controller-map-screen.nk.right-stick-map.label,菜单选择（轻击右侧）/ 返回（轻击左侧）/ 无人机操纵,text
+settings.controller-map-screen.nk.button-a-map.label,选择,text
+settings.controller-map-screen.nk.button-b-map.label,返回,text
+settings.controller-map-screen.nk.button-shoulder-1-map.label,重置游戏/重置无人机,text
+settings.controller-map-screen.nk.button-shoulder-2-map.label,翻正无人机,text
+settings.controller-map-screen.nk.button-center-map.label,暂停,text
+settings.controller-calibration-screen.cancel.button,取消,text
+settings.controller-calibration-screen.save.button,存档,text
+settings.controller-calibration-screen.left-stick-y.label,左摇杆上与下,text
+settings.controller-calibration-screen.left-stick-y.types,"偏航, 油门, 横滚, 俯仰",text
+settings.controller-calibration-screen.left-stick-x.label,左摇杆左与右,text
+settings.controller-calibration-screen.left-stick-x.types,"偏航, 油门, 横滚, 俯仰",text
+settings.controller-calibration-screen.right-stick-y.label,右摇杆上与下,text
+settings.controller-calibration-screen.right-stick-y.types,"偏航, 油门, 横滚, 俯仰",text
+settings.controller-calibration-screen.right-stick-x.label,右摇杆左与右,text
+settings.controller-calibration-screen.right-stick-x.types,"偏航, 油门, 横滚, 俯仰",text
+settings.controller-calibration-screen.mid-stick.label,中位,text
+settings.controller-calibration-screen.deadzone.label,死区,text
+settings.controller-calibration-screen.invert-left-stick-y.label,反转左摇杆上与下,text
+settings.controller-calibration-screen.invert-left-stick-x.label,反转左摇杆左与右,text
+settings.controller-calibration-screen.invert-right-stick-y.label,反转右摇杆上与下,text
+settings.controller-calibration-screen.invert-right-stick-x.label,反转右摇杆左与右,text
+settings.controller-calibration-screen.select-controller.label,移动左右摇杆进行绕圈,text
+settings.controller-calibration-screen.center-stick.label,将两个摇杆置于中位状态. <color=#5EB300FF>然后点击下一步.</color>,text
+settings.controller-calibration-screen.left-stick-x-calibration.label,将左摇杆移到 <color=red>左右边缘</color>.,text
+settings.controller-calibration-screen.left-stick-y-calibration.label,将左摇杆移到 <color=red>上下边缘</color>.,text
+settings.controller-calibration-screen.right-stick-x-calibration.label,将右摇杆移到 <color=red>左右边缘</color>.,text
+settings.controller-calibration-screen.right-stick-y-calibration.label,将右摇杆移到  <color=red>上下边缘</color>.,text
+settings.controller-calibration-screen.restart-race-button-selection.label,选择重启竞赛<color=red>按键</color> (或点击跳过),text
+settings.controller-calibration-screen.flip-drone-button-selection.label,选择重置无人机 <color=red>按键</color> (或点击跳过),text
+settings.controller-calibration-screen.deadzone-calibration.label,"如果您的摇杆过于灵敏, 可以增加死区。",text
+settings.controller-calibration-screen.help-message,"如需要帮助, 点击 <color=white>帮助</color> 按钮.",text
+settings.controller-calibration-screen.exit,退出,text
+settings.controller-calibration-screen.help,帮助,text
+settings.settings-screen-title,设置,text
+settings.profile-screen-title,玩家资料,text
+settings.profile-screen.player-data.button,玩家数据,text
+settings.profile-screen.progression-manual.button,关于经验,text
+settings.controller-map-screen-title,控制器设置图,text
+settings.controller-callibration-screen.stick-detected,"检测到摇杆, 点击下一步。",text
+settings.controller-callibration-screen.wizard-complete,"向导完毕, 点击下一步。",text
+settings.controller-calibration-screen.help-message-2,"如要分配发射器内的开关, 按<color=white>帮助</color>按钮。",text
+settings.controller-custom.input-comp.input-list,"未选择, 左摇杆 X, 左摇杆 Y, 右摇杆 X, 右摇杆 Y, 拨动开关 A, 拨动开关 B",text
+settings.controller-custom.find-next,查找下一个,text
+settings.controller-custom.gamepad-mode,游戏手柄模式,text
+settings.controller-custom.using-xinput-mode,使用XINOUT模式,text
+settings.controller-custom.gamepad.select-axis-or-button,选择轴或按键,text
+settings.controller-custom.gamepad.left-stick-vertical,左摇杆竖直,text
+settings.controller-custom.gamepad.left-stick-horizontal,左摇杆水平,text
+settings.controller-custom.gamepad.right-stick-vertical,右摇杆竖直,text
+settings.controller-custom.gamepad.right-stick-horizontal,右摇杆水平,text
+settings.controller-custom.gamepad.left-shoulder-1,左肩键 1,text
+settings.controller-custom.gamepad.left-shoulder-2,左肩键 2,text
+settings.controller-custom.gamepad.right-shoulder-1,右肩键 1,text
+settings.controller-custom.gamepad.right-shoulder-2,右肩键 2,text
+settings.controller-custom.gamepad.top-row-action-1,上方功能键 1,text
+settings.controller-custom.gamepad.top-row-action-2,上方功能键 2,text
+settings.controller-custom.gamepad.top-row-action-3,上方功能键 3,text
+settings.controller-custom.gamepad.bottom-row-action-1,下方功能键 1,text
+settings.controller-custom.gamepad.bottom-row-action-2,下方功能键 2,text
+settings.controller-custom.gamepad.bottom-row-action-3,下方功能键 3,text
+settings.controller-custom.gamepad.center-button-1,中部按键 1,text
+settings.controller-custom.gamepad.center-button-2,中部按键 2,text
+settings.controller-custom.gamepad.center-button-3,中部按键 3,text
+settings.controller-custom.gamepad.left-stick-press,点击左摇杆,text
+settings.controller-custom.gamepad.right-stick-press,点击右摇杆,text
+settings.controller-custom.gamepad.dpad-up,DPad 上,text
+settings.controller-custom.gamepad.dpad-down,DPad 下,text
+settings.controller-custom.gamepad.dpad-left,DPad 左,text
+settings.controller-custom.gamepad.dpad-right,DPad 右,text
+settings.controller-custom.gamepad.none,无,text
+settings.controller-custom.transmiter.select-axis-trigger,选择轴或触发器,text
+settings.controller-custom.transmiter.left-stick-vertical,左摇杆竖直,text
+settings.controller-custom.transmiter.left-stick-horizontal,左摇杆水平,text
+settings.controller-custom.transmiter.right-stick-vertical,右摇杆竖直,text
+settings.controller-custom.transmiter.right-stick-horizontal,右摇杆水平,text
+settings.controller-custom.transmiter.reset-drone,重置无人机,text
+settings.controller-custom.transmiter.restart-race,重置竞赛,text
+settings.controller-custom.transmiter.none,无,text
+settings.controller-custom.title,高级设置,text
+settings.controller-custom.SDL2,使用SDL2模式,text
+settings.controller-custom.XINPUT,使用XINPUT模式,text
+settings.controller-custom.disconnected,未连接,text
+settings.profile-screen-dev.flight-time.label,飞行时间,text
+settings.profile-screen-dev.hours,小时,text
+settings.profile-screen-dev.progression-week-rank-status-warning,完成比賽以加入您的排名,text
+settings.profile-screen.dev.progression-level,等级,text
+settings.profile-screen.dev.progression-xp,经验,text
+settings.profile-screen.dev.progression-streak,连击,text
+settings.profile-screen.dev.race,比赛,text
+settings.profile-screen.dev.progression-tier-rank,等级排名,text
+settings.profile-screen.progression-days,天,text
+settings.profile-screen.progression-hours,小时,text
+settings.profile-screen.progression-minutes,分,text
+settings.profile-screen.progression-seconds,秒,text
+settings.profile-screen.dev.progression-tier-rank-finished,排名结束!,text
+settings.profile-screen.dev.progression-wait,等待中...,text
+settings.profile-screen.player-data.label,个人数据,text
+settings.profile-screen-dev.discard.button,丟棄,text
+settings.profile-screen-dev.save.button,保存,text
+settings-menu.back,返回,text
+settings-menu.controller-setup,控制器设置,text
+settings-menu.controller-sesitivity,控制器灵敏度,text
+settings-menu.settings,选项,text
+settings-menu.graphics,画面,text
+settings-menu.help,帮助,text
+settings-menu.legal,法定权利,text
+progression.manual.intro.title,这是什么？,text
+progression.manual.intro.field,经验值是记录你飞手历程的一种方式。探索全部DRL赛道，并与其他飞手在多人模式展开较量，来获得经验值并提升你的等级！,text
+progression.manual.xp-level.title,经验值 & 等级,text
+progression.manual.xp-level.field,完成比赛获得经验值并提升等级。这将会追踪你的长期目标，成为最出色的飞手！,text
+progression.manual.xp-where.title,如何获得经验值？,text
+progression.manual.xp-where.field,通过飞行任意DRL官方赛道和原创赛道获得经验值。赛道的难度越高，获得的经验值也就越多。加入多人竞赛，将根据你的表现获得额外经验值。,text
+progression.manual.sp-info.title,连击点数,text
+progression.manual.sp-info.field,坚持每天完成3个地图的训练目标，这会使你获得1个连击点数。通过定期飞行获得尽可能多的连击点数。连续3天未进行飞行将会使你失去1个连击点数。让你的对手们看到你是多么的勤奋！,text
+progression.manual.ranking-info.title,每周排名,text
+progression.manual.ranking-info.field,与其他飞手展开竞争，看看谁是本周获得经验最多的人！你将与其他玩家和顶尖飞手争夺提升至下一个徽章等级的资格。坚持不懈将会帮助你提升至下一个等级，同时也会防止下降到之前的等级。,text
+progression.manual.badges-info.title,徽章,text
+progression.manual.badges-info.field,你将在每周排名中进行竞争，这会让你获得徽章。DRL模拟器每周提供10种不同的徽章供玩家获取。这并不简单，持之以恒是保持并提升徽章等级的关键。,text
+progression.screen.title,進度系統手冊,text
+controller-profiles-menu.back,返回,text
+controller-profiles-menu.controller-map,控制器设置图,text
+controller-profiles-menu.new-controller,新控制器,text
+controller-profiles-menu.help,帮助,text
+controller-profiles-menu.title,控制器设置,text
+controller-profiles-menu.controller,控制器,text
+game.hotkeys.reset-drone,重置无人机,text
+game.hotkeys.standings,排名,text
+game.hotkeys.restart,重新开始,text
+game.hotkeys.chat,聊天,text
+game.hotkeys.menu,菜单,text
+game.hotkeys.forfeit,弃权,text
+game.hotkeys.hotkey,快捷键,text
+game.password,密码,text
+game.bots,机器人,text
+game-race-overview-screen.back,返回,text
+game-race-overview-screen.help,帮助,text
+game-race-overview-screen.race-complete,竞赛完成！,text
+game-race-overview-screen.total-time,总时间,text
+game-race-overview-screen.total-crashes,炸机/重置次数:,text
+game-race-overview-screen.top-speed,最高速,text
+game-race-overview-screen.crash-rebuild,坠机重组,text
+game-race-overview-screen.restart,重新开始,text
+game-race-overview-screen.maps,地图,text
+game-race-overview-screen.watch,观看,text
+game-race-overview-screen.time-in-first,最好成绩:,text
+game-race-overview-screen.percentile,百分比:,text
+game-race-overview-screen.fastest,最快,text
+game-race-overview-screen.slowest,最慢,text
+game-race-overview-screen.lap,圈,text
+game-race-complete-screen.restart,重新开始,text
+game-race-complete-screen.exit,退出,text
+game-race-complete-screen.next,下一步,text
+game-race-complete-screen.spectate,观赏,text
+game-race-complete-screen.vote-next-race,投票选择下一个赛道,text
+game-race-complete-screen.wait,等待中,text
+game-race-complete-screen.settings,设置,text
+game-viewer-controls-screen.info.time,时间,text
+game-viewer-controls-screen.controls.hide-on-play,隐藏,text
+game-viewer-controls-screen.controls.playback-camera,"第一人称视角, 外部, 环绕",text
+game-viewer-controls-screen.controls.controller,控制器,text
+game-viewer-controls-screen.controls.race-stats,竞赛数据统计,text
+game-viewer-controls-screen.nav.settings,设置,text
+game-viewer-controls-screen.nav.exit,退出,text
+game-viewer-controls-screen.controls.show-player-name,玩家姓名,text
+game-viewer-controls-screen.controls.camera.fpv-label,第一人称视角,text
+calibration.screen.profiles.title,添加/删除控制器,text
+calibration.footer.nohardware,未连接控制器,text
+calibration.footer.needscalibration,错误请校准,text
+calibration.profiles.map,控制器设置图,text
+calibration.profiles.new,新控制器,text
+calibration.profiles.help,帮助,text
+calibration.profiles.controller,控制器,text
+calibration.deadzone,死区,text
+calibration.delete,删除,text
+calibration.next,下一步,text
+calibration.skip,跳过,text
+calibration.main.calibration-mode,校准模式,text
+calibration.main.auto,自动校准,text
+calibration.main.manual,手动校准,text
+calibration.main.calibration-info,选择任意校准选项将覆盖所选控制器的全部已保存配置,text
+calibration.main.trim-title,调整模式,text
+calibration.main.trim,输入配平,text
+calibration.main.channels,通道选择,text
+calibration.main.trim-info,这些选项适用于且仅适用于调整已完成校准的控制器,text
+calibration.main.drone-message,组装无人机...,text
+calibration.main.selection,无,text
+calibration.back,返回,text
+calibration.help,帮助,text
+calibration.save,保存,text
+calibration.calibrate,校准模式,text
+calibration.sensitivity,灵敏度,text
+calibration.center-step.info,请保持摇杆处于中位，直到倒计时结束,text
+calibration.center-step.pre-info,"保持摇杆中位，点击""校准""开始",text
+calibration.center-step.title,摇杆中位,text
+calibration.throttle-step-up.info,<color=green>油门摇杆向上</color>,text
+calibration.throttle-step-down.info,<color=green>油门摇杆向下</color>,text
+calibration.throttle-step.title,油门通道,text
+calibration.yaw-step-right.info,<color=green>偏航摇杆向右</color>,text
+calibration.yaw-step-left.info,<color=green>偏航摇杆向左</color>,text
+calibration.yaw-step.title,偏航通道,text
+calibration.pitch-step-up.info,<color=green>俯仰摇杆向上</color>,text
+calibration.pitch-step-down.info,<color=green>俯仰摇杆向下</color>,text
+calibration.pitch-step.title,俯仰通道,text
+calibration.roll-step-right.info,<color=green>横滚摇杆向右</color>,text
+calibration.roll-step-left.info,<color=green>横滚摇杆向左</color>,text
+calibration.roll-step.title,横滚通道,text
+calibration.toggle-a-step.info,拨动 <color=green>重新开始比赛</color> 开关,text
+calibration.toggle-a-step.title,重新开始比赛开关,text
+calibration.toggle-b-step.info,拨动 <color=green>重置无人机</color> 开关,text
+calibration.toggle-b-step.title,重置无人机开关,text
+calibration.filter-step.info,旋转摇杆以检测可用通道,text
+calibration.filter-step.title,通道检测,text
+calibration.channels.title,通道选择,text
+calibration.channels.info,为可用通道分配功能,text
+calibration.trim.throttle,油门,text
+calibration.trim.pitch,俯仰,text
+calibration.trim.yaw,偏航,text
+calibration.trim.roll,横滚,text
+calibration.trim.mid-stick,回中摇杆,text
+calibration.trim.invert,反向,text
+calibration.trim.reset,重置,text
+calibration.trim.slider-mid,中点,text
+calibration.trim.slider-min,最小,text
+calibration.trim.slider-max,最大,text
+calibration.trim.slider-zero,0油门,text
+calibration.trim.slider-deadzone,死区,text
+calibration.channel.button,按键,text
+calibration.channel.channel,通道,text
+calibration.channel.midstick,回中摇杆,text
+calibration.channel.invert,反向,text
+calibration.channel.dropdown,"无,油门,偏航,俯仰,横滚,重新开始,重置",text
+calibration.pause-step.info,请将摇杆移回中位,text
+calibration.no-hardware,硬件未连接？,text
+maps.gates-of-hell.caption,地狱之门,text
+maps.gates-of-hell.title,地狱之门,text
+maps.gates-of-hell.description,"无人机竞速联盟 2016赛季 第1站
+哈德逊河沿岸的一个废弃的发电站, 因其生锈的墙壁、衰落的体系和暴力的历史而闻名, 被戏称为“地狱之门”。",text
+maps.sandbox.caption,无人机竞速联盟 沙盒,text
+maps.sandbox.title,无人机竞速联盟 沙盒,text
+maps.sandbox.description,"无人机竞速联盟 调试地图
+用于创建和测试新特性的开发地图。",text
+maps.airplane-graveyard.caption,停止使用,text
+maps.airplane-graveyard.title,停止使用,text
+maps.airplane-graveyard.description,"无人机竞速联盟 初始赛季 第1站
+荒漠中的废弃机场, 尽情享受吧！",text
+maps.house.caption,房屋,text
+maps.house.title,房屋,text
+maps.house.description,无人机竞速联盟经典地图 在最具挑战性的环境中磨练你的无人机技术。在狭小的空间里飞行，看看你是否具备在不损坏妈妈任何东西的情况下掌握室内飞行的能力。,text
+maps.bridge.caption,大桥,text
+maps.bridge.title,大桥,text
+maps.bridge.description,无人机竞速联盟经典地图 欢迎来到DRL世界。以经典的DRL反重力门为特色，这条赛道中充满了垂直元素、钢铁障碍、海洋俯冲以及无情的岩石表面。,text
+maps.bell-labs.caption,曼哈顿计划,text
+maps.bell-labs.title,曼哈顿计划,text
+maps.bell-labs.description,"无人机竞速联盟 2016赛季 第4站
+本站比赛中, 世界上最顶级的无人机飞手将在贝尔实验室中展开较量。",text
+maps.detroit.caption,2016世界锦标赛,text
+maps.detroit.title,2016世界锦标赛,text
+maps.detroit.description,"无人机竞速联盟 2016赛季 第6站
+2016赛季的终极决战。入围飞手将为无人机竞速联盟2016赛季冠军而战。",text
+maps.lapocalypse.caption,洛杉矶启示录,text
+maps.lapocalypse.title,洛杉矶启示录,text
+maps.lapocalypse.description,"无人机竞速联盟 2016赛季 第3站
+废弃的场地——占地160000平方米的70年代郊区遗迹。二十名顶级无人机飞手来到了洛杉矶的一个废弃购物中心, 以每小时130公里的速度穿梭于这个旧时代的产物。",text
+maps.miami-lights.caption,迈阿密之光,text
+maps.miami-lights.title,迈阿密之光,text
+maps.miami-lights.description,"无人机竞速联盟 2016赛季 第2站
+无人机竞速联盟的赛季揭幕战在美国橄榄球联盟的迈阿密永明体育场举行, 这是迄今为止无人机竞赛最快的3D赛道。",text
+maps.ohio-crash-site.caption,俄亥俄UFO坠机事件,text
+maps.ohio-crash-site.title,俄亥俄UFO坠机事件,text
+maps.ohio-crash-site.description,"无人机竞速联盟 2016赛季 第5站
+在俄亥俄某地, 不明飞行物的传言已经开始散播。现在, 无人机飞手在外星飞船的残骸中一较高下。",text
+maps.atlanta-aftermath.caption,亚特兰大余波,text
+maps.atlanta-aftermath.title,亚特兰大余波,text
+maps.atlanta-aftermath.description,"无人机竞速联盟 2017赛季 第2站
+本站比赛在紧急应变及灾难训练中心举行, 急转弯和直道冲刺, 使这里成为迄今为止最为考验技术的赛道。",text
+maps.boston-foundry.caption,波士顿铸造厂,text
+maps.boston-foundry.title,波士顿铸造厂,text
+maps.boston-foundry.description,"无人机竞速联盟 2017赛季 第4站
+钢与火打造的本站比赛是2017常规赛的最终站。飞手们面对的是漫长而黑暗的走廊, 笨重庞大的机器和各式各样的发夹弯。",text
+maps.london.caption,2017世界锦标赛,text
+maps.london.title,2017世界锦标赛,text
+maps.london.description,"无人机竞速联盟 2017赛季 第6站
+在标志性的亚历山德拉宫举行的锦标赛上, 飞手们以循环赛的方式决出最后六强。此后他们将勇闯生命中最重要的七轮决赛角逐无人机竞速联盟2017世界冠军, 成为世界上最优秀的无人机飞手。",text
+maps.mardi-gras.caption,狂欢节世界,text
+maps.mardi-gras.title,狂欢节世界,text
+maps.mardi-gras.description,"无人机竞速联盟 2017赛季 第3站
+本站比赛，飞手们来到目前无人机竞速联盟最缤纷多彩的赛道竞技——新奥尔良著名的狂欢节游行。飞行员在花车之间、上方及周围高速飞驰, 这条赛道颇受无惧在狭小空间冒险的飞手们青睐。",text
+maps.miami-nights.caption,硬石体育场,text
+maps.miami-nights.title,硬石体育场,text
+maps.miami-nights.description,"无人机竞速联盟 2019赛季 第1站
+在美国橄榄球联盟迈阿密海豚队的体育场举行, 拥有急剧的爬升和惊心动魄的俯冲, 是无人机竞速联盟速度最快的赛道, 能够测试速度与性能的极限。",text
+maps.munich-playoffs.caption,慕尼黑总决赛,text
+maps.munich-playoffs.title,慕尼黑总决赛,text
+maps.munich-playoffs.description,"无人机竞速联盟 2017赛季 第5站
+坐落在巴伐利亚首都市中心一个前摩托车厂的疯狂赛道, 以冷酷的涂鸦水泥建造而成, 只为选拔出本赛季最出色的飞手。",text
+maps.california-nights.caption,加州之夜,text
+maps.california-nights.title,加州之夜,text
+maps.california-nights.description,无人机竞速联盟 2018赛季 第1站 2018赛季的首站比赛，带来了有史以来最具技术性的无人机竞速赛道，赛道贯穿多个室内空间，极限的俯冲、发夹弯和技术性障碍等待你的挑战。,text
+maps.skatepark-la.caption,洛杉矶滑板公园,text
+maps.skatepark-la.title,洛杉矶滑板公园,text
+maps.skatepark-la.description,无人机竞速联盟 2018赛季 第2站 第二站比赛，洛杉矶滑板公园，飞手们来到了美国最大的私人极限运动公园之一——Woodward West。,text
+maps.biosphere.caption,生物圈2号,text
+maps.biosphere.title,生物圈2号,text
+maps.biosphere.description,无人机竞速联盟 2018赛季 第3站 这是DRL首个兼具室内与室外部分的赛道。飞手垂直飞过生物圈最高的塔楼，然后飞入室内，并穿过数个科学可持续生态系统。,text
+maps.adventuredome.caption,探险圆顶,text
+maps.adventuredome.title,探险圆顶,text
+maps.adventuredome.description,无人机竞速联盟 2018赛季 第4站 穿越过山车是每位飞手的梦想，而拉斯维加斯探险圆顶的过山车无疑是极具挑战性的。,text
+maps.allianz-riviera.caption,安联-里维埃拉体育场,text
+maps.allianz-riviera.title,安联-里维埃拉体育场,text
+maps.allianz-riviera.description,无人机竞速联盟 2018赛季 第5站 这条赛道有着本赛季最惊心动魄的爬升与俯冲，同时也有着能将Racer3的速度发挥到极致的直线冲刺。,text
+maps.bmw-welt.caption,宝马世界,text
+maps.bmw-welt.title,宝马世界,text
+maps.bmw-welt.description,无人机竞速联盟 2018赛季 第6站 本赛季的最后一场常规赛，在位于德国慕尼黑的宝马世界举行。飞手们操控无人机，在世界上最美丽最昂贵的汽车之间极速穿梭。,text
+maps.championship-kingdom.caption,王国锦标赛,text
+maps.championship-kingdom.title,王国锦标赛,text
+maps.championship-kingdom.description,无人机竞速联盟 2018赛季 第7站 2018赛季的终极决战，气温与赛况同样火热。这是本赛季垂直元素最丰富的一条赛道，飞手们必须越过并穿越三个高高矗立的垂直障碍。,text
+maps.physics-room.caption,物理空间,text
+maps.physics-room.title,物理空间,text
+maps.physics-room.description,无人机竞速联盟调试地图 用于进行特定物理测试的开发关卡。,text
+maps.field.caption,牧场,text
+maps.field.title,牧场,text
+maps.field.description,无人机竞速联盟经典地图 草地，到处都是草地…,text
+maps.simple-courses.caption,简单赛道,text
+maps.simple-courses.title,简单赛道,text
+maps.simple-courses.description,FPV预览,text
+maps.multigp.caption,MULTI GP,text
+maps.multigp.title,MultiGP,text
+maps.multigp.description,竞赛,text
+maps.choose-map,选择地图,text
+maps.card.fly-freestyle-card,花式飞行,text
+maps.card.fly-race-card,竞赛,text
+maps.card.community-maps-card,"地图
+社区",text
+maps.card.simple-courses-card,简单赛道,text
+maps.card.multigp-card,MULTI GP地图,text
+maps.card.drl-card,DRL地图,text
+maps.card.mega-maps-card,DRL原创地图,text
+maps.community.title,地图社区,text
+maps.card.field-desc,全部地图,text
+maps.megamaps.title,原创地图,text
+maps.drone-park.description,位于都市中的无人机竞技场,text
+maps.usaf.caption,飞机坟场,text
+maps.usaf.title,飞机坟场,text
+maps.usaf.description,"飞机坟场位于戴维斯-蒙山空军基地，是世界上最大的军用飞机维修设施，这里停放着数千架退役飞行器。
+  虽然这张地图不是现实版飞机坟场的精准复制，不过依然有数百架飞机供玩家飞跃和探索，其中包含KC-135同温层加油机、F-15E攻击鹰以及A-10雷电II""疣猪""。",text
+maps.card.featured-tracks-card,"特色
+ 赛道",text
+maps.featured-tracks.title,"特色
+ 赛道",text
+maps.card.favorite-maps-card,"我收藏的
+ 地图",text
+maps.card.favorite-maps-card.status,收藏为空。通过点击心形图标添加收藏。,text
+maps.drl-maps.title,DRL地图,text
+maps.overview.title,最受欢迎地图,text
+maps.favorite-maps.title,最受欢迎地图,text
+maps.favorite-maps.caption,最受欢迎地图,text
+maps.favorite-maps.description,最受欢迎地图,text
+maps.virtual-season.title,虚拟赛季,text
+maps.virtual-season.desc,虚拟赛季,text
+maps.sim-cup.title,SIM CUP,text
+maps.sim-cup.caption,SIM CUP,text
+maps.campground.caption,露营场地,text
+maps.campground.title,露营场地,text
+maps.camprground.desc,一个庞大的营地，群山环绕，在这里你可以探索一个湖泊，废弃的火车轨道，滑雪缆车，森林以及桥梁。,text
+maps.drone-park.title,无人机公园,text
+maps.drone-park.caption,无人机公园,text
+maps.card.usaf-card,美国空军,text
+maps.card.usaf-card.subtitle,竞速赛道,text
+maps.card.usaf-card.title,"美国空军
+竞速赛道",text
+maps.usaf-night-mode.caption,飞机坟场 夜间模式,text
+maps.usaf-night-mode.title,"飞机坟场 
+夜间模式",text
+map.map-overview.back,返回,text
+map.map-overview.next,下一步,text
+map.map-track-card.course-length.label,赛道长度,text
+map.map-track-card.difficulty.label,难度,text
+map.map-track-cards.difficulty.types,"简单, 中等, 困难",text
+map.maps-screen.back,返回,text
+map.map-track-cards.difficulty.easy,简单,text
+map.map-track-cards.difficulty.medium,中等,text
+map.map-track-cards.difficulty.hard,困难,text
+map.maps-screen.season-2016,2016赛季,text
+map.maps-screen.season-2017,2017赛季,text
+map.maps-screen.season-2018,2018赛季,text
+map.map-track-card.xp.label,XP,text
+map-editor.header.action,动作,text
+map-editor.header.navigate,导航,text
+map-editor.header.orbit,环绕,text
+map-editor.header.pan,全景,text
+map-editor.header.scene,选择,text
+map-editor.header.race,移动,text
+map-editor.footer.grid,旋转,text
+map-editor.footer.off,比例,text
+map-editor.footer.gizmo-grid-state.labels,场景,text
+map-editor.header.select,竞赛,text
+map-editor.header.move,"花式飞行,竞赛",text
+map-editor.header.rotate,保存中...,text
+map-editor.header.scale,设置,text
+map-editor.game-type.labels,退出,text
+map-editor.game-play.saving,"环境,竞赛",text
+map-editor.editor-settings.settings,设置,text
+map-editor.editor-exit.exit,"全部,杂项,载具,植物,岩石,基本几何体",text
+map-editor.assets-category-0.labels,赛道,text
+map-editor.assets-category-1.race.labels,"全部,DRL,充气障碍,标记,功能性障碍,MULTIGP,特定区域障碍,霓虹灯,其他",text
+map-editor.assets-category-1.environment.labels,对齐,text
+map-editor.map-distance.track,对齐,text
+map-editor.gizmo-grid-state.labels,标尺,text
+map-editor.snap-move.snap,网格,text
+map-editor.snap-rotate.snap,关闭,text
+map-editor.footer.rulers.toggle,飞行,text
+map-editor.me-input-camera-fly,环绕,text
+map-editor.me-input-camera-orbit,全景,text
+map-editor.me-input-camera-pan,加速,text
+map-editor.me-increase-rate,竞赛布局,text
+map-editor.me-race-layout,场景布局,text
+map-editor.me-scene-layout,隐藏界面,text
+map-editor.me-hide-ui,动作,text
+map-editor.me-entity-actions,焦点,text
+map-editor.me-entity-focus,复制,text
+map-editor.me-entity-clone,移动,text
+map-editor.me-camera-fly-move,移动,text
+map-editor.me-entity-trs-move,旋转,text
+map-editor.me-entity-trs-rotate,比例,text
+map-editor.me-entity-trs-scale,旋转,text
+map-editor.me-camera-orbit-rotate,距离,text
+map-editor.me-camera-orbit-distance,放置,text
+map-editor.me-preview-drop,切换,text
+map-editor.me-preview-switch,距离,text
+map-editor.me-preview-distance,角度,text
+map-editor.me-preview-angle,重置,text
+map-editor.me-preview-reset,对齐,text
+map-editor.me-preview-align-onoff,对齐,text
+map-editor.me-metric-snap-onoff,对齐,text
+map-editor.me-metric-snap-move-onoff,模式,text
+map-editor.me-stats-target-mode,"关闭, 2X, 3X, 4X, 5X",text
+map-editor.map-attribs.category.labels,"通用,DRL,MULTIGP",text
+map-editor.map-attribs.difficulty,难度,text
+map-editor.map-attribs.difficulty.labels,"基本,简单,中等,困难",text
+map-editor.map-attribs.laps,圈数,text
+map-editor.map-attribs.lighting,灯光,text
+map-editor.map-attribs.lighting.labels,"多云,日出,夜晚,晴朗",text
+map-editor.inspector.map-visibility.public,所有人可见,text
+map-editor.inspector.map-visibility.label,可见,text
+map-editor.inspector.map-visibility.private,仅自己可见,text
+map-editor.inspector.allow-copy.toggle,允许复制,text
+map-editor.choose-base-map,选择基本地图,text
+map-editor.community-maps,地图社区,text
+map-editor.community-maps.delete,删除,text
+map-editor.community-maps.edit,编辑,text
+map-editor.community-maps.add,添加,text
+map-editor.community-maps.fly,飞行,text
+map-editor.community-maps.new,新建地图,text
+map-editor.community-maps.menu.sort.labels,"我的地图,评分最高,投票最高,最旧,最新,刚刚更新,精选",text
+map-editor.community-maps.menu.difficulty.labels,"全部,基本,简单,中等,困难",text
+map-editor.community-maps.difficulty.basic,基本,text
+map-editor.community-maps.difficulty.easy,简单,text
+map-editor.community-maps.difficulty.medium,中等,text
+map-editor.community-maps.difficulty.hard,困难,text
+map-editor.community-maps.clone,复制,text
+map-editor.community-maps.no-maps,没有地图,text
+map-editor.community-maps.search-maps,输入 @用户名或地图名称...,text
+map-editor.community-maps.difficulty.label,难度,text
+map-editor.community-maps.map.label,地图,text
+map-editor.right.property.tab,属性,text
+map-editor.right.library.tab,库,text
+map-editor.undo.button,撤销,text
+map-editor.redo.button,恢复,text
+map-editor.inspector.map-title.caption,搜索...,text
+map-editor.previous.button,上一页,text
+map-editor.next.button,下一页,text
+map-editor.footer.grid.toggle.field,网格,text
+map-editor.inspector.start-sim,开始模拟,text
+map-editor.inspector.stop-sim,停止模拟,text
+map-editor.inspector.snap-to-ground,对齐到地面,text
+map-editor.header.pivot.local.label,本地,text
+map-editor.header.pivot.global.label,全球,text
+map-editor.header.physics.toggle.label,物理,text
+map-editor.game-test.race,比赛,text
+map-editor.inspector.properties.arena,体育场,text
+map-editor.game-test.freestyle,花式飞行,text
+map-editor.inspector.properties.dome-style,圆顶风格,text
+map-editor.inspector.properties.arena-style-walls,体育场 风格A(墙壁),text
+map-editor.inspector.properties.arena-style-ground,体育场 风格B(地面),text
+map-editor.inspector.params,参数,text
+map-editor.inspector.timing,计时,text
+map-editor.inspector.auto-save,自动保存,text
+map-editor.inspector.save,保存,text
+map-editor.game-test.replay,回放,text
+map-editor.inspector.base-assets.label,基礎資產,text
+map-editor.inspector.physics.up,向上,text
+map-editor.inspector.physics.spin,旋转,text
+map-editor.inspector.physics.fwd,向前,text
+map-editor.assets-category.environment.label,环境,text
+map-editor.assets-category.race.label,赛事,text
+map-editor.assets-category.tools.label,工具,text
+map-editor.assets-category.all.label,全部,text
+map-editor.assets-category.misc.label,杂项,text
+map-editor.assets-category.vehicles.label,交通工具,text
+map-editor.assets-category.nature.label,自然,text
+map-editor.assets-category.rocks.label,岩石,text
+map-editor.assets-category.primitives.label,标准几何体,text
+map-editor.assets-category.grid.label,網格,text
+map-editor.assets-category.path.label,小路,text
+map-editor.assets-category.debug.label,調試,text
+map-editor.assets-category.official.label,官方,text
+map-editor.assets-category.drl.label,DRL,text
+map-editor.assets-category.inflatables.label,充气障碍,text
+map-editor.assets-category.markers.label,标记,text
+map-editor.assets-category.missions.label,功能性障碍,text
+map-editor.assets-category.multigp.label,MULTIGP,text
+map-editor.assets-category.regional.label,特定区域障碍,text
+map-editor.assets-category.neon.label,霓虹灯,text
+map-editor.assets-category.others.label,其他,text
+tryouts.onboarding.welcome,"欢迎来到2018 SWATCH无人机竞速联盟选拔赛, 一场全球性的赛事, 向所有18周岁以上玩家开放。",text
+tryouts.onboarding.explanation,"飞手在DRL地图上以尽可能快的总时间完成比赛。在线上选拔赛结束时, 成为排名前24位的飞手，你将获得DRL现场直播电竞比赛的参赛资格。
+想从一名玩家变成一名飞手? 现在机会来了。加入选拔赛, 可能你就是下一个DRL职业飞手。",text
+tryouts.onboarding.terms-advert,"有资格参加现场直播电竞比赛的飞手需自行承担旅行及住宿费用。无需通过购买来获得胜利。在法律禁止的地区无效。如需查看附加条款、条件及官方规则, 请点击<color=#F5A623FF> 规则 </color>。",text
+tryouts.onboarding.ended-msg,"选拔赛于<color=#F5A623FF>01/15/2018 - 23:59:59 PST</color> <color=#FF0000>结束</color>
+最终的排行榜即将公布。",text
+tryouts.onboarding.rules-btn,规则,text
+tryouts.onboarding.next-btn,下一步,text
+tryouts.onboarding.back-btn,返回,text
+tryouts.onboarding.title,基本咨询,text
+tryouts.onboarding.video.label,回顾2020 DRL选拔赛的全部精彩内容,text
+tryouts.title,2020 选拔赛赛事指引,text
+tryouts.results,成绩,text
+multiplayer.multiplayer-lobby-screen.back.button,返回,text
+multiplayer.multiplayer-lobby-screen.exit.button,退出,text
+multiplayer.multiplayer-lobby-screen.best-region.label,最佳地区,text
+multiplayer.multiplayer-lobby-screen.europe.label,欧洲,text
+multiplayer.multiplayer-lobby-screen.north-america.label,北美,text
+multiplayer.multiplayer-lobby-screen.asia.label,"",text
+multiplayer.multiplayer-lobby-screen.local-network.label,局域网,text
+multiplayer.multiplayer-lobby-screen.server-types.types,"欧洲, 东美, 亚洲, 最佳地区",text
+multiplayer.multiplayer-lobby-screen.game-type.types,"花式, 竞赛, 战役",text
+multiplayer.multiplayer-lobby-screen.create-room.button,创建房间,text
+multiplayer.multiplayer-lobby-screen.search-caption.label,搜索,text
+multiplayer.multiplayer-lobby-screen.create-server.button,创建服务器,text
+multiplayer.multiplayer-lobby-screen.stop-server.button,停止服务器,text
+multiplayer.multiplayer-lobby-screen.enter-ip-caption.label,输入IP地址,text
+multiplayer.multiplayer-lobby-screen.connect.button,连接,text
+multiplayer.multiplayer-lobby-screen.disconnect.button,断开连接,text
+multiplayer.multiplayer-lobby-screen.no-rooms-found.label,未找到房间,text
+multiplayer.multiplayer-lobby-screen.connecting.label,连接中…,text
+multiplayer.multiplayer-lobby-screen.no-matches-available.label,未匹配成功,text
+multiplayer.multiplayer-lobby-screen.searchinb-matches.label,正在搜索匹配结果,text
+multiplayer.multiplayer-lobby-screen.creating-room.label,正在创建房间,text
+multiplayer.multiplayer-lobby-screen.creating-server.label,正在创建服务器,text
+multiplayer.multiplayer-lobby-screen.stopping-server.label,正在停止服务器,text
+multiplayer.multiplayer-lobby-screen.operation-failure.label,运行失败,text
+multiplayer.multiplayer-room-screen.back.button,返回,text
+multiplayer.multiplayer-room-screen.settings.button,设置,text
+multiplayer.multiplayer-room-screen.name-caption.label,名称,text
+multiplayer.multiplayer-room-screen.map-vote.label,地图投票,text
+multiplayer.multiplayer-room-screen.map-vote.options,"关闭,全部,BASIC,简单,中等,困难,MULTIGP,DRL,特定",text
+multiplayer.multiplayer-room-screen.privacy.labels,"公开,不公开",text
+multiplayer.multiplayer-room-screen.map.label,地图,text
+multiplayer.multiplayer-room-screen.map-2016-world-championship.label,2016世界锦标赛,text
+multiplayer.multiplayer-room-screen.track.label,赛道,text
+multiplayer.multiplayer-room-screen.track-confirm.label,是否确认,text
+multiplayer.multiplayer-room-screen.drone-name.label,无人机名称,text
+multiplayer.multiplayer-room-screen.write-here-caption.label,在此输入,text
+multiplayer.multiplayer-room-screen.start.button,开始,text
+multiplayer.multiplayer-room-screen.spectate.button,观看,text
+multiplayer.multiplayer-room-screen.ready-toggle.label,准备完毕,text
+multiplayer.multiplayer-lobby-screen.waiting-for-players.label,等待玩家,text
+multiplayer.multiplayer-lobby-screen.players-in-queue.label,排队中,text
+multiplayer.multiplayer-lobby-screen.race-starts-in.label,竞赛倒数,text
+multiplayer.multiplayer-lobby-screen.race-locked-with.label,竞赛锁定,text
+multiplayer.multiplayer-lobby-screen.starting-game.label,开始游戏,text
+multiplayer.multiplayer-lobby-screen.players.label,玩家,text
+multiplayer.multiplayer-lobby-screen.quick-race.label,竞赛,text
+multiplayer.multiplayer-lobby-screen.quick-freestyle.label,花式飞行,text
+multiplayer.multiplayer-lobby-screen.quick-race-desc.label,一较高下,text
+multiplayer.multiplayer-lobby-screen.quick-freestyle-desc.label,与好友自由飞行,text
+multiplayer.multiplayer-room-screen.class.labels,"全部, 3寸, 4寸, 5寸, 6寸, 7寸,特定",text
+multiplayer.multiplayer-room-screen.class,无人机类型,text
+multiplayer.multiplayer-room-screen.title,大厅,text
+multiplayer.multiplayer-lobby-screen.title,大厅,text
+multiplayer.regions.asia,亚洲,text
+multiplayer.regions.australia,澳大利亚,text
+multiplayer.regions.east-canada,加拿大东部,text
+multiplayer.regions.europe,欧洲,text
+multiplayer.regions.india,印度,text
+multiplayer.regions.japan,日本,text
+multiplayer.regions.south-korea,韩国,text
+multiplayer.regions.auto,自动,text
+multiplayer.regions.south-america,南美,text
+multiplayer.regions.north-america,北美,text
+multiplayer.regions.us-west,美国西部,text
+multiplayer.regions.unknown,未知,text
+multiplayer.multiplayer-room-screen.game-modes.race,竞赛,text
+multiplayer.multiplayer-room-screen.game-modes.freestyle,花式飞行,text
+multiplayer.multiplayer-room-screen.game-modes.campaign,战役,text
+multiplayer.select-drone-screen.title,选择你的无人机,text
+multiplayer.default-room-name,房间,text
+multiplayer.multiplayer-lobby-screen.quick-match,快速匹配,text
+multiplayer.select-map-screen.title,选择地图,text
+multiplayer.select-track-screen.title,选择赛道,text
+multiplayer.multiplayer-room-screen.timeout,超时设定,text
+tracks.sandbox.freestyle.title,花式飞行,text
+tracks.sandbox.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.sandbox.race.title,无人机竞速联盟,text
+tracks.sandbox.race.description,无人机竞速联盟测试赛道,text
+tracks.sandbox.race-01.title,直线,text
+tracks.sandbox.race-01.description,直线关卡,text
+tracks.airplane-graveyard.freestyle.title,花式飞行,text
+tracks.airplane-graveyard.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.house.freestyle.title,花式飞行,text
+tracks.house.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.bell-labs.freestyle.title,花式飞行,text
+tracks.bell-labs.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.bell-labs.race.title,DRL 2016,text
+tracks.bell-labs.race.description,DRL 2016赛季赛道,text
+tracks.bell-labs.race-01.title,新手项目,text
+tracks.bell-labs.race-01.description,新手项目关卡,text
+tracks.bell-labs.race-02.title,三位一体测试,text
+tracks.bell-labs.race-02.description,三位一体测试关卡,text
+tracks.detroit.freestyle.title,花式飞行,text
+tracks.detroit.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.detroit.race.title,DRL 2016,text
+tracks.detroit.race.description,DRL 2016赛季赛道,text
+tracks.gates-of-hell.freestyle.title,花式飞行,text
+tracks.gates-of-hell.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.gates-of-hell.race.title,DRL 2016,text
+tracks.gates-of-hell.race.description,DRL 2016赛季赛道,text
+tracks.gates-of-hell.race-01.title,造船厂,text
+tracks.gates-of-hell.race-01.description,造船厂关卡,text
+tracks.gates-of-hell.race-02.title,城市,text
+tracks.gates-of-hell.race-02.description,城市关卡,text
+tracks.gates-of-hell.race-03.title,森林,text
+tracks.gates-of-hell.race-03.description,森林关卡,text
+tracks.lapocalypse.race.title,DRL 2016,text
+tracks.lapocalypse.race.description,DRL 2016赛季赛道,text
+tracks.lapocalypse.freestyle.title,花式飞行,text
+tracks.lapocalypse.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.miami-lights.freestyle.title,花式飞行,text
+tracks.miami-lights.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.miami-lights.race.title,DRL 2016,text
+tracks.miami-lights.race.description,DRL 2016赛季赛道,text
+tracks.miami-lights.race-01.title,迈阿密之夜,text
+tracks.miami-lights.race-01.description,迈阿密之夜关卡,text
+tracks.miami-lights.race-02.title,结束区,text
+tracks.miami-lights.race-02.description,结束区关卡,text
+tracks.ohio-crash-site.freestyle.title,花式飞行,text
+tracks.ohio-crash-site.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.ohio-crash-site.race.title,DRL 2016,text
+tracks.ohio-crash-site.race.description,DRL 2016赛季赛道,text
+tracks.ohio-crash-site.race-01.title,不置可否,text
+tracks.ohio-crash-site.race-01.description,不置可否关卡,text
+tracks.ohio-crash-site.race-02.title,禁区,text
+tracks.ohio-crash-site.race-02.description,禁区关卡,text
+tracks.atlanta-aftermath.race.title,DRL 2017,text
+tracks.atlanta-aftermath.race.description,DRL 2017赛季赛道,text
+tracks.atlanta-aftermath.freestyle.title,花式飞行,text
+tracks.atlanta-aftermath.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.boston-foundry.race.title,DRL 2017,text
+tracks.boston-foundry.race.description,DRL 2017赛季赛道,text
+tracks.boston-foundry.freestyle.title,花式飞行,text
+tracks.boston-foundry.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.london.race.title,DRL 2017,text
+tracks.london.race.description,DRL 2017赛季赛道,text
+tracks.london.freestyle.title,花式飞行,text
+tracks.london.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.mardi-gras.freestyle.title,花式飞行,text
+tracks.mardi-gras.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.mardi-gras.race.title,DRL 2017,text
+tracks.mardi-gras.race.description,DRL 2017赛季赛道,text
+tracks.miami-nights.race.title,DRL 2017,text
+tracks.miami-nights.race.description,DRL 2017赛季赛道,text
+tracks.miami-nights.freestyle.title,花式飞行,text
+tracks.miami-nights.freestyle.description,没有障碍门的高自由度赛道,text
+tracks.munich-playoffs.race.title,DRL 2017,text
+tracks.munich-playoffs.race.description,DRL 2017赛季赛道,text
+tracks.munich-playoffs.freestyle.title,花式飞行,text
+tracks.munich-playoffs.freestyle.description,没有障碍门的高自由度赛道,text
+custom-tracks.CMP-4a530b1e9d25ab99db03dce8.title,BLACKBIRD,text
+custom-tracks.CMP-bba477dca256b82d0c76c762.title,NIGHTHAWK,text
+custom-tracks.CMP-c9a4e988257bd462681b5055.title,THUNDERBOLT,text
+custom-tracks.CMP-36b74e609abf17e160c1d58f.title,撞击,text
+custom-tracks.CMP-b285fbf2e99932ae599fc384.title,直通拉斯维加斯,text
+custom-tracks.CMP-febc2c29bfa619795f7d2f48.title,DRL 2018,text
+custom-tracks.CMP-6f7c2863c0d546dca5ad5ff5.title,直通拉斯维加斯,text
+custom-tracks.CMP-38af59750b8eff2fe44b08ef.title,直通拉斯维加斯,text
+custom-tracks.CMP-083a3849284fbb25b734079f.title,晨练,text
+custom-tracks.CMP-2619f376e9122e3b06e469fb.title,寂静曼哈顿,text
+custom-tracks.CMP-9be8e7b12eec10b0936883b9.title,寂静商场,text
+custom-tracks.CMP-3b1318db5ff046a88efca70e.title,DRL 2018,text
+custom-tracks.CMP-cc69708c444badce0901218d.title,直通拉斯维加斯,text
+custom-tracks.CMP-457ab50bcbda6268c0a17075.title,DRL 2018,text
+custom-tracks.CMP-90e6cc22f1be0f9aeca7874c.title,直通拉斯维加斯,text
+custom-tracks.CMP-845373803fa882b910a33a68.title,MGP 计时赛 1,text
+custom-tracks.CMP-3e9c750ba34ada10dcd7e8bb.title,MGP 计时赛 2: 海啸,text
+custom-tracks.CMP-79e13c21ed29b9f3adc5325f.title,MGP 计时赛 5: 鹦鹉螺,text
+custom-tracks.CMP-8034249272c8430e13de8a34.title,MGP 计时赛 6: 暴怒,text
+custom-tracks.CMP-c0978f02e5708b904b859217.title,MGP 2018 国际公开赛 中级赛,text
+custom-tracks.CMP-dd11027f28d8faeb3bb19da7.title,MGP 2018 国际公开赛 小尺寸组,text
+custom-tracks.CMP-33a6f23044671189fb388f05.title,MGP 计时赛 4: 高压,text
+custom-tracks.CMP-c7efbebf80937e5ecd21a274.title,MGP 2018 分区预赛,text
+custom-tracks.CMP-bd33becd20128e0c8a4e86b3.title,MGP 2018 分区决赛,text
+custom-tracks.CMP-d542268e8c636e482a5a0296.title,MGP 2018 国际公开赛 规格赛,text
+custom-tracks.CMP-e67d3f0fa2e374298edfc36e.title,MGP 2018 国际公开赛 新手组,text
+custom-tracks.CMP-e7cb4467b63b7ab6f3617456.title,MGP 2017 分区决赛,text
+custom-tracks.CMP-62c9f4ad5c15160e7077eb4f.title,MGP 2016 全国锦标赛,text
+custom-tracks.CMP-dbab65c14263966c74ada465.title,MGP 2018 国际公开赛 团体赛,text
+custom-tracks.CMP-503331f36ea43ae2ebb25879.title,MGP 计时赛 8: 复仇,text
+custom-tracks.CMP-439fe01fcf55f219cd116b01.title,MGP 2018 国际公开赛 X CLASS,text
+custom-tracks.CMP-f66d54b925d5096e9a367611.title,MGP 2018 全国锦标赛,text
+custom-tracks.CMP-3dd16f97c8ae3e5f36470eee.title,MGP 2015 全国锦标赛,text
+custom-tracks.CMP-a485031f4658460bb19bba68.title,MGP 计时赛 3: 贝塞尔曲线,text
+custom-tracks.CMP-374eda734d9113a2344bdf09.title,2019 选拔赛 拉斯维加斯,text
+custom-tracks.CMP-9b1a8ff541cededa1a9bcf65.title,忏悔节,text
+custom-tracks.CMP-1cc2bbd7e8b61df9ccf2bfcb.title,势不两立,text
+custom-tracks.CMP-0b4bad556c75bab6023e1c4a.title,启示录,text
+custom-tracks.CMP-5d24c908b6dc4557cecfb795.title,加时赛,text
+custom-tracks.CMP-47ff732f233016a3d5873464.title,王冠,text
+custom-tracks.CMP-47531dbc941da23f7a06f589.title,MGP 2019 全球预选赛,text
+custom-tracks.CMP-a21cafe6e1c6c43509111c9a.title,法尔肯堡,text
+custom-tracks.CMP-ad9784b026932d04123da653.title,DRL 2018,text
+custom-tracks.CMP-09cf181543e35fdbdbfd2e76.title,寂静 #FREETHEBRIDGE,text
+custom-tracks.CMP-d74a7b93f15431314fcafa63.title,8字赛道(3圈),text
+custom-tracks.CMP-1236184b3b6eae92e376a12c.title,极限团体赛,text
+custom-tracks.CMP-63f29e988f24a54fccf949bb.title,寂静航线,text
+custom-tracks.CMP-ef225f0752c3de49e0d9b38a.title,商场漫步,text
+custom-tracks.CMP-bdae07145fb79f2ad9ba0423.title,树顶公园,text
+custom-tracks.CMP-c3095bd8c72cd0d9eb0b80f1.title,MGP 2019 国际公开赛 世界杯,text
+custom-tracks.CMP-bc8c43f123bf70b0708cccd8.title,化妆舞会,text
+custom-tracks.CMP-af26895e90b0f65bcbc80f14.title,边线飞行,text
+custom-tracks.CMP-35575708d9373f7822be6deb.title,2019 星米表演赛,text
+custom-tracks.CMP-078934965adb3e7db63af736.title,MGP 2019 加拿大预选赛,text
+custom-tracks.CMP-3d1b5e23a374c1ff7c8180f3.title,比尔里尔预赛,text
+custom-tracks.CMP-3b5f210d04c5b7fdc75bfa6d.title,MGP 2019 国际公开赛 中级赛,text
+custom-tracks.CMP-b9c7ba35c21802e5690bf508.title,MGP 2019 国际公开赛 小尺寸组,text
+custom-tracks.CMP-e93ca3f973497401d0dcb331.title,MGP 2019 国际公开赛 新手组,text
+custom-tracks.CMP-6292624e89d43fea71420f16.title,MGP 2019 国际公开赛 大尺寸组,text
+custom-tracks.CMP-f4380ef0e200e65272988106.title,MGP 2019 国际公开赛 团体赛,text
+custom-tracks.CMP-60da79544961bced88e1e769.title,皇家赛道,text
+custom-tracks.CMP-4ec6dba40a8aa0ddd81be4e9.title,小试牛刀,text
+custom-tracks.CMP-80574022d16b03e0b2c7226b.title,生态系统,text
+custom-tracks.CMP-7bb6420c3728c153eacdb9eb.title,坏邻居,text
+custom-tracks.CMP-07a097cd1c9be6785da56827.title,城市回顾,text
+custom-tracks.CMP-b7d43486bac2362320b7a67e.title,MGP 2018 国际公开赛 世界杯,text
+custom-tracks.CMP-14e2e077bc9118c37eabc414.title,DRL 2019,text
+custom-tracks.CMP-b145cea7a61bab93a939dedc.title,格伦伍德,text
+custom-tracks.CMP-324428d681708bc9b4a86680.title,达拉斯无人机竞速 - MF系列赛,text
+custom-tracks.CMP-a5d347010669a55ce8b6b687.title,爬升,text
+custom-tracks.CMP-5139d69e60c224258cd50189.title,2020选拔赛预赛 - 测试赛,text
+custom-tracks.CMP-5139d69e60c224258cd50188.title,2020选拔赛预赛,text
+custom-tracks.CMP-85d04375a6db27817102b2cb.title,2020 DRL选拔赛 第1周,text
+custom-tracks.CMP-b95789a1e0852a47d5cb362a.title,花式飞行,text
+custom-tracks.CMP-5d89e00547e720d80b13beaa.title,同温层加油机,text
+custom-tracks.CMP-6c2bc4addbd1928c1bc01db3.title,DRL 2020 - 纽约之门,text
+custom-tracks.CMP-004cbc546ec06dca564d52b8.title,DRL 2020 - 底特律,text
+custom-tracks.CMP-558ea06080d14de0d15a5820.title,DRL 2020 - 大桥,text
+custom-tracks.CMP-6104bc99decb73448e880128.title,DRL 2020 - 探险圆顶,text
+custom-tracks.CMP-822841be172a5dae822ba773.title,DRL 2020 - 洛杉矶启示录,text
+custom-tracks.CMP-79b5ec85848a2d65b239145d.title,DRL 2020 - 加州之夜,text
+custom-tracks.CMP-8b2cce63cae8c0cc0000e256.title,DRL 2020 - 亚特兰大,text
+custom-tracks.CMP-e74536dad8e7791d58d66ad0.title,第5赛季 里维埃拉,text
+custom-tracks.CMP-d1589b47a931928059c403c2.title,DRL 2020 - 王国,text
+custom-tracks.CMP-5a02b53793c7e083c1971eb2.title,DRL 2020 - 迈阿密,text
+custom-tracks.CMP-b5ea5aede3456e0bc49237c0.title,DRL 2020 - 伦敦,text
+custom-tracks.CMP-57ace9ba14e234b1cbc96c31.title,DRL 2020 - 狂欢节,text
+custom-tracks.CMP-797414cb7302007587818b61.title,DRL 2020 - 宝马世界,text
+custom-tracks.CMP-8bcca5e4b5350721e2291867.title,DRL 2020 - 飞机坟场,text
+custom-tracks.CMP-92e84b5c2e04dcab65c26859.title,模拟器大赛 第7站,text
+custom-tracks.CMP-ca0c1dc73892311359ab1b41.title,模拟器大赛 第4站,text
+custom-tracks.CMP-c239e8b6c1a73d8168953dd3.title,模拟器大赛 第3站,text
+custom-tracks.CMP-909b60384099d99b03a3e013.title,模拟器大赛 第8站,text
+custom-tracks.CMP-d935ba0c62153d32b30c3c0e.title,模拟器大赛 第2站,text
+custom-tracks.CMP-ade1346e9dbab236ced05666.title,模拟器大赛 第5站,text
+custom-tracks.CMP-b8045bb693781b049c37c096.title,模拟器大赛 第6站,text
+track.screen.drone-crash.label,无人机坠毁,text
+track.screen.opponent-difficulty.label,难度,text
+track.screen.opponent-difficulty.types,"简单, 中等, 困难",text
+track.screen.opponent-toggle.label,对手,text
+track.screen.opponent-toggle.types,"关, 开",text
+track.screen.start.button,开始,text
+track.screen.back.button,返回,text
+track.screen.beginner.details,"稳定器 开启
+高度保持器 开启
+角度限制器 开启",text
+track.screen.intermediate.details,"稳定器 关闭
+高度保持器 关闭
+角度限制器 开启",text
+track.screen.pro.details,手动模式,text
+track.screen.beginner.title,新手模式,text
+track.screen.intermediate.title,进阶模式,text
+track.screen.pro.title,专业模式,text
+track.screen.selected-drone.label,已选中无人机,text
+track.screen.opponent-mode,"关闭, 5名对手, 前5名, 冠军, 自己, 随机5名, 随机50名",text
+track.screen.selected-drone.not-recommended,不推荐,text
+quests.title,任务,text
+quests.quest-fpv-01.title,带上视频眼镜,text
+quests.quest-fpv-01.description,掌握FPV飞行的基础知识,text
+quests.quest-los-01.title,基本操作,text
+quests.quest-los-01.description,学习基本操作,text
+quests.quest-pro-01.title,通往PRO之路,text
+quests.quest-pro-01.description,真正的乐趣开始了！,text
+quests.quests-screen.back,返回,text
+quests.quests-screen.next,下一步,text
+quests.quest-overview.back,返回,text
+quests.quest-overview.title,任务,text
+quests.quest-overview.card,任务,text
+quests.card-title.quest,任务,text
+quests.card-footer.begginer-mode,新手模式,text
+quests.card-footer.intermediate-mode,进阶模式,text
+quests.card-footer.pro-mode,专业模式,text
+quests.card-footer.intermediate-pro-mode,进阶+专业模式,text
+mission-overview.title,任务概述,text
+mission-overview.about,关于此任务：,text
+mission-overview.beginner-mode.title,新手模式,text
+mission-overview.beginner-mode.description,"稳定器 开启
+高度保持器 开启
+角度限制器 开启",text
+mission-overview.mission-title,任务,text
+mission-overview.intermediate-mode.title,进阶模式,text
+mission-overview.intermediate-mode.description,"稳定器关闭
+高度保持器关闭
+角度限制器开启",text
+mission-overview.pro-mode.title,专业模式,text
+mission-overview.pro-mode.description,手动模式,text
+mission-overview.drone.title,训练无人机,text
+mission-overview.start,开始,text
+mission-overview.back,返回,text
+mission-overview.mission-title.name.learn-to-fly,学习飞行,text
+mission-overview.mission-title.name.pitch,俯仰,text
+mission-overview.mission-title.name.roll,横滚,text
+mission-overview.mission-title.name.training-in-the-sky-with-diamonds,穿越训练,text
+mission-overview.mission-title.name.roof-and-roll,屋顶横滚,text
+mission-overview.mission-title.name.throttling-roof-to-roof ,"控制油门, 在屋顶间穿梭",text
+mission-overview.mission-title.name.the-diamond-path,钻石之路,text
+mission-overview.mission-title.name.crane-climb,起重机攀爬,text
+mission-overview.mission-title.name.gotta-pop-em-all,通通撞破,text
+mission-overview.mission-title.name.balloon-hunt,追逐气球,text
+mission-overview.mission-title.name.downtown-pop,市区爆破,text
+mission-overview.mission-title.name.balloon-track,气球追踪,text
+mission-overview.mission-title.name.under-your-own-power,自力更生,text
+mission-overview.mission-title.name.road-to-fpv,通往FPV之路,text
+mission-overview.mission-title.name.fpv-first-person-view,FPV：第一人称视角,text
+mission-overview.mission-title.name.pitch-and-roll,俯仰与横滚,text
+mission-overview.mission-title.name.yaw-know-what-i-mean,"偏航, 懂我的意思吗？",text
+mission-overview.mission-title.name.trust-the-thrust,拉力训练,text
+mission-overview.mission-title.name.mixed-mission-medley,混合训练,text
+mission-overview.mission-title.name.wide-turns,大转弯,text
+mission-overview.mission-title.name.flying-circus,飞行马戏团,text
+mission-overview.mission-title.name.snowman-run,雪人赛道,text
+mission-overview.mission-title.name.slammin-slalom,回转障碍,text
+mission-overview.mission-title.name.flight-club,飞行俱乐部,text
+mission-overview.mission-title.name.corsa-di-farfalla,蝴蝶赛道,text
+mission-overview.mission-title.name.second-slalom,第二个回转障碍,text
+mission-overview.mission-title.name.dna-run,双螺旋赛道,text
+mission-overview.mission-title.name.fly-r-squared,R字形赛道,text
+mission-overview.mission-title.name.the-square-route,直角线路,text
+mission-overview.mission-title.name.hourglass,沙漏赛道,text
+mission-overview.mission-title.name.star-road,星光大道,text
+mission-overview.mission-title.name.rising-sun,旭日东升,text
+mission-overview.mission-title.name.zig-zag,Z字形赛道,text
+mission-overview.mission-title.name.a-flight-in-the-woods,林中穿梭,text
+mission-overview.mission-title.name.back-to-basics,回归基础,text
+mission-overview.mission-title.name.back-to-basics-flying-steady,"回归基础, 稳定飞行",text
+mission-overview.mission-title.name.back-to-basics-up-and-out,"回归基础, 向上和向前",text
+mission-overview.mission-title.name.back-to-basics-up-and-over,"回归基础, 向上和越过",text
+mission-overview.mission-title.name.back-to-basics-like-a-record-baby,"回归基础, 偏航",text
+mission-overview.mission-title.name.back-to-basics-back-it-up,"回归基础, 倒飞",text
+mission-overview.mission-title.name.back-to-basics-lets-mix-it-up,"回归基础, 混合训练",text
+mission-overview.mission-title.name.back-to-basics-around-the-bend,"回归基础, 转弯",text
+mission-overview.mission-title.name.back-to-basics-circles-are-our-friends,"回归基础, 圆形赛道是我们的好朋友",text
+mission-overview.mission-title.name.back-to-basics-do-you-wanna-build-a-snowman,"回归基础, 你想要堆个雪人吗？",text
+mission-overview.mission-title.name.figure-8,8字形,text
+mission-overview.mission-title.name.the-ringer,环形赛道,text
+mission-overview.mission-title.name.wish-upon-a-star,向星星许愿,text
+mission-overview.mission-title.name.search-and-destroy,搜寻与摧毁,text
+mission-overview.mission-title.name.the-double-helix,双螺旋,text
+mission-overview.mission-title.name.off-the-beaten-path,全新的赛道,text
+mission-overview.mission-title.name.parking-lot-slalom,停车场障碍赛,text
+mission-overview.mission-title.name.the-obstacle-course,障碍赛道,text
+mission-overview.mission-title.name.the-sweeper,大幅度转弯,text
+mission-overview.mission-title.name.your-first-race,你的第一场比赛,text
+mission-complete.title,任务完成,text
+mission-complete.nav-left.quest,任务,text
+mission-complete.nav-left.exit,退出,text
+mission-complete.form.title,任务完成,text
+mission-complete.form.score,您的分数/,text
+mission-complete.intermediate-mode.title,进阶模式,text
+mission-complete.feedback.form.title,请向我们提供反馈,text
+mission-complete.feedback.experience.values,"<请选择>, 首次飞行, 飞过模拟器, 飞过无人机",text
+mission-complete.feedback.form.experience,您是有经验的无人机飞手吗？,text
+mission-complete.feedback.form.enjoy,您喜欢这个任务吗？,text
+mission-complete.feedback.enjoy.values,"<请选择>, 是, 否, 不确定",text
+mission-complete.feedback.improve.values,"<请选择>, 是, 否, 不确定",text
+mission-complete.feedback.form.improve,模拟器有助于提高您的飞行技术吗？,text
+mission-complete.feedback.form.field,请在此提供您的反馈,text
+mission-complete.nav-right.next,下一步,text
+mission-complete.nav-right.restart,重新开始,text
+npc-overlay.nav-left.back,返回,text
+npc-overlay.nav-left.exit,退出,text
+npc-overlay.nav-right.next,下一步,text
+ms-learn-to-fly.title,学习飞行,text
+ms-learn-to-fly.description,向玩家介绍基本操控,text
+ms-learn-to-fly.shortDescription,"这是一架入门级无人机, 你将用它进行练习。
+此无人机用于 <color=#5db300>新手</color> 及<color=#f8e71c>进阶</color>模式并帮助新飞手适应无人机操控。",text
+ms-learn-to-fly.dialog-000,开始学习飞行吧！控制你的左摇杆来起飞。,text
+ms-learn-to-fly.dialog-001,通过左摇杆你可以控制高度。上升至32米。,text
+ms-learn-to-fly.dialog-002,"当心！如果飞得太高, 你将失去信号。
+回到31米的标记处。",text
+ms-learn-to-fly.dialog-92,"控制右摇杆向前飞行, 撞破那个气球。",text
+ms-learn-to-fly.dialog-93,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-94,"控制右摇杆向前飞行, 撞破那个气球。",text
+ms-learn-to-fly.dialog-95,现在使用左摇杆环顾四周。,text
+ms-learn-to-fly.dialog-96,看到路上的旗子了吗？使用左摇杆面向它。,text
+ms-learn-to-fly.dialog-97,"现在使用右摇杆向前移动, 靠近旗子。",text
+ms-learn-to-fly.dialog-98,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-99,"现在使用右摇杆向前移动, 靠近旗子。",text
+ms-learn-to-fly.dialog-100,"你可以使用右摇杆进行横滚, 切换到右边的航道。",text
+ms-learn-to-fly.dialog-101,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-102,"你可以使用右摇杆进行横滚, 切换到右边的航道。",text
+ms-learn-to-fly.dialog-103,"现在, 使用左摇杆控制高度, 使用右摇杆向前移动。 撞破那些气球。",text
+ms-learn-to-fly.dialog-104,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-105,"现在, 使用左摇杆控制高度, 使用右摇杆向前移动。 撞破那些气球。",text
+ms-learn-to-fly.dialog-106,"现在向左横滚, 切换到中间的航道。",text
+ms-learn-to-fly.dialog-107,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-108,"现在向左横滚, 切换到中间的航道。",text
+ms-learn-to-fly.dialog-109,俯仰&横滚时刻！只使用右摇杆来撞破那些气球吧。,text
+ms-learn-to-fly.dialog-110,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-111,俯仰&横滚时刻！只使用右摇杆来撞破那些气球吧。,text
+ms-learn-to-fly.dialog-112,"最后, 控制俯仰, 横滚和油门穿越菱形门吧。",text
+ms-learn-to-fly.dialog-113,干得漂亮！,text
+ms-learn-to-fly.dialog-114,"你马上就可以自由飞行了, 但要先掌握基本操作。",text
+ms-learn-to-fly.dialog-115,"最后, 控制俯仰, 横滚和油门穿越菱形门吧。",text
+ms-learn-to-fly.dialog-116,"复习一下基本操控吧, 注意哦。",text
+ms-learn-to-fly.dialog-117,"左摇杆上下控制高度, 这是油门。",text
+ms-learn-to-fly.dialog-118,"左摇杆左右控制朝向, 这是偏航。",text
+ms-learn-to-fly.dialog-119,"右摇杆左右控制左右平移, 这是横滚。",text
+ms-learn-to-fly.dialog-120,"右摇杆上下控制前后移动, 这是俯仰。",text
+ms-learn-to-fly.dialog-121,掌握这些技巧吧。,text
+ms-learn-to-fly.dialog-122,你上下颠倒了！,text
+ms-learn-to-fly.dialog-123,再试一次。,text
+ms-pitch.title,俯仰,text
+ms-pitch.description,练习精准的俯仰控制。,text
+ms-pitch.shortDescription,"看来已上手了, 我们看看俯仰吧。",text
+ms-pitch.dialog-124,在此任务中我们将练习从A点起飞在B点降落。,text
+ms-pitch.dialog-125,现在轮到你了。,text
+ms-pitch.dialog-126,现在轮到你了。,text
+ms-pitch.dialog-127,飞得很好。让我们再试一次。,text
+ms-pitch.dialog-128,太棒了！任务完成。,text
+ms-pitch.dialog-129,干得很好！你的技术确实在提高。,text
+ms-pitch.dialog-130,你有些飞出范围了。再试一次吧。,text
+ms-pitch.dialog-131,飞吧。,text
+ms-pitch.dialog-132,俯仰有点过了。再试一次吧。,text
+ms-pitch.dialog-133,飞吧。,text
+ms-roll.title,横滚,text
+ms-roll.description,练习精准的横滚控制。,text
+ms-roll.shortDescription,练习使用横滚从一侧移动到另一侧。,text
+ms-roll.dialog-178,"将你的无人机向左或向右倾斜。
+向一侧倾斜得够多, 无人机将开始向那个方向移动, 就像俯仰一样。",text
+ms-roll.dialog-179,在此任务中我们将练习使用横滚从A点起飞在B点降落。,text
+ms-roll.dialog-180,然后我们将再次使用横滚从B点起飞在A点降落。,text
+ms-roll.dialog-181,"好了, 让我们开始吧。",text
+ms-roll.dialog-182,很好。现在飞回来。,text
+ms-roll.dialog-183,太棒了！任务完成。,text
+ms-roll.dialog-184,"随着每项任务的完成, 你的摇杆操作越来越娴熟了。继续加油吧。",text
+ms-roll.dialog-185,使用更直的路径。再试一次吧。,text
+ms-roll.dialog-186,飞吧。,text
+ms-roll.dialog-187,"横滚太多了, 油门不足。再试一次吧。",text
+ms-roll.dialog-188,飞吧。,text
+ms-sky-with-diamonds.title,穿越训练,text
+ms-sky-with-diamonds.description,练习油门技术的实际应用。,text
+ms-sky-with-diamonds.shortDescription,"随着你的油门控制技术的提高, 让我们通过更长的飞行距离来测试一下你的技能吧。",text
+ms-sky-with-diamonds.dialog-233,你已经可以短距离飞行了。现在试试更长的距离吧。,text
+ms-sky-with-diamonds.dialog-234,"望向地平线, 你会看到一个悬在空中的菱形门。",text
+ms-sky-with-diamonds.dialog-235,在此任务中，你将控制无人机从中心穿过菱形门。试试吧。,text
+ms-sky-with-diamonds.dialog-236,试试吧。,text
+ms-sky-with-diamonds.dialog-237,很好。再来一次吧。,text
+ms-sky-with-diamonds.dialog-238,很好。再来一次吧。,text
+ms-sky-with-diamonds.dialog-239,太棒了！任务完成。,text
+ms-sky-with-diamonds.dialog-240,你的油门控制确实在提高。继续加油吧！,text
+ms-sky-with-diamonds.dialog-241,你有些飞出范围了。再试一次吧。,text
+ms-sky-with-diamonds.dialog-242,俯仰有点过了。再试一次吧。,text
+ms-sky-with-diamonds.dialog-243,飞吧。,text
+ms-roof-and-roll.title,屋顶横滚,text
+ms-roof-and-roll.description,"从一个屋顶飞到另一个屋顶, 强化横滚技能。",text
+ms-roof-and-roll.shortDescription,来看看横滚技能有什么效果。,text
+ms-roof-and-roll.dialog-189,很好。,text
+ms-roof-and-roll.dialog-190,这个任务非常的简单明了。,text
+ms-roof-and-roll.dialog-191,"只使用横滚, 起飞并降落在无人机右侧建筑的屋顶。",text
+ms-roof-and-roll.dialog-192,"只使用横滚, 起飞并降落在无人机右侧建筑的屋顶。",text
+ms-roof-and-roll.dialog-193,开始吧。,text
+ms-roof-and-roll.dialog-196,"现在, 使用向右横滚, 起飞并降落在下方那个建筑。",text
+ms-roof-and-roll.dialog-197,明白了吗？,text
+ms-roof-and-roll.dialog-198,飞吧。,text
+ms-roof-and-roll.dialog-199,干得漂亮。,text
+ms-roof-and-roll.dialog-200,"好的。像之前一样, 向左横滚飞向下一个建筑。",text
+ms-roof-and-roll.dialog-203,干得漂亮。,text
+ms-roof-and-roll.dialog-204,"很好。好了, 回来吧。",text
+ms-roof-and-roll.dialog-207,太棒了！,text
+ms-roof-and-roll.dialog-208,飞得不错。你正在完成这些任务。继续加油。,text
+ms-roof-and-roll.dialog-211,"你上下颠倒了, 再试一次吧。",text
+ms-roof-and-roll.dialog-212,飞吧。,text
+ms-roof-and-roll.dialog-213,你要去哪儿？回到这里。,text
+ms-roof-and-roll.dialog-214,飞吧。,text
+ms-roof-to-roof.title,"控制油门, 在屋顶间穿梭",text
+ms-roof-to-roof.description,利用起降使玩家适应精准的油门控制。,text
+ms-roof-to-roof.shortDescription,这些建筑是练习降落的完美场地。让我们看看你是否可以在屋顶之间自如地飞行。,text
+ms-roof-to-roof.dialog-215,本次任务将测试你目前所学的所有技能。,text
+ms-roof-to-roof.dialog-216,现在起飞并降落在前方的楼顶上。,text
+ms-roof-to-roof.dialog-217,很好。,text
+ms-roof-to-roof.dialog-218,现在起飞无人机并降落在左侧的高楼顶上。,text
+ms-roof-to-roof.dialog-219,加油！,text
+ms-roof-to-roof.dialog-220,好极了。现在起飞并降落在下方的屋顶上。,text
+ms-roof-to-roof.dialog-221,太棒了。让我们再来一次。,text
+ms-roof-to-roof.dialog-222,"很好, 这次降落在前方的屋顶上。",text
+ms-roof-to-roof.dialog-223,很好。,text
+ms-roof-to-roof.dialog-224,"像之前一样, 起飞无人机, 飞到前方的高楼楼顶。",text
+ms-roof-to-roof.dialog-225,加油！,text
+ms-roof-to-roof.dialog-226,太棒了。现在起飞并降落在下方的屋顶上。,text
+ms-roof-to-roof.dialog-227,任务完成。,text
+ms-roof-to-roof.dialog-228,"虽然降落不是竞赛的关键部分, 但你在此练习的技能非常宝贵。看到你的进步我非常欣慰。继续加油。",text
+ms-roof-to-roof.dialog-229,你要去哪儿？再试一次吧。,text
+ms-roof-to-roof.dialog-230,跟着那颗绿钻石飞。,text
+ms-roof-to-roof.dialog-231,你上下颠倒了！再试一次吧。,text
+ms-roof-to-roof.dialog-232,跟着那颗绿钻石飞。,text
+ms-diamond-path.title,钻石之路,text
+ms-diamond-path.description,"点对点飞行, 练习俯仰控制。",text
+ms-diamond-path.shortDescription,让我们练习在两点之间用最短的路线飞行。,text
+ms-diamond-path.dialog-60,我们将进行一些长距离的钻石追逐。,text
+ms-diamond-path.dialog-61,"非常的简单易懂, 对吧？你准备好了吗？",text
+ms-diamond-path.dialog-62,飞吧。,text
+ms-diamond-path.dialog-63,飞吧。,text
+ms-diamond-path.dialog-64,第一个。飞向下一个吧。,text
+ms-diamond-path.dialog-65,第二个。,text
+ms-diamond-path.dialog-66,第三个。,text
+ms-diamond-path.dialog-67,这是第四个。再来一个。,text
+ms-diamond-path.dialog-68,这是最后一个。现在降落吧。,text
+ms-diamond-path.dialog-69,降落。完美的飞行。,text
+ms-diamond-path.dialog-70,看起来不错！去进行下一个任务吧。,text
+ms-diamond-path.dialog-71,你上下颠倒了！再试一次吧。,text
+ms-diamond-path.dialog-72,跟着那颗绿钻石飞。,text
+ms-diamond-path.dialog-73,你要去哪儿？再试一次吧。,text
+ms-diamond-path.dialog-74,跟着那颗绿钻石飞。,text
+ms-crane-climb.title,起重机攀爬,text
+ms-crane-climb.description,"现在来测试你的油门技巧, 在规定时间内通过起重机上的所有障碍门。",text
+ms-crane-climb.shortDescription,"飞向起重机, 测试油门技巧。",text
+ms-crane-climb.dialog-51,"我在起重机上方设置了障碍门。
+ 在时间耗尽之前, 穿过所有障碍门。开始吧。",text
+ms-crane-climb.dialog-52,很好。,text
+ms-crane-climb.dialog-53,"时间到。你可以做到的, 再试试。",text
+ms-crane-climb.dialog-54,再试试看。开始吧。,text
+ms-crane-climb.dialog-55,很棒。任务完成。,text
+ms-crane-climb.dialog-56,看来你已经得心应手了。我们必须为任务增加点难度了。,text
+ms-crane-climb.dialog-57,"时间到。你可以做到的, 再试试。",text
+ms-crane-climb.dialog-58,那边没有障碍门。回到这里。,text
+ms-crane-climb.dialog-59,"控制你的俯仰, 有时欲速则不达。再试试。",text
+ms-pop-em-all.title,将它们全部撞破,text
+ms-pop-em-all.description,"撞破迷宫中所有的气球, 强化飞行技能。",text
+ms-pop-em-all.shortDescription,"我们将飞往造船厂, 强化你的飞行技能。",text
+ms-pop-em-all.dialog-134,我已经为你准备好了一些气球。,text
+ms-pop-em-all.dialog-135,你要做的就是撞破它们。,text
+ms-pop-em-all.dialog-136,撞破它们。,text
+ms-pop-em-all.dialog-137,撞破它们！,text
+ms-pop-em-all.dialog-138,"嘿, 你做到了！",text
+ms-pop-em-all.dialog-139,干得好。继续保持这良好的飞行状态。下一个任务见。,text
+ms-pop-em-all.dialog-140,你要去哪儿？再试一次吧。,text
+ms-pop-em-all.dialog-141,撞破它们。,text
+ms-pop-em-all.dialog-142,你上下颠倒了！再试一次吧。,text
+ms-pop-em-all.dialog-143,撞破它们。,text
+ms-balloon-hunt.title,追逐气球,text
+ms-balloon-hunt.description,追逐气球来练习目前所学的飞行技巧。,text
+ms-balloon-hunt.shortDescription,今天你会发现气球是飞手最好的伙伴。,text
+ms-balloon-hunt.dialog-1,在此任务中你将追逐气球。,text
+ms-balloon-hunt.dialog-2,"起飞并撞向你在湖面上看到的一个又一个气球。如果没有看到, 记得用偏航的技巧环顾四周。",text
+ms-balloon-hunt.dialog-3,"我增加了无人机的动力, 可以让你的速度更快一些。",text
+ms-balloon-hunt.dialog-4,飞吧。,text
+ms-balloon-hunt.dialog-5,飞吧。,text
+ms-balloon-hunt.dialog-6,第一个。,text
+ms-balloon-hunt.dialog-7,第二个。,text
+ms-balloon-hunt.dialog-8,三个气球了。,text
+ms-balloon-hunt.dialog-9,第四个气球。,text
+ms-balloon-hunt.dialog-10,第五个。,text
+ms-balloon-hunt.dialog-11,六个气球了。,text
+ms-balloon-hunt.dialog-12,七。,text
+ms-balloon-hunt.dialog-13,太棒了。这是第八个。,text
+ms-balloon-hunt.dialog-14,九。再来一个。,text
+ms-balloon-hunt.dialog-15,"但你带不了太多的气球, 再撞破一些。",text
+ms-balloon-hunt.dialog-16,撞向它们。,text
+ms-balloon-hunt.dialog-17,继续。,text
+ms-balloon-hunt.dialog-18,撞向下一个。,text
+ms-balloon-hunt.dialog-19,那边还有一些。,text
+ms-balloon-hunt.dialog-20,下一个在哪里呢？,text
+ms-balloon-hunt.dialog-21,找不到了吗？,text
+ms-balloon-hunt.dialog-22,又一个。,text
+ms-balloon-hunt.dialog-23,又一个。,text
+ms-balloon-hunt.dialog-24,又一个。,text
+ms-balloon-hunt.dialog-25,还剩一个。,text
+ms-balloon-hunt.dialog-26,"这是最后一个了, 棒极了。",text
+ms-balloon-hunt.dialog-27,这是在为你的竞赛做准备。来看看你那些非凡的飞行技能还能应对什么挑战。,text
+ms-balloon-hunt.dialog-28,你要去哪儿？再试一次吧。,text
+ms-balloon-hunt.dialog-29,飞吧！,text
+ms-balloon-hunt.dialog-30,你上下颠倒了！再试一次吧。,text
+ms-balloon-hunt.dialog-31,飞吧！,text
+ms-balloon-hunt.dialog-32,别忘了你可以使用偏航技巧环顾四周。,text
+ms-balloon-hunt.dialog-33,"如果不在你的前方, 它可能在你的后方。",text
+ms-balloon-track.title,气球追踪,text
+ms-balloon-track.description,"撞破沿路的气球, 训练员会控制你的动量。",text
+ms-balloon-track.shortDescription,"在此任务中, 我们一起以高速飞行。",text
+ms-balloon-track.dialog-34,"在此任务中, 我将控制无人机的前进, 剩下的交给你了。",text
+ms-balloon-track.dialog-35,我在这条路上放置了气球。你需要左右横滚无人机撞破气球。至少撞破60%的气球你才能过关。,text
+ms-balloon-track.dialog-36,"留心摇杆要移动多少, 无人机才能移动到位。错过了气球, 就不能再返回了。",text
+ms-balloon-track.dialog-37,准备好吗？飞吧。,text
+ms-balloon-track.dialog-38,"没有撞破60%的气球, 再试一次。",text
+ms-balloon-track.dialog-39,"做得不错。这次气球会在不同的高度, 你需要像上次一样撞破60%的气球。开始吧。",text
+ms-balloon-track.dialog-40,"没有撞破60%的气球, 再试一次吧。",text
+ms-balloon-track.dialog-41,"好极了。让我们提高难度。
+像之前一样, 但你需要把它们全部撞破。",text
+ms-balloon-track.dialog-42,太棒了。你撞破了全部气球。任务完成。,text
+ms-balloon-track.dialog-43,"你很快就要成为一名王牌飞手了, 按这个速度我需要更多的气球了。",text
+ms-balloon-track.dialog-44,"没有撞破全部气球, 再试一次。",text
+ms-balloon-track.dialog-45,你要去哪儿？再试一次吧。,text
+ms-balloon-track.dialog-46,飞吧！,text
+ms-balloon-track.dialog-47,你上下颠倒了！再试一次吧。,text
+ms-balloon-track.dialog-48,飞吧！,text
+ms-downtown-pop.title,闹市爆破,text
+ms-downtown-pop.description,撞破市中心街道和小巷的全部气球。,text
+ms-downtown-pop.shortDescription,我们将在市中心测试你的技能。屋顶见。,text
+ms-downtown-pop.dialog-75,这个很容易。尽可能快地撞破全部气球。,text
+ms-downtown-pop.dialog-76,准备好了吗？撞破它们。,text
+ms-downtown-pop.dialog-77,准备好了吗？撞破它们。,text
+ms-downtown-pop.dialog-78,做得好。,text
+ms-downtown-pop.dialog-79,像上次一样。快速撞破全部气球。,text
+ms-downtown-pop.dialog-80,继续。,text
+ms-downtown-pop.dialog-81,你撞破了全部气球。,text
+ms-downtown-pop.dialog-82,任务完成。,text
+ms-downtown-pop.dialog-83,"看起来很有趣, 我自己也想试试看。你的飞行技术已经很棒了。继续加油。",text
+ms-downtown-pop.dialog-84,你上下颠倒了！,text
+ms-downtown-pop.dialog-85,撞破它们。,text
+ms-downtown-pop.dialog-86,你要去哪儿？再试一次吧。,text
+ms-downtown-pop.dialog-87,撞破它们。,text
+ms-under-your-power.title,自力更生,text
+ms-under-your-power.description,撞破直路上的全部气球。,text
+ms-under-your-power.shortDescription,"我拿到了更多的气球。
+ 沿着这条路飞行。",text
+ms-under-your-power.dialog-244,我拿到了更多的气球。沿着这条路飞行。,text
+ms-under-your-power.dialog-245,你需要在规定时间内撞破至少60%的气球。这次你将完全控制无人机。,text
+ms-under-your-power.dialog-246,准备好了吗？开始吧。,text
+ms-under-your-power.dialog-247,"没有撞破60%的气球, 再试一次。",text
+ms-under-your-power.dialog-248,你未能按时到达终点。再试试。,text
+ms-under-your-power.dialog-249,"撞破至少60%的气球, 并在规定时间内到达终点。",text
+ms-under-your-power.dialog-250,完成。,text
+ms-under-your-power.dialog-251,不错不错。试试另一个场景吧。,text
+ms-under-your-power.dialog-252,"像之前一样, 在规定时间内撞破60%的气球。",text
+ms-under-your-power.dialog-253,开始吧。,text
+ms-under-your-power.dialog-254,干得不错。任务完成。,text
+ms-under-your-power.dialog-255,我对你的技术越来越有信心了。我觉得你几乎已经做好戴上飞行眼镜的准备了。,text
+ms-under-your-power.dialog-256,"没有撞破60%的气球, 再试一次。",text
+ms-under-your-power.dialog-257,你未能按时到达终点。再试试。,text
+ms-under-your-power.dialog-258,"撞破至少60%的气球, 并在规定时间内到达终点。",text
+ms-under-your-power.dialog-259,你要去哪儿？再试一次吧。,text
+ms-under-your-power.dialog-260,飞吧！,text
+ms-under-your-power.dialog-261,你上下颠倒了！再试一次吧。,text
+ms-under-your-power.dialog-262,飞吧！,text
+ms-road-to-fpv.title,通往FPV之路,text
+ms-road-to-fpv.description,在规定时间内撞破路上的全部气球。,text
+ms-road-to-fpv.shortDescription,"这将是一次大考验。
+我们去市中心吧。",text
+ms-road-to-fpv.dialog-144,这将是一次大考验。我们去市中心吧。,text
+ms-road-to-fpv.dialog-145,"你已经证明了自己已经掌握了一些飞行技巧。我想你已经准备好进行第一人称视角飞行了, 也就是我们所说的FPV。",text
+ms-road-to-fpv.dialog-146,你将再次在规定时间内撞破气球。但这一次要全部撞破才能过关。,text
+ms-road-to-fpv.dialog-147,"如果你认为可以完成, 那么就开始吧。",text
+ms-road-to-fpv.dialog-148,撞破它们。,text
+ms-road-to-fpv.dialog-149,撞破它们。,text
+ms-road-to-fpv.dialog-150,你未能按时撞破全部气球。再试试。,text
+ms-road-to-fpv.dialog-151,你未能按时撞破全部气球。再试试。,text
+ms-road-to-fpv.dialog-152,在规定时间内撞破全部气球。,text
+ms-road-to-fpv.dialog-153,完美。飞向大桥。,text
+ms-road-to-fpv.dialog-154,做得好。现在是最后一个测试了。开始吧。,text
+ms-road-to-fpv.dialog-155,完成它。,text
+ms-road-to-fpv.dialog-156,完成。你撞破了全部气球。任务完成。,text
+ms-road-to-fpv.dialog-157,"你做到了。超棒的飞行。
+下一次再见到你, 就是戴着视频眼镜的你了。",text
+ms-road-to-fpv.dialog-158,你未能按时撞破全部气球。再试试。,text
+ms-road-to-fpv.dialog-159,你未能按时撞破全部气球。再试试。,text
+ms-road-to-fpv.dialog-160,在规定时间内撞破全部气球。,text
+ms-road-to-fpv.dialog-166,你上下颠倒了！再试一次吧。,text
+ms-road-to-fpv.dialog-167,飞吧。,text
+ms-road-to-fpv.dialog-168,你要去哪儿？再试一次吧。,text
+ms-road-to-fpv.dialog-169,飞吧。,text
+ms-road-to-fpv.dialog-170,你上下颠倒了！再试一次吧。,text
+ms-road-to-fpv.dialog-171,飞吧。,text
+ms-road-to-fpv.dialog-172,你要去哪儿？再试一次吧。,text
+ms-road-to-fpv.dialog-173,飞吧。,text
+ms-road-to-fpv.dialog-174,你上下颠倒了！再试一次吧。,text
+ms-road-to-fpv.dialog-175,飞吧。,text
+ms-road-to-fpv.dialog-176,你要去哪儿？再试一次吧。,text
+ms-road-to-fpv.dialog-177,飞吧。,text
+ms-first-person-view.title,FPV：第一人称视角,text
+ms-first-person-view.description,向飞手介绍第一人称视角中的摇杆操作。,text
+ms-first-person-view.shortDescription,"现在你已经掌握了基础知识, 是时候开始学习在FPV模式飞行了。FPV代表第一人称视角。所以你将以无人机内的视角飞行。让我们开始吧。",text
+ms-first-person-view.dialog-296,"FPV比看起来更难一点, 但你很快就会掌握的。
+戴上视频眼镜吧。",text
+ms-first-person-view.dialog-297,"我将带你熟悉基本操作, 这样你可以看到并感受第三人称视角和第一人称视角之间的区别。",text
+ms-first-person-view.dialog-298,加点油门。,text
+ms-first-person-view.dialog-299,"注意视角的不同, 就好像你在仰望天空。那是因为无人机的摄像头被设置在用于向前飞行的角度。",text
+ms-first-person-view.dialog-300,"现在试试俯仰吧。
+当你开始向前移动时, 摄像头的角度就会变成水平。",text
+ms-first-person-view.dialog-301,很好。现在向后俯仰一点。,text
+ms-first-person-view.dialog-302,错了错了。再试一次吧。,text
+ms-first-person-view.dialog-303,"现在你感受到区别了吧。我知道可能会有点奇怪, 但通过练习, 你会飞得像职业选手一样好。",text
+ms-first-person-view.dialog-304,错了错了。再试一次吧。,text
+ms-first-person-view.dialog-305,"很好, 来看看第一人称视角的偏航是什么感觉。",text
+ms-first-person-view.dialog-306,"第一人称视角有些不同, 是不是？",text
+ms-first-person-view.dialog-307,"向前, 向右偏航。",text
+ms-first-person-view.dialog-308,"好, 现在尝试向左偏航。",text
+ms-first-person-view.dialog-309,错了错了。,text
+ms-first-person-view.dialog-310,向右偏航。,text
+ms-first-person-view.dialog-311,错了错了。,text
+ms-first-person-view.dialog-312,向左偏航。,text
+ms-first-person-view.dialog-313,好了。试试横滚吧。准备好了就向左或向右横滚一下。,text
+ms-first-person-view.dialog-314,去吧。,text
+ms-first-person-view.dialog-315,任务完成。,text
+ms-first-person-view.dialog-316,"学习第一人称视角飞行虽然很难, 但也很有趣。和我一起完成这些任务, 你很快就能进入竞赛状态了。",text
+ms-first-person-view.dialog-317,你要去哪儿？,text
+ms-first-person-view.dialog-318,再试一次吧。,text
+ms-first-person-view.dialog-319,"",text
+ms-first-person-view.dialog-320,你上下颠倒了！再试一次吧。,text
+ms-first-person-view.dialog-321,"",text
+ms-pitch-and-roll.title,俯仰与横滚,text
+ms-pitch-and-roll.description,适应第一人称视角的俯仰与横滚,text
+ms-pitch-and-roll.shortDescription,"第一人称视角飞行可能会让你失去方向感。
+看看我们对此能做些什么。",text
+ms-pitch-and-roll.dialog-363,我们将从俯仰开始。戴上视频眼镜吧。,text
+ms-pitch-and-roll.dialog-364,"我将控制你的油门, 你只需要控制俯仰向前移动。你飞得够远时我会让你停下的。前进吧。",text
+ms-pitch-and-roll.dialog-365,停。,text
+ms-pitch-and-roll.dialog-366,错了错了。重新开始。,text
+ms-pitch-and-roll.dialog-367,飞吧。,text
+ms-pitch-and-roll.dialog-368,好的。准备好了就向后俯仰。我会告诉你什么时候停止。,text
+ms-pitch-and-roll.dialog-369,"哦, 后面有一堵墙。在FPV模式你看不到后面, 所以很容易撞到东西。多多练习, 熟能生巧。",text
+ms-pitch-and-roll.dialog-370,错了错了。重新开始。,text
+ms-pitch-and-roll.dialog-371,飞吧。,text
+ms-pitch-and-roll.dialog-372,好了。试试横滚。准备好了就向右横滚吧。,text
+ms-pitch-and-roll.dialog-373,"这边还有一堵墙。很抱歉, 我只是想让你知道戴上视频眼镜视野会受到很大限制。",text
+ms-pitch-and-roll.dialog-374,错了错了。重新开始。,text
+ms-pitch-and-roll.dialog-375,飞吧。,text
+ms-pitch-and-roll.dialog-376,"爬升到集装箱上方, 向左横滚。我会告诉你什么时候停下来。",text
+ms-pitch-and-roll.dialog-377,好。现在向左横滚。,text
+ms-pitch-and-roll.dialog-378,完美。飞得不错。,text
+ms-pitch-and-roll.dialog-379,任务完成。,text
+ms-pitch-and-roll.dialog-380,FPV飞行中最难掌握的事情之一就是空间意识。知道墙壁的位置会是保持不炸机的关键。,text
+ms-pitch-and-roll.dialog-381,错了错了。重新开始。,text
+ms-pitch-and-roll.dialog-382,飞吧。,text
+ms-pitch-and-roll.dialog-383,你要去哪儿？再试一次吧。,text
+ms-pitch-and-roll.dialog-384,去吧。,text
+ms-pitch-and-roll.dialog-385,当心。再试一次吧。,text
+ms-yaw-know-what-i-mean.title,"偏航, 懂我的意思吗？",text
+ms-yaw-know-what-i-mean.description,适应第一人称视角的偏航。,text
+ms-yaw-know-what-i-mean.shortDescription,"试试看, 适应一下第一人称视角的偏航。",text
+ms-yaw-know-what-i-mean.dialog-457,我们将从简单的开始。戴上视频眼镜吧。,text
+ms-yaw-know-what-i-mean.dialog-458,"撞破这条线上的全部气球。当你到达尽头时, 停止并向左偏航90度撞破破其余的气球。",text
+ms-yaw-know-what-i-mean.dialog-459,很好。,text
+ms-yaw-know-what-i-mean.dialog-460,"现在, 像之前一样, 但有时间限制。记住, 每当到达路线尽头时, 向接下来的气球路线偏航90度。你将有1分钟的时间完成这个部分。",text
+ms-yaw-know-what-i-mean.dialog-461,"时间到, 你差点就完成了！",text
+ms-yaw-know-what-i-mean.dialog-462,再试一次吧。,text
+ms-yaw-know-what-i-mean.dialog-463,"我们要再来一次。在这个部分, 你必须完成几次180度偏航。我相信你可以在1分半内完成的。所以做好准备…",text
+ms-yaw-know-what-i-mean.dialog-464,"时间到, 你差点就完成了！",text
+ms-yaw-know-what-i-mean.dialog-465,再试试吧。,text
+ms-yaw-know-what-i-mean.dialog-466,飞吧。,text
+ms-yaw-know-what-i-mean.dialog-467,相当精彩的飞行。,text
+ms-yaw-know-what-i-mean.dialog-468,"使用偏航会让你失去方向感, 这是你在第一人称视角必须适应的。没有别的办法, 偏航技巧是完成一些最刺激的FPV动作的必需元素。",text
+ms-yaw-know-what-i-mean.dialog-469,"但如果你依然觉得它很难的话, 不要灰心, 即使是职业选手, 在刚开始练习时也遇到很多挫折。只需要和他们一样继续练习就可以了。",text
+ms-yaw-know-what-i-mean.dialog-470,你做得很好。任务完成。,text
+ms-yaw-know-what-i-mean.dialog-471,"好, 现在, 180。",text
+ms-yaw-know-what-i-mean.dialog-472,很好。,text
+ms-yaw-know-what-i-mean.dialog-473,俯仰有点多。再试一次吧。,text
+ms-yaw-know-what-i-mean.dialog-474,你要去哪儿？再试一次吧。,text
+ms-trust-the-thrust.title,拉力训练,text
+ms-trust-the-thrust.description,适应第一人称视角的拉力,text
+ms-trust-the-thrust.shortDescription,注意下无人机的拉力。,text
+ms-trust-the-thrust.dialog-419,我们复习下拉力训练。戴上视频眼镜吧。,text
+ms-trust-the-thrust.dialog-420,"起飞并控制拉力达到和面前气球相同的高度, 然后将它撞破。按你需要做的实际操作下吧。",text
+ms-trust-the-thrust.dialog-421,之后会有更多的气球。你将有2分钟的时间完成这项任务。做好准备。,text
+ms-trust-the-thrust.dialog-422,你做得很好。干得不错。,text
+ms-trust-the-thrust.dialog-423,"将所有的飞行技巧结合使用, 是不是感觉很好？这些只是基础, 但熟练掌握核心技能总没错的。我想我们该尝试一些新东西了。你飞得真不错。",text
+ms-trust-the-thrust.dialog-424,再试一次吧。,text
+ms-trust-the-thrust.dialog-425,飞吧。,text
+ms-trust-the-thrust.dialog-426,你有些飞出范围了。再试一次吧。,text
+ms-trust-the-thrust.dialog-427,俯仰有点过了。再试一次吧。,text
+ms-trust-the-thrust.dialog-428,后面有一个。,text
+ms-trust-the-thrust.dialog-429,撞破它们。,text
+ms-trust-the-thrust.dialog-430,在你的下方寻找剩余的气球。,text
+ms-mixed-mission-medley.title,混合性任务,text
+ms-mixed-mission-medley.description,这是之前所有入门任务的混合。,text
+ms-mixed-mission-medley.shortDescription,来看看你是不是把学到的都记住了。,text
+ms-mixed-mission-medley.dialog-409,来看看你学到了哪些。戴上视频眼镜吧。,text
+ms-mixed-mission-medley.dialog-410,起飞并控制俯仰沿着这条路线飞行。边飞边把气球撞破。就这些。简单吧？,text
+ms-mixed-mission-medley.dialog-411,准备就绪。,text
+ms-mixed-mission-medley.dialog-412,你做得很好。干得不错。,text
+ms-mixed-mission-medley.dialog-413,任务完成。,text
+ms-mixed-mission-medley.dialog-414,你要去哪儿？回到这里。,text
+ms-mixed-mission-medley.dialog-415,去撞破它们。,text
+ms-mixed-mission-medley.dialog-416,当心。再试一次吧。,text
+ms-mixed-mission-medley.dialog-417,这一个在你后面。将它撞破。,text
+ms-mixed-mission-medley.dialog-418,"撞破这最后一个, 然后降落。",text
+ms-wide-turns.title,大转弯,text
+ms-wide-turns.description,学习并练习顺滑转弯。,text
+ms-wide-turns.shortDescription,是时候来解决无人机竞速中最困难的事情之一：转弯。,text
+ms-wide-turns.dialog-443,用左转弯撞破这一圈气球。,text
+ms-wide-turns.dialog-444,准备就绪。,text
+ms-wide-turns.dialog-445,"提示：转弯时要同时控制偏航和横滚, 这样才能顺滑连贯地转弯。",text
+ms-wide-turns.dialog-446,做得很好。,text
+ms-wide-turns.dialog-447,现在用右转撞破气球。,text
+ms-wide-turns.dialog-448,任务完成。,text
+ms-wide-turns.dialog-449,"转弯需要多多练习, 所以非常欢迎你到我这儿来, 再次挑战这项任务。",text
+ms-wide-turns.dialog-450,现在是时候挑战两圈气球了。,text
+ms-wide-turns.dialog-451,加油吧！,text
+ms-wide-turns.dialog-452,任务完成。,text
+ms-wide-turns.dialog-453,"转弯需要多多练习, 所以非常欢迎你到我这儿来, 再次挑战这项任务。",text
+ms-wide-turns.dialog-454,你有些飞出范围了。再试一次吧。,text
+ms-wide-turns.dialog-455,飞吧。,text
+ms-wide-turns.dialog-456,俯仰有点过了。再试一次吧。,text
+ms-flying-circus.title,飞行马戏团,text
+ms-flying-circus.description,三环练习赛道。,text
+ms-flying-circus.shortDescription,"你已经掌握了8字形飞行, 我们看看如何挑战三环赛道。",text
+ms-flying-circus.dialog-354,"这条练习赛道可以帮助你强化刚刚学到的转弯技能。虽然这不是一场竞赛, 但试试看你能多快通过这条赛道。",text
+ms-flying-circus.dialog-355,"如果你开始觉得困难了, 放慢速度, 直到你掌握了转弯动作。你现在唯一的竞争对手是你自己, 不妨公平点, 对吧？",text
+ms-flying-circus.dialog-356,现在看你的了。,text
+ms-flying-circus.dialog-357,现在看你的了。,text
+ms-flying-circus.dialog-358,"看起来不错, 飞行员。
+任务完成。",text
+ms-flying-circus.dialog-359,看起来你已经进入了最佳状态。随时欢迎回来练习。,text
+ms-flying-circus.dialog-360,你有些飞出范围了。再试一次吧。,text
+ms-flying-circus.dialog-361,飞吧。,text
+ms-flying-circus.dialog-362,俯仰有点过了。再试一次吧。,text
+ms-snowman-run.title,雪人赛道,text
+ms-snowman-run.description,"另一个三环练习赛道, 具有连续的急转弯。",text
+ms-snowman-run.shortDescription,"你想堆雪人吗？不过你不能, 今天没有雪。但你可以在雪人赛道上练习。",text
+ms-snowman-run.dialog-475,"这个练习赛道是为了让你急转弯时从容不迫。沿着前方的路线飞行, 尽你最大的努力。",text
+ms-snowman-run.dialog-476,"在这条赛道飞行时, 转弯越来越急, 但在接近终点时会稍微平缓一点。不要担心, 这只是练习。",text
+ms-snowman-run.dialog-477,"保持住, 尽你最大的努力。",text
+ms-snowman-run.dialog-478,提示：记得同时控制偏航和横滚保持转弯顺滑。,text
+ms-snowman-run.dialog-479,又一次相当平稳的飞行。,text
+ms-snowman-run.dialog-480,任务完成。,text
+ms-snowman-run.dialog-481,"较急的转弯需要慢慢适应, 但你肯定准备好了。一定要回来练习哦。",text
+ms-snowman-run.dialog-482,你有些飞出范围了。再试一次吧。,text
+ms-snowman-run.dialog-483,飞吧。,text
+ms-snowman-run.dialog-484,俯仰有点过了。再试一次吧。,text
+ms-slammin-slalom.title,障碍赛道,text
+ms-slammin-slalom.description,使用障碍赛道进行转弯练习。,text
+ms-slammin-slalom.shortDescription,"现在你已经进行了一些基本的转弯练习, 让我们来看看你如何应对这些障碍。",text
+ms-slammin-slalom.dialog-508,这个赛道是为了让你使用刚刚学到的转弯技能。,text
+ms-slammin-slalom.dialog-509,这个赛道是为了让你使用刚刚学到的转弯技能。,text
+ms-slammin-slalom.dialog-510,做得好！,text
+ms-slammin-slalom.dialog-511,干得好。下一步将更具挑战性。,text
+ms-slammin-slalom.dialog-512,准备好了吗？,text
+ms-slammin-slalom.dialog-513,飞得很好！,text
+ms-slammin-slalom.dialog-514,任务完成。,text
+ms-slammin-slalom.dialog-515,"那边没有障碍门, 回到这里",text
+ms-slammin-slalom.dialog-516,小心！再试一次吧。,text
+ms-flight-club.title,飞行俱乐部,text
+ms-flight-club.description,飞行俱乐部的第一条规则就是紧握摇杆。,text
+ms-flight-club.shortDescription,"在此任务中, 我们引入高度变化来练习油门控制。",text
+ms-flight-club.dialog-322,"这个任务有一点曲折。虽然之前所有的练习都让你保持在相同的高度, 但是这个赛道中的一个环要比另外两个更高。",text
+ms-flight-club.dialog-323,"较高的环和两个较低的环之间的高度差并不大, 但是你必须习惯在转弯的同时手动操控高度。这听起来很简单, 但它可能会在一开始给你带来一些麻烦。",text
+ms-flight-club.dialog-324,"在这第一部分, 你将进行左转弯。你能做到的。",text
+ms-flight-club.dialog-325,"在这第一部分, 你将进行左转弯。你能做到的。",text
+ms-flight-club.dialog-326,做得不错。,text
+ms-flight-club.dialog-327,"这一次, 你要进行右转弯了。",text
+ms-flight-club.dialog-328,"你已经完成了左转弯。这对你来说应该没问题。集中注意力, 保持稳定。",text
+ms-flight-club.dialog-329,你能做到的。,text
+ms-flight-club.dialog-330,好的。飞得很好。,text
+ms-flight-club.dialog-331,你很好地适应了高度变化。干得好。,text
+ms-flight-club.dialog-332,任务完成。,text
+ms-flight-club.dialog-333,"你一直在练习你的转弯，并且成果显著。继续坚持, 你将需要这些技巧来完成接下来的任务。",text
+ms-flight-club.dialog-334,你有些飞出范围了。再试一次吧。,text
+ms-flight-club.dialog-335,飞吧。,text
+ms-flight-club.dialog-336,"俯仰有点过了, 再试一次吧。",text
+ms-corsa-di-farfalla.title,蝴蝶航道,text
+ms-corsa-di-farfalla.description,"一条像蝴蝶一样的赛道, 供飞手练习转弯。",text
+ms-corsa-di-farfalla.shortDescription,"这是另一个帮助你练习转弯的赛道。此时, 你应该能够真正做到这一点。",text
+ms-corsa-di-farfalla.dialog-272,"这个和刚才的有点像, 只是现在有四个环, 其中两个比其他的要低。",text
+ms-corsa-di-farfalla.dialog-273,"我们要在高度变化中完成转弯训练。你上一个任务完成得不错, 一旦你掌握了窍门, 这个也没有太大区别。",text
+ms-corsa-di-farfalla.dialog-274,第一部分进行左转弯。没什么是你应付不了的。,text
+ms-corsa-di-farfalla.dialog-275,第一部分进行左转弯。没什么是你应付不了的。,text
+ms-corsa-di-farfalla.dialog-276,做得不错！,text
+ms-corsa-di-farfalla.dialog-277,这次进行右转弯。,text
+ms-corsa-di-farfalla.dialog-278,"你比上次速度快，我非常满意。但是, 保持专注, 不要让高度的变化把你难倒了。",text
+ms-corsa-di-farfalla.dialog-279,准备就绪。,text
+ms-corsa-di-farfalla.dialog-280,开始。,text
+ms-corsa-di-farfalla.dialog-281,一流的飞手。,text
+ms-corsa-di-farfalla.dialog-282,"干得漂亮。这是相当难的一课, 在高度变化的同时保持在赛道中。坚持下去。",text
+ms-corsa-di-farfalla.dialog-283,任务完成。,text
+ms-corsa-di-farfalla.dialog-284,你有些飞出范围了。让我们再试一次。,text
+ms-corsa-di-farfalla.dialog-285,飞吧。,text
+ms-corsa-di-farfalla.dialog-286,"俯仰有点过了, 再试一次吧。",text
+ms-second-slalom.title,第二障碍赛道,text
+ms-second-slalom.description,一个马蹄形障碍赛道。,text
+ms-second-slalom.shortDescription,让我们看看你如何应对曲线上的障碍。,text
+ms-second-slalom.dialog-431,"根据你上个任务的完成情况, 这应该难不倒你的。",text
+ms-second-slalom.dialog-432,"摇杆控制是关键。记住, 在转弯时保持方向, 无论转弯急与否, 都需要同时控制偏航和横滚。",text
+ms-second-slalom.dialog-433,准备就绪。,text
+ms-second-slalom.dialog-434,准备就绪。,text
+ms-second-slalom.dialog-435,你做得很棒。,text
+ms-second-slalom.dialog-436,非常流畅。让我们再把无人机飞回来。,text
+ms-second-slalom.dialog-437,看看你能否在返回时比刚才飞得更快。,text
+ms-second-slalom.dialog-438,准备好了吗？飞吧。,text
+ms-second-slalom.dialog-439,飞得不错。,text
+ms-second-slalom.dialog-440,任务完成。,text
+ms-second-slalom.dialog-441,你有些飞出范围了。再试一次吧。,text
+ms-second-slalom.dialog-442,"俯仰有点过了, 再试一次吧。",text
+ms-dna-run.title,双螺旋赛道,text
+ms-dna-run.description,一个双螺旋形的障碍赛道。,text
+ms-dna-run.shortDescription,"你很轻松地处理了曲线障碍赛道, 我觉得你可以尝试更多的挑战。",text
+ms-dna-run.dialog-287,"这个任务, 我们通过增加更紧的曲线路径和一些高度的变化来提高转弯的难度。",text
+ms-dna-run.dialog-288,"可能需要花点时间适应, 但我觉得你没问题的。试试看你能多快完成这个赛道。",text
+ms-dna-run.dialog-289,准备好。飞吧。,text
+ms-dna-run.dialog-290,准备好。飞吧。,text
+ms-dna-run.dialog-291,好的。,text
+ms-dna-run.dialog-292,任务完成。,text
+ms-dna-run.dialog-293,非常出色的飞手。我想你已经准备好迎接新的挑战了。下个任务见。,text
+ms-dna-run.dialog-294,你有些飞出范围了。我们再试一次。,text
+ms-dna-run.dialog-295,俯仰有点过了。再试一次吧。,text
+ms-fly-r-squared.title,R形赛道,text
+ms-fly-r-squared.description,一个有直角弯的封闭赛道。,text
+ms-fly-r-squared.shortDescription,"在这里, 你将学会如何在急转弯时保持高度。",text
+ms-fly-r-squared.dialog-337,这个赛道是为了让你开始急转弯训练。我们从90度左转弯开始。,text
+ms-fly-r-squared.dialog-338,"飞过障碍门, 撞破在每个角落里的气球。让转弯的轨迹尽可能小, 同时保持你的动量。",text
+ms-fly-r-squared.dialog-339,准备就绪。,text
+ms-fly-r-squared.dialog-340,准备就绪。,text
+ms-fly-r-squared.dialog-341,做得很好。,text
+ms-fly-r-squared.dialog-342,这一次你将进行90度右转弯。,text
+ms-fly-r-squared.dialog-343,"你在左转弯时做得很好, 试着在右转弯时做同样的动作。记住, 尽量减小转弯轨迹并保持动量。",text
+ms-fly-r-squared.dialog-344,让我们开始吧。,text
+ms-fly-r-squared.dialog-345,看起来不错。,text
+ms-fly-r-squared.dialog-346,"对于这一部分, 你将从在赛道的左侧部分进行左转弯开始, 然后在右侧部分进行右转弯, 完成整个飞行路径。这一次, 让我们把速度提高一点。",text
+ms-fly-r-squared.dialog-347,"你真的开始掌握急转弯的诀窍了。整个赛道有8个转弯, 并在中间有个转换, 这应该是对飞行技能的一个很好的测试。",text
+ms-fly-r-squared.dialog-348,加油。,text
+ms-fly-r-squared.dialog-349,了不起！你会成为一名出色的飞手。,text
+ms-fly-r-squared.dialog-350,任务完成。,text
+ms-fly-r-squared.dialog-351,那边没有障碍门。回到这里。,text
+ms-fly-r-squared.dialog-352,"小心, 再试一次吧。",text
+ms-the-square-route.title,直角路线,text
+ms-the-square-route.description,"一个充满直角的赛道, 供飞手练习90度转弯。",text
+ms-the-square-route.shortDescription,这条赛道是你刚刚练习的90度转弯的延伸。试着尽可能快地完成这些转弯。,text
+ms-the-square-route.dialog-396,"和之前一样：沿着障碍门为你创造的路线, 尽可能快地完成它。尽量不要偏离太远, 因为如果那样, 你将不得不重来。",text
+ms-the-square-route.dialog-397,"这条赛道同样会有高度的变化, 注意它会如何影响你的转弯。",text
+ms-the-square-route.dialog-398,"与其他赛道一样, 这对你来说并不难。注意力保持专注。",text
+ms-the-square-route.dialog-399,"与其他赛道一样, 这对你来说并不难。注意力保持专注。",text
+ms-the-square-route.dialog-400,不错。,text
+ms-the-square-route.dialog-401,你在上一部分做得很好。我们接着来。,text
+ms-the-square-route.dialog-402,我很高兴看到你作为一名飞手所取得的进步。坚持下去。,text
+ms-the-square-route.dialog-403,准备就绪。加油！,text
+ms-the-square-route.dialog-404,"飞得真棒, 你简直是个王牌飞手！你证明了熟能生巧, 你应该为自己感到骄傲。",text
+ms-the-square-route.dialog-405,任务完成。,text
+ms-the-square-route.dialog-406,那边没有障碍门。回到这里。,text
+ms-the-square-route.dialog-407,小心。再试一次吧。,text
+ms-hour-glass.title,沙漏赛道,text
+ms-hour-glass.description,这条赛道是为了让飞手练习45度转弯。,text
+ms-hour-glass.shortDescription,这条赛道将通过45度转弯挑战你的急转弯技能。,text
+ms-hour-glass.dialog-517,"目前来说, 你应该能够快速地完成赛道了, 但是如果你需要放慢速度, 那也没关系。但请记住, 在真正的赛道上可没有放慢速度一说。",text
+ms-hour-glass.dialog-518,"这些转弯比以前更急, 但概念是一样的。记住, 转弯时要尽可能地靠近杆子, 别迷失了方向。",text
+ms-hour-glass.dialog-519,准备就绪。,text
+ms-hour-glass.dialog-520,记住同时控制偏航和横滚来完成急转弯。,text
+ms-hour-glass.dialog-521,不错哦！,text
+ms-hour-glass.dialog-522,这次你的飞行路线会出现一些起伏。,text
+ms-hour-glass.dialog-523,"这样做会更有挑战性, 但通过练习, 你会适应的。",text
+ms-hour-glass.dialog-524,准备好了吗？飞吧！,text
+ms-hour-glass.dialog-525,记住同时控制偏航和横滚来完成急转弯。,text
+ms-hour-glass.dialog-526,我怎么跟你说的?飞得不错。,text
+ms-hour-glass.dialog-527,任务完成。,text
+ms-hour-glass.dialog-528,"干得不错, 下个任务见。",text
+ms-hour-glass.dialog-529,你有些飞出范围了。再试一次吧。,text
+ms-hour-glass.dialog-530,"俯仰有点过了, 再试一次吧。",text
+ms-star-road.title,星光大道,text
+ms-star-road.description,这个星形赛道将用小于45度的急转弯挑战飞手的技能。,text
+ms-star-road.shortDescription,"转弯的角度越来越急, 但你的飞行技术也越来越好。让我们看看你能完成得怎么样。",text
+ms-star-road.dialog-497,"转弯越急, 对精准度的要求越高。",text
+ms-star-road.dialog-498,"这个部分, 你将使用右转弯。靠近杆子, 集中注意力。",text
+ms-star-road.dialog-499,记住同时控制偏航和横滚来完成急转弯。,text
+ms-star-road.dialog-500,很好！,text
+ms-star-road.dialog-501,这部分我们练习左转弯。,text
+ms-star-road.dialog-502,保持住。摇杆控制和精准度将助你赢得比赛。,text
+ms-star-road.dialog-503,记住同时控制偏航和横滚来完成急转弯。,text
+ms-star-road.dialog-504,飞得很好！,text
+ms-star-road.dialog-505,任务完成。,text
+ms-star-road.dialog-506,你有些飞出范围了。再试一次吧。,text
+ms-star-road.dialog-507,"俯仰有点过了, 再试一次吧。",text
+ms-rising-sun.title,旭日东升,text
+ms-rising-sun.description,这条赛道将以目前为止最急的转弯挑战飞手。,text
+ms-rising-sun.shortDescription,"你所进行的练习都是为此而准备的, 最急的转弯。",text
+ms-rising-sun.dialog-386,"这非常简单明了, 你只需要飞向每个出现的气球, 然后撞破它。",text
+ms-rising-sun.dialog-387,这一次你会有一个时间限制。确保在时间耗尽之前撞破全部气球。加油吧。,text
+ms-rising-sun.dialog-388,这一次你会有一个时间限制。确保在时间耗尽之前撞破全部气球。加油吧。,text
+ms-rising-sun.dialog-389,哇！,text
+ms-rising-sun.dialog-390,"上一部分你做得很好, 所以我把挑战难度提高了一点。",text
+ms-rising-sun.dialog-391,没有什么是你不能应对的。让我们试一试。,text
+ms-rising-sun.dialog-392,你真是个天才！,text
+ms-rising-sun.dialog-393,任务完成。,text
+ms-rising-sun.dialog-394,你有些飞出范围了。再试一次吧。,text
+ms-rising-sun.dialog-395,"俯仰有点过了, 再试一次吧。",text
+ms-zig-zag.title,Z字形赛道,text
+ms-zig-zag.description,180度转弯练习。,text
+ms-zig-zag.shortDescription,"这些转弯会非常难, 
+但也非常有趣。",text
+ms-zig-zag.dialog-485,"这个任务非常直接。穿过障碍门, 撞破气球, 折返, 穿过相同的障碍门, 找到下一组障碍门和气球, 然后重复之前的动作。",text
+ms-zig-zag.dialog-486,"确保尽可能快地通过全部障碍门, 因为我们会计时。开始吧。",text
+ms-zig-zag.dialog-487,你做得很好。让我们再来一次。,text
+ms-zig-zag.dialog-488,看来你要飞得更快才行。再试一次。熟能生巧。,text
+ms-zig-zag.dialog-489,准备就绪。,text
+ms-zig-zag.dialog-490,飞吧。,text
+ms-zig-zag.dialog-491,太棒了。,text
+ms-zig-zag.dialog-492,任务完成。,text
+ms-zig-zag.dialog-493,"现在你已经掌握了转弯的诀窍, 你已经为下一步的训练做好了准备。我得做些布置。一会儿见。",text
+ms-zig-zag.dialog-494,看来你要飞得更快才行。再试一次。熟能生巧。,text
+ms-zig-zag.dialog-495,你有些飞出范围了。让我们再试一次。,text
+ms-zig-zag.dialog-496,"俯仰有点过了, 再试一次吧。",text
+ms-a-flight-in-the-woods.title,树林飞行,text
+ms-a-flight-in-the-woods.description,穿过树林的障碍赛道。,text
+ms-a-flight-in-the-woods.shortDescription,这个任务需要你把所学到技能的全部运用上。,text
+ms-a-flight-in-the-woods.dialog-263,你有4分钟的时间穿越障碍到达湖那里。,text
+ms-a-flight-in-the-woods.dialog-264,"你已经练习了这么多, 想必这条赛道不会给你带来太大的麻烦。",text
+ms-a-flight-in-the-woods.dialog-265,准备好了吗？飞吧！,text
+ms-a-flight-in-the-woods.dialog-266,准备好了吗？飞吧！,text
+ms-a-flight-in-the-woods.dialog-267,做得不错！,text
+ms-a-flight-in-the-woods.dialog-268,任务完成。,text
+ms-a-flight-in-the-woods.dialog-269,"时间到。你能做到的, 再试一次吧。",text
+ms-a-flight-in-the-woods.dialog-270,你有些飞出范围了。让我们再试一次。,text
+ms-a-flight-in-the-woods.dialog-271,"俯仰有点过了, 再试一次吧。",text
+ms-back-to-basics.title,回归基础,text
+ms-back-to-basics.description,欢迎来到进阶模式。,text
+ms-back-to-basics.shortDescription,"是时候进行下一步了, 成为一名无人机竞速飞手。进阶模式意味着你将更全面地掌控你的无人机。同时也意味着一系列新的挑战。",text
+ms-back-to-basics.dialog-568,这个任务将帮助你适应在进阶模式操控无人机。,text
+ms-back-to-basics.dialog-569,进阶模式有两点变化：,text
+ms-back-to-basics.dialog-570,"第一, 油门辅助功能关闭, 所以无人机无法在你不进行相应操作的情况下保持高度。",text
+ms-back-to-basics.dialog-571,"第二, 稳定辅助功能也将关闭, 所以无人机无法在你不进行相应操作的情况下自动保持水平。",text
+ms-back-to-basics.dialog-572,"把无人机带出去兜兜风, 试试几个基本的手动操作, 同时把我所说的牢牢记住。",text
+ms-back-to-basics.dialog-573,"把无人机带出去兜兜风, 试试几个基本的手动操作, 同时把我所说的牢牢记住。",text
+ms-back-to-basics.dialog-574,任务完成。,text
+ms-back-to-basics.dialog-575,如果你已经完成飞行，长按A键提前结束任务。,text
+ms-back-to-basics.dialog-576,任务完成。,text
+ms-back-to-basics.dialog-577,"你的无人机翻了。当辅助功能关闭时, 你必须记得调整无人机保持水平。让我们回到那里再试一次。",text
+ms-back-to-basics.dialog-578,"你飞得太远了, 让我们待在体育场内。",text
+ms-flying-steady.title,"回归基础, 稳定飞行",text
+ms-flying-steady.description,"在这个任务中我们将关注油门控制。这是所有FPV飞行的基础, 熟练掌握这个技术, 其他的自然会水到渠成。",text
+ms-flying-steady.shortDescription,正如你所注意到的，油门控制在进阶/专业模式下需要投入更多的注意力。,text
+ms-flying-steady.dialog-605,这个任务中你将练习悬停。起飞并保持高度。试着停留在距离起飞点的几英尺的范围之内。,text
+ms-flying-steady.dialog-606,这个任务中你将练习悬停。起飞并保持高度。试着停留在距离起飞点的几英尺的范围之内。,text
+ms-flying-steady.dialog-607,"很好, 现在让无人机飞得再高一点。",text
+ms-flying-steady.dialog-608,做得不错！,text
+ms-flying-steady.dialog-609,"你可以看到, 无论是让无人机在空中保持飞行, 还是在一个固定的位置保持稳定, 都需要付出一些努力。你做得很好。任务完成。",text
+ms-flying-steady.dialog-610,"你的无人机翻了。当辅助功能关闭时, 你必须记得调整无人机保持水平。让我们回到那里再试一次。",text
+ms-flying-steady.dialog-611,"你飞得有点远。
+再试一次吧。",text
+ms-flying-steady.dialog-612,"太高了, 再试一次吧。",text
+ms-up-and-out.title,"回归基础, 向上和向前",text
+ms-up-and-out.description,"好的, 让我们练习向前移动后的油门控制。保持微调是成为专业飞手的关键。你需要随时进行调整。",text
+ms-up-and-out.shortDescription,"这次任务, 我们将强化那些油门技巧。",text
+ms-up-and-out.dialog-735,按照我的指示去做。加大油门。,text
+ms-up-and-out.dialog-736,按照我的指示去做。加大油门。,text
+ms-up-and-out.dialog-737,飞得很好！,text
+ms-up-and-out.dialog-738,太高了。,text
+ms-up-and-out.dialog-739,"你飞得太远了。
+再试一次吧。",text
+ms-up-and-out.dialog-741,"爬升到出现气球的地方, 然后撞破它。保持那个高度, 直到下一个气球出现, 重复动作。正在进行计时。",text
+ms-up-and-out.dialog-742,"干得漂亮, 任务完成。",text
+ms-up-and-out.dialog-743,"太高了, 再试一次。",text
+ms-up-and-out.dialog-744,"离地面太近了, 再来一次。",text
+ms-up-and-out.dialog-745,你上下颠倒了！再试一次吧。,text
+ms-up-and-out.dialog-746,"你飞得太远了。
+再试一次吧。",text
+ms-up-and-over.title,"回归基础, 向上和越过",text
+ms-up-and-over.description,"我们继续对于控制的学习。在此任务中, 我们将练习横滚后的油门控制。记住, 顺滑的摇杆控制是关键。",text
+ms-up-and-over.shortDescription,"这次任务, 我们将强化那些油门技巧。",text
+ms-up-and-over.dialog-747,屏幕提示将引导你到你需要去的地方。,text
+ms-up-and-over.dialog-748,屏幕提示将引导你到你需要去的地方。,text
+ms-up-and-over.dialog-749,"和之前一样, 跟着屏幕提示。这次将计时。",text
+ms-up-and-over.dialog-750,干得漂亮！任务完成。,text
+ms-up-and-over.dialog-751,"你飞得太远了。
+再试一次吧。",text
+ms-up-and-over.dialog-752,你上下颠倒了！再试一次吧。,text
+ms-up-and-over.dialog-753,"离地面太近了, 再试一次吧。",text
+ms-like-a-record.title,"回归基础, 偏航",text
+ms-like-a-record.description,"偏航, 和它在屏幕上的效果",text
+ms-like-a-record.shortDescription,"在此任务中, 我们将在进阶模式下练习偏航。",text
+ms-like-a-record.dialog-622,"由于无人机的摄像头是安装成有一定角度的, 因此当无人机俯仰的同时进行偏航操作, 该运动产生的效果就像摄像头在做U形运动。",text
+ms-like-a-record.dialog-623,当你进行向右偏航时，我将无人机保持在原位。,text
+ms-like-a-record.dialog-624,"好的。通常情况下, 飞行时你不会仅仅使用偏航。无人机竞速中的大部分动作都需要同时控制两根摇杆。",text
+ms-like-a-record.dialog-625,"在转弯过程中让你的无人机保持水平, 需要同时控制两根摇杆。",text
+ms-like-a-record.dialog-626,错了错了。,text
+ms-like-a-record.dialog-627,进行向右偏航。,text
+ms-like-a-record.dialog-628,"我将再次将无人机保持在原位, 但这次同时控制偏航和横滚, 使无人机保持相对水平。",text
+ms-like-a-record.dialog-629,"非常好, 再来一次吧。",text
+ms-like-a-record.dialog-630,任务完成。,text
+ms-like-a-record.dialog-631,"我知道这并不简单, 但现在你完成了, 你能更好地处理这些情况了。进行下一个任务吧！",text
+ms-back-it-up.title,"回归基础, 倒飞。",text
+ms-back-it-up.description,练习向后俯仰。,text
+ms-back-it-up.shortDescription,"这个任务将实实在在挑战你的技能。
+准备练习向后俯仰。",text
+ms-back-it-up.dialog-543,"我想让你在空中直接起飞, 然后向后俯仰。当你直接越过第一个目标时, 指示器会告诉你的。",text
+ms-back-it-up.dialog-544,准备好了吗？飞吧！,text
+ms-back-it-up.dialog-545,准备好了吗？飞吧！,text
+ms-back-it-up.dialog-546,"太好了。再来一次, 然后降落。",text
+ms-back-it-up.dialog-547,干得不错。俯仰向后本身就容易使人迷失方向，在进阶/专业模式下就更是如此。你会想要反复进行练习的。让我们再来一次！,text
+ms-back-it-up.dialog-548,加油。,text
+ms-back-it-up.dialog-549,任务完成。,text
+ms-back-it-up.dialog-550,"你要去哪里？
+再试一次吧。",text
+ms-back-it-up.dialog-551,你上下颠倒了！再试一次吧。,text
+ms-lets-mix-it-up.title,"回归基础, 混合练习",text
+ms-lets-mix-it-up.description,之前任务的大混合。,text
+ms-lets-mix-it-up.shortDescription,是时候把你所学的知识运用到测试中了。,text
+ms-lets-mix-it-up.dialog-613,"起飞后, 向后俯仰并悬停, 然后跟着一个个出现的气球。如果没有气球再出现了, 那么保持你的位置, 直到下一个出现。",text
+ms-lets-mix-it-up.dialog-614,祝你好运！飞吧！,text
+ms-lets-mix-it-up.dialog-615,祝你好运！飞吧！,text
+ms-lets-mix-it-up.dialog-616,很好！,text
+ms-lets-mix-it-up.dialog-617,干得漂亮。任务完成。,text
+ms-lets-mix-it-up.dialog-618,"这一部分和之前一样, 起飞, 向后俯仰并撞破气球, 然后跟着气球。",text
+ms-lets-mix-it-up.dialog-619,计时中。,text
+ms-lets-mix-it-up.dialog-620,你上下颠倒了！再试一次吧。,text
+ms-lets-mix-it-up.dialog-621,"你要去哪里？
+再试一次吧。",text
+ms-around-the-bend.title,"回归基础, 转弯",text
+ms-around-the-bend.description,"让我们绕过旗帜进行转弯。在此任务中, 你将进行大幅度的左右转弯。此处的关键是顺滑稳定的摇杆控制。",text
+ms-around-the-bend.shortDescription,是时候练习转弯了。,text
+ms-around-the-bend.dialog-531,是时候在进阶/专业模式下应对转弯了。跟随旗帜标出的路径，离它们尽可能近地完成转弯。,text
+ms-around-the-bend.dialog-532,"这一开始可能会令人沮丧。在这里慢慢来是没有错的, 你可以随意练习。多练习有助于提升速度。出发吧。",text
+ms-around-the-bend.dialog-533,"非常好, 现在我们试一下左转弯。",text
+ms-around-the-bend.dialog-534,飞得不错！让我们加大难度。,text
+ms-around-the-bend.dialog-535,"在这一部分, 我们飞一个S形路径。",text
+ms-around-the-bend.dialog-536,很好！任务完成。从这里开始你将慢慢掌握转弯的技术。,text
+ms-around-the-bend.dialog-537,靠得太近了。,text
+ms-around-the-bend.dialog-538,"你飞得有点远, 再试一次吧。",text
+ms-around-the-bend.dialog-539,再试一次。,text
+ms-around-the-bend.dialog-540,你要去哪里？,text
+ms-around-the-bend.dialog-541,沿着路径你将完成任务。,text
+ms-around-the-bend.dialog-542,你要去哪里？,text
+ms-circles-are-friends.title,"回归基础, 圆圈赛道是我们的好朋友",text
+ms-circles-are-friends.description,这个任务要飞完整个圆形。,text
+ms-circles-are-friends.shortDescription,"这个任务, 我们要去转弯飞一个整圈。",text
+ms-circles-are-friends.dialog-591,"起飞并飞向你面前的障碍门, 然后按照旗帜创建的路径飞行。这个任务的目标就是尽快完成两圈飞行任务。",text
+ms-circles-are-friends.dialog-592,"准备好了吗？ 当你穿越第一个障碍门时, 计时开始。",text
+ms-circles-are-friends.dialog-593,"准备好了吗？ 当你穿越第一个障碍门时, 计时开始。",text
+ms-circles-are-friends.dialog-594,真棒！让我们再来一次。,text
+ms-circles-are-friends.dialog-595,任务完成。,text
+ms-circles-are-friends.dialog-596,"太近了。
+再试一次吧。",text
+ms-circles-are-friends.dialog-597,试着靠近旗帜创建的路径。,text
+ms-circles-are-friends.dialog-598,再试一次吧。,text
+ms-build-a-snowman.title,"回归基础, 你想要堆个雪人吗？",text
+ms-build-a-snowman.description,"我们真的很喜欢雪人, 所以我们又做了个和雪人相关的任务。保持摇杆的稳定, 并记得在转弯时同时控制两根摇杆。",text
+ms-build-a-snowman.shortDescription,"这个很有趣。
+让我们开始吧。",text
+ms-build-a-snowman.dialog-579,"飞入赛道, 并右转通过第一个圆环, 然后通过其余的圆环。注意, 因为环形的大小不同, 你的转弯会变得越来越急。",text
+ms-build-a-snowman.dialog-580,这是你以前没有做过的事情。 准备就绪。,text
+ms-build-a-snowman.dialog-581,飞吧。,text
+ms-build-a-snowman.dialog-582,飞吧。,text
+ms-build-a-snowman.dialog-583,做得不错。,text
+ms-build-a-snowman.dialog-584,"这个赛道是刚才的一个略小版本, 你将遵循相同的路径。转弯将会更急, 我们会为你计时。没什么是你做不到的。",text
+ms-build-a-snowman.dialog-585,飞吧。,text
+ms-build-a-snowman.dialog-586,"好极了, 和以前一样！",text
+ms-build-a-snowman.dialog-587,别犹豫。,text
+ms-build-a-snowman.dialog-588,很好。任务完成。,text
+ms-build-a-snowman.dialog-589,"你飞得有点远。
+再试一次吧。",text
+ms-build-a-snowman.dialog-590,俯仰太多了。再试一次吧。,text
+ms-figure-8.title,8字形,text
+ms-figure-8.description,飞8字形练习转弯。,text
+ms-figure-8.shortDescription,"适应在进阶模式下转弯需要一些练习。
+这条赛道会对此有所帮助。",text
+ms-figure-8.dialog-599,"绕这条赛道三圈。如果你遇到了问题, 那就慢慢来。你可以随时回来挑战赛道纪录。",text
+ms-figure-8.dialog-600,"绕这条赛道三圈。如果你遇到了问题, 那就慢慢来。你可以随时回来挑战赛道纪录。",text
+ms-figure-8.dialog-601,"非常棒, 我们再来一次。",text
+ms-figure-8.dialog-602,"很好, 任务完成。",text
+ms-figure-8.dialog-603,你上下颠倒了！再试一次吧。,text
+ms-figure-8.dialog-604,"你要去哪里？
+再试一次吧。",text
+ms-the-ringer.title,环形赛道,text
+ms-the-ringer.description,环形赛道的竞赛。,text
+ms-the-ringer.shortDescription,这条赛道会让你在一个更接近竞赛的环境里适应转弯。,text
+ms-the-ringer.dialog-721,"起飞并从右侧接近杆子。左转绕过杆子, 然后飞向下一个。",text
+ms-the-ringer.dialog-722,"当你回到起点时停止该动作, 然后降落。屏幕指示将引导你完成赛道飞行。",text
+ms-the-ringer.dialog-723,"飞得不错, 我们再来一次。不过这一次, 将从左侧接近, 右转弯绕过杆子。",text
+ms-the-ringer.dialog-724,任务完成。,text
+ms-the-ringer.dialog-725,你上下颠倒了！再试一次吧。,text
+ms-the-ringer.dialog-726,"你飞得有点远了。
+再试一次吧。",text
+ms-wish-upon-a-star.title,向星星许愿,text
+ms-wish-upon-a-star.description,在星形赛道上练习转弯,text
+ms-wish-upon-a-star.shortDescription,"这是我们为了帮助你练习转弯, 设计的另外一条赛道。",text
+ms-wish-upon-a-star.dialog-754,"起飞并沿星形赛道飞行。杆子是转弯标志, 屏幕指示会告诉你应该往哪个方向飞行。",text
+ms-wish-upon-a-star.dialog-755,"你可以试着尽快飞完一圈。但如果这个赛道对你来说有些困难, 放慢速度, 直到找到窍门为止。",text
+ms-wish-upon-a-star.dialog-756,真棒！这次试着飞得再快一点吧！,text
+ms-wish-upon-a-star.dialog-757,任务完成。,text
+ms-wish-upon-a-star.dialog-758,你上下颠倒了！再试一次吧。,text
+ms-wish-upon-a-star.dialog-759,"你要去哪里？
+再试一次吧。",text
+ms-search-and-destroy.title,寻找与毁灭,text
+ms-search-and-destroy.description,在市中心追踪气球。,text
+ms-search-and-destroy.shortDescription,"这是个有趣的任务。
+让我们把你所学到的知识付诸实践。",text
+ms-search-and-destroy.dialog-642,"我在市区周围隐藏了一些气球。在规定时间内, 利用你的技能找到并撞破全部气球。",text
+ms-search-and-destroy.dialog-643,"如果你一开始遇到困难, 我会给你指出正确的方向。记住你有6分钟的时间, 一旦开始计时就不会停止。",text
+ms-search-and-destroy.dialog-644,完成任务,text
+ms-search-and-destroy.dialog-645,"时间到。
+再试一次吧。",text
+ms-search-and-destroy.dialog-646,"如果你一开始遇到困难, 我会给你指出正确的方向。记住你有6分钟的时间, 一旦开始计时就不会停止。",text
+ms-search-and-destroy.dialog-647,"你要去哪里？
+再试一次吧。",text
+ms-search-and-destroy.dialog-648,你上下颠倒了！,text
+ms-search-and-destroy.dialog-649,再试一次吧。,text
+ms-the-double-helix.title,双螺旋,text
+ms-the-double-helix.description,这个任务有趣并富有挑战性。跟着赛道的起伏飞行吧。,text
+ms-the-double-helix.shortDescription,这个任务有趣并富有挑战性。跟着赛道的起伏飞行吧。,text
+ms-the-double-helix.dialog-650,"这个任务很直接。 沿着路径向下, 再沿着斜坡向上飞向另一边。 计时器将会为你计时。",text
+ms-the-double-helix.dialog-651,记得同时控制两个摇杆快速顺滑地转弯。,text
+ms-the-double-helix.dialog-652,记得同时控制两个摇杆快速顺滑地转弯。,text
+ms-the-double-helix.dialog-653,飞得太棒了！,text
+ms-the-double-helix.dialog-654,再试一次吧。,text
+ms-the-double-helix.dialog-655,完成任务。,text
+ms-the-double-helix.dialog-656,时间到。再试一次吧。,text
+ms-the-double-helix.dialog-657,你上下颠倒了！再试一次吧。,text
+ms-the-double-helix.dialog-658,你要去哪里？,text
+ms-the-double-helix.dialog-659,再试一次吧。,text
+ms-off-the-beaten-path.title,全新的赛道,text
+ms-off-the-beaten-path.description,在这个简单的赛道上运用你所学到的技巧飞行吧。,text
+ms-off-the-beaten-path.shortDescription,是时候在微型赛道上运用你的飞行技巧了。,text
+ms-off-the-beaten-path.dialog-632,"集中注意力, 尽快完成赛道。你需要飞行两圈才能完成。协调好两个摇杆是取得胜利的关键。祝你好运！",text
+ms-off-the-beaten-path.dialog-633,任务完成。,text
+ms-off-the-beaten-path.dialog-634,你上下颠倒了！再试一次吧。,text
+ms-off-the-beaten-path.dialog-635,你要去哪里？,text
+ms-off-the-beaten-path.dialog-636,再试一次吧。,text
+ms-parking-lot-slalom.title,停车场障碍赛,text
+ms-parking-lot-slalom.description,一个迈阿密停车场中的障碍赛。,text
+ms-parking-lot-slalom.shortDescription,我想是时候用障碍赛来检验一下你的飞行技巧了。,text
+ms-parking-lot-slalom.dialog-637,"这很简洁, 但却富有挑战性。先在停车场穿越障碍, 然后绕过最后一个杆子并折返。",text
+ms-parking-lot-slalom.dialog-638,任务完成。,text
+ms-parking-lot-slalom.dialog-639,你上下颠倒了！再试一次吧。,text
+ms-parking-lot-slalom.dialog-640,你要去哪里？,text
+ms-parking-lot-slalom.dialog-641,再试一次吧。,text
+ms-the-obstacle-course.title,障碍赛道,text
+ms-the-obstacle-course.description,一个迈阿密停车场中的障碍赛道。,text
+ms-the-obstacle-course.shortDescription,"你的飞行技术很棒, 但是你的摇杆控制水平如何？",text
+ms-the-obstacle-course.dialog-660,又一个简洁却富有挑战性的赛道。尽你所能保持在赛道之中，并沿路径飞行。,text
+ms-the-obstacle-course.dialog-661,"摇杆控制将会是保持在赛道中的关键。你要确保时刻关注你的动量, 尤其是在转弯的时候。",text
+ms-the-obstacle-course.dialog-662,任务完成。,text
+ms-the-obstacle-course.dialog-663,你上下颠倒了！再试一次吧。,text
+ms-the-obstacle-course.dialog-664,"你要去哪里？
+再试一次吧。",text
+ms-the-obstacle-course.dialog-665,时间到！,text
+ms-the-sweeper.title,大幅度转弯,text
+ms-the-sweeper.description,在码头练习大幅度转弯。,text
+ms-the-sweeper.shortDescription,"现在你应该能明白我们的目标, 你正在成为一名出色的飞手。",text
+ms-the-sweeper.dialog-727,关键是牢记你要随时掌控你的无人机。干净利落的控制需要同时操控两个摇杆。,text
+ms-the-sweeper.dialog-728,"如果你一次只控制一个摇杆, 那么你将花费大部分时间来修正你的动作。",text
+ms-the-sweeper.dialog-729,"飞得不错, 让我们再来一次。",text
+ms-the-sweeper.dialog-730,记得同时控制两个摇杆来让操控最大化。,text
+ms-the-sweeper.dialog-731,任务完成。,text
+ms-the-sweeper.dialog-732,你上下颠倒了！再试一次吧。,text
+ms-the-sweeper.dialog-733,你要去哪里？,text
+ms-the-sweeper.dialog-734,再试一次吧。,text
+ms-your-first-race.title,你的第一场竞赛,text
+ms-your-first-race.description,欢迎来到FPV竞赛。,text
+ms-your-first-race.shortDescription,"我听说有几个飞手在体育场设置了赛道, 我们去看看吧。",text
+ms-your-first-race.dialog-760,"这些飞手已经取得了不错的成绩, 但是我认为你可以超越他们。",text
+ms-your-first-race.dialog-761,你的第一个挑战是全明星Axel 2分30秒的纪录。,text
+ms-your-first-race.dialog-762,做得不错！现在他是陨落的明星了。,text
+ms-your-first-race.dialog-763,接下来是狂人Marko 2分钟的纪录。,text
+ms-your-first-race.dialog-764,"你凭借出色的飞行技巧, 把狂人变成了悲伤的人。",text
+ms-your-first-race.dialog-765,最后一个要挑战的是排名第一的Tony。他以90秒的稳定成绩保持着这条赛道的纪录。,text
+ms-your-first-race.dialog-766,你现在是第一名了。任务完成。,text
+ms-your-first-race.dialog-767,你上下颠倒了！再试一次吧。,text
+ms-your-first-race.dialog-768,"你要去哪里？
+再试一次吧。",text
+ms-your-first-race.dialog-769,时间到！,text
+ms-the-playground.title,训练场,text
+ms-the-playground.description,沿着训练路线练习一下之前学习到的理论。,text
+ms-the-playground.shortDescription,"在此任务中, 你将有足够的空间和时间尽情挑战自己。欢迎来到训练场。",text
+ms-the-playground.dialog-688,欢迎来到训练场。,text
+ms-the-playground.dialog-689,长按“L”键可结束任务。,text
+ms-the-playground.dialog-690,"加大油门, 让线保持在你的视线之内。",text
+ms-the-playground.dialog-691,做得不错！尝试其它挑战。,text
+ms-the-playground.dialog-692,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-693,"俯仰向前, 努力保持在路线之上。",text
+ms-the-playground.dialog-694,要记住技术要点（进阶模式中你需要控制油门和俯仰）,text
+ms-the-playground.dialog-695,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-696,"下降, 保持无人机在路线之上。",text
+ms-the-playground.dialog-697,要记住技术要点。,text
+ms-the-playground.dialog-698,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-699,练习长斜坡+提示,text
+ms-the-playground.dialog-700,要记住技术要点。,text
+ms-the-playground.dialog-701,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-702,目标+提示。向下飞的同时寻找黄球。通过偏航和油门来调节速度。,text
+ms-the-playground.dialog-703,完成！要记住技术要点。,text
+ms-the-playground.dialog-704,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-705,"控制俯仰, 沿着路线稳定飞行。",text
+ms-the-playground.dialog-706,做得不错！尝试其它挑战。,text
+ms-the-playground.dialog-707,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-708,"控制俯仰, 沿着路线稳定飞行。",text
+ms-the-playground.dialog-709,做得不错！尝试其它挑战。,text
+ms-the-playground.dialog-710,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-711,"控制俯仰, 沿着路线稳定飞行。",text
+ms-the-playground.dialog-712,做得不错！尝试其它挑战。,text
+ms-the-playground.dialog-713,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-714,"控制俯仰, 沿着路线稳定飞行。",text
+ms-the-playground.dialog-715,做得不错！尝试其它挑战。,text
+ms-the-playground.dialog-716,"你飞得太远了。
+回来再试一次吧。",text
+ms-the-playground.dialog-717,再试一次吧。,text
+ms-the-playground.dialog-718,"你飞出范围了, 尽量保持在场地内。",text
+ms-the-playground.dialog-719,非常棒！你可以随时回来练习！,text
+ms-the-playground.dialog-720,任务完成。,text
+ms-the-pitch-throttle-relations.title,俯仰与油门的关联,text
+ms-the-pitch-throttle-relations.description,了解进阶模式下俯仰与油门之间的关联。,text
+ms-the-pitch-throttle-relations.shortDescription,这个任务将教会你在进阶模式下飞行的基本理论。,text
+ms-the-pitch-throttle-relations.dialog-666,注意理解在进阶模式下如何控制无人机。,text
+ms-the-pitch-throttle-relations.dialog-667,控制油门防止坠机。,text
+ms-the-pitch-throttle-relations.dialog-668,"第一课：进阶模式下, 你需要通过油门来保持高度。",text
+ms-the-pitch-throttle-relations.dialog-669,"高度过低。在中级模式下, 你必须不断地控制油门保持高度。",text
+ms-the-pitch-throttle-relations.dialog-670,穿过目标门。,text
+ms-the-pitch-throttle-relations.dialog-671,发生了什么？让我解释一下。,text
+ms-the-pitch-throttle-relations.dialog-672,"仅控制俯仰不再能让无人机移动, 在进阶模式, 它主要控制无人机倾角, 所以你需要将俯仰与油门结合起来获得拉力。",text
+ms-the-pitch-throttle-relations.dialog-673,"这种平衡比较复杂, 通过在线之间飞行来感受这种平衡。",text
+ms-the-pitch-throttle-relations.dialog-674,"第二课：俯仰控制倾角, 油门在此基础上提供拉力。",text
+ms-the-pitch-throttle-relations.dialog-675,"引入横滚和偏航后会更加复杂, 但是原理是一样的。",text
+ms-the-pitch-throttle-relations.dialog-676,高度过低。减小俯仰并加大油门来提升高度。,text
+ms-the-pitch-throttle-relations.dialog-677,高度过高。减小油门。提示：加大俯仰和油门可以向前移动。,text
+ms-the-pitch-throttle-relations.dialog-678,让我们关注一下速度控制。尝试让无人机保持在轨迹上两个发光圆柱间。,text
+ms-the-pitch-throttle-relations.dialog-679,"第三课：倾角越大, 油门越大, 向前速度越大。",text
+ms-the-pitch-throttle-relations.dialog-680,横滚同理。下一个任务你将亲自体验。,text
+ms-the-pitch-throttle-relations.dialog-681,"记住, 在进阶模式下, 左摇杆是保持高度和控制速度的关键。",text
+ms-the-pitch-throttle-relations.dialog-682,高度过高。减小油门。提示：加大俯仰和油门可以向前移动。,text
+ms-the-pitch-throttle-relations.dialog-683,高度过低。减小俯仰并加大油门来提升高度。,text
+ms-the-pitch-throttle-relations.dialog-684,速度太慢。加大俯仰和油门来提升速度。,text
+ms-the-pitch-throttle-relations.dialog-685,"速度太快。减小俯仰可以减速, 但是记得控制油门保持高度。",text
+ms-the-pitch-throttle-relations.dialog-686,你要去哪里？,text
+ms-the-pitch-throttle-relations.dialog-687,你上下颠倒了！再试一次吧。,text
+ms-intro-physics.title,设置,text
+ms-intro-physics.description,入门任务,text
+ms-intro-physics.shortDescription,"欢迎到DRL无人机竞速联盟模拟器设置。
+ 
+我们将设置你的电脑，让您获得最佳体验。",text
+ms-intro-physics.nav-left.screen1,跳过,text
+ms-intro-physics.nav-right.screen1,"设置
+控制器",text
+ms-intro-physics.step.screen1,第一步：,text
+ms-intro-physics.title.screen1,设置控制器,text
+ms-intro-physics.body.screen1.drone,推荐的无人机控制器：,text
+ms-intro-physics.body.screen1.checklist1,低延迟,text
+ms-intro-physics.body.screen1.checklist2,随插即用,text
+ms-intro-physics.body.screen1.checklist3,市面上受欢迎的无人机控制器,text
+ms-intro-physics.body.screen1.controller1,"TARANIS
+X9D",text
+ms-intro-physics.body.screen1.controller2,"FATSHARK
+101",text
+ms-intro-physics.body.screen1.controller3,"TARANIS
+QX7",text
+ms-intro-physics.body.screen1.controller4,"TURNIGY
+EVOLUTION",text
+ms-intro-physics.body.screen1.controller5,"XBOX
+ONE",text
+ms-intro-physics.body.screen1.controller6,PS4,text
+ms-intro-physics.body.screen1.game,推荐的游戏控制器,text
+ms-intro-physics.nav-left.screen2.calibration,"设置
+控制器",text
+ms-intro-physics.nav-left.screen2.skip,跳过,text
+ms-intro-physics.nav-right.screen2,下一步,text
+ms-intro-physics.step.screen2,第二步：,text
+ms-intro-physics.title.screen2,启动飞行测试,text
+ms-intro-physics.nav-left.screen3.graphics,"画面
+设置",text
+ms-intro-physics.nav-left.screen3.skip,跳过,text
+ms-intro-physics.nav-right.screen3,下一步,text
+ms-intro-physics.step.screen3,第三步：,text
+ms-intro-physics.title.screen3,性能测试,text
+ms-intro-physics.fps.screen3,帧数,text
+ms-intro-physics.nav-left.screen4,跳过,text
+ms-intro-physics.nav-right.screen4,完成,text
+ms-intro-physics.body.screen4,"好极了, 你完成了设置。
+
+任何时候都可以进入物理沙盒调整设置。
+
+如果帧数过低, 考虑降低画面质量或使用推荐的控制器。",text
+ms-intro-physics.body.screen4.sandbox,"物理
+沙盒",text
+ms-intro-physics.body.screen4.graphics,画面,text
+ms-intro-physics.dialog-721,"此模拟器兼容30种常见的无人机控制器和游戏控制器, 但是仅向玩家推荐一些低延迟且好用的控制器。",text
+ms-intro-physics.dialog-722,"这是一台Shendrones Mifune, 它的重量为600g, 使用常规电池。
+ 
+你可以通过控制器来试着操控一下。",text
+ms-intro-physics.dialog-723,"你可随时提高分辨率和画面质量, 
+但请确保帧数不低于60。
+稳定的高帧数才能确保真实的物理模拟。",text
