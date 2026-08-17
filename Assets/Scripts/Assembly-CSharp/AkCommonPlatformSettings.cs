@@ -50,7 +50,14 @@ public abstract class AkCommonPlatformSettings : AkBasePlatformSettings
 
 	public override string SoundBankPersistentDataPath => GetAdvancedSettings().m_SoundBankPersistentDataPath;
 
-	public override bool RenderDuringFocusLoss => GetAdvancedSettings().m_RenderDuringFocusLoss;
+	public override bool RenderDuringFocusLoss
+	{
+		get
+		{
+			AkCommonAdvancedSettings advancedSettings = GetAdvancedSettings();
+			return advancedSettings != null && advancedSettings.m_RenderDuringFocusLoss;
+		}
+	}
 
 	public override string SoundbankPath => GetUserSettings().m_BasePath;
 

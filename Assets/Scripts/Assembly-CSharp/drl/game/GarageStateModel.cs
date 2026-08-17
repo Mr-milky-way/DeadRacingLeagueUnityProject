@@ -401,10 +401,6 @@ namespace drl.game
 			}
 			ServiceModel service = base.app.model.service;
 			string playerId = base.app.model.storage.state.player.playerData.playerId;
-			if (string.IsNullOrEmpty(playerId))
-			{
-				Debug.LogWarning("GarageStateModel> PreloadDrones / Invalid PlayerId");
-			}
 			DRLCommunityDroneData.SortType p_sort = DRLCommunityDroneData.SortType.None;
 			if (!string.IsNullOrEmpty(playerId))
 			{

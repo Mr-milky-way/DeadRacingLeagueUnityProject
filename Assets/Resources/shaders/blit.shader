@@ -1,56 +1,49 @@
-Shader "Hidden/Post FX/Blit" {
-	Properties {
-		_MainTex ("Main Texture", 2D) = "white" {}
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+Shader "Hidden/Post FX/Blit"
+{
+    Properties
+    {
+        _MainTex("Main Texture", 2D) = "white" {}
+    }
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+    CGINCLUDE
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+        #include "UnityCG.cginc"
+        #include "Common.cginc"
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+        struct Varyings
+        {
+            float2 uv : TEXCOORD0;
+            float4 vertex : SV_POSITION;
+        };
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+        Varyings VertBlit(AttributesDefault v)
+        {
+            Varyings o;
+            o.vertex = UnityObjectToClipPos(v.vertex);
+            o.uv = UnityStereoScreenSpaceUVAdjust(v.texcoord, _MainTex_ST);
+            return o;
+        }
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+        half4 FragBlit(Varyings i) : SV_Target
+        {
+            half4 col = tex2D(_MainTex, i.uv);
+            return col;
+        }
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
+    ENDCG
 
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
+        Pass
+        {
+            CGPROGRAM
 
-			ENDHLSL
-		}
-	}
+                #pragma vertex VertBlit
+                #pragma fragment FragBlit
+
+            ENDCG
+        }
+    }
 }

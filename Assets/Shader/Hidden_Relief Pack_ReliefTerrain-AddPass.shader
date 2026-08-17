@@ -322,5 +322,5 @@ Shader "Hidden/Relief Pack/ReliefTerrain-AddPass" {
 			ENDHLSL
 		}
 	}
-	Fallback "Relief Pack/ReliefTerrain-AddPass"
+	Fallback Off
 }

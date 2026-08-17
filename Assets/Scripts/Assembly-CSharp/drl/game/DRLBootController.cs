@@ -184,7 +184,7 @@ namespace drl.game
 				{
 					bool flag = PlayerPrefs.HasKey("graphics-tier");
 					int num = (flag ? PlayerPrefs.GetInt("graphics-tier") : (-1));
-					Debug.LogWarning($"DRLBootController> Awake / Checking GraphicsTier Prefs - exist[{flag}] value[{num}]");
+					Debug.Log($"DRLBootController> Awake / Checking GraphicsTier Prefs - exist[{flag}] value[{num}]");
 					if (num < 0)
 					{
 						num = 0;
@@ -962,7 +962,7 @@ namespace drl.game
 			float num = GraphicsStateModel.GetHardwareScore();
 			GraphicsStateModel graphics = base.app.model.storage.state.player.settings.graphics;
 			Debug.Log("DRLBootController> UpdateState / graphics-state[" + graphics.name + "]");
-			graphics.InitializeQualityByScore(0f);
+			graphics.InitializeQualityByScore(num);
 			int num2 = (int)graphics.resolution[0];
 			int num3 = (int)graphics.resolution[1];
 			Debug.Log("DRLBootController> UpdateState / Welcome User[" + psm.username + "]");
@@ -992,6 +992,11 @@ namespace drl.game
 		{
 			Debug.Log("DRLBootController> LoadContentManifest");
 			Notify("boot.drl.content.manifest");
+			if (Application.isEditor)
+			{
+				InitializeBundleFilesData();
+				return;
+			}
 			string text = "release";
 			string p_platform = "temp";
 			text = "release";

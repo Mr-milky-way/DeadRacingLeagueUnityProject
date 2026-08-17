@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Windows.Forms;
 using UnityEngine;
 using drl;
 using drl.game;
@@ -155,7 +154,7 @@ namespace thelab.core
 			}
 		}
 
-		public class AppWindow : IWin32Window
+		public class AppWindow
 		{
 			private IntPtr m_hwnd;
 
@@ -181,23 +180,23 @@ namespace thelab.core
 		{
 			public int lstructSize;
 
-			public int hwndOwner;
+			public IntPtr hwndOwner;
 
-			public int hInstance;
+			public IntPtr hInstance;
 
-			public string lpstrFilter;
+			public IntPtr lpstrFilter;
 
-			public string lpstrCustomFilter;
+			public IntPtr lpstrCustomFilter;
 
 			public int lMaxCustomFilter;
 
 			public int lFilterIndex;
 
-			public string lpstrFile;
+			public IntPtr lpstrFile;
 
 			public int lMaxFile;
 
-			public string lpstrFileTitle;
+			public IntPtr lpstrFileTitle;
 
 			public int lMaxFileTitle;
 
@@ -213,11 +212,11 @@ namespace thelab.core
 
 			public string lpstrDefExt;
 
-			public int lCustData;
+			public IntPtr lCustData;
 
-			public int lpfHook;
+			public IntPtr lpfHook;
 
-			public int lpTemplateName;
+			public IntPtr lpTemplateName;
 		}
 
 		public struct KeyboardHookStruct
@@ -425,8 +424,8 @@ namespace thelab.core
 		[DllImport("user32.dll")]
 		private static extern IntPtr GetActiveWindow();
 
-		[DllImport("comdlg32.dll", CharSet = CharSet.Auto, SetLastError = true)]
-		public static extern bool GetOpenFileName([In][Out] OpenFileName ofn);
+		[DllImport("comdlg32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+		public static extern bool GetOpenFileName([In][Out] ref OpenFileName ofn);
 
 		[DllImport("comdlg32.dll", SetLastError = true)]
 		public static extern int CommDlgExtendedError();
@@ -467,27 +466,83 @@ namespace thelab.core
 
 		private static void _FileDialog(string p_title, bool p_multifile, Action<string[]> p_callback, string p_fitler = "*.*", string p_directory = "")
 		{
-			OpenFileDialog openFileDialog = new OpenFileDialog();
-			if (!string.IsNullOrEmpty(p_title))
+			if (UnityEngine.Application.platform != RuntimePlatform.WindowsEditor && UnityEngine.Application.platform != RuntimePlatform.WindowsPlayer)
 			{
-				openFileDialog.Title = p_title;
-			}
-			openFileDialog.Filter = p_fitler;
-			openFileDialog.FilterIndex = 1;
-			openFileDialog.Multiselect = p_multifile;
-			if (!string.IsNullOrEmpty(p_directory))
-			{
-				openFileDialog.InitialDirectory = p_directory;
-			}
-			switch (openFileDialog.ShowDialog())
-			{
-			case DialogResult.Cancel:
+				UnityEngine.Debug.LogWarning("OS> FileDialog is only supported on Windows.");
 				p_callback?.Invoke(new string[0]);
-				break;
-			case DialogResult.OK:
-				UnityEngine.Debug.Log("OS> FileDialog File selection [" + string.Join(",", openFileDialog.FileNames) + "]");
-				p_callback?.Invoke(openFileDialog.FileNames);
-				break;
+				return;
+			}
+
+			const int maxFileChars = 65536;
+			const int OFN_ALLOWMULTISELECT = 0x00000200;
+			const int OFN_PATHMUSTEXIST = 0x00000800;
+			const int OFN_FILEMUSTEXIST = 0x00001000;
+			const int OFN_EXPLORER = 0x00080000;
+			string filter = string.IsNullOrEmpty(p_fitler) || p_fitler == "*.*"
+				? "All Files (*.*)\0*.*\0\0"
+				: p_fitler.Replace('|', '\0') + "\0\0";
+			IntPtr fileBuffer = Marshal.AllocHGlobal(maxFileChars * 2);
+			IntPtr filterBuffer = Marshal.StringToHGlobalUni(filter);
+			try
+			{
+				Marshal.WriteInt16(fileBuffer, 0);
+				OpenFileName openFileName = new OpenFileName
+				{
+					lstructSize = Marshal.SizeOf(typeof(OpenFileName)),
+					hwndOwner = hwnd,
+					lpstrFilter = filterBuffer,
+					lFilterIndex = 1,
+					lpstrFile = fileBuffer,
+					lMaxFile = maxFileChars,
+					lpstrInitialDir = string.IsNullOrEmpty(p_directory) ? null : p_directory,
+					lpstrTitle = string.IsNullOrEmpty(p_title) ? null : p_title,
+					lFlags = OFN_EXPLORER | OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST | (p_multifile ? OFN_ALLOWMULTISELECT : 0)
+				};
+
+				if (!GetOpenFileName(ref openFileName))
+				{
+					int errorCode = CommDlgExtendedError();
+					if (errorCode != 0)
+					{
+						UnityEngine.Debug.LogError("OS> FileDialog failed with native error " + errorCode);
+					}
+					p_callback?.Invoke(new string[0]);
+					return;
+				}
+
+				List<string> selections = new List<string>();
+				int offset = 0;
+				while (offset < maxFileChars)
+				{
+					string selection = Marshal.PtrToStringUni(IntPtr.Add(fileBuffer, offset * 2));
+					if (string.IsNullOrEmpty(selection))
+					{
+						break;
+					}
+					selections.Add(selection);
+					offset += selection.Length + 1;
+				}
+
+				string[] files;
+				if (selections.Count <= 1)
+				{
+					files = selections.ToArray();
+				}
+				else
+				{
+					files = new string[selections.Count - 1];
+					for (int i = 1; i < selections.Count; i++)
+					{
+						files[i - 1] = Path.Combine(selections[0], selections[i]);
+					}
+				}
+				UnityEngine.Debug.Log("OS> FileDialog File selection [" + string.Join(",", files) + "]");
+				p_callback?.Invoke(files);
+			}
+			finally
+			{
+				Marshal.FreeHGlobal(fileBuffer);
+				Marshal.FreeHGlobal(filterBuffer);
 			}
 		}
 

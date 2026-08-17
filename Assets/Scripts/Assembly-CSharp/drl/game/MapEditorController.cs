@@ -730,9 +730,6 @@ namespace drl.game
 				{
 					base.app.view.audio.PlayUIChange();
 				}
-				switch (p_to)
-				{
-				}
 				RefreshActionHandle();
 			}
 		}

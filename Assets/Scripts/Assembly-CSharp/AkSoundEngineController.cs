@@ -50,11 +50,7 @@ public class AkSoundEngineController
 		}
 		bool num = AkSoundEngine.IsInitialized();
 		AkLogger.Instance.Init();
-		if (num)
-		{
-			Debug.LogError("WwiseUnity: Sound engine is already initialized.");
-		}
-		else
+		if (!num)
 		{
 			AkWwiseInitializationSettings.InitializeSoundEngine();
 		}

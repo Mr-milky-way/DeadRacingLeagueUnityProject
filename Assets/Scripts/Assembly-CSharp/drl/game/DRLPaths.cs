@@ -29,6 +29,10 @@ namespace drl.game
 						break;
 					case RuntimePlatform.WindowsEditor:
 						text += "game/win/content/";
+						if (!Directory.Exists(text))
+						{
+							text = streamingAssetsRoot + "game/content/";
+						}
 						break;
 					case RuntimePlatform.OSXPlayer:
 						text = streamingAssetsRoot;

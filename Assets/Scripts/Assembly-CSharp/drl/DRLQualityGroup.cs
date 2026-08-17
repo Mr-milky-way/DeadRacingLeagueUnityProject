@@ -16,7 +16,7 @@ namespace drl
 		{
 			get
 			{
-				if (m_postProcessing != null)
+				if (m_postProcessing != null && m_postProcessing.Length > 0)
 				{
 					return m_postProcessing;
 				}
@@ -42,12 +42,11 @@ namespace drl
 			PostProcessingBehaviour[] array = postProcessing;
 			if (array.Length == 0)
 			{
-				Debug.LogWarning("QualityGroup> PostProcessingBehaviour / Not found!");
 				return;
 			}
-			if (fxprofiles.Count <= 0)
+			if (fxprofiles == null || fxprofiles.Count <= 0)
 			{
-				Debug.LogWarning("QualityGroup> PostProcessingBehaviour / No Profiles Found!");
+				Debug.Log("QualityGroup> PostProcessingBehaviour / No Profiles Found!");
 				return;
 			}
 			int index = Mathf.Clamp(p_quality, 0, fxprofiles.Count - 1);
@@ -65,7 +64,7 @@ namespace drl
 					string text2 = postProcessingProfile.name;
 					postProcessingBehaviour.profile = Object.Instantiate(postProcessingProfile);
 					postProcessingBehaviour.profile.name = text2;
-					Debug.LogWarning("QualityGroup> Using PPP [" + Hierarchy.Path(postProcessingBehaviour.transform) + "][" + index + "]");
+					Debug.Log("QualityGroup> Using PPP [" + Hierarchy.Path(postProcessingBehaviour.transform) + "][" + index + "]");
 					CameraFX component = postProcessingBehaviour.GetComponent<CameraFX>();
 					if ((bool)component)
 					{

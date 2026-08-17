@@ -1,56 +1,85 @@
-Shader "Hidden/Post FX/Temporal Anti-aliasing" {
-	Properties {
-		_MainTex ("", 2D) = "black" {}
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+Shader "Hidden/Post FX/Temporal Anti-aliasing"
+{
+    Properties
+    {
+        _MainTex("", 2D) = "black"
+    }
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+        // Perspective
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 5.0
+                #pragma vertex VertSolver
+                #pragma fragment FragSolver
+                #include "TAA.cginc"
+            ENDCG
+        }
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+        // Ortho
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 5.0
+                #pragma vertex VertSolver
+                #pragma fragment FragSolver
+                #define TAA_DILATE_MOTION_VECTOR_SAMPLE 0
+                #include "TAA.cginc"
+            ENDCG
+        }
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+        // Alpha Clear
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 5.0
+                #pragma vertex VertDefault
+                #pragma fragment FragAlphaClear
+                #include "TAA.cginc"
+            ENDCG
+        }
+    }
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
+        // Perspective
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertSolver
+                #pragma fragment FragSolver
+                #include "TAA.cginc"
+            ENDCG
+        }
 
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
+        // Ortho
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertSolver
+                #pragma fragment FragSolver
+                #define TAA_DILATE_MOTION_VECTOR_SAMPLE 0
+                #include "TAA.cginc"
+            ENDCG
+        }
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
-
-			ENDHLSL
-		}
-	}
+        // Alpha Clear
+        Pass
+        {
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDefault
+                #pragma fragment FragAlphaClear
+                #include "TAA.cginc"
+            ENDCG
+        }
+    }
 }

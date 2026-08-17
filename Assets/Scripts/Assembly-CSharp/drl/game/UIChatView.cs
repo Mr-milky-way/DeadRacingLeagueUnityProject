@@ -127,7 +127,7 @@ namespace drl.game
 		protected void Awake()
 		{
 			int pool_step = 0;
-			Activity.Run((Func<bool>)delegate
+			this.ActivityRun((Func<bool>)delegate
 			{
 				if (messagePoolComplete)
 				{
@@ -146,7 +146,7 @@ namespace drl.game
 					LoadMessages();
 				}
 				return true;
-			}, 0f, false);
+			}, 0f);
 		}
 
 		private void Start()

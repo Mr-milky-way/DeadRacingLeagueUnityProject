@@ -156,8 +156,12 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 		{
 			if (m_Instance == null)
 			{
-				m_Instance = ScriptableObject.CreateInstance<AkWwiseInitializationSettings>();
-				Debug.LogWarning("WwiseUnity: No platform specific settings were created. Default initialization settings will be used.");
+				m_Instance = Resources.Load<AkWwiseInitializationSettings>("AkWwiseInitializationSettings");
+				if (m_Instance == null)
+				{
+					m_Instance = ScriptableObject.CreateInstance<AkWwiseInitializationSettings>();
+					Debug.LogWarning("WwiseUnity: No platform specific settings were created. Default initialization settings will be used.");
+				}
 			}
 			return m_Instance;
 		}

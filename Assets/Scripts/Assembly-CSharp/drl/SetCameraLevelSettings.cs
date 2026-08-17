@@ -27,10 +27,6 @@ namespace drl
 				holes.terrainColliders = settings.terrain.terrainColliders;
 				holes.Initialize();
 			}
-			else
-			{
-				Debug.LogWarning("SetTerrainHolesFromLevel> Failed to locate hole collisions!");
-			}
 			SunShafts sunShafts = Hierarchy.Find<SunShafts>(base.transform, "main");
 			if ((bool)sunShafts)
 			{

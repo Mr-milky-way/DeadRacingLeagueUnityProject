@@ -115,7 +115,14 @@ namespace UnityEngine.PostProcessing
 		{
 			if (obj != null)
 			{
-				Object.Destroy(obj);
+				if (Application.isPlaying)
+				{
+					Object.Destroy(obj);
+				}
+				else
+				{
+					Object.DestroyImmediate(obj);
+				}
 			}
 		}
 

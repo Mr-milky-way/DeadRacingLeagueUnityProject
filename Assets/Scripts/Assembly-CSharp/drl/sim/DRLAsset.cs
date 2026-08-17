@@ -161,10 +161,6 @@ namespace drl.sim
 			{
 				return val;
 			}
-			if (GetType() != typeof(DroneSkin))
-			{
-				Debug.LogWarning(GetType().Name + "> Tag Component not found on component [" + base.name + "]");
-			}
 			return base.gameObject ? base.gameObject.AddComponent<T>() : null;
 		}
 	}

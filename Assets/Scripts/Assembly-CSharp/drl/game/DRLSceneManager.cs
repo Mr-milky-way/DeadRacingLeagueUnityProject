@@ -723,7 +723,7 @@ namespace drl.game
 			{
 				List<string> sceneDependencies = GetSceneDependencies();
 				Debug.Log($"DRLSceneManager> AddGame / Library Loading Start - guid-count[{sceneDependencies.Count}]");
-				Debug.LogWarning("DRLSceneManager> AddGame / Force lower FPS for stability");
+				Debug.Log("DRLSceneManager> AddGame / Force lower FPS for stability");
 				QualitySettings.vSyncCount = 0;
 				Application.targetFrameRate = 50;
 				assetBundleLibrary.LoadAssetsAsync(sceneDependencies, p_include_dependency: true, delegate(float p)
@@ -732,7 +732,7 @@ namespace drl.game
 					if (p >= 1f)
 					{
 						Debug.Log("DRLSceneManager> AddGame / Library Loading Complete");
-						Debug.LogWarning("DRLSceneManager> AddGame / Restoring FPS after load.");
+						Debug.Log("DRLSceneManager> AddGame / Restoring FPS after load.");
 						if ((bool)stc)
 						{
 							stc.SetFps();
@@ -1341,7 +1341,7 @@ namespace drl.game
 
 		private void GCCollect(float delay = 4f)
 		{
-			Debug.LogWarning("DRLSceneManager> GCCollect");
+			Debug.Log("DRLSceneManager> GCCollect");
 			Activity.RunOnce(delegate
 			{
 				long totalMemory = GC.GetTotalMemory(forceFullCollection: true);

@@ -151,8 +151,16 @@ namespace drl.game
 			string text2 = replaysRoot + text;
 			if (!File.Exists(text2))
 			{
-				Debug.LogWarning("ReplayStorageModel> GetReplayCache / File not found!\n  " + text2);
-				return null;
+				string packagedReplay = System.IO.Path.Combine(DRLPaths.streamingAssetsRoot, "game", "storage", "replays", text);
+				if (File.Exists(packagedReplay))
+				{
+					text2 = packagedReplay;
+				}
+				else
+				{
+					Debug.LogWarning("ReplayStorageModel> GetReplayCache / File not found!\n  " + text2);
+					return null;
+				}
 			}
 			ReplayFile replayFile = new ReplayFile();
 			replayFile.Deserialize(text2);

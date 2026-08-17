@@ -13,6 +13,8 @@ namespace thelab.core
 
 		internal static GameObject m_instance_go;
 
+		internal static ActivityManager current => m_instance;
+
 		private List<IUpdateable> m_updates;
 
 		private List<IConditionalUpdateable> m_conditional_updates;
@@ -165,6 +167,15 @@ namespace thelab.core
 			}
 			m_instance_go = (activityManager ? activityManager.gameObject : null);
 			return activityManager;
+		}
+
+		private void OnDestroy()
+		{
+			if (m_instance == this)
+			{
+				m_instance = null;
+				m_instance_go = null;
+			}
 		}
 
 		public bool Add(object p_node)
@@ -336,6 +347,7 @@ namespace thelab.core
 				if (!list3[k])
 				{
 					list3.RemoveAt(k--);
+					continue;
 				}
 				if (flag)
 				{
@@ -404,6 +416,7 @@ namespace thelab.core
 				if (!list3[k])
 				{
 					list3.RemoveAt(k--);
+					continue;
 				}
 				if (list3[k] is ILateUpdateable)
 				{
@@ -462,6 +475,7 @@ namespace thelab.core
 				if (!list2[j])
 				{
 					list2.RemoveAt(j--);
+					continue;
 				}
 				if (list2[j] is IFixedUpdateable)
 				{

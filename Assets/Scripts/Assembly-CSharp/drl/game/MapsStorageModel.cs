@@ -609,9 +609,7 @@ namespace drl.game
 			}
 			_ = DRLPaths.Storage.offlineMapsCustomRoot;
 			string hash_filepath = DRLPaths.Storage.offlineMapsCustomHash;
-			string mjs = null;
-			byte[] mjrb = null;
-			DownloadAndStoreTracks(p_communityMaps, delegate(float progress)
+			_ = DownloadAndStoreTracks(p_communityMaps, delegate(float progress)
 			{
 				if (!(progress < 1f))
 				{
@@ -649,8 +647,6 @@ namespace drl.game
 							this.TimerRunOnce(delegate
 							{
 								js = null;
-								mjs = null;
-								mjrb = null;
 								GCCollect();
 								if (p_complete != null)
 								{

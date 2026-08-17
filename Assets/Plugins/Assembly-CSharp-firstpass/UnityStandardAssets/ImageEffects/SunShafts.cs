@@ -52,8 +52,23 @@ namespace UnityStandardAssets.ImageEffects
 		public override bool CheckResources()
 		{
 			CheckSupport(useDepthTexture);
+			Shader resolvedSunShaftsShader = Shader.Find("Hidden/DRL/SunShaftsComposite");
+			if (resolvedSunShaftsShader != null)
+			{
+				sunShaftsShader = resolvedSunShaftsShader;
+			}
+			Shader resolvedSimpleClearShader = Shader.Find("Hidden/DRL/SimpleClear");
+			if (resolvedSimpleClearShader != null)
+			{
+				simpleClearShader = resolvedSimpleClearShader;
+			}
 			sunShaftsMaterial = CheckShaderAndCreateMaterial(sunShaftsShader, sunShaftsMaterial);
 			simpleClearMaterial = CheckShaderAndCreateMaterial(simpleClearShader, simpleClearMaterial);
+			if (sunShaftsMaterial && sunShaftsMaterial.passCount < 5)
+			{
+				NotSupported();
+				sunShaftsMaterial = null;
+			}
 			if (!isSupported)
 			{
 				ReportAutoDisable();

@@ -670,7 +670,16 @@ namespace drl.sim
 				{
 					Color value = p_color;
 					value.a = 0.5f;
-					droneTrail.renderer.sharedMaterial.SetColor(p_name, value);
+					Material sharedMaterial = droneTrail.renderer.sharedMaterial;
+					if (sharedMaterial.HasProperty(p_name))
+					{
+						sharedMaterial.SetColor(p_name, value);
+					}
+					string text = ((p_name == "_Color") ? "_TintColor" : "_Color");
+					if (sharedMaterial.HasProperty(text))
+					{
+						sharedMaterial.SetColor(text, value);
+					}
 				}
 			}
 		}
@@ -715,13 +724,22 @@ namespace drl.sim
 
 		protected Color[] GetTrailColor(string p_name)
 		{
-			Color[] array = new Color[2];
+			Color[] array = new Color[Mathf.Max(2, trails.Count)];
 			for (int i = 0; i < trails.Count; i++)
 			{
 				DroneTrail droneTrail = trails[i];
 				if ((bool)droneTrail && (bool)droneTrail.renderer.sharedMaterial)
 				{
-					array[i] = droneTrail.renderer.sharedMaterial.GetColor(p_name);
+					Material sharedMaterial = droneTrail.renderer.sharedMaterial;
+					string text = ((p_name == "_Color") ? "_TintColor" : "_Color");
+					if (sharedMaterial.HasProperty(p_name))
+					{
+						array[i] = sharedMaterial.GetColor(p_name);
+					}
+					else if (sharedMaterial.HasProperty(text))
+					{
+						array[i] = sharedMaterial.GetColor(text);
+					}
 				}
 			}
 			return array;

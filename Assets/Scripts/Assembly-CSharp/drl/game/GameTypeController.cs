@@ -803,7 +803,6 @@ namespace drl.game
 				pd.Initialize();
 				if (pd.rig == null)
 				{
-					UnityEngine.Debug.LogWarning("GameTypeController> CreatePlayer - DroneRig not available on player data!");
 					pd.rig = droneRigData;
 				}
 				DroneRigData droneRigData3 = ((pd.rig == null) ? p_default_rig : pd.rig);

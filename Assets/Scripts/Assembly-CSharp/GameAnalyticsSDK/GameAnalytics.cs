@@ -54,7 +54,6 @@ namespace GameAnalyticsSDK
 			{
 				if (_instance != null)
 				{
-					Debug.LogWarning("Destroying duplicate GameAnalytics object - only one is allowed per scene!");
 					UnityEngine.Object.Destroy(base.gameObject);
 				}
 				else

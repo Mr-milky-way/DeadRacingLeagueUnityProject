@@ -1,43 +1,123 @@
-Shader "Hidden/Post FX/Motion Blur" {
-	Properties {
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType" = "Opaque" }
-		LOD 200
+Shader "Hidden/Post FX/Motion Blur"
+{
+    CGINCLUDE
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+        #pragma target 3.0
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
+    ENDCG
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-			};
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-			struct Vertex_Stage_Output
-			{
-				float4 pos : SV_POSITION;
-			};
+        // (0) Velocity texture setup
+        Pass
+        {
+            CGPROGRAM
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+                #include "MotionBlur.cginc"
+                #pragma vertex VertDefault
+                #pragma fragment FragVelocitySetup
 
-			float4 frag(Vertex_Stage_Output input) : SV_TARGET
-			{
-				return float4(1.0, 1.0, 1.0, 1.0); // RGBA
-			}
+            ENDCG
+        }
 
-			ENDHLSL
-		}
-	}
+        // (1) TileMax filter (2 pixel width with normalization)
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertDefault
+                #pragma fragment FragTileMax1
+
+            ENDCG
+        }
+
+        //  (2) TileMax filter (2 pixel width)
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertDefault
+                #pragma fragment FragTileMax2
+
+            ENDCG
+        }
+
+        // (3) TileMax filter (variable width)
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertDefault
+                #pragma fragment FragTileMaxV
+
+            ENDCG
+        }
+
+        // (4) NeighborMax filter
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertDefault
+                #pragma fragment FragNeighborMax
+
+            ENDCG
+        }
+
+        // (5) Reconstruction filter
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertMultitex
+                #pragma fragment FragReconstruction
+
+            ENDCG
+        }
+
+        // (6) Frame compression
+        Pass
+        {
+            CGPROGRAM
+
+                #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
+                #include "MotionBlur.cginc"
+                #pragma vertex VertFrameCompress
+                #pragma fragment FragFrameCompress
+
+            ENDCG
+        }
+
+        // (7) Frame blending
+        Pass
+        {
+            CGPROGRAM
+
+                #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
+                #include "MotionBlur.cginc"
+                #pragma vertex VertMultitex
+                #pragma fragment FragFrameBlending
+
+            ENDCG
+        }
+
+        // (8) Frame blending (without chroma subsampling)
+        Pass
+        {
+            CGPROGRAM
+
+                #include "MotionBlur.cginc"
+                #pragma vertex VertMultitex
+                #pragma fragment FragFrameBlendingRaw
+
+            ENDCG
+        }
+    }
 }

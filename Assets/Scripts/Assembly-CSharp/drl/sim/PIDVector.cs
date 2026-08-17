@@ -66,5 +66,20 @@ namespace drl.sim
 			}
 			return true;
 		}
+
+		public override bool Equals(object obj)
+		{
+			return obj is PIDVector other && this == other;
+		}
+
+		public override int GetHashCode()
+		{
+			unchecked
+			{
+				int hashCode = p.GetHashCode();
+				hashCode = (hashCode * 397) ^ i.GetHashCode();
+				return (hashCode * 397) ^ d.GetHashCode();
+			}
+		}
 	}
 }

@@ -1,61 +1,31 @@
-Shader "DRL/FX/Trail" {
-	Properties {
-		[Header(COLOR PROPERTIES)] [Space(10)] _Color ("Color", Vector) = (0.5,0.5,0.5,0.5)
-		[NoScaleOffset] _MainTex ("Texture", 2D) = "white" {}
-		[Space(20)] [Header(FADE PROPERTIES)] [Space(10)] _FadeDistance ("Fade Distance", Float) = 150
+Shader "Hidden/DRL/FX/Trail/Color-4"
+{
+	Properties
+	{
+		_Color ("Color", Color) = (1,1,1,1)
+		_MainTex ("Texture", 2D) = "white" {}
+		_FadeDistance ("Fade Distance", Float) = 150
 		_FadePow ("Fade Pow", Float) = 1
 		_FadeMultiplier ("Fade Multiplier", Float) = 1
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
-
+	SubShader
+	{
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
+		Cull Off
+		Lighting Off
+		ZWrite Off
+		Blend SrcAlpha OneMinusSrcAlpha
 		Pass
 		{
-			HLSLPROGRAM
-			#pragma vertex vert
+			CGPROGRAM
+			#pragma vertex DRLTrailVert
 			#pragma fragment frag
-
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
-
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
-
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
-
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
-
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-			float4 _Color;
-
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy) * _Color;
-			}
-
-			ENDHLSL
+			#pragma multi_compile_fog
+			#include "DRL_FX_Trail_Common.cginc"
+			half4 _Color;
+			half4 frag(DRLTrailVertexOutput input) : SV_Target { return DRLTrailFrag(input, _Color); }
+			ENDCG
 		}
 	}
+	Fallback Off
 }

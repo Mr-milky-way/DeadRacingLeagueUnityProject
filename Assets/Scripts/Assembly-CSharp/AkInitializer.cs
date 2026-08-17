@@ -18,13 +18,16 @@ public class AkInitializer : MonoBehaviour
 			return;
 		}
 		ms_Instance = this;
-		Object.DontDestroyOnLoad(this);
+		if (Application.isPlaying)
+		{
+			Object.DontDestroyOnLoad(this);
+		}
 	}
 
 	private void OnEnable()
 	{
 		InitializationSettings = AkWwiseInitializationSettings.Instance;
-		if (ms_Instance == this)
+		if (ms_Instance == this && Application.isPlaying)
 		{
 			AkSoundEngineController.Instance.Init(this);
 		}
@@ -48,7 +51,7 @@ public class AkInitializer : MonoBehaviour
 
 	private void OnApplicationPause(bool pauseStatus)
 	{
-		if (ms_Instance == this)
+		if (ms_Instance == this && Application.isPlaying)
 		{
 			AkSoundEngineController.Instance.OnApplicationPause(pauseStatus);
 		}
@@ -56,7 +59,7 @@ public class AkInitializer : MonoBehaviour
 
 	private void OnApplicationFocus(bool focus)
 	{
-		if (ms_Instance == this)
+		if (ms_Instance == this && Application.isPlaying)
 		{
 			AkSoundEngineController.Instance.OnApplicationFocus(focus);
 		}

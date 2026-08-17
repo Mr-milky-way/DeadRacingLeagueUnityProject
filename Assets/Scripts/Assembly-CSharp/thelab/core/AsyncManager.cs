@@ -312,10 +312,6 @@ namespace thelab.core
 					}
 					break;
 				}
-				if (Application.isEditor)
-				{
-					flag = false;
-				}
 				if (!flag)
 				{
 					continue;

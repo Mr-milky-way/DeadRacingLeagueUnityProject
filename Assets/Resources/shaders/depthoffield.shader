@@ -1,56 +1,212 @@
-Shader "Hidden/Post FX/Depth Of Field" {
-	Properties {
-		_MainTex ("", 2D) = "black" {}
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+Shader "Hidden/Post FX/Depth Of Field"
+{
+    Properties
+    {
+        _MainTex ("", 2D) = "black"
+    }
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+    CGINCLUDE
+        #pragma exclude_renderers d3d11_9x
+    ENDCG
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+    // SubShader with SM 5.0 support
+    // Gather intrinsics are used to reduce texture sample count.
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+        Pass // 0
+        {
+            Name "CoC Calculation"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragCoC
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+        Pass // 1
+        {
+            Name "CoC Temporal Filter"
+            CGPROGRAM
+                #pragma target 5.0
+                #pragma vertex VertDOF
+                #pragma fragment FragTempFilter
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+        Pass // 2
+        {
+            Name "Downsample and Prefilter"
+            CGPROGRAM
+                #pragma target 5.0
+                #pragma vertex VertDOF
+                #pragma fragment FragPrefilter
+                #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
+        Pass // 3
+        {
+            Name "Bokeh Filter (small)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_SMALL
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
+        Pass // 4
+        {
+            Name "Bokeh Filter (medium)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_MEDIUM
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
+        Pass // 5
+        {
+            Name "Bokeh Filter (large)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_LARGE
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
 
-			ENDHLSL
-		}
-	}
+        Pass // 6
+        {
+            Name "Bokeh Filter (very large)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_VERYLARGE
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 7
+        {
+            Name "Postfilter"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragPostBlur
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+    }
+
+    // Fallback SubShader with SM 3.0
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
+
+        Pass // 0
+        {
+            Name "CoC Calculation"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragCoC
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 1
+        {
+            Name "CoC Temporal Filter"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragTempFilter
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 2
+        {
+            Name "Downsample and Prefilter"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragPrefilter
+                #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 3
+        {
+            Name "Bokeh Filter (small)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_SMALL
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 4
+        {
+            Name "Bokeh Filter (medium)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_MEDIUM
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 5
+        {
+            Name "Bokeh Filter (large)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_LARGE
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 6
+        {
+            Name "Bokeh Filter (very large)"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragBlur
+                #define KERNEL_VERYLARGE
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+
+        Pass // 7
+        {
+            Name "Postfilter"
+            CGPROGRAM
+                #pragma target 3.0
+                #pragma vertex VertDOF
+                #pragma fragment FragPostBlur
+                #include "DepthOfField.cginc"
+            ENDCG
+        }
+    }
+
+    FallBack Off
 }

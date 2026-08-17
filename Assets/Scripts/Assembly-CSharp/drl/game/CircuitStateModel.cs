@@ -568,7 +568,7 @@ namespace drl.game
 				}
 				else
 				{
-					DownloadAndStoreThumbnail(p_circuit.guid, p_circuit.imageURL, delegate(Texture2D texture2D)
+					_ = DownloadAndStoreThumbnail(p_circuit.guid, p_circuit.imageURL, delegate(Texture2D texture2D)
 					{
 						p_callback?.Invoke(texture2D);
 					});

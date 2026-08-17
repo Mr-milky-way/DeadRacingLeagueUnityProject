@@ -1352,6 +1352,14 @@ namespace drl.game
 
 		public void SetGCEnabled(bool p_flag)
 		{
+			if (Application.isEditor)
+			{
+				if (p_flag)
+				{
+					GC.Collect();
+				}
+				return;
+			}
 			bool flag = false;
 			bool flag2 = false;
 			switch (GarbageCollector.GCMode)

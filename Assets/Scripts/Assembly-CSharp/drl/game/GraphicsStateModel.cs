@@ -239,7 +239,7 @@ namespace drl.game
 			{
 				if (m_cached_hw_quality <= -100)
 				{
-					m_cached_hw_quality = 0;
+					m_cached_hw_quality = GetQualityByHardware();
 				}
 				return data.Get("settings-graphics-quality", m_cached_hw_quality);
 			}
@@ -606,6 +606,10 @@ namespace drl.game
 			string text3 = "null";
 			if (text.Contains("nvidia"))
 			{
+				if (text2.Contains("rtx 40") || text2.Contains("rtx 50"))
+				{
+					return 1f;
+				}
 				for (int i = 0; i < array.Length; i++)
 				{
 					text3 = array[i].ToLower();

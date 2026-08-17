@@ -47,6 +47,10 @@ namespace thelab.core
 		{
 			get
 			{
+				if (!ReferenceEquals(m_manager, null))
+				{
+					return m_manager;
+				}
 				if (!m_manager)
 				{
 					return m_manager = ActivityManager.instance;
@@ -59,11 +63,11 @@ namespace thelab.core
 		{
 			get
 			{
-				if (!manager)
+				if (!m_manager)
 				{
 					return false;
 				}
-				IList list = manager.GetList(this);
+				IList list = m_manager.GetList(this);
 				if (list == null)
 				{
 					return false;
@@ -125,7 +129,8 @@ namespace thelab.core
 
 		public static bool Remove(object p_node)
 		{
-			return ActivityManager.instance.Remove(p_node);
+			ActivityManager current = ActivityManager.current;
+			return current && current.Remove(p_node);
 		}
 
 		public static void Clear()
@@ -218,7 +223,7 @@ namespace thelab.core
 
 		public void Stop()
 		{
-			if (!editor && manager.Remove(this))
+			if (!editor && m_manager && m_manager.Remove(this))
 			{
 				OnStop();
 				if (OnActivityStop != null)

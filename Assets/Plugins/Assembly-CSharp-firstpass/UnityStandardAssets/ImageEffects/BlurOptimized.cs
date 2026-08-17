@@ -33,6 +33,12 @@ namespace UnityStandardAssets.ImageEffects
 		{
 			CheckSupport(needDepth: false);
 			blurMaterial = CheckShaderAndCreateMaterial(blurShader, blurMaterial);
+			int requiredPassCount = ((blurType == BlurType.StandardGauss) ? 3 : 5);
+			if (blurMaterial && blurMaterial.passCount < requiredPassCount)
+			{
+				NotSupported();
+				blurMaterial = null;
+			}
 			if (!isSupported)
 			{
 				ReportAutoDisable();

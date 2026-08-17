@@ -66,5 +66,5 @@ Shader "DRL/Levels/Airplane Graveyard/Ground Roads" {
 			ENDHLSL
 		}
 	}
-	Fallback "DRL/Standard Offset 2"
+	Fallback "Standard"
 }

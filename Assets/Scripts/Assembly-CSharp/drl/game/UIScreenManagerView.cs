@@ -559,7 +559,6 @@ namespace drl.game
 			if (m_SBActivity != null)
 			{
 				m_SBActivity.Stop();
-				m_SBActivity.manager.Remove(m_SBActivity);
 				m_SBActivity = null;
 			}
 			if (!p_isDestroy)

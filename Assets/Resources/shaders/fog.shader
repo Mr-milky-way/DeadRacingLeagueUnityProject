@@ -1,56 +1,109 @@
-Shader "Hidden/Post FX/Fog" {
-	Properties {
-		_MainTex ("Main Texture", 2D) = "white" {}
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+Shader "Hidden/Post FX/Fog"
+{
+    Properties
+    {
+        _MainTex("Main Texture", 2D) = "white" {}
+    }
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+    CGINCLUDE
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+        #pragma multi_compile __ FOG_LINEAR FOG_EXP FOG_EXP2
+        #include "UnityCG.cginc"
+        #include "Common.cginc"
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+        #define SKYBOX_THREASHOLD_VALUE 0.9999
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+        struct Varyings
+        {
+            float2 uv : TEXCOORD0;
+            float4 vertex : SV_POSITION;
+        };
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+        Varyings VertFog(AttributesDefault v)
+        {
+            Varyings o;
+            o.vertex = UnityObjectToClipPos(v.vertex);
+            o.uv = UnityStereoScreenSpaceUVAdjust(v.texcoord, _MainTex_ST);
+            return o;
+        }
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
+        sampler2D _CameraDepthTexture;
 
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
+        half4 _FogColor;
+        float _Density;
+        float _Start;
+        float _End;
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
+        half ComputeFog(float z)
+        {
+            half fog = 0.0;
+        #if FOG_LINEAR
+            fog = (_End - z) / (_End - _Start);
+        #elif FOG_EXP
+            fog = exp2(-_Density * z);
+        #else // FOG_EXP2
+            fog = _Density * z;
+            fog = exp2(-fog * fog);
+        #endif
+            return saturate(fog);
+        }
 
-			ENDHLSL
-		}
-	}
+        float ComputeDistance(float depth)
+        {
+            float dist = depth * _ProjectionParams.z;
+            dist -= _ProjectionParams.y;
+            return dist;
+        }
+
+        half4 FragFog(Varyings i) : SV_Target
+        {
+            half4 color = tex2D(_MainTex, i.uv);
+
+            float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, i.uv);
+            depth = Linear01Depth(depth);
+            float dist = ComputeDistance(depth);
+            half fog = 1.0 - ComputeFog(dist);
+
+            return lerp(color, _FogColor, fog);
+        }
+
+        half4 FragFogExcludeSkybox(Varyings i) : SV_Target
+        {
+            half4 color = tex2D(_MainTex, i.uv);
+
+            float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, i.uv);
+            depth = Linear01Depth(depth);
+            float skybox = depth < SKYBOX_THREASHOLD_VALUE;
+            float dist = ComputeDistance(depth);
+            half fog = 1.0 - ComputeFog(dist);
+
+            return lerp(color, _FogColor, fog * skybox);
+        }
+
+    ENDCG
+
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
+
+        Pass
+        {
+            CGPROGRAM
+
+                #pragma vertex VertFog
+                #pragma fragment FragFog
+
+            ENDCG
+        }
+
+        Pass
+        {
+            CGPROGRAM
+
+                #pragma vertex VertFog
+                #pragma fragment FragFogExcludeSkybox
+
+            ENDCG
+        }
+    }
 }

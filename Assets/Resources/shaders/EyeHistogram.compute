@@ -1,0 +1,55 @@
+#define USE_VIGNETTE_WEIGHTING 1
+
+#include "Common.cginc"
+#include "EyeAdaptation.cginc"
+
+RWStructuredBuffer<uint> _Histogram;
+Texture2D<float4> _Source;
+
+CBUFFER_START(Params)
+    float4 _ScaleOffsetRes;
+CBUFFER_END
+
+groupshared uint gs_histogram[HISTOGRAM_BINS];
+
+#pragma kernel KEyeHistogram
+[numthreads(HISTOGRAM_THREAD_X, HISTOGRAM_THREAD_Y, 1)]
+void KEyeHistogram(uint2 dispatchThreadId : SV_DispatchThreadID, uint2 groupThreadId : SV_GroupThreadID)
+{
+    const uint localThreadId = groupThreadId.y * HISTOGRAM_THREAD_X + groupThreadId.x;
+
+    if (localThreadId < HISTOGRAM_BINS)
+        gs_histogram[localThreadId] = 0u;
+
+    GroupMemoryBarrierWithGroupSync();
+
+    if (dispatchThreadId.x < (uint)_ScaleOffsetRes.z && dispatchThreadId.y < (uint)_ScaleOffsetRes.w)
+    {
+#if USE_VIGNETTE_WEIGHTING
+        float2 uv01 = float2(dispatchThreadId) / float2(_ScaleOffsetRes.z, _ScaleOffsetRes.w);
+        float2 d = abs(uv01 - (0.5).xx);
+        float vfactor = Pow2(saturate(1.0 - dot(d, d)));
+        uint weight = (uint)(64.0 * vfactor);
+#else
+        uint weight = 1u;
+#endif
+        float3 color = _Source[dispatchThreadId].xyz;
+        float luminance = Max3(color);
+        float logLuminance = GetHistogramBinFromLuminance(luminance, _ScaleOffsetRes.xy);
+        uint idx = (uint)(logLuminance * (HISTOGRAM_BINS - 1u));
+        InterlockedAdd(gs_histogram[idx], weight);
+    }
+
+    GroupMemoryBarrierWithGroupSync();
+
+    if (localThreadId < HISTOGRAM_BINS)
+        InterlockedAdd(_Histogram[localThreadId], gs_histogram[localThreadId]);
+}
+
+#pragma kernel KEyeHistogramClear
+[numthreads(HISTOGRAM_THREAD_X, 1, 1)]
+void KEyeHistogramClear(uint dispatchThreadId : SV_DispatchThreadID)
+{
+    if (dispatchThreadId < HISTOGRAM_BINS)
+        _Histogram[dispatchThreadId] = 0u;
+}

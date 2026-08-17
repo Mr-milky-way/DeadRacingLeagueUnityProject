@@ -140,7 +140,17 @@ namespace thelab.core
 
 		protected static List<string> GetBuildSettingsScenes(bool p_name_only = true)
 		{
-			return new List<string>();
+			List<string> scenes = new List<string>();
+			for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
+			{
+				string scenePath = SceneUtility.GetScenePathByBuildIndex(i);
+				if (string.IsNullOrEmpty(scenePath))
+				{
+					continue;
+				}
+				scenes.Add(p_name_only ? System.IO.Path.GetFileNameWithoutExtension(scenePath) : scenePath);
+			}
+			return scenes;
 		}
 
 		public static T GetRootComponent<T>(string p_name) where T : Component
@@ -326,6 +336,11 @@ namespace thelab.core
 			return builtLevelNames.Contains(p_name);
 		}
 
+		public bool IsLevelInBuildSettings(string p_name)
+		{
+			return GetBuildSettingsScenes().Contains(p_name);
+		}
+
 		public void WaitLevel(string p_name, Action<bool> p_callback)
 		{
 			Scene scn = SceneManager.GetSceneByName(p_name);
@@ -473,7 +488,6 @@ namespace thelab.core
 		{
 			if (!IsLevelLoaded(p_name))
 			{
-				Debug.LogWarning("LevelManager> UnloadAsync / Level [" + p_name + "] is not loaded, skipping...");
 				p_callback?.Invoke();
 				return null;
 			}

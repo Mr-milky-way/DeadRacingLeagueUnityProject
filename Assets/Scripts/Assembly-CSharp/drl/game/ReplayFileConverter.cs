@@ -704,7 +704,7 @@ namespace drl.game
 					UnityEngine.Debug.LogWarning("ReplayFileConverter> Failed to Load Replays!");
 					return false;
 				}
-				SerializedData? serializedData2 = ((JObject)serializedData["data"]).ToObject<SerializedData>();
+				SerializedData serializedData2 = ((JObject)serializedData["data"]).ToObject<SerializedData>();
 				((JObject)serializedData2["pagging"]).ToObject<SerializedData>();
 				List<SerializedData> list = ((JArray)serializedData2["leaderboard"]).ToObject<List<SerializedData>>();
 				if (jobs == null)

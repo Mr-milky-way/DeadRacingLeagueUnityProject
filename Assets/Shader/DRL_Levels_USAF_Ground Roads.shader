@@ -64,5 +64,5 @@ Shader "DRL/Levels/USAF/Ground Roads" {
 			ENDHLSL
 		}
 	}
-	Fallback "DRL/Standard Offset 2"
+	Fallback "Standard"
 }

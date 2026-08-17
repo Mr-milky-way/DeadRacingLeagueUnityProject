@@ -308,7 +308,7 @@ namespace drl.network
 			}
 			else
 			{
-				ConnectToLANAsync(p_server_ip, p_tournamentId);
+				_ = ConnectToLANAsync(p_server_ip, p_tournamentId);
 			}
 		}
 
@@ -417,8 +417,8 @@ namespace drl.network
 				if (timeout <= 0f)
 				{
 					p_retries--;
-					TryConnectLANAsync(p_retries, p_timeout, p_tournamentId);
-					break;
+					await TryConnectLANAsync(p_retries, p_timeout, p_tournamentId);
+					return;
 				}
 			}
 			if (!string.IsNullOrEmpty(p_tournamentId))
