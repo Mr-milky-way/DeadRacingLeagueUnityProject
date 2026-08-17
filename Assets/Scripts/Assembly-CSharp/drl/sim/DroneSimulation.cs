@@ -11,6 +11,7 @@ namespace drl.sim
 	[RequireComponent(typeof(DroneCameraManager))]
 	[RequireComponent(typeof(DroneInstanceManager))]
 	[RequireComponent(typeof(DroneTransmitterManager))]
+	[DefaultExecutionOrder(-31000)]
 	public class DroneSimulation : MonoBehaviour
 	{
 		public float elapsed;
@@ -473,6 +474,26 @@ namespace drl.sim
 			{
 				float num = Time.fixedDeltaTime * speed;
 				deltaTime = num;
+				if (m_countdown_finished)
+				{
+					transmitters.Step<DroneRCTransmitter>(num);
+				}
+				for (int i = 0; i < drones.list.Count; i++)
+				{
+					Drone drone = drones.list[i];
+					if ((bool)drone && drone.hasFc)
+					{
+						for (int j = 0; j < drone.fc.sensors.Count; j++)
+						{
+							DroneSensor droneSensor = drone.fc.sensors[j];
+							if ((bool)droneSensor)
+							{
+								droneSensor.FixedStep(Time.fixedDeltaTime);
+							}
+						}
+						drone.fc.FixedStep(Time.fixedDeltaTime);
+					}
+				}
 				modules.OnFixedUpdate();
 			}
 		}

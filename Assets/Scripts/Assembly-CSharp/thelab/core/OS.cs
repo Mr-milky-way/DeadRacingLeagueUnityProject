@@ -363,6 +363,12 @@ namespace thelab.core
 				break;
 			}
 			string text3 = checksumRoot + "/" + text2;
+			if (!File.Exists(text3))
+			{
+				checksum = "b67b3721adc8d61e";
+				p_callback?.Invoke(checksum);
+				return;
+			}
 			if (p_async)
 			{
 				MD5Crypto.CalculateChecksumAsync(text3, delegate(string checksum_hash)

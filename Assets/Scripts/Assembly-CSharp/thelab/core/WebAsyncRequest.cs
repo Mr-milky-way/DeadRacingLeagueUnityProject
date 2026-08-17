@@ -11,10 +11,6 @@ namespace thelab.core
 
 		private bool m_is_sent;
 
-		private bool m_editor_offline;
-
-		private const string editorOfflineError = "DRL online service is unavailable in the editor.";
-
 		public string method
 		{
 			get
@@ -73,11 +69,7 @@ namespace thelab.core
 
 		public void Send()
 		{
-			if (m_editor_offline)
-			{
-				m_is_sent = true;
-			}
-			else if (loader == null)
+			if (loader == null)
 			{
 				Debug.LogWarning("AsyncRequest> Send / Loader is <null> - " + id);
 			}
@@ -86,50 +78,6 @@ namespace thelab.core
 				m_is_sent = true;
 				loader.SendWebRequest();
 			}
-		}
-
-		public override void Build(object p_data, Dictionary<string, string> p_headers, Type p_response_type)
-		{
-			m_editor_offline = Application.isEditor && IsDRLServiceUrl(path);
-			if (m_editor_offline)
-			{
-				data = p_data;
-				requestHeaders = p_headers ?? new Dictionary<string, string>();
-				responseType = p_response_type;
-				return;
-			}
-			base.Build(p_data, p_headers, p_response_type);
-		}
-
-		private static bool IsDRLServiceUrl(string p_url)
-		{
-			Uri uri;
-			if (!Uri.TryCreate(p_url, UriKind.Absolute, out uri))
-			{
-				return false;
-			}
-			string host = uri.Host.ToLowerInvariant();
-			return host == "api.drlgame.com" || host == "status.drlgame.com" || host == "drl-game-api.s3.amazonaws.com" || host == "drl-sim-virtual-season.s3.amazonaws.com";
-		}
-
-		protected override bool IsValid()
-		{
-			return m_editor_offline || base.IsValid();
-		}
-
-		protected override bool IsComplete()
-		{
-			return m_editor_offline || base.IsComplete();
-		}
-
-		protected override float GetProgress()
-		{
-			return m_editor_offline ? 1f : base.GetProgress();
-		}
-
-		protected override string GetError()
-		{
-			return m_editor_offline ? editorOfflineError : base.GetError();
 		}
 	}
 }

@@ -27,7 +27,7 @@ namespace drl.game
 		protected void Awake()
 		{
 			m_pool_step = 0;
-			Activity.Run((Func<bool>)delegate
+			((Component)this).ActivityRun((Func<bool>)delegate
 			{
 				if (m_pool_complete)
 				{
@@ -47,7 +47,7 @@ namespace drl.game
 					m_pool_complete = true;
 				}
 				return true;
-			}, 0f, false);
+			}, 0f);
 			view.ResetSnoozeFade();
 		}
 

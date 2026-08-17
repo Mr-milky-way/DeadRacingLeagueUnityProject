@@ -875,13 +875,6 @@ namespace drl.sim
 					}
 				}
 				drone.fc.SetMode(flightControllerMode2);
-				if (flightControllerMode2 == FlightControllerMode.Intermediate || flightControllerMode2 == FlightControllerMode.Pro)
-				{
-					this.TimerRunOnce(delegate
-					{
-						Time.fixedDeltaTime = 0.02f;
-					}, 0.2f);
-				}
 				if (m_startedTargetMode)
 				{
 					return FlowStatus.Running;

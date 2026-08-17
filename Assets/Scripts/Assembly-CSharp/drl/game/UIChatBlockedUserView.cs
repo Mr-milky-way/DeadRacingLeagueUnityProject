@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using drl.backend;
 using thelab.core;
 using thelab.mvc;
 
@@ -95,7 +96,7 @@ namespace drl.game
 			};
 			if (p_player_id != null && p_player_id == "drl-sim-info-message")
 			{
-				Web.Get("https://api.drlgame.com/images/avatar/drl-avatar.png", delegate(Texture2D p_result, float p_progress, WebAsyncRequest p_req)
+				Web.Get(DRLService.baseUri + "/images/avatar/drl-avatar.png", delegate(Texture2D p_result, float p_progress, WebAsyncRequest p_req)
 				{
 					if (!(p_progress < 1f))
 					{

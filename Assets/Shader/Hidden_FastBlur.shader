@@ -1,57 +1,115 @@
-Shader "Hidden/FastBlur" {
-	Properties {
+Shader "Hidden/FastBlur"
+{
+	Properties
+	{
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_Bloom ("Bloom (RGB)", 2D) = "black" {}
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+
+	CGINCLUDE
+	#include "UnityCG.cginc"
+
+	sampler2D _MainTex;
+	float4 _MainTex_TexelSize;
+	float4 _Parameter;
+
+	struct v2fBlur
+	{
+		float4 position : SV_POSITION;
+		float2 uv0 : TEXCOORD0;
+		float2 uv1 : TEXCOORD1;
+		float2 uv2 : TEXCOORD2;
+		float2 uv3 : TEXCOORD3;
+		float2 uv4 : TEXCOORD4;
+	};
+
+	v2fBlur vertBlurHorizontal(appdata_img input)
+	{
+		v2fBlur output;
+		output.position = UnityObjectToClipPos(input.vertex);
+		float2 offset = float2(_MainTex_TexelSize.x * _Parameter.x, 0);
+		output.uv0 = input.texcoord.xy;
+		output.uv1 = output.uv0 + offset;
+		output.uv2 = output.uv0 - offset;
+		output.uv3 = output.uv0 + offset * 2;
+		output.uv4 = output.uv0 - offset * 2;
+		return output;
+	}
+
+	v2fBlur vertBlurVertical(appdata_img input)
+	{
+		v2fBlur output;
+		output.position = UnityObjectToClipPos(input.vertex);
+		float2 offset = float2(0, _MainTex_TexelSize.y * _Parameter.x);
+		output.uv0 = input.texcoord.xy;
+		output.uv1 = output.uv0 + offset;
+		output.uv2 = output.uv0 - offset;
+		output.uv3 = output.uv0 + offset * 2;
+		output.uv4 = output.uv0 - offset * 2;
+		return output;
+	}
+
+	fixed4 fragCopy(v2f_img input) : SV_Target
+	{
+		return tex2D(_MainTex, input.uv);
+	}
+
+	fixed4 fragBlur(v2fBlur input) : SV_Target
+	{
+		fixed4 color = tex2D(_MainTex, input.uv0) * 0.227027;
+		color += tex2D(_MainTex, input.uv1) * 0.1945946;
+		color += tex2D(_MainTex, input.uv2) * 0.1945946;
+		color += tex2D(_MainTex, input.uv3) * 0.1216216;
+		color += tex2D(_MainTex, input.uv4) * 0.1216216;
+		return color;
+	}
+	ENDCG
+
+	SubShader
+	{
+		Cull Off
+		ZWrite Off
+		ZTest Always
 
 		Pass
 		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+			CGPROGRAM
+			#pragma vertex vert_img
+			#pragma fragment fragCopy
+			ENDCG
+		}
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vertBlurHorizontal
+			#pragma fragment fragBlur
+			ENDCG
+		}
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vertBlurVertical
+			#pragma fragment fragBlur
+			ENDCG
+		}
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vertBlurHorizontal
+			#pragma fragment fragBlur
+			ENDCG
+		}
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
-
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
-
-			ENDHLSL
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vertBlurVertical
+			#pragma fragment fragBlur
+			ENDCG
 		}
 	}
+	Fallback Off
 }

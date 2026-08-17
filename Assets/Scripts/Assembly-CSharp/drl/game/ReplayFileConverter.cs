@@ -11,6 +11,7 @@ using Amazon.S3.Model;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
+using drl.backend;
 using drl.sim;
 using thelab.core;
 
@@ -44,11 +45,7 @@ namespace drl.game
 		{
 			get
 			{
-				if (!IsDRLDevAPI)
-				{
-					return "https://api.drlgame.com/";
-				}
-				return "https://api-dev.drlgame.com/";
+				return DRLService.baseUri + "/";
 			}
 		}
 

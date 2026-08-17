@@ -591,6 +591,10 @@ namespace drl.sim.thread
 				loopTime = 0f;
 				return;
 			}
+			if (refreshRateHZ <= 0f || float.IsNaN(refreshRateHZ))
+			{
+				RefreshStepRate();
+			}
 			if (realThreadEnabled && !IsPhysicsUpdateThreadValid())
 			{
 				AssertPhysicsUpdateThread();
@@ -647,24 +651,9 @@ namespace drl.sim.thread
 				StopThread();
 				return;
 			}
-			if (Drone.hasPhysics)
-			{
-				_targetRefreshRate = Drone.physics.threadTargetFrequency;
-			}
-			PhysicsFrameRate = 1f / Time.fixedDeltaTime;
-			if ((float)NumberOfIterationsPerFixedFrame * PhysicsFrameRate < (float)_targetRefreshRate)
-			{
-				NumberOfIterationsPerFixedFrame++;
-			}
-			if ((float)NumberOfIterationsPerFixedFrame * PhysicsFrameRate > (float)_targetRefreshRate)
-			{
-				NumberOfIterationsPerFixedFrame /= 50;
-			}
-			RunningFrequency = NumberOfIterationsPerFixedFrame * (int)PhysicsFrameRate;
+			RefreshStepRate();
 			angularDrag = DroneRigidbody.angularDrag;
 			mss = DroneRigidbody.mass;
-			fixedDeltaTime = Time.fixedDeltaTime;
-			refreshRateHZ = ((!_threaded) ? fixedDeltaTime : ((RunningFrequency > 0) ? (1f / (float)RunningFrequency) : 0f));
 			inertiaTensor = DroneRigidbody.inertiaTensor;
 			if (AutoTunePID.TuneInProgress)
 			{
@@ -727,6 +716,19 @@ namespace drl.sim.thread
 					pidY.Reset();
 				}
 			}
+		}
+
+		private void RefreshStepRate()
+		{
+			if (Drone.hasPhysics)
+			{
+				_targetRefreshRate = Drone.physics.threadTargetFrequency;
+			}
+			fixedDeltaTime = Time.fixedDeltaTime;
+			PhysicsFrameRate = 1f / fixedDeltaTime;
+			NumberOfIterationsPerFixedFrame = Mathf.Max(1, Mathf.RoundToInt(_targetRefreshRate * fixedDeltaTime));
+			RunningFrequency = Mathf.RoundToInt(NumberOfIterationsPerFixedFrame * PhysicsFrameRate);
+			refreshRateHZ = _threaded ? (fixedDeltaTime / NumberOfIterationsPerFixedFrame) : fixedDeltaTime;
 		}
 
 		private void CheckAndUpdateProfileParameters()

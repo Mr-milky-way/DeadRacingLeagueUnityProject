@@ -16,6 +16,8 @@ namespace drl.sim
 
 		private bool m_base_enabled;
 
+		private float m_lastFixedStepTime = float.NegativeInfinity;
+
 		public new bool enabled => m_enabled;
 
 		public new GameObject gameObject
@@ -56,13 +58,23 @@ namespace drl.sim
 			Refresh(0f);
 		}
 
-		protected virtual void FixedUpdate()
+		public void FixedStep(float p_deltaTime)
 		{
+			if (m_lastFixedStepTime == Time.fixedTime)
+			{
+				return;
+			}
+			m_lastFixedStepTime = Time.fixedTime;
 			m_enabled = m_base_enabled && m_active_hierarchy;
 			if (usePhysics)
 			{
-				Refresh(Time.fixedDeltaTime);
+				Refresh(p_deltaTime);
 			}
+		}
+
+		protected virtual void FixedUpdate()
+		{
+			FixedStep(Time.fixedDeltaTime);
 		}
 
 		protected virtual void LateUpdate()

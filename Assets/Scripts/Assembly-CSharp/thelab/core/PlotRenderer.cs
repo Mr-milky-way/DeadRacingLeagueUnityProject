@@ -62,12 +62,20 @@ namespace thelab.core
 				LineRenderer lineRenderer = renderer;
 				if ((bool)lineRenderer)
 				{
+					if (value > 0f)
+					{
+						lineRenderer.enabled = true;
+					}
 					Color startColor = lineRenderer.startColor;
 					startColor.a = value;
 					lineRenderer.startColor = startColor;
 					startColor = lineRenderer.endColor;
 					startColor.a = value;
 					lineRenderer.endColor = startColor;
+					if (value <= 0f)
+					{
+						lineRenderer.enabled = false;
+					}
 				}
 			}
 		}

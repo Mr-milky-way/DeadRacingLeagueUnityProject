@@ -419,6 +419,7 @@ namespace thelab.core
 			: base(p_duration, p_delay, 0, p_threaded)
 		{
 			target = p_target;
+			context = p_target;
 			property = p_property;
 			easing = ((p_easing == null) ? Linear : p_easing);
 			type = Target.Default;

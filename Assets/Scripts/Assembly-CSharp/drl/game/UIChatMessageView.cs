@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using drl.backend;
 using thelab.core;
 using thelab.mvc;
 
@@ -112,6 +113,10 @@ namespace drl.game
 		{
 			get
 			{
+				if (leftPhotoField == null || rightPhotoField == null)
+				{
+					return null;
+				}
 				if (!isMine)
 				{
 					return rightPhotoField.texture;
@@ -120,7 +125,7 @@ namespace drl.game
 			}
 			set
 			{
-				if (!(leftPhotoField == null))
+				if (leftPhotoField != null && rightPhotoField != null)
 				{
 					RawImage rawImage = leftPhotoField;
 					Texture texture = (rightPhotoField.texture = value);
@@ -302,14 +307,28 @@ namespace drl.game
 
 		public void LoadPhoto(string p_player_id)
 		{
-			if (cache.ContainsKey(p_player_id))
+			if (leftPhotoField == null || rightPhotoField == null)
+			{
+				return;
+			}
+			ProfileStateModel profile = base.app.model.storage.state.player.profile;
+			if (isMine && profile.photo != null)
+			{
+				photo = profile.photo;
+				if (!string.IsNullOrEmpty(p_player_id))
+				{
+					cache[p_player_id] = photo;
+				}
+				return;
+			}
+			if (!string.IsNullOrEmpty(p_player_id) && cache.ContainsKey(p_player_id))
 			{
 				photo = cache[p_player_id];
 				return;
 			}
 			if (photo != null)
 			{
-				UnityEngine.Object.DestroyImmediate(photo, allowDestroyingAssets: true);
+				photo = null;
 			}
 			Action<Texture2D> on_texture_load = delegate(Texture2D p_result)
 			{
@@ -323,7 +342,7 @@ namespace drl.game
 			};
 			if (p_player_id != null && p_player_id == "drl-sim-info-message")
 			{
-				Web.Get("https://api.drlgame.com/images/avatar/drl-avatar.png", delegate(Texture2D p_result, float p_progress, WebAsyncRequest p_req)
+				Web.Get(DRLService.baseUri + "/images/avatar/drl-avatar.png", delegate(Texture2D p_result, float p_progress, WebAsyncRequest p_req)
 				{
 					if (!(p_progress < 1f))
 					{

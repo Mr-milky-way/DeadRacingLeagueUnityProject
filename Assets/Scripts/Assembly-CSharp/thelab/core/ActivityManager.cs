@@ -169,6 +169,22 @@ namespace thelab.core
 			return activityManager;
 		}
 
+		private void Awake()
+		{
+			if (!Application.isPlaying)
+			{
+				return;
+			}
+			if (m_instance && m_instance != this)
+			{
+				UnityEngine.Object.Destroy(base.gameObject);
+				return;
+			}
+			m_instance = this;
+			m_instance_go = base.gameObject;
+			UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
+		}
+
 		private void OnDestroy()
 		{
 			if (m_instance == this)

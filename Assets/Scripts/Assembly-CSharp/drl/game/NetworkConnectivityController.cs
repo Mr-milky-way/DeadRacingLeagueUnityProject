@@ -27,15 +27,6 @@ namespace drl.game
 
 		public void Init(string p_level)
 		{
-			if (Application.isEditor)
-			{
-				Stop();
-				m_isOnline = false;
-				m_wasOnline = false;
-				connected = false;
-				m_running = false;
-				return;
-			}
 			if (string.IsNullOrEmpty(p_level) || !(p_level == "splash"))
 			{
 				connected = !DRLApp.offline && !DRLApp.forceOffline;
@@ -139,11 +130,6 @@ namespace drl.game
 
 		public void CheckInternetConnectivity(Action<bool> p_callback, int p_retries = 5, float p_attemptRetryDelay = 3f)
 		{
-			if (Application.isEditor)
-			{
-				p_callback?.Invoke(obj: false);
-				return;
-			}
 			PingStatusPage(delegate(bool p_success)
 			{
 				if (!p_success)

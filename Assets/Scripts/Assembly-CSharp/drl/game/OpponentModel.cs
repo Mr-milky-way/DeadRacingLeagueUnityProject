@@ -117,6 +117,12 @@ namespace drl.game
 
 		public void Load(string p_replayId, OnboardingCampaignMode onboardingCampaignMode, Action p_callback)
 		{
+			const string onboardingPath = "/onboarding-bots-replays-v2/";
+			int num = string.IsNullOrEmpty(p_replayId) ? (-1) : p_replayId.IndexOf(onboardingPath, StringComparison.Ordinal);
+			if (num >= 0)
+			{
+				p_replayId = DRLService.serverUri + p_replayId.Substring(num);
+			}
 			OnOnboardingReplayManifest(p_replayId, p_callback);
 		}
 

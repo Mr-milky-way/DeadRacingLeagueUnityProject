@@ -44,13 +44,13 @@ namespace thelab.core
 			string p_id2 = (string.IsNullOrEmpty(p_id) ? GenerateId(p_method) : p_id);
 			WebAsyncRequest req = (WebAsyncRequest)manager.Load<T>(p_id2, p_method, p_url, p_data, p_headers);
 			float t = Time.unscaledTime;
+			bool finished = false;
 			UnityAction<AsyncRequestEvent> cb = null;
 			cb = delegate(AsyncRequestEvent e)
 			{
-				if (e.target == req && p_callback != null)
+				if (e.target == req && !finished)
 				{
-					float num = Time.unscaledTime - t;
-					if (p_timeout < 0 || !(num >= (float)p_timeout))
+					if (p_callback != null)
 					{
 						switch (e.type)
 						{
@@ -73,18 +73,19 @@ namespace thelab.core
 							p_callback(req.Get<T>(), 1f, req);
 							break;
 						}
-						AsyncRequestEventType type = e.type;
-						if ((uint)(type - 5) <= 2u)
-						{
-							manager.OnEvent.RemoveListener(cb);
-						}
+					}
+					AsyncRequestEventType type = e.type;
+					if ((uint)(type - 5) <= 2u)
+					{
+						finished = true;
+						manager.OnEvent.RemoveListener(cb);
 					}
 				}
 			};
 			manager.OnEvent.AddListener(cb);
 			Activity.Run((Func<bool>)delegate
 			{
-				if (p_timeout < 0)
+				if (p_timeout < 0 || finished)
 				{
 					return false;
 				}
@@ -96,6 +97,7 @@ namespace thelab.core
 				{
 					return true;
 				}
+				finished = true;
 				manager.OnEvent.RemoveListener(cb);
 				if (req != null)
 				{

@@ -198,13 +198,15 @@ namespace drl.backend
 
 		private const string OnboardingReplayProPath = "/pro";
 
-		public static string baseUri => "https://api.drlgame.com";
+		public const string serverUri = "http://127.0.0.1:8080";
 
-		public static string baseWebsocketUri => "wss://api.drlgame.com/live/?transport=websocket";
+		public static string baseUri => serverUri;
 
-		public static string baseStatusPageUri => "https://status.drlgame.com/";
+		public static string baseWebsocketUri => "ws://127.0.0.1:8080/live/?transport=websocket";
 
-		public static string promoBannerUri => "https://drl-game-api.s3.amazonaws.com/in-game/home-notification.png";
+		public static string baseStatusPageUri => serverUri + "/";
+
+		public static string promoBannerUri => serverUri + "/in-game/home-notification.png";
 
 		public string webtoken => token;
 
@@ -895,13 +897,11 @@ namespace drl.backend
 
 		public void GetContentManifest(string p_branch, string p_platform, Action<DRLServiceResult> p_callback, int p_timeout = -1)
 		{
-			string text = "https://api.drlgame.com";
-			string p_endpoint = "@" + text + "/bundles/";
 			SerializedData serializedData = new SerializedData();
 			serializedData["token"] = token;
 			serializedData["branch"] = p_branch;
 			serializedData["platform"] = p_platform;
-			Get("drl.service.content.manifest", p_endpoint, p_callback, serializedData, p_timeout);
+			Get("drl.service.content.manifest", "/bundles/", p_callback, serializedData, p_timeout);
 		}
 
 		public WebAsyncRequest SetCounterUAVCatchData(DRLCounterUAVData p_results, Action<DRLCounterUAVData> p_callback, int p_timeout = -1)

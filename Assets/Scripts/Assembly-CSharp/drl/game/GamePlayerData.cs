@@ -265,7 +265,7 @@ namespace drl.game
 			texture2D.SetPixel(0, 0, Colorf.transparent);
 			texture2D.Apply();
 			photo = texture2D;
-			string p_id = "https://drl-sim-virtual-season.s3.amazonaws.com/epic-avatar-02.png";
+			string p_id = DRLService.baseUri + "/images/avatar/drl-avatar.png";
 			if ((bool)service)
 			{
 				service.GetPlayerAvatarOnboarding(p_id, delegate(Texture2D p_result)

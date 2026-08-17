@@ -286,17 +286,7 @@ namespace drl.game
 			}
 			m_refreshFPSTimer = Activity.RunOnce(delegate
 			{
-				int count = base.app.view.ui.screens.manager.history.Count;
-				bool num = count > 0 && base.app.view.ui.screens.manager.history[0].open;
-				Debug.LogWarning($"SettingsController> RefreshGameFPS() sc:{count}");
-				if (!num)
-				{
-					SetFps();
-				}
-				else
-				{
-					SetFps(60, p_vsync: true);
-				}
+				SetFps();
 			}, 1f);
 		}
 
@@ -381,8 +371,10 @@ namespace drl.game
 
 		public void SetFps(int p_value, bool p_vsync)
 		{
+			OnDemandRendering.renderFrameInterval = 1;
+			QualitySettings.maxQueuedFrames = 1;
 			QualitySettings.vSyncCount = (p_vsync ? 1 : 0);
-			Application.targetFrameRate = (p_vsync ? (-1) : p_value);
+			Application.targetFrameRate = (p_vsync ? (-1) : Mathf.Max(60, p_value));
 			if (Application.targetFrameRate > 0)
 			{
 				int num = Mathf.Max(60, Screen.currentResolution.refreshRate);

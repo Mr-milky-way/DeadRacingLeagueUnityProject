@@ -473,6 +473,8 @@ namespace drl.sim
 
 		private float originalFixedDeltaTime;
 
+		private float m_lastFixedStepTime = float.NegativeInfinity;
+
 		public DroneThreadedMixer threadedMixer;
 
 		public new bool enabled
@@ -1608,11 +1610,21 @@ namespace drl.sim
 			UpdateProfile();
 		}
 
-		protected virtual void FixedUpdate()
+		public void FixedStep(float p_deltaTime)
 		{
-			originalFixedDeltaTime = Time.fixedDeltaTime;
+			if (m_lastFixedStepTime == Time.fixedTime)
+			{
+				return;
+			}
+			m_lastFixedStepTime = Time.fixedTime;
+			originalFixedDeltaTime = p_deltaTime;
 			Loop(originalFixedDeltaTime);
 			calculateFC = true;
+		}
+
+		protected virtual void FixedUpdate()
+		{
+			FixedStep(Time.fixedDeltaTime);
 		}
 	}
 }

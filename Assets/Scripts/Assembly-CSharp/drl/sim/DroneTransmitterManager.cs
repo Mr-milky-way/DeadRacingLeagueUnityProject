@@ -156,6 +156,46 @@ namespace drl.sim
 					base.list.RemoveAt(i--);
 					continue;
 				}
+				if (droneInputTransmitter is DroneRCTransmitter)
+				{
+					continue;
+				}
+				droneInputTransmitter.drone = null;
+				if (droneInputTransmitter.channel >= 0)
+				{
+					for (int j = 0; j < list.Count; j++)
+					{
+						Drone drone = list[j];
+						if (drone.hasReceiver && drone.receiver.channel >= 0 && droneInputTransmitter.channel == drone.receiver.channel)
+						{
+							droneInputTransmitter.drone = drone;
+							break;
+						}
+					}
+				}
+				droneInputTransmitter.Step(p_dt);
+			}
+		}
+
+		public void Step<T>(float p_dt) where T : DroneInputTransmitter
+		{
+			if (!base.simulation.drones || !base.enabled)
+			{
+				return;
+			}
+			List<Drone> list = base.simulation.drones.list;
+			for (int i = 0; i < base.list.Count; i++)
+			{
+				DroneInputTransmitter droneInputTransmitter = base.list[i];
+				if (!droneInputTransmitter)
+				{
+					base.list.RemoveAt(i--);
+					continue;
+				}
+				if (!(droneInputTransmitter is T))
+				{
+					continue;
+				}
 				droneInputTransmitter.drone = null;
 				if (droneInputTransmitter.channel >= 0)
 				{

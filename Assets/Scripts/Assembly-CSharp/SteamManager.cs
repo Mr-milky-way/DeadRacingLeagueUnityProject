@@ -56,7 +56,12 @@ public class SteamManager : MonoBehaviour
 		}
 		try
 		{
-			if (SteamAPI.RestartAppIfNecessary((AppId_t)641780u))
+			if (Application.isEditor)
+			{
+				Environment.SetEnvironmentVariable("SteamAppId", "480");
+				Environment.SetEnvironmentVariable("SteamGameId", "480");
+			}
+			if (!Application.isEditor && SteamAPI.RestartAppIfNecessary((AppId_t)480u))
 			{
 				Application.Quit();
 				return;

@@ -115,7 +115,6 @@ namespace drl.game
 			if (m_buffer != null)
 			{
 				RenderTexture.ReleaseTemporary(m_buffer);
-				Object.Destroy(m_buffer);
 				m_buffer = null;
 			}
 			m_buffer = RenderTexture.GetTemporary(num, num2, 24, format);

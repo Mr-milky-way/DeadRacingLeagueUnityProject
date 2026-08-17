@@ -30,7 +30,7 @@ namespace drl.game
 
 		private float m_cached_preset_score;
 
-		private int m_default_vsync = 1;
+		private int m_default_vsync;
 
 		private int m_cached_hw_quality = -100;
 
@@ -179,7 +179,13 @@ namespace drl.game
 			}
 		}
 
-		private int m_default_fps => Screen.currentResolution.refreshRate;
+		private int m_default_fps => GetLowLatencyFrameLimit();
+
+		public static int GetLowLatencyFrameLimit()
+		{
+			int num = Mathf.Max(60, Screen.currentResolution.refreshRate);
+			return (num > 60) ? Mathf.Max(60, num - 3) : num;
+		}
 
 		public int targetScreen
 		{

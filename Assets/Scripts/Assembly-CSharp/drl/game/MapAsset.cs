@@ -35,6 +35,10 @@ namespace drl.game
 				{
 					return new List<MapAssetType>();
 				}
+				if (m_tags.tags == null)
+				{
+					m_tags.tags = new List<MapAssetType>();
+				}
 				return m_tags.tags;
 			}
 		}

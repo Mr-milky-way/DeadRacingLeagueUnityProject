@@ -269,12 +269,6 @@ namespace drl.game
 			{
 				return;
 			}
-			if (Application.isEditor)
-			{
-				m_clock = GetSystemTime();
-				m_clock_available = true;
-				return;
-			}
 			if (m_clock_poll != null)
 			{
 				m_clock_poll.Stop();

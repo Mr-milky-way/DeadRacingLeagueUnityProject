@@ -1,60 +1,63 @@
-Shader "DRL/HUD/Line Path" {
-	Properties {
+Shader "DRL/HUD/Line Path"
+{
+	Properties
+	{
 		_MainTex ("Texture", 2D) = "white" {}
 		_OverlayTex ("Overlay", 2D) = "white" {}
-		_Color ("Color", Vector) = (1,1,1,1)
+		_Color ("Color", Color) = (1,1,1,1)
 		_ScrollSpeed ("Scroll Speed", Vector) = (0,0,0,0)
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+
+	SubShader
+	{
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
+		Cull Off
+		Lighting Off
+		ZWrite Off
+		ZTest Always
+		Blend SrcAlpha OneMinusSrcAlpha
 
 		Pass
 		{
-			HLSLPROGRAM
+			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
+			#include "UnityCG.cginc"
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
+			sampler2D _MainTex;
 			float4 _MainTex_ST;
+			fixed4 _Color;
+			float4 _ScrollSpeed;
 
-			struct Vertex_Stage_Input
+			struct appdata
 			{
-				float4 pos : POSITION;
+				float4 vertex : POSITION;
+				fixed4 color : COLOR;
 				float2 uv : TEXCOORD0;
 			};
 
-			struct Vertex_Stage_Output
+			struct v2f
 			{
+				float4 vertex : SV_POSITION;
+				fixed4 color : COLOR;
 				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
 			};
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			v2f vert(appdata input)
 			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
+				v2f output;
+				output.vertex = UnityObjectToClipPos(input.vertex);
+				output.uv = TRANSFORM_TEX(input.uv, _MainTex) + _ScrollSpeed.xy * _Time.y;
+				output.color = input.color * _Color;
 				return output;
 			}
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-			float4 _Color;
-
-			struct Fragment_Stage_Input
+			fixed4 frag(v2f input) : SV_Target
 			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy) * _Color;
+				return tex2D(_MainTex, input.uv) * input.color;
 			}
-
-			ENDHLSL
+			ENDCG
 		}
 	}
+	Fallback Off
 }

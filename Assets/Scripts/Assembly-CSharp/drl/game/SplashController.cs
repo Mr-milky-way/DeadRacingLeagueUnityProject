@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using drl.backend;
 using drl.sim.rci;
 using thelab.core;
 using thelab.mvc;
@@ -162,7 +163,7 @@ namespace drl.game
 				}
 				break;
 			case "splash.connection-check@click":
-				Application.OpenURL("https://status.drlgame.com/");
+				Application.OpenURL(DRLService.baseStatusPageUri);
 				break;
 			case "splash.connection-retry@click":
 				base.app.view.audio.PlayUILoadingLoop();

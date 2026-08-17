@@ -45,15 +45,15 @@ namespace drl.game
 
 		private static int m_verifyCount = 0;
 
-		public string beginnerReplayId = "https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-beginner.race";
+		public string beginnerReplayId = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-beginner.race";
 
-		public string intermediateReplayId = "https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-intermediate.race";
+		public string intermediateReplayId = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-intermediate.race";
 
-		public string proReplayId0 = "https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-pro-1.race";
+		public string proReplayId0 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-1.race";
 
-		public string proReplayId1 = "https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-pro-2.race";
+		public string proReplayId1 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-2.race";
 
-		public string proReplayId2 = "https://drl-game-api.s3.amazonaws.com/onboarding-bots-replays-v2/onboarding-bot-pro-3.race";
+		public string proReplayId2 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-3.race";
 
 		private Activity m_timeout_loop;
 
@@ -152,6 +152,11 @@ namespace drl.game
 
 		protected void Awake()
 		{
+			beginnerReplayId = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-beginner.race";
+			intermediateReplayId = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-intermediate.race";
+			proReplayId0 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-1.race";
+			proReplayId1 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-2.race";
+			proReplayId2 = DRLService.serverUri + "/onboarding-bots-replays-v2/onboarding-bot-pro-3.race";
 			Scene activeScene = SceneManager.GetActiveScene();
 			Cursor.visible = false;
 			if (Input.mousePresent && (bool)base.app)
@@ -992,11 +997,6 @@ namespace drl.game
 		{
 			Debug.Log("DRLBootController> LoadContentManifest");
 			Notify("boot.drl.content.manifest");
-			if (Application.isEditor)
-			{
-				InitializeBundleFilesData();
-				return;
-			}
 			string text = "release";
 			string p_platform = "temp";
 			text = "release";

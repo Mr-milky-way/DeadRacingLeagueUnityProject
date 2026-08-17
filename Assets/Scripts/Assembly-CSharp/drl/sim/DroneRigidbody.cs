@@ -239,6 +239,7 @@ namespace drl.sim
 		public void Build()
 		{
 			drone = GetComponent<Drone>();
+			rb.interpolation = ((drone.isGhost || drone.isRemote) ? RigidbodyInterpolation.Interpolate : RigidbodyInterpolation.None);
 			rb.useGravity = true;
 			rb.drag = 0f;
 			mass = drone.body.weight * 0.001f;

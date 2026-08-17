@@ -283,7 +283,7 @@ namespace drl.game
 				view.targetScreen = view.screenStepper.max;
 				RefreshFullscreenMode();
 			}
-			int refreshRate = Screen.currentResolution.refreshRate;
+			int refreshRate = GraphicsStateModel.GetLowLatencyFrameLimit();
 			graphics.vsync = 0;
 			graphics.fpsLimit = refreshRate;
 			view.vsync = 0;

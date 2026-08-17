@@ -109,11 +109,11 @@ namespace thelab.core
 				{
 					return true;
 				}
-				if (!(context is Component))
+				if (context is UnityEngine.Object)
 				{
-					return context != null;
+					return (UnityEngine.Object)context != null;
 				}
-				return (Component)context != null;
+				return context != null;
 			}
 		}
 

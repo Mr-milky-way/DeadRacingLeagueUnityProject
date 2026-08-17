@@ -2547,10 +2547,6 @@ namespace drl.game
 
 		protected void UpdateTime()
 		{
-			if (Application.isEditor)
-			{
-				return;
-			}
 			if (!time_lock && stateAutoRefresh)
 			{
 				time_elapsed += Time.unscaledDeltaTime;

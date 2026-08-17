@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.Profiling;
+using drl.sim;
 using thelab.core;
 
 namespace drl.game
@@ -162,10 +163,30 @@ namespace drl.game
 			{
 				mAEntity = UnityEngine.Object.Instantiate(mAEntity);
 			}
-			else
+			else if (guid == "DMA-NULL")
 			{
 				mAEntity = new GameObject().AddComponent<MAEntity>();
-				UnityEngine.Debug.LogWarning("LevelFactory> Failed to find asset or it isnt a MapEditor Asset / guid[" + guid + "] name[" + p_node.name + "] category[" + p_node.category.ToString() + "]");
+			}
+			else
+			{
+				DronePodium dronePodium = library.FindByGUID<DronePodium>(guid);
+				if ((bool)dronePodium)
+				{
+					GameObject gameObject = UnityEngine.Object.Instantiate(dronePodium.gameObject);
+					MAPodium mAPodium = gameObject.GetComponent<MAPodium>();
+					if (!mAPodium)
+					{
+						mAPodium = gameObject.AddComponent<MAPodium>();
+					}
+					mAPodium.hits.AddRange(gameObject.GetComponentsInChildren<Collider>(includeInactive: true));
+					mAPodium.renderers.AddRange(gameObject.GetComponentsInChildren<Renderer>(includeInactive: true));
+					mAEntity = mAPodium;
+				}
+				else
+				{
+					mAEntity = new GameObject().AddComponent<MAEntity>();
+					UnityEngine.Debug.LogWarning("LevelFactory> Failed to find asset or it isnt a MapEditor Asset / guid[" + guid + "] name[" + p_node.name + "] category[" + p_node.category.ToString() + "]");
+				}
 			}
 			mAEntity.transform.SetParent(p_parent);
 			mAEntity.data = p_node;
